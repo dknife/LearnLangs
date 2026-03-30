@@ -29,8 +29,7 @@ const Progress = {
   },
 
   isLevelAvailable(level) {
-    if (level === 1) return true;
-    return this._data.completedLevels.includes(level - 1);
+    return true;
   },
 
   isLevelCompleted(level) {
