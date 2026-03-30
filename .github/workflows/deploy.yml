@@ -24,10 +24,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Prepare site
+      - name: Prepare site with cache-busting
         run: |
           mkdir _site
-          cp index.html style.css app.js data.js _site/
+          V=$(date +%s)
+          sed "s/style\.css/style.css?v=$V/;s/data\.js/data.js?v=$V/;s/app\.js/app.js?v=$V/" index.html > _site/index.html
+          cp style.css app.js data.js _site/
           cp -r public/* _site/ 2>/dev/null || true
 
       - name: Setup Pages
