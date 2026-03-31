@@ -532,6 +532,7 @@ function renderQuiz(level) {
     return {
       type: 'vocab',
       question: `${word.chinese} (${word.pinyin})`,
+      tts: word.chinese,
       options: options,
       answer: answerIdx
     };
@@ -572,7 +573,6 @@ function renderQuiz(level) {
     return {
       type: 'kr_to_cn',
       question: sent.korean,
-      tts: sent.chinese,
       options: options,
       answer: answerIdx
     };
