@@ -899,6 +899,59 @@ html {
   margin-bottom: 0.5rem;
 }
 
+/* Auto TTS toggle switch */
+.auto-tts-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+.auto-tts-label {
+  font-size: 0.85rem;
+  color: #a0a8c0;
+  font-weight: 500;
+}
+.tts-switch {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.tts-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.tts-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: #3a3f55;
+  border-radius: 24px;
+  transition: 0.3s;
+}
+.tts-slider::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 3px;
+  bottom: 3px;
+  background: #888;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.tts-switch input:checked + .tts-slider {
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+}
+.tts-switch input:checked + .tts-slider::before {
+  transform: translateX(20px);
+  background: #fff;
+}
+
 .lesson-header-top {
   display: flex;
   align-items: center;

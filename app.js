@@ -118,15 +118,23 @@ function findMandarinVoice() {
   return null;
 }
 
-function speakChinese(text) {
-  if (!('speechSynthesis' in window)) return;
+function speakChinese(text, onEnd) {
+  if (!('speechSynthesis' in window)) { if (onEnd) onEnd(); return; }
   window.speechSynthesis.cancel();
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = 'zh-CN';
   utterance.rate = 0.85;
   if (!_zhCNVoice) _zhCNVoice = findMandarinVoice();
   if (_zhCNVoice) utterance.voice = _zhCNVoice;
+  if (onEnd) utterance.onend = onEnd;
   window.speechSynthesis.speak(utterance);
+}
+
+// 자동 음성 재생 설정 (localStorage 저장)
+let _autoTTS = localStorage.getItem('learnChinese_autoTTS') !== 'off';
+function setAutoTTS(val) {
+  _autoTTS = val;
+  localStorage.setItem('learnChinese_autoTTS', val ? 'on' : 'off');
 }
 
 // 음성 목록이 비동기로 로드되므로 미리 요청
@@ -368,6 +376,13 @@ function renderLesson(level) {
               </div>
             </div>
             ${levelData.description ? `<p class="lesson-description">${levelData.description}</p>` : ''}
+            <div class="auto-tts-toggle">
+              <label class="tts-switch">
+                <input type="checkbox" id="autoTTSSwitch" ${_autoTTS ? 'checked' : ''}>
+                <span class="tts-slider"></span>
+              </label>
+              <span class="auto-tts-label">자동 음성 ${_autoTTS ? 'ON' : 'OFF'}</span>
+            </div>
           </div>
 
           ${renderProgressBar(visibleCount, totalBubbles, `대화 진행: ${visibleCount} / ${totalBubbles}`)}
@@ -386,17 +401,29 @@ function renderLesson(level) {
     `;
 
     // Attach event listeners
+    const autoTTSSwitch = document.getElementById('autoTTSSwitch');
+    if (autoTTSSwitch) {
+      autoTTSSwitch.addEventListener('change', (e) => {
+        setAutoTTS(e.target.checked);
+        const label = document.querySelector('.auto-tts-label');
+        if (label) label.textContent = '자동 음성 ' + (_autoTTS ? 'ON' : 'OFF');
+      });
+    }
+
     const revealBtn = document.getElementById('revealNextBtn');
     if (revealBtn) {
       revealBtn.addEventListener('click', () => {
         if (visibleCount < totalBubbles) {
           visibleCount++;
           render();
-          // Scroll to latest bubble
+          // Scroll to latest bubble & auto-speak
           setTimeout(() => {
             const bubbles = document.querySelectorAll('.bubble-row');
             if (bubbles.length > 0) {
               bubbles[bubbles.length - 1].scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+            if (_autoTTS && visibleCount > 0) {
+              speakChinese(conversations[visibleCount - 1].chinese);
             }
           }, 50);
         }
@@ -412,6 +439,17 @@ function renderLesson(level) {
   }
 
   render();
+
+  // 첫 진입 시 자동으로 첫 대화를 열고 음성 재생
+  if (visibleCount === 0) {
+    visibleCount = 1;
+    render();
+    setTimeout(() => {
+      if (_autoTTS) {
+        speakChinese(conversations[0].chinese);
+      }
+    }, 300);
+  }
 }
 
 // ------------------------------------------------------------
