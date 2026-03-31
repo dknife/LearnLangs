@@ -507,7 +507,17 @@ function renderQuiz(level) {
     return;
   }
 
-  // --- 단어 시험 4문제: vocabulary에서 자동 생성 (복수 정답 불가) ---
+  // --- 대화 문장 풀 구성 (variants에서 랜덤 선택) ---
+  const rawConvs = levelData.conversations || [];
+  const allSentences = rawConvs.map(conv => {
+    if (conv.variants && conv.variants.length > 0) {
+      const pick = conv.variants[Math.floor(Math.random() * conv.variants.length)];
+      return { speaker: conv.speaker, ...pick };
+    }
+    return conv;
+  });
+
+  // --- 1) 단어 시험 4문제: vocabulary에서 자동 생성 ---
   const vocab = levelData.vocabulary || [];
   const shuffledVocab = [...vocab].sort(() => Math.random() - 0.5);
   const vocabQuestions = shuffledVocab.slice(0, 4).map(word => {
@@ -527,28 +537,54 @@ function renderQuiz(level) {
     };
   });
 
-  // --- 문장 채우기 6문제: fill_blank 풀에서 선택 ---
-  const allFillBlank = (levelData.quiz || []).filter(q => q.type === 'fill_blank');
-  const fillQuestions = [...allFillBlank].sort(() => Math.random() - 0.5).slice(0, 6);
+  // --- 2) 중국어→한국어 해석 3문제: 대화 문장에서 자동 생성 ---
+  const shuffledSentences = [...allSentences].sort(() => Math.random() - 0.5);
+  const cnToKrQuestions = shuffledSentences.slice(0, 3).map(sent => {
+    const wrongAnswers = allSentences
+      .filter(s => s.korean !== sent.korean)
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 3)
+      .map(s => s.korean);
+    const options = [...wrongAnswers];
+    const answerIdx = Math.floor(Math.random() * 4);
+    options.splice(answerIdx, 0, sent.korean);
+    return {
+      type: 'cn_to_kr',
+      question: sent.chinese,
+      tts: sent.chinese,
+      options: options,
+      answer: answerIdx
+    };
+  });
 
-  const questions = [...vocabQuestions, ...fillQuestions];
+  // --- 3) 한국어→중국어 찾기 3문제: 대화 문장에서 자동 생성 ---
+  const remainingSentences = shuffledSentences.slice(3);
+  const krToCnPool = remainingSentences.length >= 3 ? remainingSentences : [...allSentences].sort(() => Math.random() - 0.5);
+  const krToCnQuestions = krToCnPool.slice(0, 3).map(sent => {
+    const wrongAnswers = allSentences
+      .filter(s => s.chinese !== sent.chinese)
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 3)
+      .map(s => s.chinese);
+    const options = [...wrongAnswers];
+    const answerIdx = Math.floor(Math.random() * 4);
+    options.splice(answerIdx, 0, sent.chinese);
+    return {
+      type: 'kr_to_cn',
+      question: sent.korean,
+      tts: sent.chinese,
+      options: options,
+      answer: answerIdx
+    };
+  });
+
+  const questions = [...vocabQuestions, ...cnToKrQuestions, ...krToCnQuestions];
   const totalQuestions = questions.length;
-
-  if (!questions.length) {
-    app.innerHTML = `
-      <div class="error-page">
-        <div class="error-emoji">😵</div>
-        <h1 class="error-title">퀴즈를 찾을 수 없습니다</h1>
-        <p class="error-text">레벨 ${level} 퀴즈 데이터가 부족합니다.</p>
-        <a href="#/" class="btn-game btn-primary">홈으로 돌아가기</a>
-      </div>
-    `;
-    return;
-  }
 
   const TYPE_LABELS = {
     vocab: '단어 시험',
-    fill_blank: '빈칸 채우기',
+    cn_to_kr: '중국어 → 한국어',
+    kr_to_cn: '한국어 → 중국어',
   };
 
   const OPTION_LABELS = ['A', 'B', 'C', 'D'];
@@ -610,7 +646,7 @@ function renderQuiz(level) {
         </div>
 
         <div class="quiz-question">
-          <h2 class="quiz-question-text">${question.question}</h2>
+          <h2 class="quiz-question-text">${question.question}${question.tts ? ' ' + ttsButton(question.tts) : ''}</h2>
         </div>
 
         <div class="quiz-options" id="quizOptions">
@@ -624,6 +660,11 @@ function renderQuiz(level) {
         </div>
       </div>
     `;
+
+    // 자동 TTS: 중국어 문장이 있는 문제가 표시될 때 읽어주기
+    if (_autoTTS && selected === null && question.tts) {
+      setTimeout(() => speakChinese(question.tts), 100);
+    }
 
     // Event delegation for options
     const optionsContainer = document.getElementById('quizOptions');
@@ -641,6 +682,11 @@ function renderQuiz(level) {
 
         render();
 
+        // 정답 확인 후 중국어 문장 읽어주기 (kr_to_cn: 정답 중국어, cn_to_kr: 원문)
+        if (_autoTTS && question.tts) {
+          speakChinese(question.tts);
+        }
+
         setTimeout(() => {
           if (currentQuestion + 1 < totalQuestions) {
             currentQuestion++;
@@ -649,7 +695,7 @@ function renderQuiz(level) {
           } else {
             navigate(`/result/${level}?score=${newScore}&total=${totalQuestions}`);
           }
-        }, 1200);
+        }, 1500);
       });
     }
   }
