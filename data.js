@@ -353,6 +353,50 @@ window.LEVEL_DATA = {
           "高兴"
         ],
         "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "我___姜永敏。",
+        "options": [
+          "走",
+          "吃",
+          "叫",
+          "写"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "___好！",
+        "options": [
+          "吃",
+          "你",
+          "走",
+          "大"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "很___认识你！",
+        "options": [
+          "多少",
+          "什么",
+          "几个",
+          "高兴"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "question": "你是___国人？",
+        "options": [
+          "名字",
+          "高兴",
+          "哪",
+          "认识"
+        ],
+        "answer": 2
       }
     ]
   },
@@ -679,6 +723,50 @@ window.LEVEL_DATA = {
           "星期"
         ],
         "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "你___年多大了？",
+        "options": [
+          "走",
+          "今",
+          "吃",
+          "穿"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "我的生日是五___一号。",
+        "options": [
+          "岁",
+          "天",
+          "月",
+          "年"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "今天是___期一。",
+        "options": [
+          "月",
+          "号",
+          "星",
+          "岁"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "她今年三十___了。",
+        "options": [
+          "月",
+          "号",
+          "天",
+          "岁"
+        ],
+        "answer": 3
       }
     ]
   },
@@ -1003,6 +1091,50 @@ window.LEVEL_DATA = {
           "没",
           "没有",
           "是"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "我家___五口人。",
+        "options": [
+          "是",
+          "有",
+          "去",
+          "吃"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "他是我___。",
+        "options": [
+          "多少",
+          "弟弟",
+          "什么",
+          "怎么"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "她___一个哥哥。",
+        "options": [
+          "有",
+          "走",
+          "穿",
+          "写"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "question": "我___做什么工作？",
+        "options": [
+          "星期",
+          "号码",
+          "妈妈",
+          "多少"
         ],
         "answer": 2
       }
@@ -1331,6 +1463,50 @@ window.LEVEL_DATA = {
           "怎么"
         ],
         "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "请给我看一下___。",
+        "options": [
+          "认识",
+          "高兴",
+          "名字",
+          "菜单"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "question": "我们要___。",
+        "options": [
+          "跑步",
+          "上学",
+          "看书",
+          "买单"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "question": "这个菜___吗？",
+        "options": [
+          "走路",
+          "星期",
+          "辣",
+          "认识"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "请___两杯茶。",
+        "options": [
+          "来",
+          "穿",
+          "写",
+          "住"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -1657,6 +1833,61 @@ window.LEVEL_DATA = {
           "八"
         ],
         "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "请问，银行在___？",
+        "options": [
+          "多少",
+          "哪儿",
+          "什么",
+          "几个"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "一直___就到了。",
+        "options": [
+          "吃",
+          "买",
+          "走",
+          "穿"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "请问火车站___走？",
+        "options": [
+          "多少",
+          "什么",
+          "哪国",
+          "怎么"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "question": "到路口往___拐。",
+        "options": [
+          "吃",
+          "右",
+          "买",
+          "穿"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "那个超市就在马路___。",
+        "options": [
+          "穿",
+          "写",
+          "住",
+          "对面"
+        ],
+        "answer": 3
       }
     ]
   },
@@ -1981,6 +2212,39 @@ window.LEVEL_DATA = {
           "件",
           "条",
           "双"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "这个___钱？",
+        "options": [
+          "什么",
+          "怎么",
+          "多少",
+          "哪儿"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "太___了，便宜一点吧。",
+        "options": [
+          "走",
+          "贵",
+          "穿",
+          "住"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "我可以___一下吗？",
+        "options": [
+          "住",
+          "试",
+          "走",
+          "吃"
         ],
         "answer": 1
       }
@@ -2309,6 +2573,50 @@ window.LEVEL_DATA = {
           "常常"
         ],
         "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "师傅，请去___站。",
+        "options": [
+          "便宜",
+          "多少",
+          "火车",
+          "好吃"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "请在这里___车。",
+        "options": [
+          "吃",
+          "穿",
+          "停",
+          "写"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "下一___是哪里？",
+        "options": [
+          "碗",
+          "杯",
+          "块",
+          "站"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "question": "请帮我叫一辆___。",
+        "options": [
+          "菜单",
+          "钥匙",
+          "护照",
+          "出租车"
+        ],
+        "answer": 3
       }
     ]
   },
@@ -2635,6 +2943,39 @@ window.LEVEL_DATA = {
           "오전에 일 있어요?"
         ],
         "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "现在几___了？",
+        "options": [
+          "碗",
+          "件",
+          "杯",
+          "点"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "question": "我们___走吧。",
+        "options": [
+          "多少",
+          "什么",
+          "早点",
+          "哪儿"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "我每天___上七点起床。",
+        "options": [
+          "碗",
+          "块",
+          "杯",
+          "早"
+        ],
+        "answer": 3
       }
     ]
   },
@@ -2961,6 +3302,39 @@ window.LEVEL_DATA = {
           "层"
         ],
         "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "你的电话___是多少？",
+        "options": [
+          "号码",
+          "天气",
+          "味道",
+          "颜色"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "question": "请问你___在哪里？",
+        "options": [
+          "吃",
+          "穿",
+          "住",
+          "写"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "我给你发一条___。",
+        "options": [
+          "天气",
+          "短信",
+          "味道",
+          "风景"
+        ],
+        "answer": 1
       }
     ]
   },
@@ -3287,6 +3661,39 @@ window.LEVEL_DATA = {
           "好玩"
         ],
         "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "这个汤太___了。",
+        "options": [
+          "走路",
+          "辣",
+          "上班",
+          "开会"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "___很不错！",
+        "options": [
+          "味道",
+          "号码",
+          "地址",
+          "名字"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "question": "你想吃___的还是甜的？",
+        "options": [
+          "走",
+          "穿",
+          "酸",
+          "住"
+        ],
+        "answer": 2
       }
     ]
   },
@@ -3611,6 +4018,50 @@ window.LEVEL_DATA = {
           "害怕",
           "难过",
           "和好"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "question": "别___了，没什么可怕的。",
+        "options": [
+          "多少",
+          "什么",
+          "害怕",
+          "怎么走"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "他今天___很好。",
+        "options": [
+          "天气",
+          "心情",
+          "菜单",
+          "号码"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "别___了，都是小事。",
+        "options": [
+          "吃饭",
+          "上班",
+          "走路",
+          "生气"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "question": "听到好消息，我真___！",
+        "options": [
+          "地址",
+          "号码",
+          "菜单",
+          "开心"
         ],
         "answer": 3
       }
@@ -3939,6 +4390,50 @@ window.LEVEL_DATA = {
           "比赛"
         ],
         "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "你___时候有空？",
+        "options": [
+          "多少",
+          "什么",
+          "几个",
+          "哪国"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "明天下午___点见吧。",
+        "options": [
+          "很",
+          "三",
+          "也",
+          "都"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "我们___不散！",
+        "options": [
+          "走",
+          "吃",
+          "穿",
+          "不见"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "question": "周末你___吗？",
+        "options": [
+          "多少",
+          "有空",
+          "什么",
+          "怎么"
+        ],
+        "answer": 1
       }
     ]
   },
@@ -4265,6 +4760,50 @@ window.LEVEL_DATA = {
           "鞋子"
         ],
         "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "这件衣服太___了。",
+        "options": [
+          "吃",
+          "走",
+          "住",
+          "大"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "question": "你喜欢什么___的衣服？",
+        "options": [
+          "颜色",
+          "天气",
+          "时间",
+          "号码"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "question": "这条裤子很___。",
+        "options": [
+          "好吃",
+          "好听",
+          "好看",
+          "好闻"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "我想___一条裙子。",
+        "options": [
+          "住",
+          "走",
+          "坐",
+          "买"
+        ],
+        "answer": 3
       }
     ]
   },
@@ -4591,6 +5130,50 @@ window.LEVEL_DATA = {
           "出太阳"
         ],
         "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "今天___怎么样？",
+        "options": [
+          "天气",
+          "名字",
+          "号码",
+          "地址"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "question": "___天特别热。",
+        "options": [
+          "吃",
+          "走",
+          "夏",
+          "穿"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "秋天的___很凉爽。",
+        "options": [
+          "碗",
+          "杯",
+          "块",
+          "风"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "question": "今天气温很___。",
+        "options": [
+          "低",
+          "穿",
+          "走",
+          "吃"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -4917,6 +5500,50 @@ window.LEVEL_DATA = {
           "去的"
         ],
         "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "你有什么___？",
+        "options": [
+          "天气",
+          "味道",
+          "号码",
+          "爱好"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "question": "我喜欢___书。",
+        "options": [
+          "走",
+          "看",
+          "住",
+          "穿"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "他每天都___步。",
+        "options": [
+          "吃",
+          "穿",
+          "住",
+          "跑"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "question": "听___是我的爱好。",
+        "options": [
+          "音乐",
+          "天气",
+          "地址",
+          "菜单"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -5243,6 +5870,39 @@ window.LEVEL_DATA = {
           "지난번에 번호를 바꿨어요"
         ],
         "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "不好意思，我___错了。",
+        "options": [
+          "穿",
+          "走",
+          "住",
+          "打"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "question": "你的电话打不___。",
+        "options": [
+          "通",
+          "吃",
+          "穿",
+          "住"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "question": "我给他打了一个___。",
+        "options": [
+          "天气",
+          "风景",
+          "电话",
+          "味道"
+        ],
+        "answer": 2
       }
     ]
   },
@@ -5569,6 +6229,39 @@ window.LEVEL_DATA = {
           "돈을 보내고 싶어요"
         ],
         "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "我想___点钱。",
+        "options": [
+          "穿",
+          "走",
+          "取",
+          "吃"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "请填一下这张___。",
+        "options": [
+          "碗",
+          "表",
+          "杯",
+          "块"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "我想开一个银行___。",
+        "options": [
+          "天气",
+          "风景",
+          "味道",
+          "账户"
+        ],
+        "answer": 3
       }
     ]
   },
@@ -5893,6 +6586,39 @@ window.LEVEL_DATA = {
           "체온",
           "맥박",
           "체중"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "我觉得不___。",
+        "options": [
+          "好吃",
+          "舒服",
+          "好看",
+          "好听"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "医生说要多___水。",
+        "options": [
+          "穿",
+          "走",
+          "写",
+          "喝"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "question": "你___了多长时间了？",
+        "options": [
+          "上班",
+          "发烧",
+          "旅游",
+          "购物"
         ],
         "answer": 1
       }
@@ -6221,6 +6947,39 @@ window.LEVEL_DATA = {
           "오전 6시에 착륙 예정입니다"
         ],
         "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "飞机什么时候___？",
+        "options": [
+          "好吃",
+          "好看",
+          "降落",
+          "好听"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "请系好___带。",
+        "options": [
+          "安全",
+          "好吃",
+          "便宜",
+          "好看"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "question": "我的___在哪里取？",
+        "options": [
+          "天气",
+          "风景",
+          "行李",
+          "味道"
+        ],
+        "answer": 2
       }
     ]
   },
@@ -6547,6 +7306,39 @@ window.LEVEL_DATA = {
           "5박 예약했다"
         ],
         "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "我___了一个房间。",
+        "options": [
+          "好吃",
+          "预订",
+          "好看",
+          "好听"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "房间有___间吗？",
+        "options": [
+          "天气",
+          "风景",
+          "味道",
+          "卫生"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "question": "明天我要___房。",
+        "options": [
+          "退",
+          "穿",
+          "走",
+          "吃"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -6873,6 +7665,39 @@ window.LEVEL_DATA = {
           "拍照"
         ],
         "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "这里可以___照吗？",
+        "options": [
+          "吃",
+          "穿",
+          "住",
+          "拍"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "question": "___在哪里买？",
+        "options": [
+          "门票",
+          "天气",
+          "味道",
+          "号码"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "question": "我想去看___古迹。",
+        "options": [
+          "好吃",
+          "名胜",
+          "好看",
+          "便宜"
+        ],
+        "answer": 1
       }
     ]
   },
@@ -7199,6 +8024,39 @@ window.LEVEL_DATA = {
           "找找"
         ],
         "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "question": "请快叫___车！",
+        "options": [
+          "救护",
+          "火",
+          "公共",
+          "出租"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "question": "我需要你的___！",
+        "options": [
+          "天气",
+          "味道",
+          "帮忙",
+          "风景"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "有人受___了！",
+        "options": [
+          "吃",
+          "穿",
+          "住",
+          "伤"
+        ],
+        "answer": 3
       }
     ]
   },
@@ -7523,6 +8381,39 @@ window.LEVEL_DATA = {
           "朋友",
           "老板",
           "老师"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "我们几点___班？",
+        "options": [
+          "下",
+          "穿",
+          "吃",
+          "住"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "question": "这份___什么时候交？",
+        "options": [
+          "天气",
+          "报告",
+          "风景",
+          "味道"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "今天的___很多。",
+        "options": [
+          "天气",
+          "风景",
+          "工作",
+          "味道"
         ],
         "answer": 2
       }
@@ -7851,6 +8742,39 @@ window.LEVEL_DATA = {
           "地方"
         ],
         "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "question": "春节是中国最重要的___。",
+        "options": [
+          "天气",
+          "味道",
+          "号码",
+          "节日"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "question": "过年的时候要___年。",
+        "options": [
+          "拜",
+          "穿",
+          "走",
+          "住"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "question": "中秋节大家一起___月。",
+        "options": [
+          "吃",
+          "赏",
+          "穿",
+          "住"
+        ],
+        "answer": 1
       }
     ]
   },
@@ -8177,6 +9101,39 @@ window.LEVEL_DATA = {
           "远"
         ],
         "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "好久不___了！",
+        "options": [
+          "吃",
+          "穿",
+          "住",
+          "见"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "question": "我在中国生活得很___。",
+        "options": [
+          "多少",
+          "什么",
+          "舒服",
+          "怎么"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "question": "你的中文说得很___！",
+        "options": [
+          "好",
+          "穿",
+          "住",
+          "走"
+        ],
+        "answer": 0
       }
     ]
   }

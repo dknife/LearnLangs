@@ -495,12 +495,8 @@ function renderLesson(level) {
 function renderQuiz(level) {
   const app = document.getElementById('app');
   const levelData = window.LEVEL_DATA[level];
-  const allQuestions = levelData?.quiz || [];
-  // Randomly select 10 questions from the pool
-  const questions = [...allQuestions].sort(() => Math.random() - 0.5).slice(0, 10);
-  const totalQuestions = questions.length;
 
-  if (!levelData || !questions.length) {
+  if (!levelData) {
     app.innerHTML = `
       <div class="error-page">
         <div class="error-emoji">😵</div>
@@ -512,9 +508,47 @@ function renderQuiz(level) {
     return;
   }
 
+  // --- 단어 시험 4문제: vocabulary에서 자동 생성 (복수 정답 불가) ---
+  const vocab = levelData.vocabulary || [];
+  const shuffledVocab = [...vocab].sort(() => Math.random() - 0.5);
+  const vocabQuestions = shuffledVocab.slice(0, 4).map(word => {
+    const wrongAnswers = vocab
+      .filter(w => w.korean !== word.korean)
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 3)
+      .map(w => w.korean);
+    const options = [...wrongAnswers];
+    const answerIdx = Math.floor(Math.random() * 4);
+    options.splice(answerIdx, 0, word.korean);
+    return {
+      type: 'vocab',
+      question: `${word.chinese} (${word.pinyin})`,
+      options: options,
+      answer: answerIdx
+    };
+  });
+
+  // --- 문장 채우기 6문제: fill_blank 풀에서 선택 ---
+  const allFillBlank = (levelData.quiz || []).filter(q => q.type === 'fill_blank');
+  const fillQuestions = [...allFillBlank].sort(() => Math.random() - 0.5).slice(0, 6);
+
+  const questions = [...vocabQuestions, ...fillQuestions];
+  const totalQuestions = questions.length;
+
+  if (!questions.length) {
+    app.innerHTML = `
+      <div class="error-page">
+        <div class="error-emoji">😵</div>
+        <h1 class="error-title">퀴즈를 찾을 수 없습니다</h1>
+        <p class="error-text">레벨 ${level} 퀴즈 데이터가 부족합니다.</p>
+        <a href="#/" class="btn-game btn-primary">홈으로 돌아가기</a>
+      </div>
+    `;
+    return;
+  }
+
   const TYPE_LABELS = {
-    cn_to_kr: '중국어 → 한국어',
-    kr_to_cn: '한국어 → 중국어',
+    vocab: '단어 시험',
     fill_blank: '빈칸 채우기',
   };
 
