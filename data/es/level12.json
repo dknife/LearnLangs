@@ -1,0 +1,190 @@
+{
+  "level": 12,
+  "title": "약속 잡기",
+  "titleEs": "Hacer una Cita",
+  "description": "스페인어로 약속을 잡는 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Estás libre este sábado?",
+          "pronunciation": "에스따스 리브레 에스떼 사바도?",
+          "korean": "이번 토요일에 시간 있어요?"
+        },
+        {
+          "spanish": "¿Tienes planes para el fin de semana?",
+          "pronunciation": "띠에네스 쁠라네스 빠라 엘 핀 데 세마나?",
+          "korean": "주말에 계획 있어요?"
+        },
+        {
+          "spanish": "¿Quedamos un día de estos?",
+          "pronunciation": "게다모스 운 디아 데 에스또스?",
+          "korean": "요즘 한번 만날까요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Sí, estoy libre. ¿Qué quieres hacer?",
+          "pronunciation": "시, 에스또이 리브레. 게 끼에레스 아세르?",
+          "korean": "네, 한가해요. 뭘 하고 싶어요?"
+        },
+        {
+          "spanish": "El sábado no puedo, pero el domingo sí.",
+          "pronunciation": "엘 사바도 노 뿌에도, 뻬로 엘 도밍고 시.",
+          "korean": "토요일은 안 되는데, 일요일은 돼요."
+        },
+        {
+          "spanish": "¡Claro! Hace tiempo que no nos vemos.",
+          "pronunciation": "끌라로! 아세 띠엠뽀 게 노 노스 베모스.",
+          "korean": "물론이죠! 오랫동안 못 봤잖아요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Qué te parece si vamos al cine?",
+          "pronunciation": "게 떼 빠레세 시 바모스 알 시네?",
+          "korean": "영화 보러 가는 거 어때요?"
+        },
+        {
+          "spanish": "¿Quieres tomar un café?",
+          "pronunciation": "끼에레스 또마르 운 까페?",
+          "korean": "커피 한잔 할래요?"
+        },
+        {
+          "spanish": "Podemos ir a cenar juntos.",
+          "pronunciation": "뽀데모스 이르 아 세나르 훈또스.",
+          "korean": "같이 저녁 먹으러 갈 수 있어요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "¡Me parece genial! ¿A qué hora?",
+          "pronunciation": "메 빠레세 헤니알! 아 게 오라?",
+          "korean": "좋아요! 몇 시에요?"
+        },
+        {
+          "spanish": "Prefiero cenar. ¿Conoces algún sitio?",
+          "pronunciation": "쁘레피에로 세나르. 꼬노세스 알군 시띠오?",
+          "korean": "저녁이 좋아요. 좋은 곳 알아요?"
+        },
+        {
+          "spanish": "Vale, me encanta la idea.",
+          "pronunciation": "발레, 메 엔깐따 라 이데아.",
+          "korean": "좋아요, 그 아이디어 마음에 들어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿A las siete te viene bien?",
+          "pronunciation": "아 라스 시에떼 떼 비에네 비엔?",
+          "korean": "7시 괜찮아요?"
+        },
+        {
+          "spanish": "¿Quedamos a las seis en la plaza?",
+          "pronunciation": "게다모스 아 라스 세이스 엔 라 쁠라사?",
+          "korean": "6시에 광장에서 만날까요?"
+        },
+        {
+          "spanish": "Te recojo a las ocho.",
+          "pronunciation": "떼 레꼬호 아 라스 오초.",
+          "korean": "8시에 데리러 갈게요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Perfecto. ¿Dónde nos vemos?",
+          "pronunciation": "뻬르펙또. 돈데 노스 베모스?",
+          "korean": "좋아요. 어디서 만날까요?"
+        },
+        {
+          "spanish": "A las siete me va bien.",
+          "pronunciation": "아 라스 시에떼 메 바 비엔.",
+          "korean": "7시 좋아요."
+        },
+        {
+          "spanish": "De acuerdo. Te mando la ubicación.",
+          "pronunciation": "데 아꾸에르도. 떼 만도 라 우비까시온.",
+          "korean": "알겠어요. 위치 보내줄게요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡Genial! ¡Hasta el sábado!",
+          "pronunciation": "헤니알! 아스따 엘 사바도!",
+          "korean": "좋아요! 토요일에 봐요!"
+        },
+        {
+          "spanish": "¡Perfecto! No llegues tarde.",
+          "pronunciation": "뻬르펙또! 노 예게스 따르데.",
+          "korean": "좋아요! 늦지 마요."
+        },
+        {
+          "spanish": "¡Hecho! Nos vemos pronto.",
+          "pronunciation": "에초! 노스 베모스 쁘론또.",
+          "korean": "약속! 곧 만나요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "quedar",
+      "pronunciation": "게다르",
+      "korean": "만나기로 하다"
+    },
+    {
+      "spanish": "cita",
+      "pronunciation": "시따",
+      "korean": "약속"
+    },
+    {
+      "spanish": "libre",
+      "pronunciation": "리브레",
+      "korean": "한가한"
+    },
+    {
+      "spanish": "ocupado",
+      "pronunciation": "오꾸빠도",
+      "korean": "바쁜"
+    },
+    {
+      "spanish": "plan",
+      "pronunciation": "쁠란",
+      "korean": "계획"
+    },
+    {
+      "spanish": "lugar",
+      "pronunciation": "루가르",
+      "korean": "장소"
+    },
+    {
+      "spanish": "cancelar",
+      "pronunciation": "깐셀라르",
+      "korean": "취소하다"
+    },
+    {
+      "spanish": "puntual",
+      "pronunciation": "뿐뚜알",
+      "korean": "시간을 지키는"
+    }
+  ]
+}

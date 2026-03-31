@@ -1,0 +1,190 @@
+{
+  "level": 20,
+  "title": "호텔 체크인/아웃",
+  "titleEs": "Check-in y Check-out",
+  "description": "스페인어로 호텔 체크인과 체크아웃 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Tengo una reserva a nombre de Kang.",
+          "pronunciation": "뗑고 우나 레세르바 아 놈브레 데 강.",
+          "korean": "강 이름으로 예약했어요."
+        },
+        {
+          "spanish": "Quiero hacer el check-in.",
+          "pronunciation": "끼에로 아세르 엘 체킨.",
+          "korean": "체크인 하고 싶어요."
+        },
+        {
+          "spanish": "¿Tienen habitaciones disponibles?",
+          "pronunciation": "띠에넨 아비따시오네스 디스뽀니블레스?",
+          "korean": "빈 방이 있나요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Bienvenido. ¿Su documento, por favor?",
+          "pronunciation": "비엔베니도. 수 도꾸멘또, 뽀르 파보르?",
+          "korean": "환영합니다. 신분증 주세요."
+        },
+        {
+          "spanish": "Sí, habitación trescientos cinco.",
+          "pronunciation": "시, 아비따시온 뜨레시엔또스 신꼬.",
+          "korean": "네, 305호실입니다."
+        },
+        {
+          "spanish": "Tenemos una doble con vistas al mar.",
+          "pronunciation": "떼네모스 우나 도블레 꼰 비스따스 알 마르.",
+          "korean": "바다 전망 더블룸이 있어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿El desayuno está incluido?",
+          "pronunciation": "엘 데사유노 에스따 인끌루이도?",
+          "korean": "조식이 포함되어 있나요?"
+        },
+        {
+          "spanish": "¿Tienen wifi gratuito?",
+          "pronunciation": "띠에넨 위피 그라뚜이또?",
+          "korean": "무료 와이파이가 있나요?"
+        },
+        {
+          "spanish": "¿A qué hora es el check-out?",
+          "pronunciation": "아 게 오라 에스 엘 체까웃?",
+          "korean": "체크아웃은 몇 시예요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Sí, de siete a diez en el comedor.",
+          "pronunciation": "시, 데 시에떼 아 디에스 엔 엘 꼬메도르.",
+          "korean": "네, 7시~10시, 식당에서요."
+        },
+        {
+          "spanish": "Sí, la contraseña está en la tarjeta.",
+          "pronunciation": "시, 라 꼰뜨라세냐 에스따 엔 라 따르헤따.",
+          "korean": "네, 비밀번호는 카드에 있어요."
+        },
+        {
+          "spanish": "Antes de las doce del mediodía.",
+          "pronunciation": "안떼스 데 라스 도세 델 메디오디아.",
+          "korean": "정오 12시 전이에요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Puedo dejar el equipaje después?",
+          "pronunciation": "뿌에도 데하르 엘 에끼빠헤 데스뿌에스?",
+          "korean": "체크아웃 후에 짐을 맡길 수 있나요?"
+        },
+        {
+          "spanish": "La habitación está muy bien.",
+          "pronunciation": "라 아비따시온 에스따 무이 비엔.",
+          "korean": "방이 아주 좋아요."
+        },
+        {
+          "spanish": "¿Pueden llamarme un taxi mañana?",
+          "pronunciation": "뿌에덴 야마르메 운 딱시 마냐나?",
+          "korean": "내일 택시를 불러주실 수 있나요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Por supuesto. Guardamos su equipaje.",
+          "pronunciation": "뽀르 수뿌에스또. 구아르다모스 수 에끼빠헤.",
+          "korean": "물론이죠. 짐을 맡겨 드릴게요."
+        },
+        {
+          "spanish": "Si necesita algo, llame a recepción.",
+          "pronunciation": "시 네세시따 알고, 야메 아 레셉시온.",
+          "korean": "뭐 필요하시면 프런트에 전화하세요."
+        },
+        {
+          "spanish": "Claro, ¿a qué hora?",
+          "pronunciation": "끌라로, 아 게 오라?",
+          "korean": "물론이요, 몇 시에요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Gracias. La estancia ha sido excelente.",
+          "pronunciation": "그라시아스. 라 에스딴시아 아 시도 엑셀렌떼.",
+          "korean": "감사합니다. 정말 좋은 숙박이었어요."
+        },
+        {
+          "spanish": "Volveremos seguro.",
+          "pronunciation": "볼베레모스 세구로.",
+          "korean": "꼭 다시 올게요."
+        },
+        {
+          "spanish": "¡Hasta la próxima!",
+          "pronunciation": "아스따 라 쁘록시마!",
+          "korean": "다음에 또 만나요!"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "hotel",
+      "pronunciation": "오뗄",
+      "korean": "호텔"
+    },
+    {
+      "spanish": "habitación",
+      "pronunciation": "아비따시온",
+      "korean": "객실"
+    },
+    {
+      "spanish": "reserva",
+      "pronunciation": "레세르바",
+      "korean": "예약"
+    },
+    {
+      "spanish": "recepción",
+      "pronunciation": "레셉시온",
+      "korean": "프런트"
+    },
+    {
+      "spanish": "llave / tarjeta",
+      "pronunciation": "야베 / 따르헤따",
+      "korean": "열쇠 / 카드키"
+    },
+    {
+      "spanish": "desayuno",
+      "pronunciation": "데사유노",
+      "korean": "조식"
+    },
+    {
+      "spanish": "piscina",
+      "pronunciation": "삐시나",
+      "korean": "수영장"
+    },
+    {
+      "spanish": "estancia",
+      "pronunciation": "에스딴시아",
+      "korean": "숙박"
+    }
+  ]
+}

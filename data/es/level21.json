@@ -1,0 +1,190 @@
+{
+  "level": 21,
+  "title": "관광 & 사진",
+  "titleEs": "Turismo y Fotos",
+  "description": "스페인어로 관광하며 사진을 찍는 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡Qué bonito es este lugar!",
+          "pronunciation": "게 보니또 에스 에스떼 루가르!",
+          "korean": "이곳 정말 아름답다!"
+        },
+        {
+          "spanish": "¿Nos puede tomar una foto?",
+          "pronunciation": "노스 뿌에데 또마르 우나 포또?",
+          "korean": "사진 좀 찍어주시겠어요?"
+        },
+        {
+          "spanish": "¿Dónde están los monumentos principales?",
+          "pronunciation": "돈데 에스딴 로스 모누멘또스 쁘린시빨레스?",
+          "korean": "주요 관광지가 어디에요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "¡Claro! Digan patata. ¡Listo!",
+          "pronunciation": "끌라로! 디간 빠따따. 리스또!",
+          "korean": "물론이죠! 김치~ 찍었어요!"
+        },
+        {
+          "spanish": "Recomiendo la catedral y el parque.",
+          "pronunciation": "레꼬미엔도 라 까떼드랄 이 엘 빠르게.",
+          "korean": "성당과 공원을 추천해요."
+        },
+        {
+          "spanish": "Esta zona es muy turística.",
+          "pronunciation": "에스따 소나 에스 무이 뚜리스띠까.",
+          "korean": "이 지역은 관광지예요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Cuánto cuesta la entrada al museo?",
+          "pronunciation": "꾸안또 꾸에스따 라 엔뜨라다 알 무세오?",
+          "korean": "박물관 입장료가 얼마예요?"
+        },
+        {
+          "spanish": "¿Hay visitas guiadas?",
+          "pronunciation": "아이 비시따스 기아다스?",
+          "korean": "가이드 투어가 있나요?"
+        },
+        {
+          "spanish": "¿Se puede sacar fotos dentro?",
+          "pronunciation": "세 뿌에데 사까르 포또스 덴뜨로?",
+          "korean": "안에서 사진 찍어도 되나요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Diez euros. Estudiantes, cinco.",
+          "pronunciation": "디에스 에우로스. 에스뚜디안떼스, 신꼬.",
+          "korean": "10유로, 학생은 5유로예요."
+        },
+        {
+          "spanish": "Sí, hay una a las once.",
+          "pronunciation": "시, 아이 우나 아 라스 온세.",
+          "korean": "네, 11시에 있어요."
+        },
+        {
+          "spanish": "Sí, pero sin flash.",
+          "pronunciation": "시, 뻬로 신 플래시.",
+          "korean": "네, 하지만 플래시 없이요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡Mira esa vista! Vamos a hacer un selfi.",
+          "pronunciation": "미라 에사 비스따! 바모스 아 아세르 운 셀피.",
+          "korean": "저 풍경 봐! 셀피 찍자."
+        },
+        {
+          "spanish": "Esta iglesia es impresionante.",
+          "pronunciation": "에스따 이글레시아 에스 임쁘레시오난떼.",
+          "korean": "이 성당은 인상적이에요."
+        },
+        {
+          "spanish": "Quiero comprar un recuerdo.",
+          "pronunciation": "끼에로 꼼쁘라르 운 레꾸에르도.",
+          "korean": "기념품을 사고 싶어요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "¡Perfecto! La luz es ideal ahora.",
+          "pronunciation": "뻬르펙또! 라 루스 에스 이데알 아오라.",
+          "korean": "좋아요! 지금 빛이 딱 좋아요."
+        },
+        {
+          "spanish": "Fue construida en el siglo quince.",
+          "pronunciation": "푸에 꼰스뜨루이다 엔 엘 시글로 낀세.",
+          "korean": "15세기에 지어졌어요."
+        },
+        {
+          "spanish": "Hay una tienda de souvenirs al lado.",
+          "pronunciation": "아이 우나 띠엔다 데 수베니르스 알 라도.",
+          "korean": "옆에 기념품 가게가 있어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡Día increíble! ¡Me encanta esta ciudad!",
+          "pronunciation": "디아 인끄레이블레! 메 엔깐따 에스따 시우다드!",
+          "korean": "멋진 하루! 이 도시가 너무 좋아요!"
+        },
+        {
+          "spanish": "Tengo miles de fotos. ¡Qué recuerdos!",
+          "pronunciation": "뗑고 밀레스 데 포또스. 게 레꾸에르도스!",
+          "korean": "사진이 엄청 많아요. 좋은 추억!"
+        },
+        {
+          "spanish": "Volveré seguro. España es maravillosa.",
+          "pronunciation": "볼베레 세구로. 에스빠냐 에스 마라비요사.",
+          "korean": "꼭 다시 올 거예요. 스페인은 멋져요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "turismo",
+      "pronunciation": "뚜리스모",
+      "korean": "관광"
+    },
+    {
+      "spanish": "foto",
+      "pronunciation": "포또",
+      "korean": "사진"
+    },
+    {
+      "spanish": "monumento",
+      "pronunciation": "모누멘또",
+      "korean": "기념물"
+    },
+    {
+      "spanish": "catedral",
+      "pronunciation": "까떼드랄",
+      "korean": "성당"
+    },
+    {
+      "spanish": "museo",
+      "pronunciation": "무세오",
+      "korean": "박물관"
+    },
+    {
+      "spanish": "entrada",
+      "pronunciation": "엔뜨라다",
+      "korean": "입장권"
+    },
+    {
+      "spanish": "recuerdo",
+      "pronunciation": "레꾸에르도",
+      "korean": "기념품/추억"
+    },
+    {
+      "spanish": "guía",
+      "pronunciation": "기아",
+      "korean": "가이드"
+    }
+  ]
+}

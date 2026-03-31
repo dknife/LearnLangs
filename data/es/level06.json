@@ -1,0 +1,190 @@
+{
+  "level": 6,
+  "title": "쇼핑하기",
+  "titleEs": "Ir de Compras",
+  "description": "스페인어로 쇼핑할 때 사용하는 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡Buenos días! ¿Puedo ayudarle?",
+          "pronunciation": "부에노스 디아스! 뿌에도 아유다를레?",
+          "korean": "안녕하세요! 도와드릴까요?"
+        },
+        {
+          "spanish": "¡Hola! ¿Qué está buscando?",
+          "pronunciation": "올라! 게 에스따 부스깐도?",
+          "korean": "안녕하세요! 뭘 찾고 계세요?"
+        },
+        {
+          "spanish": "¡Bienvenido! ¿En qué puedo servirle?",
+          "pronunciation": "비엔베니도! 엔 게 뿌에도 세르비를레?",
+          "korean": "환영합니다! 뭘 도와드릴까요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Estoy buscando un regalo para mi amiga.",
+          "pronunciation": "에스또이 부스깐도 운 레갈로 빠라 미 아미가.",
+          "korean": "친구에게 줄 선물을 찾고 있어요."
+        },
+        {
+          "spanish": "Solo estoy mirando, gracias.",
+          "pronunciation": "솔로 에스또이 미란도, 그라시아스.",
+          "korean": "그냥 구경 중이에요, 감사합니다."
+        },
+        {
+          "spanish": "Quiero comprar una bolsa.",
+          "pronunciation": "끼에로 꼼쁘라르 우나 볼사.",
+          "korean": "가방을 하나 사고 싶어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Qué talla necesita?",
+          "pronunciation": "게 따야 네세시따?",
+          "korean": "어떤 사이즈가 필요하세요?"
+        },
+        {
+          "spanish": "¿De qué color lo prefiere?",
+          "pronunciation": "데 게 꼴로르 로 쁘레피에레?",
+          "korean": "어떤 색을 원하세요?"
+        },
+        {
+          "spanish": "Tenemos varios modelos.",
+          "pronunciation": "떼네모스 바리오스 모델로스.",
+          "korean": "여러 모델이 있어요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "¿Cuánto cuesta esto?",
+          "pronunciation": "꾸안또 꾸에스따 에스또?",
+          "korean": "이거 얼마예요?"
+        },
+        {
+          "spanish": "¿Qué precio tiene?",
+          "pronunciation": "게 쁘레시오 띠에네?",
+          "korean": "가격이 얼마예요?"
+        },
+        {
+          "spanish": "¿Tiene descuento?",
+          "pronunciation": "띠에네 데스꾸엔또?",
+          "korean": "할인이 있나요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Cuesta treinta euros. Hoy hay descuento.",
+          "pronunciation": "꾸에스따 뜨레인따 에우로스. 오이 아이 데스꾸엔또.",
+          "korean": "30유로예요. 오늘 할인이 있어요."
+        },
+        {
+          "spanish": "Son veinticinco euros.",
+          "pronunciation": "손 베인띠신꼬 에우로스.",
+          "korean": "25유로예요."
+        },
+        {
+          "spanish": "Está en oferta: veinte euros.",
+          "pronunciation": "에스따 엔 오페르따: 베인떼 에우로스.",
+          "korean": "세일 중이에요: 20유로요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "¿Puedo probármelo?",
+          "pronunciation": "뿌에도 쁘로바르멜로?",
+          "korean": "입어봐도 될까요?"
+        },
+        {
+          "spanish": "¿Puedo pagar con tarjeta?",
+          "pronunciation": "뿌에도 빠가르 꼰 따르헤따?",
+          "korean": "카드로 결제할 수 있나요?"
+        },
+        {
+          "spanish": "Me lo llevo. ¿Dónde pago?",
+          "pronunciation": "메 로 예보. 돈데 빠고?",
+          "korean": "이걸로 할게요. 어디서 계산하나요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "El probador está al fondo.",
+          "pronunciation": "엘 쁘로바도르 에스따 알 폰도.",
+          "korean": "탈의실은 안쪽에 있어요."
+        },
+        {
+          "spanish": "Sí, aceptamos tarjeta.",
+          "pronunciation": "시, 아셉따모스 따르헤따.",
+          "korean": "네, 카드 받아요."
+        },
+        {
+          "spanish": "La caja está a la derecha.",
+          "pronunciation": "라 까하 에스따 아 라 데레차.",
+          "korean": "계산대는 오른쪽에 있어요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "tienda",
+      "pronunciation": "띠엔다",
+      "korean": "가게"
+    },
+    {
+      "spanish": "precio",
+      "pronunciation": "쁘레시오",
+      "korean": "가격"
+    },
+    {
+      "spanish": "descuento",
+      "pronunciation": "데스꾸엔또",
+      "korean": "할인"
+    },
+    {
+      "spanish": "talla",
+      "pronunciation": "따야",
+      "korean": "사이즈"
+    },
+    {
+      "spanish": "color",
+      "pronunciation": "꼴로르",
+      "korean": "색깔"
+    },
+    {
+      "spanish": "comprar",
+      "pronunciation": "꼼쁘라르",
+      "korean": "사다"
+    },
+    {
+      "spanish": "tarjeta",
+      "pronunciation": "따르헤따",
+      "korean": "카드"
+    },
+    {
+      "spanish": "caro / barato",
+      "pronunciation": "까로 / 바라또",
+      "korean": "비싼 / 싼"
+    }
+  ]
+}

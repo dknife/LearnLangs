@@ -1,0 +1,466 @@
+{
+  "level": 4,
+  "title": "식당에서 주문",
+  "titleCn": "在餐厅点菜",
+  "description": "식당에서 음식을 주문하고 계산하는 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "欢迎光临！请坐。",
+          "pinyin": "Huānyíng guānglín! Qǐng zuò.",
+          "korean": "어서 오세요! 앉으세요."
+        },
+        {
+          "chinese": "您好，欢迎！请这边坐。",
+          "pinyin": "Nín hǎo, huānyíng! Qǐng zhè biān zuò.",
+          "korean": "안녕하세요, 환영합니다! 이쪽에 앉으세요."
+        },
+        {
+          "chinese": "欢迎光临！请问几位？",
+          "pinyin": "Huānyíng guānglín! Qǐngwèn jǐ wèi?",
+          "korean": "어서 오세요! 몇 분이세요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "谢谢。请给我菜单。",
+          "pinyin": "Xièxie. Qǐng gěi wǒ càidān.",
+          "korean": "감사합니다. 메뉴판 주세요."
+        },
+        {
+          "chinese": "谢谢。有菜单吗？",
+          "pinyin": "Xièxie. Yǒu càidān ma?",
+          "korean": "감사합니다. 메뉴판 있나요?"
+        },
+        {
+          "chinese": "谢谢。我可以看一下菜单吗？",
+          "pinyin": "Xièxie. Wǒ kěyǐ kàn yíxià càidān ma?",
+          "korean": "감사합니다. 메뉴판 좀 볼 수 있을까요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "好的，请看菜单。你想吃什么？",
+          "pinyin": "Hǎo de, qǐng kàn càidān. Nǐ xiǎng chī shénme?",
+          "korean": "네, 메뉴를 보세요. 뭘 드시겠어요?"
+        },
+        {
+          "chinese": "给您菜单。想好了叫我。",
+          "pinyin": "Gěi nín càidān. Xiǎng hǎo le jiào wǒ.",
+          "korean": "메뉴 여기요. 정하시면 불러주세요."
+        },
+        {
+          "chinese": "这是菜单。请问您要点什么？",
+          "pinyin": "Zhè shì càidān. Qǐngwèn nín yào diǎn shénme?",
+          "korean": "메뉴판입니다. 뭘 주문하시겠어요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "我要一碗牛肉面，再来一杯啤酒。",
+          "pinyin": "Wǒ yào yì wǎn niúròu miàn, zài lái yì bēi píjiǔ.",
+          "korean": "소고기 면 한 그릇이랑 맥주 한 잔 주세요."
+        },
+        {
+          "chinese": "请给我一份宫保鸡丁和一碗米饭。",
+          "pinyin": "Qǐng gěi wǒ yí fèn gōngbǎo jīdīng hé yì wǎn mǐfàn.",
+          "korean": "궁바오지딩 한 접시랑 밥 한 공기 주세요."
+        },
+        {
+          "chinese": "来一盘炒饭，再来一杯可乐。",
+          "pinyin": "Lái yì pán chǎofàn, zài lái yì bēi kělè.",
+          "korean": "볶음밥 한 접시랑 콜라 한 잔 주세요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "好的。还要别的吗？",
+          "pinyin": "Hǎo de. Hái yào bié de ma?",
+          "korean": "네. 다른 건 필요하세요?"
+        },
+        {
+          "chinese": "好的。还需要点别的吗？",
+          "pinyin": "Hǎo de. Hái xūyào diǎn bié de ma?",
+          "korean": "네. 다른 것도 주문하시겠어요?"
+        },
+        {
+          "chinese": "没问题。要不要再加点什么？",
+          "pinyin": "Méi wèntí. Yào bu yào zài jiā diǎn shénme?",
+          "korean": "알겠습니다. 뭔가 더 추가하시겠어요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "不用了，谢谢。一共多少钱？",
+          "pinyin": "Bú yòng le, xièxie. Yígòng duōshao qián?",
+          "korean": "됐어요, 감사합니다. 전부 얼마예요?"
+        },
+        {
+          "chinese": "就这些吧。多少钱？",
+          "pinyin": "Jiù zhèxiē ba. Duōshao qián?",
+          "korean": "이것만요. 얼마예요?"
+        },
+        {
+          "chinese": "够了，谢谢。请问一共多少？",
+          "pinyin": "Gòu le, xièxie. Qǐngwèn yígòng duōshao?",
+          "korean": "충분해요, 감사합니다. 전부 얼마인가요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "一共四十五块。",
+          "pinyin": "Yígòng sìshíwǔ kuài.",
+          "korean": "전부 45위안이에요."
+        },
+        {
+          "chinese": "总共是四十五元。",
+          "pinyin": "Zǒnggòng shì sìshíwǔ yuán.",
+          "korean": "총 45위안입니다."
+        },
+        {
+          "chinese": "一共四十五块钱。",
+          "pinyin": "Yígòng sìshíwǔ kuài qián.",
+          "korean": "전부 합해서 45위안이에요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "好的，买单。",
+          "pinyin": "Hǎo de, mǎidān.",
+          "korean": "네, 계산할게요."
+        },
+        {
+          "chinese": "好，可以刷卡吗？",
+          "pinyin": "Hǎo, kěyǐ shuā kǎ ma?",
+          "korean": "네, 카드로 결제 되나요?"
+        },
+        {
+          "chinese": "给你钱。谢谢！",
+          "pinyin": "Gěi nǐ qián. Xièxie!",
+          "korean": "여기 돈이요. 감사합니다!"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "chinese": "菜单",
+      "pinyin": "càidān",
+      "korean": "메뉴, 메뉴판"
+    },
+    {
+      "chinese": "一碗面",
+      "pinyin": "yì wǎn miàn",
+      "korean": "면 한 그릇"
+    },
+    {
+      "chinese": "多少钱",
+      "pinyin": "duōshao qián",
+      "korean": "얼마예요"
+    },
+    {
+      "chinese": "买单",
+      "pinyin": "mǎidān",
+      "korean": "계산하다"
+    },
+    {
+      "chinese": "啤酒",
+      "pinyin": "píjiǔ",
+      "korean": "맥주"
+    },
+    {
+      "chinese": "欢迎光临",
+      "pinyin": "huānyíng guānglín",
+      "korean": "어서 오세요"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "cn_to_kr",
+      "question": "请给我菜单。",
+      "options": [
+        "계산해 주세요.",
+        "메뉴판 주세요.",
+        "물 주세요.",
+        "맥주 주세요."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "전부 얼마예요?",
+      "options": [
+        "这个多少钱？",
+        "一共多少钱？",
+        "你要什么？",
+        "还要别的吗？"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "我要一___牛肉面。",
+      "options": [
+        "杯",
+        "个",
+        "碗",
+        "块"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "还要别的吗？",
+      "options": [
+        "뭘 드시겠어요?",
+        "다른 건 필요하세요?",
+        "맛있어요?",
+        "전부 얼마예요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "계산할게요.",
+      "options": [
+        "多少钱。",
+        "不用了。",
+        "买单。",
+        "谢谢。"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "欢迎光临！请坐。",
+      "options": [
+        "감사합니다! 앉으세요.",
+        "어서 오세요! 앉으세요.",
+        "안녕하세요! 주문하세요.",
+        "어서 오세요! 주문하세요."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "你想吃什么？",
+      "options": [
+        "뭘 마시겠어요?",
+        "뭘 드시겠어요?",
+        "뭘 사겠어요?",
+        "뭘 주문하시겠어요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "不用了，谢谢。",
+      "options": [
+        "필요해요, 감사합니다.",
+        "네, 감사합니다.",
+        "됐어요, 감사합니다.",
+        "주세요, 감사합니다."
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "一共四十五块。",
+      "options": [
+        "전부 35위안이에요.",
+        "전부 45위안이에요.",
+        "전부 55위안이에요.",
+        "전부 40위안이에요."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "我要一碗牛肉面，再来一杯啤酒。",
+      "options": [
+        "소고기 면 한 그릇이랑 물 한 잔 주세요.",
+        "소고기 면 두 그릇이랑 맥주 한 잔 주세요.",
+        "소고기 면 한 그릇이랑 맥주 한 잔 주세요.",
+        "돼지고기 면 한 그릇이랑 맥주 한 잔 주세요."
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "请看菜单。",
+      "options": [
+        "메뉴를 주세요.",
+        "메뉴를 보세요.",
+        "메뉴가 있어요.",
+        "메뉴가 없어요."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "好的，买单。",
+      "options": [
+        "네, 주문할게요.",
+        "네, 감사합니다.",
+        "네, 계산할게요.",
+        "네, 필요 없어요."
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "어서 오세요!",
+      "options": [
+        "你好！",
+        "欢迎光临！",
+        "请坐！",
+        "谢谢！"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "메뉴판 주세요.",
+      "options": [
+        "请看菜单。",
+        "请给我菜单。",
+        "我要菜单。",
+        "菜单在哪儿？"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "뭘 드시겠어요?",
+      "options": [
+        "你要喝什么？",
+        "你想吃什么？",
+        "你想去哪儿？",
+        "你要买什么？"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "맥주 한 잔 주세요.",
+      "options": [
+        "给我一碗啤酒。",
+        "我要一瓶啤酒。",
+        "给我一杯啤酒。",
+        "再来一杯水。"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "됐어요, 감사합니다.",
+      "options": [
+        "好的，谢谢。",
+        "不用了，谢谢。",
+        "可以了，谢谢。",
+        "没有了，谢谢。"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "___光临！请坐。",
+      "options": [
+        "你好",
+        "谢谢",
+        "欢迎",
+        "请问"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "再来一___啤酒。",
+      "options": [
+        "碗",
+        "个",
+        "块",
+        "杯"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill_blank",
+      "question": "一共___钱？",
+      "options": [
+        "几",
+        "什么",
+        "多少",
+        "怎么"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "请给我看一下___。",
+      "options": [
+        "认识",
+        "高兴",
+        "名字",
+        "菜单"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill_blank",
+      "question": "我们要___。",
+      "options": [
+        "跑步",
+        "上学",
+        "看书",
+        "买单"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill_blank",
+      "question": "这个菜___吗？",
+      "options": [
+        "走路",
+        "星期",
+        "辣",
+        "认识"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "请___两杯茶。",
+      "options": [
+        "来",
+        "穿",
+        "写",
+        "住"
+      ],
+      "answer": 0
+    }
+  ]
+}

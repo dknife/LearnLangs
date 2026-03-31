@@ -1,0 +1,190 @@
+{
+  "level": 7,
+  "title": "택시 & 대중교통",
+  "titleEs": "Taxi y Transporte Público",
+  "description": "스페인어로 택시와 대중교통을 이용하는 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡Taxi! ¿Está libre?",
+          "pronunciation": "딱시! 에스따 리브레?",
+          "korean": "택시! 비었나요?"
+        },
+        {
+          "spanish": "¿Me puede llevar al aeropuerto?",
+          "pronunciation": "메 뿌에데 예바르 알 아에로뿌에르또?",
+          "korean": "공항까지 데려다주실 수 있나요?"
+        },
+        {
+          "spanish": "¿Puede llevarme al centro?",
+          "pronunciation": "뿌에데 예바르메 알 센뜨로?",
+          "korean": "시내 중심까지 가 주실 수 있나요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Sí, suba. ¿Adónde va?",
+          "pronunciation": "시, 수바. 아돈데 바?",
+          "korean": "네, 타세요. 어디로 가세요?"
+        },
+        {
+          "spanish": "Claro, ¿cuál es la dirección?",
+          "pronunciation": "끌라로, 꾸알 에스 라 디렉시온?",
+          "korean": "물론이죠, 주소가 어디예요?"
+        },
+        {
+          "spanish": "Por supuesto. ¿Lleva equipaje?",
+          "pronunciation": "뽀르 수뿌에스또. 예바 에끼빠헤?",
+          "korean": "물론이요. 짐이 있으세요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Al Hotel Sol, en la calle Gran Vía.",
+          "pronunciation": "알 오뗄 솔, 엔 라 까예 그란 비아.",
+          "korean": "그란 비아 거리의 솔 호텔이요."
+        },
+        {
+          "spanish": "A la estación de tren, por favor.",
+          "pronunciation": "아 라 에스따시온 데 뜨렌, 뽀르 파보르.",
+          "korean": "기차역으로 가 주세요."
+        },
+        {
+          "spanish": "¿Sabe dónde está la Plaza Mayor?",
+          "pronunciation": "사베 돈데 에스따 라 쁠라사 마요르?",
+          "korean": "마요르 광장이 어디인지 아세요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Sí, conozco. Tardaremos veinte minutos.",
+          "pronunciation": "시, 꼬노스꼬. 따르다레모스 베인떼 미누또스.",
+          "korean": "네, 알아요. 약 20분 걸릴 거예요."
+        },
+        {
+          "spanish": "Hay mucho tráfico. Puede tardar más.",
+          "pronunciation": "아이 무초 뜨라피꼬. 뿌에데 따르다르 마스.",
+          "korean": "교통이 많아요. 좀 더 걸릴 수 있어요."
+        },
+        {
+          "spanish": "Llegaremos en quince minutos.",
+          "pronunciation": "예가레모스 엔 낀세 미누또스.",
+          "korean": "15분 후에 도착할 거예요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Cuánto cuesta el viaje?",
+          "pronunciation": "꾸안또 꾸에스따 엘 비아헤?",
+          "korean": "요금이 얼마예요?"
+        },
+        {
+          "spanish": "¿Cuánto le debo?",
+          "pronunciation": "꾸안또 레 데보?",
+          "korean": "얼마를 드리면 되나요?"
+        },
+        {
+          "spanish": "¿Aceptan tarjeta?",
+          "pronunciation": "아셉딴 따르헤따?",
+          "korean": "카드 되나요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Son quince euros.",
+          "pronunciation": "손 낀세 에우로스.",
+          "korean": "15유로입니다."
+        },
+        {
+          "spanish": "El taxímetro marca doce euros.",
+          "pronunciation": "엘 딱시메뜨로 마르까 도세 에우로스.",
+          "korean": "미터기에 12유로 나왔어요."
+        },
+        {
+          "spanish": "Sí, aceptamos tarjeta y efectivo.",
+          "pronunciation": "시, 아셉따모스 따르헤따 이 에펙띠보.",
+          "korean": "네, 카드와 현금 모두 돼요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Aquí tiene. Quédese con el cambio.",
+          "pronunciation": "아끼 띠에네. 게데세 꼰 엘 깜비오.",
+          "korean": "여기요. 거스름돈은 가지세요."
+        },
+        {
+          "spanish": "Gracias. Hasta luego.",
+          "pronunciation": "그라시아스. 아스따 루에고.",
+          "korean": "감사합니다. 안녕히 계세요."
+        },
+        {
+          "spanish": "Muchas gracias. ¡Buen día!",
+          "pronunciation": "무차스 그라시아스. 부엔 디아!",
+          "korean": "정말 감사합니다. 좋은 하루 되세요!"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "taxi",
+      "pronunciation": "딱시",
+      "korean": "택시"
+    },
+    {
+      "spanish": "autobús",
+      "pronunciation": "아우또부스",
+      "korean": "버스"
+    },
+    {
+      "spanish": "metro",
+      "pronunciation": "메뜨로",
+      "korean": "지하철"
+    },
+    {
+      "spanish": "tren",
+      "pronunciation": "뜨렌",
+      "korean": "기차"
+    },
+    {
+      "spanish": "billete",
+      "pronunciation": "비예떼",
+      "korean": "표/티켓"
+    },
+    {
+      "spanish": "parada",
+      "pronunciation": "빠라다",
+      "korean": "정류장"
+    },
+    {
+      "spanish": "tráfico",
+      "pronunciation": "뜨라피꼬",
+      "korean": "교통"
+    },
+    {
+      "spanish": "equipaje",
+      "pronunciation": "에끼빠헤",
+      "korean": "짐/수하물"
+    }
+  ]
+}

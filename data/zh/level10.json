@@ -1,0 +1,455 @@
+{
+  "level": 10,
+  "title": "음식 & 맛 표현",
+  "titleCn": "食物和味道",
+  "description": "음식의 맛을 표현하고 좋아하는 음식에 대해 이야기하는 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "你喜欢吃什么？",
+          "pinyin": "Nǐ xǐhuan chī shénme?",
+          "korean": "뭐 먹는 걸 좋아해요?"
+        },
+        {
+          "chinese": "你平时爱吃什么菜？",
+          "pinyin": "Nǐ píngshí ài chī shénme cài?",
+          "korean": "평소에 어떤 음식 좋아해요?"
+        },
+        {
+          "chinese": "你最喜欢的食物是什么？",
+          "pinyin": "Nǐ zuì xǐhuan de shíwù shì shénme?",
+          "korean": "가장 좋아하는 음식이 뭐예요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "我喜欢吃中国菜，特别是火锅。",
+          "pinyin": "Wǒ xǐhuan chī Zhōngguó cài, tèbié shì huǒguō.",
+          "korean": "중국 요리를 좋아해요, 특히 훠궈요."
+        },
+        {
+          "chinese": "我最爱吃火锅，中国菜都好吃。",
+          "pinyin": "Wǒ zuì ài chī huǒguō, Zhōngguó cài dōu hǎochī.",
+          "korean": "훠궈를 제일 좋아해요, 중국 요리 다 맛있어요."
+        },
+        {
+          "chinese": "我特别喜欢吃火锅，你呢？",
+          "pinyin": "Wǒ tèbié xǐhuan chī huǒguō, nǐ ne?",
+          "korean": "훠궈를 특히 좋아해요, 당신은요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "火锅辣不辣？",
+          "pinyin": "Huǒguō là bu là?",
+          "korean": "훠궈는 매워요?"
+        },
+        {
+          "chinese": "火锅是不是很辣？",
+          "pinyin": "Huǒguō shì bu shì hěn là?",
+          "korean": "훠궈는 많이 매운 건가요?"
+        },
+        {
+          "chinese": "吃火锅辣吗？",
+          "pinyin": "Chī huǒguō là ma?",
+          "korean": "훠궈 먹으면 매워요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "有的很辣，有的不辣。你能吃辣的吗？",
+          "pinyin": "Yǒu de hěn là, yǒu de bú là. Nǐ néng chī là de ma?",
+          "korean": "어떤 건 맵고, 어떤 건 안 매워요. 매운 거 먹을 수 있어요?"
+        },
+        {
+          "chinese": "看你选什么锅底，辣的不辣的都有。你怕辣吗？",
+          "pinyin": "Kàn nǐ xuǎn shénme guōdǐ, là de bú là de dōu yǒu. Nǐ pà là ma?",
+          "korean": "어떤 육수를 고르느냐에 따라 달라요. 매운 거 무서워요?"
+        },
+        {
+          "chinese": "可以选不辣的汤底。你能吃辣吗？",
+          "pinyin": "Kěyǐ xuǎn bú là de tāngdǐ. Nǐ néng chī là ma?",
+          "korean": "안 매운 국물을 고를 수 있어요. 매운 거 먹을 수 있어요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "我不太能吃辣的。我喜欢甜的。",
+          "pinyin": "Wǒ bú tài néng chī là de. Wǒ xǐhuan tián de.",
+          "korean": "매운 건 잘 못 먹어요. 단 걸 좋아해요."
+        },
+        {
+          "chinese": "我怕辣，甜的比较合我的口味。",
+          "pinyin": "Wǒ pà là, tián de bǐjiào hé wǒ de kǒuwèi.",
+          "korean": "매운 건 못 먹어요, 단 게 제 입맛에 맞아요."
+        },
+        {
+          "chinese": "辣的我吃不了，我比较喜欢甜食。",
+          "pinyin": "Là de wǒ chī bu liǎo, wǒ bǐjiào xǐhuan tiánshí.",
+          "korean": "매운 건 먹을 수 없어요, 단 음식을 더 좋아해요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "那你尝尝这个糖醋排骨，酸酸甜甜的，很好吃。",
+          "pinyin": "Nà nǐ chángchang zhège tángcù páigǔ, suānsuān tiántián de, hěn hǎochī.",
+          "korean": "그럼 이 탕수육 먹어봐요, 새콤달콤하고 맛있어요."
+        },
+        {
+          "chinese": "那推荐你糖醋排骨，甜甜酸酸的，特别好吃。",
+          "pinyin": "Nà tuījiàn nǐ tángcù páigǔ, tiántián suānsuān de, tèbié hǎochī.",
+          "korean": "그럼 탕수육 추천해요, 달콤새콤하고 정말 맛있어요."
+        },
+        {
+          "chinese": "那试试糖醋排骨吧，味道又酸又甜。",
+          "pinyin": "Nà shìshi tángcù páigǔ ba, wèidào yòu suān yòu tián.",
+          "korean": "그럼 탕수육 먹어봐요, 맛이 새콤달콤해요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "嗯，真的很好吃！味道不咸不淡，刚刚好。",
+          "pinyin": "Ǹg, zhēn de hěn hǎochī! Wèidào bù xián bù dàn, gānggāng hǎo.",
+          "korean": "음, 정말 맛있어요! 짜지도 싱겁지도 않고, 딱 좋아요."
+        },
+        {
+          "chinese": "好吃！这个味道太棒了，咸淡刚好。",
+          "pinyin": "Hǎochī! Zhège wèidào tài bàng le, xián dàn gānghǎo.",
+          "korean": "맛있어요! 맛이 너무 좋아요, 간이 딱 맞아요."
+        },
+        {
+          "chinese": "真好吃！不咸也不淡，正合我的口味。",
+          "pinyin": "Zhēn hǎochī! Bù xián yě bù dàn, zhèng hé wǒ de kǒuwèi.",
+          "korean": "정말 맛있어요! 짜지도 싱겁지도 않고, 딱 제 입맛이에요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "太好了，下次我们再来吃。",
+          "pinyin": "Tài hǎo le, xià cì wǒmen zài lái chī.",
+          "korean": "좋아요, 다음에 또 먹으러 와요."
+        },
+        {
+          "chinese": "你喜欢就好！下次再一起来吧。",
+          "pinyin": "Nǐ xǐhuan jiù hǎo! Xià cì zài yìqǐ lái ba.",
+          "korean": "좋아하니 다행이에요! 다음에 또 같이 와요."
+        },
+        {
+          "chinese": "太好了！下次我请你吃别的好吃的。",
+          "pinyin": "Tài hǎo le! Xià cì wǒ qǐng nǐ chī bié de hǎochī de.",
+          "korean": "좋아요! 다음에 다른 맛있는 거 제가 사줄게요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "chinese": "好吃",
+      "pinyin": "hǎochī",
+      "korean": "맛있다"
+    },
+    {
+      "chinese": "辣",
+      "pinyin": "là",
+      "korean": "맵다"
+    },
+    {
+      "chinese": "甜",
+      "pinyin": "tián",
+      "korean": "달다"
+    },
+    {
+      "chinese": "酸",
+      "pinyin": "suān",
+      "korean": "시다, 새콤하다"
+    },
+    {
+      "chinese": "咸",
+      "pinyin": "xián",
+      "korean": "짜다"
+    },
+    {
+      "chinese": "味道",
+      "pinyin": "wèidào",
+      "korean": "맛, 풍미"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "cn_to_kr",
+      "question": "好吃",
+      "options": [
+        "맵다",
+        "맛있다",
+        "달다",
+        "짜다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "맵다",
+      "options": [
+        "甜",
+        "咸",
+        "辣",
+        "酸"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "这个菜太___了。(짜다)",
+      "options": [
+        "辣",
+        "甜",
+        "酸",
+        "咸"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "酸酸甜甜的",
+      "options": [
+        "맵고 짠",
+        "새콤달콤한",
+        "달고 짠",
+        "시고 매운"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "맛있다",
+      "options": [
+        "好看",
+        "好吃",
+        "好喝",
+        "好玩"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "你喜欢吃什么？",
+      "options": [
+        "뭐 마시는 걸 좋아해요?",
+        "뭐 먹는 걸 좋아해요?",
+        "뭐 하는 걸 좋아해요?",
+        "뭐 보는 걸 좋아해요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "火锅辣不辣？",
+      "options": [
+        "훠궈 맛있어요?",
+        "훠궈 매워요?",
+        "훠궈 비싸요?",
+        "훠궈 좋아해요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "달다",
+      "options": [
+        "辣",
+        "咸",
+        "酸",
+        "甜"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "시다, 새콤하다",
+      "options": [
+        "辣",
+        "甜",
+        "酸",
+        "咸"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "我喜欢吃中国菜，___是火锅。(특히)",
+      "options": [
+        "特别",
+        "非常",
+        "一定",
+        "可能"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "我不太能吃辣的",
+      "options": [
+        "매운 걸 좋아해요",
+        "매운 건 잘 못 먹어요",
+        "매운 건 안 먹어요",
+        "매운 걸 많이 먹어요"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "맛, 풍미",
+      "options": [
+        "口味",
+        "味道",
+        "好吃",
+        "味儿"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "你___尝尝这个糖醋排骨。(그럼, 그러면 - 문장 앞)",
+      "options": [
+        "那",
+        "就",
+        "也",
+        "都"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "味道不咸不淡，刚刚好",
+      "options": [
+        "맛이 짜고 싱겁다",
+        "맛이 짜지도 싱겁지도 않고 딱 좋다",
+        "맛이 너무 싱겁다",
+        "맛이 아주 짜다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "짜다",
+      "options": [
+        "辣",
+        "甜",
+        "酸",
+        "咸"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "下次我们再来吃",
+      "options": [
+        "이번에 같이 먹어요",
+        "다음에 또 먹으러 와요",
+        "오늘 다시 먹어요",
+        "나중에 한번 먹어봐요"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "有的很辣，有的___辣。(안, ~하지 않다)",
+      "options": [
+        "没",
+        "不",
+        "别",
+        "非"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "糖醋排骨",
+      "options": [
+        "마파두부",
+        "탕수육",
+        "훠궈",
+        "볶음밥"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "다음에 또 먹으러 오다",
+      "options": [
+        "下次再来吃",
+        "这次一起吃",
+        "以后再说",
+        "明天来吃"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill_blank",
+      "question": "真的很___！(맛있다)",
+      "options": [
+        "好看",
+        "好吃",
+        "好喝",
+        "好玩"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "这个汤太___了。",
+      "options": [
+        "走路",
+        "辣",
+        "上班",
+        "开会"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "___很不错！",
+      "options": [
+        "味道",
+        "号码",
+        "地址",
+        "名字"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill_blank",
+      "question": "你想吃___的还是甜的？",
+      "options": [
+        "走",
+        "穿",
+        "酸",
+        "住"
+      ],
+      "answer": 2
+    }
+  ]
+}

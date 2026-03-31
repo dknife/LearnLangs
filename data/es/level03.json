@@ -1,0 +1,190 @@
+{
+  "level": 3,
+  "title": "가족 소개",
+  "titleEs": "Presentar a la Familia",
+  "description": "스페인어로 가족을 소개하는 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Tienes una familia grande?",
+          "pronunciation": "띠에네스 우나 파밀리아 그란데?",
+          "korean": "가족이 많아요?"
+        },
+        {
+          "spanish": "¿Cuántos sois en tu familia?",
+          "pronunciation": "꾸안또스 소이스 엔 뚜 파밀리아?",
+          "korean": "가족이 몇 명이에요?"
+        },
+        {
+          "spanish": "Háblame de tu familia.",
+          "pronunciation": "아블라메 데 뚜 파밀리아.",
+          "korean": "가족에 대해 말해 줘요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Somos cuatro: mis padres, mi hermana y yo.",
+          "pronunciation": "소모스 꾸아뜨로: 미스 빠드레스, 미 에르마나 이 요.",
+          "korean": "넷이에요: 부모님, 여동생 그리고 저요."
+        },
+        {
+          "spanish": "Tengo una familia pequeña: mis padres y yo.",
+          "pronunciation": "뗑고 우나 파밀리아 뻬게냐: 미스 빠드레스 이 요.",
+          "korean": "작은 가족이에요: 부모님과 저요."
+        },
+        {
+          "spanish": "Somos cinco en mi familia.",
+          "pronunciation": "소모스 신꼬 엔 미 파밀리아.",
+          "korean": "우리 가족은 다섯 명이에요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿A qué se dedican tus padres?",
+          "pronunciation": "아 게 세 데디깐 뚜스 빠드레스?",
+          "korean": "부모님은 무슨 일을 하세요?"
+        },
+        {
+          "spanish": "¿En qué trabajan tus padres?",
+          "pronunciation": "엔 게 뜨라바한 뚜스 빠드레스?",
+          "korean": "부모님 직업이 뭐예요?"
+        },
+        {
+          "spanish": "¿Qué hacen tus padres?",
+          "pronunciation": "게 아센 뚜스 빠드레스?",
+          "korean": "부모님은 뭘 하세요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Mi padre es profesor y mi madre es médica.",
+          "pronunciation": "미 빠드레 에스 쁘로페소르 이 미 마드레 에스 메디까.",
+          "korean": "아버지는 교수이고 어머니는 의사예요."
+        },
+        {
+          "spanish": "Mi padre trabaja en una empresa y mi madre es ama de casa.",
+          "pronunciation": "미 빠드레 뜨라바하 엔 우나 엠쁘레사 이 미 마드레 에스 아마 데 까사.",
+          "korean": "아버지는 회사에 다니고 어머니는 주부예요."
+        },
+        {
+          "spanish": "Los dos son profesores.",
+          "pronunciation": "로스 도스 손 쁘로페소레스.",
+          "korean": "두 분 다 선생님이에요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Tu hermana es mayor o menor que tú?",
+          "pronunciation": "뚜 에르마나 에스 마요르 오 메노르 게 뚜?",
+          "korean": "여동생이 너보다 나이가 많아요, 적어요?"
+        },
+        {
+          "spanish": "¿Cuántos años tiene tu hermana?",
+          "pronunciation": "꾸안또스 아뇨스 띠에네 뚜 에르마나?",
+          "korean": "여동생은 몇 살이에요?"
+        },
+        {
+          "spanish": "¿Te llevas bien con tu hermana?",
+          "pronunciation": "떼 예바스 비엔 꼰 뚜 에르마나?",
+          "korean": "여동생과 사이가 좋아요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Es menor. Tiene veinte años.",
+          "pronunciation": "에스 메노르. 띠에네 베인떼 아뇨스.",
+          "korean": "나보다 어려요. 스무 살이에요."
+        },
+        {
+          "spanish": "Es mayor que yo. Tiene treinta años.",
+          "pronunciation": "에스 마요르 게 요. 띠에네 뜨레인따 아뇨스.",
+          "korean": "저보다 나이가 많아요. 서른 살이에요."
+        },
+        {
+          "spanish": "Sí, nos llevamos muy bien.",
+          "pronunciation": "시, 노스 예바모스 무이 비엔.",
+          "korean": "네, 사이가 아주 좋아요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡Qué bonita familia! Me encantaría conocerlos.",
+          "pronunciation": "게 보니따 파밀리아! 메 엔깐따리아 꼬노세를로스.",
+          "korean": "정말 좋은 가족이네요! 만나보고 싶어요."
+        },
+        {
+          "spanish": "Tu familia suena genial.",
+          "pronunciation": "뚜 파밀리아 수에나 헤니알.",
+          "korean": "가족이 정말 좋아 보여요."
+        },
+        {
+          "spanish": "¡Qué suerte tener una buena familia!",
+          "pronunciation": "게 수에르떼 떼네르 우나 부에나 파밀리아!",
+          "korean": "좋은 가족이 있어서 행운이네요!"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "familia",
+      "pronunciation": "파밀리아",
+      "korean": "가족"
+    },
+    {
+      "spanish": "padre",
+      "pronunciation": "빠드레",
+      "korean": "아버지"
+    },
+    {
+      "spanish": "madre",
+      "pronunciation": "마드레",
+      "korean": "어머니"
+    },
+    {
+      "spanish": "hermano",
+      "pronunciation": "에르마노",
+      "korean": "형제"
+    },
+    {
+      "spanish": "hermana",
+      "pronunciation": "에르마나",
+      "korean": "자매"
+    },
+    {
+      "spanish": "hijo",
+      "pronunciation": "이호",
+      "korean": "아들"
+    },
+    {
+      "spanish": "hija",
+      "pronunciation": "이하",
+      "korean": "딸"
+    },
+    {
+      "spanish": "abuelo",
+      "pronunciation": "아부엘로",
+      "korean": "할아버지"
+    }
+  ]
+}

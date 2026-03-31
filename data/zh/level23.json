@@ -1,0 +1,455 @@
+{
+  "level": 23,
+  "title": "직장 & 업무",
+  "titleCn": "工作和业务",
+  "description": "직장 생활, 회의, 야근, 동료와의 대화 등 업무 관련 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "你每天几点上班？",
+          "pinyin": "Nǐ měitiān jǐ diǎn shàngbān?",
+          "korean": "매일 몇 시에 출근해요?"
+        },
+        {
+          "chinese": "你一般什么时候到公司？",
+          "pinyin": "Nǐ yìbān shénme shíhou dào gōngsī?",
+          "korean": "보통 회사에 몇 시에 도착해요?"
+        },
+        {
+          "chinese": "你每天早上几点出门上班？",
+          "pinyin": "Nǐ měitiān zǎoshang jǐ diǎn chūmén shàngbān?",
+          "korean": "매일 아침 몇 시에 출근해요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "我早上九点上班，下午六点下班。",
+          "pinyin": "Wǒ zǎoshang jiǔ diǎn shàngbān, xiàwǔ liù diǎn xiàbān.",
+          "korean": "아침 9시에 출근하고, 오후 6시에 퇴근해요."
+        },
+        {
+          "chinese": "九点到六点，朝九晚六。",
+          "pinyin": "Jiǔ diǎn dào liù diǎn, zhāo jiǔ wǎn liù.",
+          "korean": "9시부터 6시까지, 아침 9시 저녁 6시요."
+        },
+        {
+          "chinese": "上午九点上班，正常六点下班。",
+          "pinyin": "Shàngwǔ jiǔ diǎn shàngbān, zhèngcháng liù diǎn xiàbān.",
+          "korean": "오전 9시 출근, 보통 6시에 퇴근해요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "今天下午两点要开会，你知道吗？",
+          "pinyin": "Jīntiān xiàwǔ liǎng diǎn yào kāihuì, nǐ zhīdào ma?",
+          "korean": "오늘 오후 2시에 회의해야 해요, 알고 있어요?"
+        },
+        {
+          "chinese": "下午两点有个会议，你收到通知了吗？",
+          "pinyin": "Xiàwǔ liǎng diǎn yǒu ge huìyì, nǐ shōudào tōngzhī le ma?",
+          "korean": "오후 2시에 회의 있는데, 공지 받았어요?"
+        },
+        {
+          "chinese": "今天下午要开会，你准备好了吗？",
+          "pinyin": "Jīntiān xiàwǔ yào kāihuì, nǐ zhǔnbèi hǎo le ma?",
+          "korean": "오늘 오후에 회의인데, 준비됐어요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "知道了。老板说这次会议很重要。",
+          "pinyin": "Zhīdào le. Lǎobǎn shuō zhè cì huìyì hěn zhòngyào.",
+          "korean": "알고 있어요. 사장님이 이번 회의가 매우 중요하다고 했어요."
+        },
+        {
+          "chinese": "对，老板特别强调了这次会议。",
+          "pinyin": "Duì, lǎobǎn tèbié qiángdiào le zhè cì huìyì.",
+          "korean": "네, 사장님이 이번 회의를 특별히 강조했어요."
+        },
+        {
+          "chinese": "知道，老板发了邮件说很重要。",
+          "pinyin": "Zhīdào, lǎobǎn fā le yóujiàn shuō hěn zhòngyào.",
+          "korean": "알아요, 사장님이 이메일로 중요하다고 했어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "最近工作太忙了，经常要加班。",
+          "pinyin": "Zuìjìn gōngzuò tài máng le, jīngcháng yào jiābān.",
+          "korean": "요즘 일이 너무 바빠서 자주 야근해야 해요."
+        },
+        {
+          "chinese": "这段时间加班太多了，好累啊。",
+          "pinyin": "Zhè duàn shíjiān jiābān tài duō le, hǎo lèi a.",
+          "korean": "요즘 야근이 너무 많아서 힘들어요."
+        },
+        {
+          "chinese": "最近忙得要命，天天加班。",
+          "pinyin": "Zuìjìn máng de yàomìng, tiāntiān jiābān.",
+          "korean": "요즘 죽도록 바빠서 매일 야근이에요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "我也是。我的同事们都在加班。",
+          "pinyin": "Wǒ yě shì. Wǒ de tóngshìmen dōu zài jiābān.",
+          "korean": "저도요. 제 동료들도 다 야근하고 있어요."
+        },
+        {
+          "chinese": "一样，整个部门都在加班。",
+          "pinyin": "Yíyàng, zhěng ge bùmén dōu zài jiābān.",
+          "korean": "마찬가지요, 부서 전체가 야근이에요."
+        },
+        {
+          "chinese": "我也是啊，同事们都没下班呢。",
+          "pinyin": "Wǒ yě shì a, tóngshìmen dōu méi xiàbān ne.",
+          "korean": "저도요, 동료들도 다 아직 퇴근 못 했어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "你和你的同事关系怎么样？",
+          "pinyin": "Nǐ hé nǐ de tóngshì guānxì zěnmeyàng?",
+          "korean": "동료와의 관계는 어때요?"
+        },
+        {
+          "chinese": "你跟同事们相处得好吗？",
+          "pinyin": "Nǐ gēn tóngshìmen xiāngchǔ de hǎo ma?",
+          "korean": "동료들과 잘 지내요?"
+        },
+        {
+          "chinese": "公司的氛围怎么样？同事好相处吗？",
+          "pinyin": "Gōngsī de fēnwéi zěnmeyàng? Tóngshì hǎo xiāngchǔ ma?",
+          "korean": "회사 분위기 어때요? 동료들 잘 지내기 쉬워요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "很好，大家经常一起吃午饭。",
+          "pinyin": "Hěn hǎo, dàjiā jīngcháng yìqǐ chī wǔfàn.",
+          "korean": "아주 좋아요, 다들 자주 같이 점심을 먹어요."
+        },
+        {
+          "chinese": "关系挺好的，中午一起吃饭聊天。",
+          "pinyin": "Guānxi tǐng hǎo de, zhōngwǔ yìqǐ chīfàn liáotiān.",
+          "korean": "관계가 꽤 좋아요, 점심에 같이 밥 먹으면서 수다 떨어요."
+        },
+        {
+          "chinese": "同事都很友好，经常一起聚餐。",
+          "pinyin": "Tóngshì dōu hěn yǒuhǎo, jīngcháng yìqǐ jùcān.",
+          "korean": "동료들 다 친절해요, 자주 같이 식사 모임 해요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "chinese": "上班",
+      "pinyin": "shàngbān",
+      "korean": "출근하다"
+    },
+    {
+      "chinese": "开会",
+      "pinyin": "kāihuì",
+      "korean": "회의하다"
+    },
+    {
+      "chinese": "加班",
+      "pinyin": "jiābān",
+      "korean": "야근하다"
+    },
+    {
+      "chinese": "同事",
+      "pinyin": "tóngshì",
+      "korean": "동료"
+    },
+    {
+      "chinese": "老板",
+      "pinyin": "lǎobǎn",
+      "korean": "사장, 보스"
+    },
+    {
+      "chinese": "下班",
+      "pinyin": "xiàbān",
+      "korean": "퇴근하다"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "cn_to_kr",
+      "question": "加班",
+      "options": [
+        "출근하다",
+        "퇴근하다",
+        "야근하다",
+        "회의하다"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "동료",
+      "options": [
+        "老板",
+        "同事",
+        "朋友",
+        "家人"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "今天下午要___，你知道吗？(회의하다)",
+      "options": [
+        "上班",
+        "加班",
+        "下班",
+        "开会"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "老板",
+      "options": [
+        "동료",
+        "친구",
+        "사장",
+        "선생님"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "출근하다",
+      "options": [
+        "下班",
+        "加班",
+        "开会",
+        "上班"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "下班",
+      "options": [
+        "출근하다",
+        "퇴근하다",
+        "야근하다",
+        "회의하다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "上班",
+      "options": [
+        "퇴근하다",
+        "출근하다",
+        "야근하다",
+        "쉬다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "야근하다",
+      "options": [
+        "上班",
+        "下班",
+        "加班",
+        "开会"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "사장, 보스",
+      "options": [
+        "同事",
+        "老板",
+        "朋友",
+        "老师"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "我早上九点___，下午六点下班。(출근하다)",
+      "options": [
+        "加班",
+        "开会",
+        "上班",
+        "下班"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "开会",
+      "options": [
+        "출근하다",
+        "야근하다",
+        "회의하다",
+        "퇴근하다"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "同事",
+      "options": [
+        "사장",
+        "동료",
+        "선생님",
+        "가족"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "회의하다",
+      "options": [
+        "加班",
+        "上班",
+        "下班",
+        "开会"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "퇴근하다",
+      "options": [
+        "上班",
+        "下班",
+        "加班",
+        "开会"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "最近工作太忙了，经常要___。(야근하다)",
+      "options": [
+        "上班",
+        "下班",
+        "开会",
+        "加班"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "老板说这次会议很重要。",
+      "options": [
+        "동료가 이번 회의에 참석한다고 했어요.",
+        "사장님이 이번 회의가 매우 중요하다고 했어요.",
+        "사장님이 오늘 퇴근이 늦다고 했어요.",
+        "동료가 야근을 해야 한다고 했어요."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "我的___们都在加班。(동료)",
+      "options": [
+        "老板",
+        "朋友",
+        "同事",
+        "老师"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "매일 몇 시에 출근해요?",
+      "options": [
+        "你每天几点下班？",
+        "你每天几点上班？",
+        "你每天几点开会？",
+        "你每天几点加班？"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "大家经常一起吃午饭。",
+      "options": [
+        "다들 자주 같이 야근해요.",
+        "다들 자주 같이 점심을 먹어요.",
+        "다들 자주 같이 회의해요.",
+        "다들 자주 같이 퇴근해요."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "___说这次会议很重要。(사장님)",
+      "options": [
+        "同事",
+        "朋友",
+        "老板",
+        "老师"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "我们几点___班？",
+      "options": [
+        "下",
+        "穿",
+        "吃",
+        "住"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill_blank",
+      "question": "这份___什么时候交？",
+      "options": [
+        "天气",
+        "报告",
+        "风景",
+        "味道"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "今天的___很多。",
+      "options": [
+        "天气",
+        "风景",
+        "工作",
+        "味道"
+      ],
+      "answer": 2
+    }
+  ]
+}

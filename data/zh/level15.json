@@ -1,0 +1,466 @@
+{
+  "level": 15,
+  "title": "취미 & 여가",
+  "titleCn": "爱好和休闲",
+  "description": "취미와 여가 활동에 대해 중국어로 이야기하는 방법을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "你的爱好是什么？",
+          "pinyin": "Nǐ de àihào shì shénme?",
+          "korean": "너의 취미가 뭐야?"
+        },
+        {
+          "chinese": "你平时有什么爱好？",
+          "pinyin": "Nǐ píngshí yǒu shénme àihào?",
+          "korean": "평소에 무슨 취미가 있어?"
+        },
+        {
+          "chinese": "空闲的时候你喜欢做什么？",
+          "pinyin": "Kòngxián de shíhou nǐ xǐhuān zuò shénme?",
+          "korean": "한가할 때 뭐 하는 걸 좋아해?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "我喜欢看书和听音乐，你呢？",
+          "pinyin": "Wǒ xǐhuān kàn shū hé tīng yīnyuè, nǐ ne?",
+          "korean": "나는 독서랑 음악 듣기를 좋아해, 너는?"
+        },
+        {
+          "chinese": "我爱看书，也喜欢听音乐。你呢？",
+          "pinyin": "Wǒ ài kàn shū, yě xǐhuān tīng yīnyuè. Nǐ ne?",
+          "korean": "독서를 좋아하고, 음악 듣기도 좋아해. 너는?"
+        },
+        {
+          "chinese": "看书和听歌是我最大的爱好。你的呢？",
+          "pinyin": "Kàn shū hé tīng gē shì wǒ zuì dà de àihào. Nǐ de ne?",
+          "korean": "독서랑 노래 듣기가 제일 좋아하는 취미야. 너는?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "我最喜欢运动，特别是打篮球。",
+          "pinyin": "Wǒ zuì xǐhuān yùndòng, tèbié shì dǎ lánqiú.",
+          "korean": "나는 운동을 제일 좋아해, 특히 농구."
+        },
+        {
+          "chinese": "我喜欢运动，尤其是篮球。",
+          "pinyin": "Wǒ xǐhuān yùndòng, yóuqí shì lánqiú.",
+          "korean": "운동 좋아해, 특히 농구."
+        },
+        {
+          "chinese": "我是个运动迷，最爱打篮球。",
+          "pinyin": "Wǒ shì ge yùndòng mí, zuì ài dǎ lánqiú.",
+          "korean": "나는 운동광이야, 농구를 제일 좋아해."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "你平时还做什么？",
+          "pinyin": "Nǐ píngshí hái zuò shénme?",
+          "korean": "평소에 또 뭐 해?"
+        },
+        {
+          "chinese": "除了运动，还有别的爱好吗？",
+          "pinyin": "Chúle yùndòng, hái yǒu bié de àihào ma?",
+          "korean": "운동 말고 다른 취미도 있어?"
+        },
+        {
+          "chinese": "篮球以外呢？还喜欢干什么？",
+          "pinyin": "Lánqiú yǐwài ne? Hái xǐhuān gàn shénme?",
+          "korean": "농구 말고? 또 뭐 좋아해?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "周末的时候我喜欢去旅游。",
+          "pinyin": "Zhōumò de shíhòu wǒ xǐhuān qù lǚyóu.",
+          "korean": "주말에는 여행 가는 걸 좋아해."
+        },
+        {
+          "chinese": "我还喜欢旅游，周末经常出去玩。",
+          "pinyin": "Wǒ hái xǐhuān lǚyóu, zhōumò jīngcháng chūqù wán.",
+          "korean": "여행도 좋아해, 주말에 자주 나가 놀아."
+        },
+        {
+          "chinese": "周末有时间的话就去旅游。",
+          "pinyin": "Zhōumò yǒu shíjiān de huà jiù qù lǚyóu.",
+          "korean": "주말에 시간 있으면 여행 가."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "旅游真不错！你去过哪些地方？",
+          "pinyin": "Lǚyóu zhēn búcuò! Nǐ qùguò nǎxiē dìfāng?",
+          "korean": "여행 정말 좋지! 어떤 곳에 가봤어?"
+        },
+        {
+          "chinese": "旅游好啊！都去过哪儿？",
+          "pinyin": "Lǚyóu hǎo a! Dōu qùguò nǎr?",
+          "korean": "여행 좋다! 어디어디 가봤어?"
+        },
+        {
+          "chinese": "我也爱旅游！你去过什么好玩的地方？",
+          "pinyin": "Wǒ yě ài lǚyóu! Nǐ qùguò shénme hǎowán de dìfāng?",
+          "korean": "나도 여행 좋아해! 재미있는 곳 가본 적 있어?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "我去过北京和上海，都很好玩。",
+          "pinyin": "Wǒ qùguò Běijīng hé Shànghǎi, dōu hěn hǎowán.",
+          "korean": "베이징이랑 상하이에 가봤어, 둘 다 재미있었어."
+        },
+        {
+          "chinese": "去过北京和上海，特别好玩。",
+          "pinyin": "Qùguò Běijīng hé Shànghǎi, tèbié hǎowán.",
+          "korean": "베이징이랑 상하이 가봤어, 특히 재미있었어."
+        },
+        {
+          "chinese": "北京和上海都去了，两个城市都很有意思。",
+          "pinyin": "Běijīng hé Shànghǎi dōu qù le, liǎng ge chéngshì dōu hěn yǒu yìsi.",
+          "korean": "베이징이랑 상하이 다 가봤어, 두 도시 다 재미있어."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "下次我们一起去旅游吧！",
+          "pinyin": "Xià cì wǒmen yìqǐ qù lǚyóu ba!",
+          "korean": "다음에 우리 같이 여행 가자!"
+        },
+        {
+          "chinese": "太好了，下次一起出去玩吧！",
+          "pinyin": "Tài hǎo le, xià cì yìqǐ chūqù wán ba!",
+          "korean": "좋아, 다음에 같이 놀러 가자!"
+        },
+        {
+          "chinese": "真羡慕！下次带我一起去吧！",
+          "pinyin": "Zhēn xiànmù! Xià cì dài wǒ yìqǐ qù ba!",
+          "korean": "부러워! 다음에 나도 데려가줘!"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "chinese": "爱好",
+      "pinyin": "àihào",
+      "korean": "취미"
+    },
+    {
+      "chinese": "看书",
+      "pinyin": "kàn shū",
+      "korean": "독서하다, 책을 읽다"
+    },
+    {
+      "chinese": "运动",
+      "pinyin": "yùndòng",
+      "korean": "운동"
+    },
+    {
+      "chinese": "听音乐",
+      "pinyin": "tīng yīnyuè",
+      "korean": "음악을 듣다"
+    },
+    {
+      "chinese": "旅游",
+      "pinyin": "lǚyóu",
+      "korean": "여행하다"
+    },
+    {
+      "chinese": "好玩",
+      "pinyin": "hǎowán",
+      "korean": "재미있다"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "cn_to_kr",
+      "question": "你的爱好是什么？",
+      "options": [
+        "이름이 뭐야?",
+        "취미가 뭐야?",
+        "직업이 뭐야?",
+        "뭐 먹을래?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "음악을 듣다",
+      "options": [
+        "看书",
+        "运动",
+        "听音乐",
+        "旅游"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "周末的时候我喜欢去___。",
+      "options": [
+        "看书",
+        "运动",
+        "听音乐",
+        "旅游"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "好玩",
+      "options": [
+        "맛있다",
+        "예쁘다",
+        "재미있다",
+        "편하다"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "운동",
+      "options": [
+        "爱好",
+        "运动",
+        "旅游",
+        "看书"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "爱好",
+      "options": [
+        "직업",
+        "취미",
+        "성격",
+        "이름"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "看书",
+      "options": [
+        "음악 듣다",
+        "운동하다",
+        "독서하다",
+        "여행하다"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "旅游真不错！",
+      "options": [
+        "여행 정말 좋지!",
+        "운동 정말 좋지!",
+        "독서 정말 좋지!",
+        "음악 정말 좋지!"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "我去过北京和上海。",
+      "options": [
+        "나는 베이징과 상하이에 가고 싶다.",
+        "나는 베이징과 상하이에 가봤다.",
+        "나는 베이징과 상하이에 살고 있다.",
+        "나는 베이징과 상하이를 좋아한다."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "你平时还做什么？",
+      "options": [
+        "주말에 뭐 해?",
+        "평소에 또 뭐 해?",
+        "오늘 뭐 했어?",
+        "내일 뭐 할 거야?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "特别是打篮球。",
+      "options": [
+        "특히 축구.",
+        "특히 농구.",
+        "특히 야구.",
+        "특히 수영."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "下次我们一起去旅游吧！",
+      "options": [
+        "다음에 우리 같이 여행 가자!",
+        "이번에 우리 같이 운동하자!",
+        "다음에 혼자 여행 가자!",
+        "오늘 우리 같이 놀자!"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "취미",
+      "options": [
+        "运动",
+        "旅游",
+        "爱好",
+        "好玩"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "여행하다",
+      "options": [
+        "看书",
+        "运动",
+        "听音乐",
+        "旅游"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "독서하다",
+      "options": [
+        "看书",
+        "运动",
+        "听音乐",
+        "旅游"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "재미있다",
+      "options": [
+        "好看",
+        "好吃",
+        "好玩",
+        "好听"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "농구를 하다",
+      "options": [
+        "踢足球",
+        "打篮球",
+        "打棒球",
+        "游泳"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "我最喜欢运动，___是打篮球。",
+      "options": [
+        "特别",
+        "非常",
+        "一定",
+        "可能"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill_blank",
+      "question": "我去过北京和上海，都很___。",
+      "options": [
+        "好看",
+        "好吃",
+        "好玩",
+        "好听"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "你___哪些地方？",
+      "options": [
+        "去了",
+        "去过",
+        "去着",
+        "去的"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "你有什么___？",
+      "options": [
+        "天气",
+        "味道",
+        "号码",
+        "爱好"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill_blank",
+      "question": "我喜欢___书。",
+      "options": [
+        "走",
+        "看",
+        "住",
+        "穿"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "他每天都___步。",
+      "options": [
+        "吃",
+        "穿",
+        "住",
+        "跑"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill_blank",
+      "question": "听___是我的爱好。",
+      "options": [
+        "音乐",
+        "天气",
+        "地址",
+        "菜单"
+      ],
+      "answer": 0
+    }
+  ]
+}

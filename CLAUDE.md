@@ -35,4 +35,5 @@ src/                ← Vite/React 소스 (서비스 미사용, 참고용)
 ## 주의사항
 - **변경 시 반드시 `app.js`, `data.js`, `spanish_data.js`, `style.css`를 직접 수정할 것**
 - `src/` 폴더의 React 코드를 수정해도 배포에 반영되지 않음
-- push하면 GitHub Actions가 자동 배포
+- push하면 GitHub Actions(`.github/workflows/deploy.yml`)가 자동 배포
+- **새 파일 추가 시** `deploy.yml`의 `cp` 목록과 `sed` 캐시버스팅에 반드시 반영할 것

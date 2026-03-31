@@ -1,0 +1,190 @@
+{
+  "level": 9,
+  "title": "전화번호 & 주소",
+  "titleEs": "Teléfono y Dirección",
+  "description": "스페인어로 전화번호와 주소를 주고받는 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Me das tu número de teléfono?",
+          "pronunciation": "메 다스 뚜 누메로 데 뗄레포노?",
+          "korean": "전화번호 좀 줄 수 있어요?"
+        },
+        {
+          "spanish": "¿Cuál es tu número de móvil?",
+          "pronunciation": "꾸알 에스 뚜 누메로 데 모빌?",
+          "korean": "휴대폰 번호가 뭐예요?"
+        },
+        {
+          "spanish": "¿Tienes WhatsApp?",
+          "pronunciation": "띠에네스 와츠앱?",
+          "korean": "왓츠앱 있어요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Sí, es el seis-uno-dos, tres-cuatro-cinco.",
+          "pronunciation": "시, 에스 엘 세이스-우노-도스, 뜨레스-꾸아뜨로-신꼬.",
+          "korean": "네, 612-345예요."
+        },
+        {
+          "spanish": "Claro. Te lo apunto.",
+          "pronunciation": "끌라로. 떼 로 아뿐또.",
+          "korean": "물론이죠. 적어줄게요."
+        },
+        {
+          "spanish": "Sí, te mando un mensaje ahora.",
+          "pronunciation": "시, 떼 만도 운 멘사헤 아오라.",
+          "korean": "네, 지금 메시지 보낼게요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Dónde vives?",
+          "pronunciation": "돈데 비베스?",
+          "korean": "어디에 살아요?"
+        },
+        {
+          "spanish": "¿Cuál es tu dirección?",
+          "pronunciation": "꾸알 에스 뚜 디렉시온?",
+          "korean": "주소가 어떻게 돼요?"
+        },
+        {
+          "spanish": "¿En qué barrio vives?",
+          "pronunciation": "엔 게 바리오 비베스?",
+          "korean": "어느 동네에 살아요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Vivo en la calle Mayor, número quince.",
+          "pronunciation": "비보 엔 라 까예 마요르, 누메로 낀세.",
+          "korean": "마요르 거리 15번지에 살아요."
+        },
+        {
+          "spanish": "Mi dirección es Avenida de la Paz, veintidós.",
+          "pronunciation": "미 디렉시온 에스 아베니다 데 라 빠스, 베인띠도스.",
+          "korean": "주소는 라 빠스 대로 22번이에요."
+        },
+        {
+          "spanish": "Vivo en el centro, cerca de la plaza.",
+          "pronunciation": "비보 엔 엘 센뜨로, 세르까 데 라 쁠라사.",
+          "korean": "시내 중심, 광장 근처에 살아요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Es un piso o una casa?",
+          "pronunciation": "에스 운 삐소 오 우나 까사?",
+          "korean": "아파트예요, 집이에요?"
+        },
+        {
+          "spanish": "¿En qué piso vives?",
+          "pronunciation": "엔 게 삐소 비베스?",
+          "korean": "몇 층에 살아요?"
+        },
+        {
+          "spanish": "¿Vives solo o con alguien?",
+          "pronunciation": "비베스 솔로 오 꼰 알기엔?",
+          "korean": "혼자 살아요, 같이 살아요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Es un piso. Vivo en el tercer piso.",
+          "pronunciation": "에스 운 삐소. 비보 엔 엘 떼르세르 삐소.",
+          "korean": "아파트예요. 3층에 살아요."
+        },
+        {
+          "spanish": "Vivo con mi familia en una casa.",
+          "pronunciation": "비보 꼰 미 파밀리아 엔 우나 까사.",
+          "korean": "가족과 집에 살아요."
+        },
+        {
+          "spanish": "Comparto piso con un amigo.",
+          "pronunciation": "꼼빠르또 삐소 꼰 운 아미고.",
+          "korean": "친구와 함께 살아요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡Qué bien! Algún día me gustaría visitarte.",
+          "pronunciation": "게 비엔! 알군 디아 메 구스따리아 비시따르떼.",
+          "korean": "좋네요! 언젠가 방문하고 싶어요."
+        },
+        {
+          "spanish": "Te escribo pronto.",
+          "pronunciation": "떼 에스끄리보 쁘론또.",
+          "korean": "곧 연락할게요."
+        },
+        {
+          "spanish": "Perfecto. Te llamo mañana.",
+          "pronunciation": "뻬르펙또. 떼 야모 마냐나.",
+          "korean": "좋아요. 내일 전화할게요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "teléfono",
+      "pronunciation": "뗄레포노",
+      "korean": "전화"
+    },
+    {
+      "spanish": "número",
+      "pronunciation": "누메로",
+      "korean": "번호"
+    },
+    {
+      "spanish": "dirección",
+      "pronunciation": "디렉시온",
+      "korean": "주소"
+    },
+    {
+      "spanish": "calle",
+      "pronunciation": "까예",
+      "korean": "거리"
+    },
+    {
+      "spanish": "piso",
+      "pronunciation": "삐소",
+      "korean": "아파트/층"
+    },
+    {
+      "spanish": "casa",
+      "pronunciation": "까사",
+      "korean": "집"
+    },
+    {
+      "spanish": "barrio",
+      "pronunciation": "바리오",
+      "korean": "동네"
+    },
+    {
+      "spanish": "mensaje",
+      "pronunciation": "멘사헤",
+      "korean": "메시지"
+    }
+  ]
+}

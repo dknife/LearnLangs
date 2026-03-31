@@ -1,0 +1,455 @@
+{
+  "level": 8,
+  "title": "시간 표현",
+  "titleCn": "时间表达",
+  "description": "시간을 묻고 답하는 표현과 일과 관련된 시간 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "请问，现在几点？",
+          "pinyin": "Qǐngwèn, xiànzài jǐ diǎn?",
+          "korean": "실례합니다, 지금 몇 시예요?"
+        },
+        {
+          "chinese": "你知道现在几点了吗？",
+          "pinyin": "Nǐ zhīdào xiànzài jǐ diǎn le ma?",
+          "korean": "지금 몇 시인지 알아요?"
+        },
+        {
+          "chinese": "现在是什么时间？",
+          "pinyin": "Xiànzài shì shénme shíjiān?",
+          "korean": "지금 몇 시예요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "现在下午三点半。",
+          "pinyin": "Xiànzài xiàwǔ sān diǎn bàn.",
+          "korean": "지금 오후 3시 반이에요."
+        },
+        {
+          "chinese": "三点三十分了。",
+          "pinyin": "Sān diǎn sānshí fēn le.",
+          "korean": "3시 30분이에요."
+        },
+        {
+          "chinese": "刚过三点半。",
+          "pinyin": "Gāng guò sān diǎn bàn.",
+          "korean": "막 3시 반이 지났어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "电影几点开始？",
+          "pinyin": "Diànyǐng jǐ diǎn kāishǐ?",
+          "korean": "영화 몇 시에 시작해요?"
+        },
+        {
+          "chinese": "今天的电影什么时候开始？",
+          "pinyin": "Jīntiān de diànyǐng shénme shíhou kāishǐ?",
+          "korean": "오늘 영화는 언제 시작해요?"
+        },
+        {
+          "chinese": "电影是几点开演？",
+          "pinyin": "Diànyǐng shì jǐ diǎn kāiyǎn?",
+          "korean": "영화는 몇 시에 상영해요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "晚上七点开始。",
+          "pinyin": "Wǎnshang qī diǎn kāishǐ.",
+          "korean": "저녁 7시에 시작해요."
+        },
+        {
+          "chinese": "七点钟开演。",
+          "pinyin": "Qī diǎn zhōng kāiyǎn.",
+          "korean": "7시 정각에 상영해요."
+        },
+        {
+          "chinese": "晚上七点，别迟到了。",
+          "pinyin": "Wǎnshang qī diǎn, bié chídào le.",
+          "korean": "저녁 7시, 늦지 마세요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "你早上几点起床？",
+          "pinyin": "Nǐ zǎoshang jǐ diǎn qǐchuáng?",
+          "korean": "아침에 몇 시에 일어나요?"
+        },
+        {
+          "chinese": "你一般几点起床？",
+          "pinyin": "Nǐ yìbān jǐ diǎn qǐchuáng?",
+          "korean": "보통 몇 시에 일어나요?"
+        },
+        {
+          "chinese": "你每天早上几点醒？",
+          "pinyin": "Nǐ měitiān zǎoshang jǐ diǎn xǐng?",
+          "korean": "매일 아침 몇 시에 깨요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "我早上六点半起床。",
+          "pinyin": "Wǒ zǎoshang liù diǎn bàn qǐchuáng.",
+          "korean": "아침 6시 반에 일어나요."
+        },
+        {
+          "chinese": "一般六点半左右吧。",
+          "pinyin": "Yìbān liù diǎn bàn zuǒyòu ba.",
+          "korean": "보통 6시 반 정도요."
+        },
+        {
+          "chinese": "差不多六点半，有时候更早。",
+          "pinyin": "Chàbuduō liù diǎn bàn, yǒu shíhou gèng zǎo.",
+          "korean": "대략 6시 반, 가끔 더 일찍이요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "上午你有课吗？",
+          "pinyin": "Shàngwǔ nǐ yǒu kè ma?",
+          "korean": "오전에 수업 있어요?"
+        },
+        {
+          "chinese": "今天上午有没有课？",
+          "pinyin": "Jīntiān shàngwǔ yǒu méiyǒu kè?",
+          "korean": "오늘 오전에 수업 있어요?"
+        },
+        {
+          "chinese": "上午忙不忙？有课吗？",
+          "pinyin": "Shàngwǔ máng bu máng? Yǒu kè ma?",
+          "korean": "오전에 바빠요? 수업 있어요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "有，上午九点到十一点有课。",
+          "pinyin": "Yǒu, shàngwǔ jiǔ diǎn dào shíyī diǎn yǒu kè.",
+          "korean": "네, 오전 9시부터 11시까지 수업이 있어요."
+        },
+        {
+          "chinese": "有课，从九点上到十一点。",
+          "pinyin": "Yǒu kè, cóng jiǔ diǎn shàng dào shíyī diǎn.",
+          "korean": "수업 있어요, 9시부터 11시까지요."
+        },
+        {
+          "chinese": "九点有课，十一点才下课。",
+          "pinyin": "Jiǔ diǎn yǒu kè, shíyī diǎn cái xià kè.",
+          "korean": "9시에 수업 시작, 11시에야 끝나요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "chinese": "几点",
+      "pinyin": "jǐ diǎn",
+      "korean": "몇 시"
+    },
+    {
+      "chinese": "上午",
+      "pinyin": "shàngwǔ",
+      "korean": "오전"
+    },
+    {
+      "chinese": "下午",
+      "pinyin": "xiàwǔ",
+      "korean": "오후"
+    },
+    {
+      "chinese": "早上",
+      "pinyin": "zǎoshang",
+      "korean": "아침"
+    },
+    {
+      "chinese": "晚上",
+      "pinyin": "wǎnshang",
+      "korean": "저녁, 밤"
+    },
+    {
+      "chinese": "开始",
+      "pinyin": "kāishǐ",
+      "korean": "시작하다"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "cn_to_kr",
+      "question": "现在几点？",
+      "options": [
+        "오늘 며칠이에요?",
+        "지금 몇 시예요?",
+        "언제 시작해요?",
+        "몇 시에 끝나요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "오전",
+      "options": [
+        "早上",
+        "上午",
+        "中午",
+        "下午"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "电影七点___。(시작하다)",
+      "options": [
+        "结束",
+        "开始",
+        "到",
+        "走"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "早上六点半",
+      "options": [
+        "아침 6시",
+        "아침 6시 반",
+        "저녁 6시 반",
+        "오후 6시"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "저녁",
+      "options": [
+        "早上",
+        "上午",
+        "下午",
+        "晚上"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "下午三点半",
+      "options": [
+        "오전 3시 반",
+        "오후 3시 반",
+        "오후 3시",
+        "저녁 3시 반"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "电影几点开始？",
+      "options": [
+        "영화 어디에서 해요?",
+        "영화 몇 시에 시작해요?",
+        "영화 재미있어요?",
+        "영화 몇 편 봤어요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "시작하다",
+      "options": [
+        "结束",
+        "开始",
+        "准备",
+        "出发"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "아침",
+      "options": [
+        "晚上",
+        "下午",
+        "早上",
+        "中午"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "现在___三点半。(오후)",
+      "options": [
+        "上午",
+        "早上",
+        "下午",
+        "晚上"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "上午九点到十一点有课",
+      "options": [
+        "오전 9시에 수업이 끝나요",
+        "오전 9시부터 11시까지 수업이 있어요",
+        "오후 9시부터 11시까지 수업이 있어요",
+        "오전 9시에 수업이 시작해요"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "몇 시",
+      "options": [
+        "什么时候",
+        "几点",
+        "多久",
+        "几号"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "你早上几点___？(일어나다)",
+      "options": [
+        "睡觉",
+        "起床",
+        "上班",
+        "吃饭"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "晚上七点开始",
+      "options": [
+        "아침 7시에 시작해요",
+        "오후 7시에 끝나요",
+        "저녁 7시에 시작해요",
+        "밤 7시에 끝나요"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "오후",
+      "options": [
+        "上午",
+        "下午",
+        "晚上",
+        "早上"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "上午你有___吗？(수업)",
+      "options": [
+        "课",
+        "事",
+        "空",
+        "时间"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "你早上几点起床？",
+      "options": [
+        "아침에 몇 시에 자요?",
+        "아침에 몇 시에 일어나요?",
+        "저녁에 몇 시에 일어나요?",
+        "아침에 뭐 해요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "수업이 있다",
+      "options": [
+        "没有课",
+        "上课",
+        "有课",
+        "下课"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "九点___十一点有课。(~부터 ~까지)",
+      "options": [
+        "和",
+        "到",
+        "跟",
+        "从"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "上午你有课吗？",
+      "options": [
+        "오전에 시간 있어요?",
+        "오전에 수업 있어요?",
+        "오후에 수업 있어요?",
+        "오전에 일 있어요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "现在几___了？",
+      "options": [
+        "碗",
+        "件",
+        "杯",
+        "点"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill_blank",
+      "question": "我们___走吧。",
+      "options": [
+        "多少",
+        "什么",
+        "早点",
+        "哪儿"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "我每天___上七点起床。",
+      "options": [
+        "碗",
+        "块",
+        "杯",
+        "早"
+      ],
+      "answer": 3
+    }
+  ]
+}

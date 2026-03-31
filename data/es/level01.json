@@ -1,0 +1,190 @@
+{
+  "level": 1,
+  "title": "인사 & 자기소개",
+  "titleEs": "Saludos y Presentación",
+  "description": "스페인어로 인사하고 자기소개하는 기본 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡Hola!",
+          "pronunciation": "올라!",
+          "korean": "안녕하세요!"
+        },
+        {
+          "spanish": "¡Buenos días!",
+          "pronunciation": "부에노스 디아스!",
+          "korean": "좋은 아침이에요!"
+        },
+        {
+          "spanish": "¡Buenas tardes!",
+          "pronunciation": "부에나스 따르데스!",
+          "korean": "안녕하세요! (오후)"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "¡Hola! ¿Cómo te llamas?",
+          "pronunciation": "올라! 꼬모 떼 야마스?",
+          "korean": "안녕하세요! 이름이 뭐예요?"
+        },
+        {
+          "spanish": "¡Hola! ¿Cuál es tu nombre?",
+          "pronunciation": "올라! 꾸알 에스 뚜 놈브레?",
+          "korean": "안녕하세요! 이름이 뭐예요?"
+        },
+        {
+          "spanish": "¡Buenas! ¿Cómo te llamas?",
+          "pronunciation": "부에나스! 꼬모 떼 야마스?",
+          "korean": "안녕! 이름이 뭐예요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Me llamo Youngmin. ¿Y tú?",
+          "pronunciation": "메 야모 영민. 이 뚜?",
+          "korean": "저는 영민이라고 해요. 당신은요?"
+        },
+        {
+          "spanish": "Soy Youngmin. ¿Cómo te llamas tú?",
+          "pronunciation": "소이 영민. 꼬모 떼 야마스 뚜?",
+          "korean": "저는 영민이에요. 당신 이름은요?"
+        },
+        {
+          "spanish": "Mi nombre es Youngmin. ¿Y el tuyo?",
+          "pronunciation": "미 놈브레 에스 영민. 이 엘 뚜요?",
+          "korean": "제 이름은 영민이에요. 당신은요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Me llamo María. ¿De dónde eres?",
+          "pronunciation": "메 야모 마리아. 데 돈데 에레스?",
+          "korean": "저는 마리아예요. 어디에서 왔어요?"
+        },
+        {
+          "spanish": "Soy María. ¿De qué país eres?",
+          "pronunciation": "소이 마리아. 데 게 빠이스 에레스?",
+          "korean": "저는 마리아예요. 어느 나라 사람이에요?"
+        },
+        {
+          "spanish": "Mi nombre es María. ¿Eres de aquí?",
+          "pronunciation": "미 놈브레 에스 마리아. 에레스 데 아끼?",
+          "korean": "저는 마리아예요. 여기 사람이에요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Soy de Corea. ¿Eres española?",
+          "pronunciation": "소이 데 꼬레아. 에레스 에스빠뇰라?",
+          "korean": "저는 한국에서 왔어요. 스페인 사람이에요?"
+        },
+        {
+          "spanish": "Vengo de Corea del Sur. ¿Y tú?",
+          "pronunciation": "벵고 데 꼬레아 델 수르. 이 뚜?",
+          "korean": "한국에서 왔어요. 당신은요?"
+        },
+        {
+          "spanish": "Soy coreano. ¿Tú eres de España?",
+          "pronunciation": "소이 꼬레아노. 뚜 에레스 데 에스빠냐?",
+          "korean": "저는 한국 사람이에요. 스페인에서 왔어요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Sí, soy española. ¡Mucho gusto!",
+          "pronunciation": "시, 소이 에스빠뇰라. 무초 구스또!",
+          "korean": "네, 스페인 사람이에요. 만나서 반가워요!"
+        },
+        {
+          "spanish": "Sí, soy de Madrid. ¡Encantada!",
+          "pronunciation": "시, 소이 데 마드리드. 엔깐따다!",
+          "korean": "네, 마드리드에서 왔어요. 반갑습니다!"
+        },
+        {
+          "spanish": "Exacto, soy española. ¡Un placer conocerte!",
+          "pronunciation": "엑삭또, 소이 에스빠뇰라. 운 쁠라세르 꼬노세르떼!",
+          "korean": "맞아요, 스페인 사람이에요. 만나서 기뻐요!"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡Igualmente! ¡Mucho gusto!",
+          "pronunciation": "이구알멘떼! 무초 구스또!",
+          "korean": "저도요! 만나서 반갑습니다!"
+        },
+        {
+          "spanish": "¡El gusto es mío! Espero que seamos buenos amigos.",
+          "pronunciation": "엘 구스또 에스 미오! 에스뻬로 게 세아모스 부에노스 아미고스.",
+          "korean": "저도 반가워요! 좋은 친구가 됐으면 좋겠어요."
+        },
+        {
+          "spanish": "¡Encantado! Nos vemos pronto.",
+          "pronunciation": "엔깐따도! 노스 베모스 쁘론또.",
+          "korean": "반갑습니다! 곧 또 만나요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "hola",
+      "pronunciation": "올라",
+      "korean": "안녕하세요"
+    },
+    {
+      "spanish": "nombre",
+      "pronunciation": "놈브레",
+      "korean": "이름"
+    },
+    {
+      "spanish": "llamarse",
+      "pronunciation": "야마르세",
+      "korean": "~라고 불리다"
+    },
+    {
+      "spanish": "país",
+      "pronunciation": "빠이스",
+      "korean": "나라"
+    },
+    {
+      "spanish": "mucho gusto",
+      "pronunciation": "무초 구스또",
+      "korean": "만나서 반가워요"
+    },
+    {
+      "spanish": "encantado",
+      "pronunciation": "엔깐따도",
+      "korean": "반갑습니다"
+    },
+    {
+      "spanish": "amigo",
+      "pronunciation": "아미고",
+      "korean": "친구"
+    },
+    {
+      "spanish": "buenos días",
+      "pronunciation": "부에노스 디아스",
+      "korean": "좋은 아침"
+    }
+  ]
+}

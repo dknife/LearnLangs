@@ -18,10 +18,6 @@ const LANGS = {
     foreignField: 'chinese',
     pronField: 'pinyin',
     titleField: 'titleCn',
-    getData: () => window.LEVEL_DATA,
-    getTitles: () => window.LEVEL_TITLES,
-    getIcons: () => window.LEVEL_ICONS,
-    getTotal: () => window.TOTAL_LEVELS,
     quizLabels: {
       vocab: '단어 시험',
       foreign_to_kr: '중국어 → 한국어',
@@ -39,15 +35,52 @@ const LANGS = {
     foreignField: 'spanish',
     pronField: 'pronunciation',
     titleField: 'titleEs',
-    getData: () => window.ES_LEVEL_DATA,
-    getTitles: () => window.ES_LEVEL_TITLES,
-    getIcons: () => window.ES_LEVEL_ICONS,
-    getTotal: () => window.ES_TOTAL_LEVELS,
     quizLabels: {
       vocab: '단어 시험',
       foreign_to_kr: '스페인어 → 한국어',
       kr_to_foreign: '한국어 → 스페인어',
     },
+  },
+};
+
+// ------------------------------------------------------------
+// 0-1. Data Loader (fetch JSON from data/{lang}/)
+// ------------------------------------------------------------
+const DataLoader = {
+  _metaCache: {},   // { zh: { totalLevels, titles, icons }, es: ... }
+  _levelCache: {},  // { 'zh-1': { ... }, 'es-3': { ... } }
+
+  async loadMeta(langCode) {
+    if (this._metaCache[langCode]) return this._metaCache[langCode];
+    const resp = await fetch(`data/${langCode}/meta.json`);
+    const meta = await resp.json();
+    this._metaCache[langCode] = meta;
+    return meta;
+  },
+
+  async loadLevel(langCode, level) {
+    const key = `${langCode}-${level}`;
+    if (this._levelCache[key]) return this._levelCache[key];
+    const num = String(level).padStart(2, '0');
+    const resp = await fetch(`data/${langCode}/level${num}.json`);
+    const data = await resp.json();
+    this._levelCache[key] = data;
+    return data;
+  },
+
+  async getTotal(langCode) {
+    const meta = await this.loadMeta(langCode);
+    return meta.totalLevels;
+  },
+
+  async getTitles(langCode) {
+    const meta = await this.loadMeta(langCode);
+    return meta.titles;
+  },
+
+  async getIcons(langCode) {
+    const meta = await this.loadMeta(langCode);
+    return meta.icons;
   },
 };
 
@@ -114,7 +147,7 @@ function navigate(path) {
   window.location.hash = '#' + path;
 }
 
-function handleRoute() {
+async function handleRoute() {
   const hash = window.location.hash || '#/';
   let match;
 
@@ -124,33 +157,33 @@ function handleRoute() {
     currentLang = match[1];
     const level = parseInt(match[2]);
     const searchParams = new URLSearchParams(match[3] || '');
-    renderResult(level, searchParams);
+    await renderResult(level, searchParams);
     return;
   }
 
   match = hash.match(/^#\/(zh|es)\/quiz\/(\d+)$/);
   if (match) {
     currentLang = match[1];
-    renderQuiz(parseInt(match[2]));
+    await renderQuiz(parseInt(match[2]));
     return;
   }
 
   match = hash.match(/^#\/(zh|es)\/lesson\/(\d+)$/);
   if (match) {
     currentLang = match[1];
-    renderLesson(parseInt(match[2]));
+    await renderLesson(parseInt(match[2]));
     return;
   }
 
   // Language home: #/zh or #/es (also #/chinese → #/zh, #/spanish → #/es)
   if (hash === '#/zh' || hash === '#/chinese') {
     currentLang = 'zh';
-    renderHome();
+    await renderHome();
     return;
   }
   if (hash === '#/es' || hash === '#/spanish') {
     currentLang = 'es';
-    renderHome();
+    await renderHome();
     return;
   }
 
@@ -158,25 +191,25 @@ function handleRoute() {
   match = hash.match(/^#\/result\/(\d+)\??(.*)?$/);
   if (match) {
     currentLang = 'zh';
-    renderResult(parseInt(match[1]), new URLSearchParams(match[2] || ''));
+    await renderResult(parseInt(match[1]), new URLSearchParams(match[2] || ''));
     return;
   }
   match = hash.match(/^#\/quiz\/(\d+)$/);
   if (match) {
     currentLang = 'zh';
-    renderQuiz(parseInt(match[1]));
+    await renderQuiz(parseInt(match[1]));
     return;
   }
   match = hash.match(/^#\/lesson\/(\d+)$/);
   if (match) {
     currentLang = 'zh';
-    renderLesson(parseInt(match[1]));
+    await renderLesson(parseInt(match[1]));
     return;
   }
 
   // Landing: language selection
   currentLang = null;
-  renderLangSelect();
+  await renderLangSelect();
 }
 
 window.addEventListener('hashchange', handleRoute);
@@ -273,12 +306,13 @@ function createConfetti() {
 // ------------------------------------------------------------
 // renderLangSelect() — Language selection landing page
 // ------------------------------------------------------------
-function renderLangSelect() {
+async function renderLangSelect() {
   const app = document.getElementById('app');
   const zhProgress = Progress._getStore('zh').data.completedLevels.length;
   const esProgress = Progress._getStore('es').data.completedLevels.length;
-  const zhTotal = window.TOTAL_LEVELS || 25;
-  const esTotal = window.ES_TOTAL_LEVELS || 25;
+  const [zhMeta, esMeta] = await Promise.all([DataLoader.loadMeta('zh'), DataLoader.loadMeta('es')]);
+  const zhTotal = zhMeta.totalLevels;
+  const esTotal = esMeta.totalLevels;
 
   app.innerHTML = `
     <div class="lang-select-page">
@@ -305,13 +339,14 @@ function renderLangSelect() {
 // ------------------------------------------------------------
 // renderHome() — Level grid (language-aware)
 // ------------------------------------------------------------
-function renderHome() {
+async function renderHome() {
   const app = document.getElementById('app');
   const lang = getLang();
   const completedCount = Progress.getTotalProgress();
-  const TOTAL = lang.getTotal();
-  const titles = lang.getTitles();
-  const icons = lang.getIcons();
+  const meta = await DataLoader.loadMeta(currentLang);
+  const TOTAL = meta.totalLevels;
+  const titles = meta.titles;
+  const icons = meta.icons;
 
   const levels = Array.from({ length: TOTAL }, (_, i) => i + 1);
   const rows = [];
@@ -381,13 +416,13 @@ function renderHome() {
 // ------------------------------------------------------------
 // renderLesson(level) — Conversation lesson (language-aware)
 // ------------------------------------------------------------
-function renderLesson(level) {
+async function renderLesson(level) {
   const app = document.getElementById('app');
   const lang = getLang();
-  const levelData = lang.getData()[level];
+  const levelData = await DataLoader.loadLevel(currentLang, level);
   const ff = lang.foreignField; // e.g. 'chinese' or 'spanish'
   const pf = lang.pronField;   // e.g. 'pinyin' or 'pronunciation'
-  const titles = lang.getTitles();
+  const titles = await DataLoader.getTitles(currentLang);
 
   if (!levelData) {
     app.innerHTML = `
@@ -599,13 +634,13 @@ function renderLesson(level) {
 // ------------------------------------------------------------
 // renderQuiz(level) — Quiz (language-aware)
 // ------------------------------------------------------------
-function renderQuiz(level) {
+async function renderQuiz(level) {
   const app = document.getElementById('app');
   const lang = getLang();
-  const levelData = lang.getData()[level];
+  const levelData = await DataLoader.loadLevel(currentLang, level);
   const ff = lang.foreignField;
   const pf = lang.pronField;
-  const titles = lang.getTitles();
+  const titles = await DataLoader.getTitles(currentLang);
 
   if (!levelData) {
     app.innerHTML = `
@@ -796,7 +831,7 @@ function renderQuiz(level) {
 // ------------------------------------------------------------
 // renderResult(level, searchParams) — Result (language-aware)
 // ------------------------------------------------------------
-function renderResult(level, searchParams) {
+async function renderResult(level, searchParams) {
   const app = document.getElementById('app');
   const lang = getLang();
   const scoreVal = parseInt(searchParams.get('score')) || 0;
@@ -804,7 +839,8 @@ function renderResult(level, searchParams) {
   const PASS_THRESHOLD = 8;
   const TOTAL_QUESTIONS = 10;
   const passed = scoreVal >= PASS_THRESHOLD;
-  const isLastLevel = level >= lang.getTotal();
+  const totalLevels = await DataLoader.getTotal(currentLang);
+  const isLastLevel = level >= totalLevels;
   const nextLevel = level + 1;
 
   if (passed) {

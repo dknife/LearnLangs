@@ -1,0 +1,190 @@
+{
+  "level": 22,
+  "title": "긴급 상황",
+  "titleEs": "Situaciones de Emergencia",
+  "description": "스페인어로 긴급 상황에서 도움을 요청하는 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡Ayuda! ¡Socorro!",
+          "pronunciation": "아유다! 소꼬로!",
+          "korean": "도와주세요! 살려주세요!"
+        },
+        {
+          "spanish": "¡Llame a la policía!",
+          "pronunciation": "야메 아 라 뽈리시아!",
+          "korean": "경찰을 불러주세요!"
+        },
+        {
+          "spanish": "¡Necesito una ambulancia!",
+          "pronunciation": "네세시또 우나 암불란시아!",
+          "korean": "구급차가 필요해요!"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "¿Qué ha pasado? ¿Está bien?",
+          "pronunciation": "게 아 빠사도? 에스따 비엔?",
+          "korean": "무슨 일이에요? 괜찮으세요?"
+        },
+        {
+          "spanish": "Tranquilo. Voy a llamar ahora.",
+          "pronunciation": "뜨란낄로. 보이 아 야마르 아오라.",
+          "korean": "진정하세요. 지금 전화할게요."
+        },
+        {
+          "spanish": "El número de emergencias es el 112.",
+          "pronunciation": "엘 누메로 데 에메르헨시아스 에스 엘 112.",
+          "korean": "응급 번호는 112예요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Me han robado la cartera.",
+          "pronunciation": "메 안 로바도 라 까르떼라.",
+          "korean": "지갑을 도난당했어요."
+        },
+        {
+          "spanish": "He perdido mi pasaporte.",
+          "pronunciation": "에 뻬르디도 미 빠사뽀르떼.",
+          "korean": "여권을 잃어버렸어요."
+        },
+        {
+          "spanish": "Ha habido un accidente.",
+          "pronunciation": "아 아비도 운 악시덴떼.",
+          "korean": "사고가 났어요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Vaya a la comisaría a denunciarlo.",
+          "pronunciation": "바야 아 라 꼬미사리아 아 데눈시아를로.",
+          "korean": "경찰서에 신고하세요."
+        },
+        {
+          "spanish": "Vaya a su embajada.",
+          "pronunciation": "바야 아 수 엠바하다.",
+          "korean": "대사관에 가세요."
+        },
+        {
+          "spanish": "¿Hay alguien herido?",
+          "pronunciation": "아이 알기엔 에리도?",
+          "korean": "다친 사람이 있나요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Dónde está la comisaría más cercana?",
+          "pronunciation": "돈데 에스따 라 꼬미사리아 마스 세르까나?",
+          "korean": "가장 가까운 경찰서가 어디에요?"
+        },
+        {
+          "spanish": "No hablo bien español. ¿Habla inglés?",
+          "pronunciation": "노 아블로 비엔 에스빠뇰. 아블라 잉글레스?",
+          "korean": "스페인어를 잘 못해요. 영어 하세요?"
+        },
+        {
+          "spanish": "Necesito contactar con mi embajada.",
+          "pronunciation": "네세시또 꼰딱따르 꼰 미 엠바하다.",
+          "korean": "대사관에 연락해야 해요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Está a dos calles. Le acompaño.",
+          "pronunciation": "에스따 아 도스 까예스. 레 아꼼빠뇨.",
+          "korean": "두 블록 거리예요. 같이 가 줄게요."
+        },
+        {
+          "spanish": "Un poco. No se preocupe, le ayudo.",
+          "pronunciation": "운 뽀꼬. 노 세 쁘레오꾸뻬, 레 아유도.",
+          "korean": "조금요. 걱정 마세요, 도와줄게요."
+        },
+        {
+          "spanish": "Puedo ayudarle a llamar.",
+          "pronunciation": "뿌에도 아유다를레 아 야마르.",
+          "korean": "전화하는 걸 도와줄게요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Muchas gracias. Es usted muy amable.",
+          "pronunciation": "무차스 그라시아스. 에스 우스떼드 무이 아마블레.",
+          "korean": "정말 감사합니다. 너무 친절하시네요."
+        },
+        {
+          "spanish": "Se lo agradezco muchísimo.",
+          "pronunciation": "세 로 아그라데스꼬 무치시모.",
+          "korean": "정말 감사드립니다."
+        },
+        {
+          "spanish": "Gracias por toda su ayuda.",
+          "pronunciation": "그라시아스 뽀르 또다 수 아유다.",
+          "korean": "모든 도움에 감사해요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "emergencia",
+      "pronunciation": "에메르헨시아",
+      "korean": "응급/긴급"
+    },
+    {
+      "spanish": "policía",
+      "pronunciation": "뽈리시아",
+      "korean": "경찰"
+    },
+    {
+      "spanish": "ambulancia",
+      "pronunciation": "암불란시아",
+      "korean": "구급차"
+    },
+    {
+      "spanish": "bomberos",
+      "pronunciation": "봄베로스",
+      "korean": "소방관"
+    },
+    {
+      "spanish": "robo",
+      "pronunciation": "로보",
+      "korean": "도난"
+    },
+    {
+      "spanish": "accidente",
+      "pronunciation": "악시덴떼",
+      "korean": "사고"
+    },
+    {
+      "spanish": "herido",
+      "pronunciation": "에리도",
+      "korean": "부상당한"
+    },
+    {
+      "spanish": "comisaría",
+      "pronunciation": "꼬미사리아",
+      "korean": "경찰서"
+    }
+  ]
+}

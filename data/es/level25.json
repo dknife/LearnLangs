@@ -1,0 +1,190 @@
+{
+  "level": 25,
+  "title": "종합 회화",
+  "titleEs": "Conversación General",
+  "description": "지금까지 배운 스페인어를 종합적으로 활용하는 회화를 연습해봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡Hola, María! ¡Cuánto tiempo sin verte!",
+          "pronunciation": "올라, 마리아! 꾸안또 띠엠뽀 신 베르떼!",
+          "korean": "안녕, 마리아! 오랜만이야!"
+        },
+        {
+          "spanish": "¡Qué sorpresa encontrarte aquí!",
+          "pronunciation": "게 소르쁘레사 엔꼰뜨라르떼 아끼!",
+          "korean": "여기서 만나다니 놀랍다!"
+        },
+        {
+          "spanish": "¡María! ¿Cómo has estado?",
+          "pronunciation": "마리아! 꼬모 아스 에스따도?",
+          "korean": "마리아! 어떻게 지냈어요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "¡Youngmin! ¡Qué alegría! Estoy muy bien.",
+          "pronunciation": "영민! 게 알레그리아! 에스또이 무이 비엔.",
+          "korean": "영민! 반가워! 잘 지내요."
+        },
+        {
+          "spanish": "¡No me lo puedo creer! ¿Qué haces aquí?",
+          "pronunciation": "노 메 로 뿌에도 끄레에르! 게 아세스 아끼?",
+          "korean": "믿을 수가 없네! 여기 웬일이에요?"
+        },
+        {
+          "spanish": "¡Genial verte! He estado viajando mucho.",
+          "pronunciation": "헤니알 베르떼! 에 에스따도 비아한도 무초.",
+          "korean": "만나서 좋아! 여행을 많이 다녔어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "He venido de vacaciones. ¡Me encanta Barcelona!",
+          "pronunciation": "에 베니도 데 바까시오네스. 메 엔깐따 바르셀로나!",
+          "korean": "휴가로 왔어요. 바르셀로나가 좋아요!"
+        },
+        {
+          "spanish": "Estoy aquí por trabajo y turismo.",
+          "pronunciation": "에스또이 아끼 뽀르 뜨라바호 이 뚜리스모.",
+          "korean": "일과 관광으로 왔어요."
+        },
+        {
+          "spanish": "Llevo una semana y no quiero irme.",
+          "pronunciation": "예보 우나 세마나 이 노 끼에로 이르메.",
+          "korean": "일주일째인데 떠나고 싶지 않아요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "¿Has probado la comida local?",
+          "pronunciation": "아스 쁘로바도 라 꼬미다 로깔?",
+          "korean": "현지 음식 먹어봤어요?"
+        },
+        {
+          "spanish": "¿Ya visitaste la Sagrada Familia?",
+          "pronunciation": "야 비시따스떼 라 사그라다 파밀리아?",
+          "korean": "사그라다 파밀리아는 갔어요?"
+        },
+        {
+          "spanish": "Te puedo hacer de guía.",
+          "pronunciation": "떼 뿌에도 아세르 데 기아.",
+          "korean": "가이드 해줄 수 있어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡Sería genial! Mi español ha mejorado, ¿verdad?",
+          "pronunciation": "세리아 헤니알! 미 에스빠뇰 아 메호라도, 베르다드?",
+          "korean": "좋겠다! 내 스페인어 늘었지요?"
+        },
+        {
+          "spanish": "Así practico más español contigo.",
+          "pronunciation": "아시 쁘락띠꼬 마스 에스빠뇰 꼰띠고.",
+          "korean": "당신과 스페인어 연습도 하고."
+        },
+        {
+          "spanish": "¡Quiero ver todo antes de irme!",
+          "pronunciation": "끼에로 베르 또도 안떼스 데 이르메!",
+          "korean": "떠나기 전에 다 보고 싶어요!"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "¡Tu español es muy bueno! Estoy impresionada.",
+          "pronunciation": "뚜 에스빠뇰 에스 무이 부에노! 에스또이 임쁘레시오나다.",
+          "korean": "스페인어 정말 잘하네요! 놀랐어요."
+        },
+        {
+          "spanish": "Mañana te llevo al barrio gótico.",
+          "pronunciation": "마냐나 떼 예보 알 바리오 고띠꼬.",
+          "korean": "내일 고딕 지구에 데려가 줄게요."
+        },
+        {
+          "spanish": "¡Vamos a pasarlo genial!",
+          "pronunciation": "바모스 아 빠사를로 헤니알!",
+          "korean": "정말 재밌을 거예요!"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡Gracias por todo! La mejor experiencia de mi vida.",
+          "pronunciation": "그라시아스 뽀르 또도! 라 메호르 엑스뻬리엔시아 데 미 비다.",
+          "korean": "정말 고마워요! 인생 최고의 경험이에요."
+        },
+        {
+          "spanish": "¡Hasta pronto, amiga!",
+          "pronunciation": "아스따 쁘론또, 아미가!",
+          "korean": "곧 만나요, 친구!"
+        },
+        {
+          "spanish": "Nunca olvidaré este viaje. ¡Nos vemos en Corea!",
+          "pronunciation": "눈까 올비다레 에스떼 비아헤. 노스 베모스 엔 꼬레아!",
+          "korean": "이 여행 절대 잊지 못할 거예요. 한국에서 봐요!"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "vacaciones",
+      "pronunciation": "바까시오네스",
+      "korean": "휴가"
+    },
+    {
+      "spanish": "experiencia",
+      "pronunciation": "엑스뻬리엔시아",
+      "korean": "경험"
+    },
+    {
+      "spanish": "recomendar",
+      "pronunciation": "레꼬멘다르",
+      "korean": "추천하다"
+    },
+    {
+      "spanish": "mejorar",
+      "pronunciation": "메호라르",
+      "korean": "향상되다"
+    },
+    {
+      "spanish": "practicar",
+      "pronunciation": "쁘락띠까르",
+      "korean": "연습하다"
+    },
+    {
+      "spanish": "olvidar",
+      "pronunciation": "올비다르",
+      "korean": "잊다"
+    },
+    {
+      "spanish": "sorpresa",
+      "pronunciation": "소르쁘레사",
+      "korean": "놀라움"
+    },
+    {
+      "spanish": "amistad",
+      "pronunciation": "아미스따드",
+      "korean": "우정"
+    }
+  ]
+}

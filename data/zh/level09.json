@@ -1,0 +1,455 @@
+{
+  "level": 9,
+  "title": "전화번호 & 주소",
+  "titleCn": "电话号码和地址",
+  "description": "전화번호와 주소를 묻고 답하는 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "你的电话号码是多少？",
+          "pinyin": "Nǐ de diànhuà hàomǎ shì duōshao?",
+          "korean": "전화번호가 뭐예요?"
+        },
+        {
+          "chinese": "能告诉我你的电话号码吗？",
+          "pinyin": "Néng gàosu wǒ nǐ de diànhuà hàomǎ ma?",
+          "korean": "전화번호 알려줄 수 있어요?"
+        },
+        {
+          "chinese": "你手机号是多少？",
+          "pinyin": "Nǐ shǒujī hào shì duōshao?",
+          "korean": "핸드폰 번호가 뭐예요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "我的电话号码是138-1234-5678。",
+          "pinyin": "Wǒ de diànhuà hàomǎ shì yāo sān bā, yāo èr sān sì, wǔ liù qī bā.",
+          "korean": "제 전화번호는 138-1234-5678이에요."
+        },
+        {
+          "chinese": "138-1234-5678，记一下。",
+          "pinyin": "Yāo sān bā, yāo èr sān sì, wǔ liù qī bā, jì yíxià.",
+          "korean": "138-1234-5678, 적어두세요."
+        },
+        {
+          "chinese": "我的号码是138-1234-5678，你存一下吧。",
+          "pinyin": "Wǒ de hàomǎ shì yāo sān bā, yāo èr sān sì, wǔ liù qī bā, nǐ cún yíxià ba.",
+          "korean": "제 번호는 138-1234-5678이에요, 저장해두세요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "你住在哪儿？",
+          "pinyin": "Nǐ zhù zài nǎr?",
+          "korean": "어디에 살아요?"
+        },
+        {
+          "chinese": "你家在哪里？",
+          "pinyin": "Nǐ jiā zài nǎlǐ?",
+          "korean": "집이 어디예요?"
+        },
+        {
+          "chinese": "你现在住哪个区？",
+          "pinyin": "Nǐ xiànzài zhù nǎge qū?",
+          "korean": "지금 어느 구에 살아요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "我住在北京市朝阳区。",
+          "pinyin": "Wǒ zhù zài Běijīng shì Cháoyáng qū.",
+          "korean": "저는 베이징시 차오양구에 살아요."
+        },
+        {
+          "chinese": "我家在北京朝阳区。",
+          "pinyin": "Wǒ jiā zài Běijīng Cháoyáng qū.",
+          "korean": "제 집은 베이징 차오양구에 있어요."
+        },
+        {
+          "chinese": "朝阳区，离市中心不太远。",
+          "pinyin": "Cháoyáng qū, lí shì zhōngxīn bú tài yuǎn.",
+          "korean": "차오양구요, 시내에서 그리 멀지 않아요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "你的地址是什么？",
+          "pinyin": "Nǐ de dìzhǐ shì shénme?",
+          "korean": "주소가 뭐예요?"
+        },
+        {
+          "chinese": "具体地址是哪里？",
+          "pinyin": "Jùtǐ dìzhǐ shì nǎlǐ?",
+          "korean": "구체적인 주소가 어디예요?"
+        },
+        {
+          "chinese": "能告诉我详细地址吗？",
+          "pinyin": "Néng gàosu wǒ xiángxì dìzhǐ ma?",
+          "korean": "자세한 주소를 알려줄 수 있어요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "幸福路25号三楼302室。",
+          "pinyin": "Xìngfú lù èrshíwǔ hào sān lóu sān líng èr shì.",
+          "korean": "싱푸루 25번지 3층 302호예요."
+        },
+        {
+          "chinese": "地址是幸福路25号，三楼302。",
+          "pinyin": "Dìzhǐ shì Xìngfú lù èrshíwǔ hào, sān lóu sān líng èr.",
+          "korean": "주소는 싱푸루 25번지, 3층 302호예요."
+        },
+        {
+          "chinese": "幸福路二十五号，302室。",
+          "pinyin": "Xìngfú lù èrshíwǔ hào, sān líng èr shì.",
+          "korean": "싱푸루 25번지, 302호예요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "方便留一下你的手机号吗？",
+          "pinyin": "Fāngbiàn liú yīxià nǐ de shǒujī hào ma?",
+          "korean": "핸드폰 번호 좀 남겨주실 수 있어요?"
+        },
+        {
+          "chinese": "可以加你微信吗？",
+          "pinyin": "Kěyǐ jiā nǐ Wēixìn ma?",
+          "korean": "위챗 추가해도 될까요?"
+        },
+        {
+          "chinese": "我们交换一下联系方式吧。",
+          "pinyin": "Wǒmen jiāohuàn yíxià liánxì fāngshì ba.",
+          "korean": "연락처 교환해요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "没问题，我发短信给你。",
+          "pinyin": "Méi wèntí, wǒ fā duǎnxìn gěi nǐ.",
+          "korean": "문제없어요, 문자 보내드릴게요."
+        },
+        {
+          "chinese": "好啊，我加你吧。",
+          "pinyin": "Hǎo a, wǒ jiā nǐ ba.",
+          "korean": "좋아요, 제가 추가할게요."
+        },
+        {
+          "chinese": "当然可以，我现在就发给你。",
+          "pinyin": "Dāngrán kěyǐ, wǒ xiànzài jiù fā gěi nǐ.",
+          "korean": "물론이죠, 지금 바로 보내드릴게요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "chinese": "电话号码",
+      "pinyin": "diànhuà hàomǎ",
+      "korean": "전화번호"
+    },
+    {
+      "chinese": "地址",
+      "pinyin": "dìzhǐ",
+      "korean": "주소"
+    },
+    {
+      "chinese": "住",
+      "pinyin": "zhù",
+      "korean": "살다, 거주하다"
+    },
+    {
+      "chinese": "手机",
+      "pinyin": "shǒujī",
+      "korean": "핸드폰"
+    },
+    {
+      "chinese": "短信",
+      "pinyin": "duǎnxìn",
+      "korean": "문자 메시지"
+    },
+    {
+      "chinese": "号",
+      "pinyin": "hào",
+      "korean": "번호, 호"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "cn_to_kr",
+      "question": "你的电话号码是多少？",
+      "options": [
+        "이름이 뭐예요?",
+        "전화번호가 뭐예요?",
+        "주소가 뭐예요?",
+        "나이가 몇이에요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "주소",
+      "options": [
+        "电话",
+        "名字",
+        "地址",
+        "号码"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "我___在北京。(살다)",
+      "options": [
+        "在",
+        "住",
+        "去",
+        "来"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "发短信",
+      "options": [
+        "전화하다",
+        "문자 보내다",
+        "이메일 보내다",
+        "편지 쓰다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "핸드폰",
+      "options": [
+        "电话",
+        "电脑",
+        "手机",
+        "电视"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "你住在哪儿？",
+      "options": [
+        "어디에 가요?",
+        "어디에 살아요?",
+        "어디에서 왔어요?",
+        "어디에서 일해요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "方便留一下你的手机号吗？",
+      "options": [
+        "핸드폰 번호 좀 알려주실 수 있어요?",
+        "핸드폰 번호 좀 남겨주실 수 있어요?",
+        "핸드폰 좀 빌려주실 수 있어요?",
+        "핸드폰 번호를 바꿨어요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "전화번호",
+      "options": [
+        "手机号",
+        "电话号码",
+        "地址",
+        "号码"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "문자 메시지",
+      "options": [
+        "电话",
+        "邮件",
+        "短信",
+        "信"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "你的___是什么？(주소)",
+      "options": [
+        "电话",
+        "名字",
+        "地址",
+        "号码"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "没问题",
+      "options": [
+        "안 돼요",
+        "문제없어요",
+        "모르겠어요",
+        "괜찮아요"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "살다, 거주하다",
+      "options": [
+        "去",
+        "来",
+        "住",
+        "在"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "我发短信___你。(~에게)",
+      "options": [
+        "对",
+        "给",
+        "跟",
+        "和"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "幸福路25号三楼302室",
+      "options": [
+        "싱푸루 25번지 2층 302호",
+        "싱푸루 25번지 3층 302호",
+        "싱푸루 35번지 3층 302호",
+        "싱푸루 25번지 3층 203호"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "번호, 호",
+      "options": [
+        "楼",
+        "室",
+        "号",
+        "路"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "我住在北京市朝阳区",
+      "options": [
+        "저는 베이징시 하이뎬구에 살아요",
+        "저는 베이징시 차오양구에 살아요",
+        "저는 상하이시 차오양구에 살아요",
+        "저는 베이징시 차오양구에서 일해요"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "方便___一下你的手机号吗？(남기다)",
+      "options": [
+        "给",
+        "留",
+        "写",
+        "说"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "어디에 살아요?",
+      "options": [
+        "你去哪儿？",
+        "你在哪儿？",
+        "你住在哪儿？",
+        "你从哪儿来？"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "电话号码是多少？",
+      "options": [
+        "전화번호가 뭐예요?",
+        "주소가 뭐예요?",
+        "방 번호가 뭐예요?",
+        "핸드폰이 뭐예요?"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill_blank",
+      "question": "三楼302___。(호실)",
+      "options": [
+        "号",
+        "楼",
+        "室",
+        "层"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "你的电话___是多少？",
+      "options": [
+        "号码",
+        "天气",
+        "味道",
+        "颜色"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill_blank",
+      "question": "请问你___在哪里？",
+      "options": [
+        "吃",
+        "穿",
+        "住",
+        "写"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "我给你发一条___。",
+      "options": [
+        "天气",
+        "短信",
+        "味道",
+        "风景"
+      ],
+      "answer": 1
+    }
+  ]
+}

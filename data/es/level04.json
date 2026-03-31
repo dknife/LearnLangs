@@ -1,0 +1,190 @@
+{
+  "level": 4,
+  "title": "식당에서 주문",
+  "titleEs": "Pedir en un Restaurante",
+  "description": "스페인어로 식당에서 음식을 주문하는 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Buenas tardes. ¿Tiene mesa para dos?",
+          "pronunciation": "부에나스 따르데스. 띠에네 메사 빠라 도스?",
+          "korean": "안녕하세요. 두 명 자리 있나요?"
+        },
+        {
+          "spanish": "Hola, ¿hay mesa disponible?",
+          "pronunciation": "올라, 아이 메사 디스뽀니블레?",
+          "korean": "안녕하세요, 빈 자리가 있나요?"
+        },
+        {
+          "spanish": "¿Podemos sentarnos aquí?",
+          "pronunciation": "뽀데모스 센따르노스 아끼?",
+          "korean": "여기 앉아도 될까요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Sí, por aquí. Aquí tienen la carta.",
+          "pronunciation": "시, 뽀르 아끼. 아끼 띠에넨 라 까르따.",
+          "korean": "네, 이쪽으로요. 여기 메뉴판이요."
+        },
+        {
+          "spanish": "Claro, síganme. Les traigo el menú.",
+          "pronunciation": "끌라로, 시간메. 레스 뜨라이고 엘 메누.",
+          "korean": "물론이죠, 따라오세요. 메뉴를 가져다 드릴게요."
+        },
+        {
+          "spanish": "Por supuesto. Tomen asiento.",
+          "pronunciation": "뽀르 수뿌에스또. 또멘 아시엔또.",
+          "korean": "물론이요. 앉으세요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Qué nos recomienda?",
+          "pronunciation": "게 노스 레꼬미엔다?",
+          "korean": "뭘 추천하세요?"
+        },
+        {
+          "spanish": "¿Cuál es el plato del día?",
+          "pronunciation": "꾸알 에스 엘 쁠라또 델 디아?",
+          "korean": "오늘의 요리가 뭐예요?"
+        },
+        {
+          "spanish": "¿Qué es lo más popular?",
+          "pronunciation": "게 에스 로 마스 뽀뿔라르?",
+          "korean": "가장 인기 있는 게 뭐예요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "La paella es nuestra especialidad.",
+          "pronunciation": "라 빠에야 에스 누에스뜨라 에스뻬시알리다드.",
+          "korean": "빠에야가 저희 특선 요리예요."
+        },
+        {
+          "spanish": "Les recomiendo el gazpacho.",
+          "pronunciation": "레스 레꼬미엔도 엘 가스빠초.",
+          "korean": "가스파초를 추천해요."
+        },
+        {
+          "spanish": "Hoy tenemos tapas variadas.",
+          "pronunciation": "오이 떼네모스 따빠스 바리아다스.",
+          "korean": "오늘은 다양한 타파스가 있어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Quiero una paella y una ensalada, por favor.",
+          "pronunciation": "끼에로 우나 빠에야 이 우나 엔살라다, 뽀르 파보르.",
+          "korean": "빠에야 하나와 샐러드 하나 주세요."
+        },
+        {
+          "spanish": "Para mí, el gazpacho y una tortilla.",
+          "pronunciation": "빠라 미, 엘 가스빠초 이 우나 또르띠야.",
+          "korean": "저는 가스파초와 또르띠야요."
+        },
+        {
+          "spanish": "Tomaré las tapas y un vino tinto.",
+          "pronunciation": "또마레 라스 따빠스 이 운 비노 띤또.",
+          "korean": "타파스와 레드 와인으로 할게요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "¿Desean algo de beber?",
+          "pronunciation": "데세안 알고 데 베베르?",
+          "korean": "음료는 뭘로 하시겠어요?"
+        },
+        {
+          "spanish": "¿Qué les traigo de beber?",
+          "pronunciation": "게 레스 뜨라이고 데 베베르?",
+          "korean": "마실 것은 뭘로 드릴까요?"
+        },
+        {
+          "spanish": "¿Quieren agua o algo más?",
+          "pronunciation": "끼에렌 아구아 오 알고 마스?",
+          "korean": "물이나 다른 음료 드릴까요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Dos aguas, por favor. ¡Gracias!",
+          "pronunciation": "도스 아구아스, 뽀르 파보르. 그라시아스!",
+          "korean": "물 두 잔이요. 감사합니다!"
+        },
+        {
+          "spanish": "Un zumo de naranja para mí.",
+          "pronunciation": "운 수모 데 나란하 빠라 미.",
+          "korean": "저는 오렌지 주스요."
+        },
+        {
+          "spanish": "Una cerveza y un agua, por favor.",
+          "pronunciation": "우나 세르베사 이 운 아구아, 뽀르 파보르.",
+          "korean": "맥주 하나와 물 하나 주세요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "restaurante",
+      "pronunciation": "레스따우란떼",
+      "korean": "식당"
+    },
+    {
+      "spanish": "mesa",
+      "pronunciation": "메사",
+      "korean": "테이블"
+    },
+    {
+      "spanish": "carta / menú",
+      "pronunciation": "까르따 / 메누",
+      "korean": "메뉴판"
+    },
+    {
+      "spanish": "plato",
+      "pronunciation": "쁠라또",
+      "korean": "요리/접시"
+    },
+    {
+      "spanish": "bebida",
+      "pronunciation": "베비다",
+      "korean": "음료"
+    },
+    {
+      "spanish": "cuenta",
+      "pronunciation": "꾸엔따",
+      "korean": "계산서"
+    },
+    {
+      "spanish": "por favor",
+      "pronunciation": "뽀르 파보르",
+      "korean": "부탁합니다"
+    },
+    {
+      "spanish": "gracias",
+      "pronunciation": "그라시아스",
+      "korean": "감사합니다"
+    }
+  ]
+}

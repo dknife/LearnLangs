@@ -1,0 +1,190 @@
+{
+  "level": 16,
+  "title": "전화 통화",
+  "titleEs": "Llamadas Telefónicas",
+  "description": "스페인어로 전화 통화하는 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Diga? / ¿Aló?",
+          "pronunciation": "디가? / 알로?",
+          "korean": "여보세요?"
+        },
+        {
+          "spanish": "Hola, ¿puedo hablar con María?",
+          "pronunciation": "올라, 뿌에도 아블라르 꼰 마리아?",
+          "korean": "안녕하세요, 마리아와 통화할 수 있나요?"
+        },
+        {
+          "spanish": "Buenos días. Llamo de la empresa Sol.",
+          "pronunciation": "부에노스 디아스. 야모 데 라 엠쁘레사 솔.",
+          "korean": "안녕하세요. 솔 회사에서 전화드립니다."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Sí, soy yo. ¿Quién habla?",
+          "pronunciation": "시, 소이 요. 끼엔 아블라?",
+          "korean": "네, 저예요. 누구세요?"
+        },
+        {
+          "spanish": "Un momento. Ahora se pone.",
+          "pronunciation": "운 모멘또. 아오라 세 뽀네.",
+          "korean": "잠시만요. 지금 바꿔 드릴게요."
+        },
+        {
+          "spanish": "Lo siento, no está ahora.",
+          "pronunciation": "로 시엔또, 노 에스따 아오라.",
+          "korean": "죄송합니다, 지금 안 계세요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Puede dejarle un mensaje?",
+          "pronunciation": "뿌에데 데하를레 운 멘사헤?",
+          "korean": "메시지를 남길 수 있나요?"
+        },
+        {
+          "spanish": "¿A qué hora vuelve?",
+          "pronunciation": "아 게 오라 부엘베?",
+          "korean": "몇 시에 돌아오나요?"
+        },
+        {
+          "spanish": "Le llamo más tarde.",
+          "pronunciation": "레 야모 마스 따르데.",
+          "korean": "나중에 다시 전화할게요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Sí, dígame. Le paso el mensaje.",
+          "pronunciation": "시, 디가메. 레 빠소 엘 멘사헤.",
+          "korean": "네, 말씀하세요. 전해 드릴게요."
+        },
+        {
+          "spanish": "Creo que vuelve a las tres.",
+          "pronunciation": "끄레오 게 부엘베 아 라스 뜨레스.",
+          "korean": "3시쯤 돌아올 것 같아요."
+        },
+        {
+          "spanish": "¿Quiere que le diga algo?",
+          "pronunciation": "끼에레 게 레 디가 알고?",
+          "korean": "뭐라고 전할까요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Dígale que me llame cuando pueda.",
+          "pronunciation": "디갈레 게 메 야메 꾸안도 뿌에다.",
+          "korean": "시간 될 때 전화해 달라고 해주세요."
+        },
+        {
+          "spanish": "Es urgente. ¿Tiene su móvil?",
+          "pronunciation": "에스 우르헨떼. 띠에네 수 모빌?",
+          "korean": "급해요. 휴대폰 번호 아세요?"
+        },
+        {
+          "spanish": "Solo dígale que llamé.",
+          "pronunciation": "솔로 디갈레 게 야메.",
+          "korean": "제가 전화했다고만 전해주세요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "¿Me dice su nombre?",
+          "pronunciation": "메 디세 수 놈브레?",
+          "korean": "성함이 어떻게 되세요?"
+        },
+        {
+          "spanish": "Le daré el mensaje cuando llegue.",
+          "pronunciation": "레 다레 엘 멘사헤 꾸안도 예게.",
+          "korean": "도착하면 바로 전해 드릴게요."
+        },
+        {
+          "spanish": "Entendido. Yo se lo digo.",
+          "pronunciation": "엔뗀디도. 요 세 로 디고.",
+          "korean": "알겠습니다. 제가 전해 드릴게요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Muchas gracias. Buen día.",
+          "pronunciation": "무차스 그라시아스. 부엔 디아.",
+          "korean": "감사합니다. 좋은 하루 보내세요."
+        },
+        {
+          "spanish": "Gracias por su ayuda. Hasta luego.",
+          "pronunciation": "그라시아스 뽀르 수 아유다. 아스따 루에고.",
+          "korean": "도움 감사합니다. 안녕히 계세요."
+        },
+        {
+          "spanish": "Se lo agradezco. Adiós.",
+          "pronunciation": "세 로 아그라데스꼬. 아디오스.",
+          "korean": "감사합니다. 안녕히 계세요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "llamar",
+      "pronunciation": "야마르",
+      "korean": "전화하다"
+    },
+    {
+      "spanish": "teléfono",
+      "pronunciation": "뗄레포노",
+      "korean": "전화"
+    },
+    {
+      "spanish": "mensaje",
+      "pronunciation": "멘사헤",
+      "korean": "메시지"
+    },
+    {
+      "spanish": "colgar",
+      "pronunciation": "꼴가르",
+      "korean": "전화를 끊다"
+    },
+    {
+      "spanish": "marcar",
+      "pronunciation": "마르까르",
+      "korean": "번호를 누르다"
+    },
+    {
+      "spanish": "urgente",
+      "pronunciation": "우르헨떼",
+      "korean": "급한"
+    },
+    {
+      "spanish": "contestar",
+      "pronunciation": "꼰떼스따르",
+      "korean": "대답하다"
+    },
+    {
+      "spanish": "ocupado",
+      "pronunciation": "오꾸빠도",
+      "korean": "통화 중인"
+    }
+  ]
+}

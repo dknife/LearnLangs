@@ -1,0 +1,455 @@
+{
+  "level": 25,
+  "title": "종합 회화",
+  "titleCn": "综合会话",
+  "description": "이전 레벨에서 배운 다양한 주제를 종합하여 더 복잡한 문장으로 대화하는 연습을 합니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "你好！好久不见，最近怎么样？工作忙吗？",
+          "pinyin": "Nǐ hǎo! Hǎojiǔ bújiàn, zuìjìn zěnmeyàng? Gōngzuò máng ma?",
+          "korean": "안녕하세요! 오랜만이에요, 요즘 어때요? 일이 바빠요?"
+        },
+        {
+          "chinese": "哎，好久没见了！最近过得怎么样？",
+          "pinyin": "Āi, hǎojiǔ méi jiàn le! Zuìjìn guò de zěnmeyàng?",
+          "korean": "어머, 정말 오랜만이다! 요즘 어떻게 지내?"
+        },
+        {
+          "chinese": "你好啊！好长时间没见，一切都好吗？",
+          "pinyin": "Nǐ hǎo a! Hǎo cháng shíjiān méi jiàn, yíqiè dōu hǎo ma?",
+          "korean": "안녕! 정말 오래됐다, 다 잘 지내고 있어?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "还好，上个月刚换了新工作，同事们都很友好。",
+          "pinyin": "Hái hǎo, shàng gè yuè gāng huàn le xīn gōngzuò, tóngshìmen dōu hěn yǒuhǎo.",
+          "korean": "괜찮아요, 지난달에 막 새 직장으로 옮겼는데 동료들이 다 친절해요."
+        },
+        {
+          "chinese": "挺好的，我换了新公司，环境不错，同事也很好。",
+          "pinyin": "Tǐng hǎo de, wǒ huàn le xīn gōngsī, huánjìng búcuò, tóngshì yě hěn hǎo.",
+          "korean": "꽤 좋아, 새 회사로 옮겼는데 환경도 괜찮고 동료도 좋아."
+        },
+        {
+          "chinese": "还不错，上个月跳槽了，新工作挺顺利的。",
+          "pinyin": "Hái búcuò, shàng gè yuè tiàocáo le, xīn gōngzuò tǐng shùnlì de.",
+          "korean": "나쁘지 않아, 지난달에 이직했는데 새 일이 순조로워."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "太好了！春节放假的时候你打算去哪儿旅游？",
+          "pinyin": "Tài hǎo le! Chūnjié fàngjià de shíhou nǐ dǎsuàn qù nǎr lǚyóu?",
+          "korean": "잘됐네요! 춘절 연휴 때 어디로 여행 갈 계획이에요?"
+        },
+        {
+          "chinese": "真好！那春节假期有什么计划？想去旅游吗？",
+          "pinyin": "Zhēn hǎo! Nà Chūnjié jiàqī yǒu shénme jìhuà? Xiǎng qù lǚyóu ma?",
+          "korean": "좋겠다! 춘절 연휴에 무슨 계획이야? 여행 갈 거야?"
+        },
+        {
+          "chinese": "不错啊！春节准备去哪里玩？",
+          "pinyin": "Búcuò a! Chūnjié zhǔnbèi qù nǎlǐ wán?",
+          "korean": "잘됐다! 춘절에 어디 놀러 갈 거야?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "我想去北京看看长城，听说那里的风景特别美。",
+          "pinyin": "Wǒ xiǎng qù Běijīng kànkan Chángchéng, tīngshuō nàlǐ de fēngjǐng tèbié měi.",
+          "korean": "베이징에 가서 만리장성을 보고 싶어요, 그곳 풍경이 특별히 아름답다고 들었어요."
+        },
+        {
+          "chinese": "打算去北京，一直想去长城看看，据说风景很美。",
+          "pinyin": "Dǎsuàn qù Běijīng, yìzhí xiǎng qù Chángchéng kànkan, jùshuō fēngjǐng hěn měi.",
+          "korean": "베이징 갈 계획이야, 만리장성에 한번 가보고 싶었는데 풍경이 아름답다더라."
+        },
+        {
+          "chinese": "想去北京旅游，特别想去长城。听说景色非常壮观。",
+          "pinyin": "Xiǎng qù Běijīng lǚyóu, tèbié xiǎng qù Chángchéng. Tīngshuō jǐngsè fēicháng zhuàngguān.",
+          "korean": "베이징 여행 가고 싶어, 특히 만리장성. 경치가 장관이라고 들었어."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "去北京的话，别忘了尝尝北京烤鸭，非常好吃。",
+          "pinyin": "Qù Běijīng dehuà, bié wàng le chángchang Běijīng kǎoyā, fēicháng hǎochī.",
+          "korean": "베이징에 가면, 베이징 오리구이 꼭 먹어 보세요, 정말 맛있어요."
+        },
+        {
+          "chinese": "到了北京一定要吃烤鸭，那是北京最有名的美食。",
+          "pinyin": "Dào le Běijīng yídìng yào chī kǎoyā, nà shì Běijīng zuì yǒumíng de měishí.",
+          "korean": "베이징 가면 꼭 오리구이 먹어, 베이징에서 가장 유명한 음식이야."
+        },
+        {
+          "chinese": "去北京的话，烤鸭是必吃的！我上次去吃了，太好吃了。",
+          "pinyin": "Qù Běijīng dehuà, kǎoyā shì bì chī de! Wǒ shàng cì qù chī le, tài hǎochī le.",
+          "korean": "베이징 가면 오리구이는 필수야! 저번에 먹었는데 너무 맛있었어."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "好的！对了，你能帮我在网上订两张机票吗？",
+          "pinyin": "Hǎo de! Duìle, nǐ néng bāng wǒ zài wǎngshàng dìng liǎng zhāng jīpiào ma?",
+          "korean": "좋아요! 참, 인터넷에서 비행기표 두 장 예약하는 것 좀 도와줄 수 있어요?"
+        },
+        {
+          "chinese": "一定去吃！对了，能帮我在网上买机票吗？要两张。",
+          "pinyin": "Yídìng qù chī! Duì le, néng bāng wǒ zài wǎngshàng mǎi jīpiào ma? Yào liǎng zhāng.",
+          "korean": "꼭 먹을게! 참, 인터넷에서 비행기표 사는 거 도와줄 수 있어? 두 장 필요해."
+        },
+        {
+          "chinese": "好！顺便问一下，你能帮我订机票吗？两个人的。",
+          "pinyin": "Hǎo! Shùnbiàn wèn yīxià, nǐ néng bāng wǒ dìng jīpiào ma? Liǎng ge rén de.",
+          "korean": "좋아! 그런데 비행기표 예약 좀 도와줄 수 있어? 두 사람분이야."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "没问题。你想住什么样的酒店？贵的还是便宜的？",
+          "pinyin": "Méi wèntí. Nǐ xiǎng zhù shénme yàng de jiǔdiàn? Guì de háishi piányi de?",
+          "korean": "문제없어요. 어떤 호텔에 묵고 싶어요? 비싼 곳이요 아니면 저렴한 곳이요?"
+        },
+        {
+          "chinese": "当然可以。那住宿呢？想住高档的还是经济型的？",
+          "pinyin": "Dāngrán kěyǐ. Nà zhùsù ne? Xiǎng zhù gāodàng de háishi jīngjì xíng de?",
+          "korean": "물론이지. 그럼 숙소는? 고급으로 할 거야 아니면 경제적인 걸로?"
+        },
+        {
+          "chinese": "没问题，我帮你看。酒店要什么标准的？",
+          "pinyin": "Méi wèntí, wǒ bāng nǐ kàn. Jiǔdiàn yào shénme biāozhǔn de?",
+          "korean": "문제없어, 내가 찾아볼게. 호텔은 어떤 수준으로?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "不用太贵，干净舒服就好。旅游回来以后，我们一起吃顿饭吧。",
+          "pinyin": "Búyòng tài guì, gānjìng shūfu jiù hǎo. Lǚyóu huílái yǐhòu, wǒmen yìqǐ chī dùn fàn ba.",
+          "korean": "너무 비쌀 필요 없어요, 깨끗하고 편하면 돼요. 여행 다녀온 후에, 우리 같이 밥 한 끼 먹어요."
+        },
+        {
+          "chinese": "经济实惠就行，干净最重要。回来以后请你吃饭！",
+          "pinyin": "Jīngjì shíhuì jiù xíng, gānjìng zuì zhòngyào. Huílái yǐhòu qǐng nǐ chīfàn!",
+          "korean": "가성비 좋으면 돼, 깨끗한 게 제일 중요해. 돌아와서 밥 살게!"
+        },
+        {
+          "chinese": "不要太贵，舒服就好。等我回来，我请你吃一顿。",
+          "pinyin": "Bú yào tài guì, shūfu jiù hǎo. Děng wǒ huílái, wǒ qǐng nǐ chī yí dùn.",
+          "korean": "너무 비싸지 않고 편하면 돼. 돌아오면 한 턱 쏠게."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "chinese": "好久不见",
+      "pinyin": "hǎojiǔ bújiàn",
+      "korean": "오랜만이다"
+    },
+    {
+      "chinese": "打算",
+      "pinyin": "dǎsuàn",
+      "korean": "계획하다, ~할 생각이다"
+    },
+    {
+      "chinese": "旅游",
+      "pinyin": "lǚyóu",
+      "korean": "여행하다"
+    },
+    {
+      "chinese": "机票",
+      "pinyin": "jīpiào",
+      "korean": "비행기표"
+    },
+    {
+      "chinese": "舒服",
+      "pinyin": "shūfu",
+      "korean": "편안하다"
+    },
+    {
+      "chinese": "友好",
+      "pinyin": "yǒuhǎo",
+      "korean": "친절하다, 우호적이다"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "cn_to_kr",
+      "question": "好久不见",
+      "options": [
+        "안녕하세요",
+        "오랜만이다",
+        "감사합니다",
+        "잘 지내요"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "비행기표",
+      "options": [
+        "门票",
+        "火车票",
+        "机票",
+        "船票"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "春节放假的时候你___去哪儿？(계획하다)",
+      "options": [
+        "打算",
+        "可以",
+        "应该",
+        "喜欢"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "舒服",
+      "options": [
+        "깨끗하다",
+        "편안하다",
+        "아름답다",
+        "친절하다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "여행하다",
+      "options": [
+        "加班",
+        "上班",
+        "旅游",
+        "出发"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "友好",
+      "options": [
+        "편안하다",
+        "친절하다",
+        "아름답다",
+        "바쁘다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "打算",
+      "options": [
+        "계획하다",
+        "여행하다",
+        "도착하다",
+        "출발하다"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "오랜만이다",
+      "options": [
+        "你好",
+        "好久不见",
+        "再见",
+        "谢谢"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "편안하다",
+      "options": [
+        "友好",
+        "干净",
+        "舒服",
+        "漂亮"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "同事们都很___。(친절하다)",
+      "options": [
+        "舒服",
+        "友好",
+        "干净",
+        "漂亮"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "机票",
+      "options": [
+        "입장권",
+        "기차표",
+        "비행기표",
+        "배표"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "旅游",
+      "options": [
+        "출근하다",
+        "여행하다",
+        "야근하다",
+        "퇴근하다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "계획하다",
+      "options": [
+        "旅游",
+        "打算",
+        "舒服",
+        "友好"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "친절하다, 우호적이다",
+      "options": [
+        "舒服",
+        "干净",
+        "友好",
+        "好久不见"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "你能帮我在网上订两张___吗？(비행기표)",
+      "options": [
+        "门票",
+        "火车票",
+        "机票",
+        "船票"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "不用太贵，干净舒服就好。",
+      "options": [
+        "너무 비쌀 필요 없어요, 깨끗하고 편하면 돼요.",
+        "비싼 게 좋아요, 편하니까요.",
+        "너무 저렴하면 안 돼요, 깨끗해야 해요.",
+        "가격은 상관없어요, 편하면 돼요."
+      ],
+      "answer": 0
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "上个月刚换了新工作。",
+      "options": [
+        "지난달에 막 새 직장으로 옮겼어요.",
+        "이번 달에 새 직장을 찾고 있어요.",
+        "다음 달에 새 직장으로 옮길 거예요.",
+        "지난달에 직장을 그만뒀어요."
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill_blank",
+      "question": "___回来以后，我们一起吃顿饭吧。(여행)",
+      "options": [
+        "工作",
+        "旅游",
+        "加班",
+        "上班"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "베이징 오리구이를 꼭 먹어 보세요.",
+      "options": [
+        "别忘了尝尝北京烤鸭。",
+        "别忘了去看长城。",
+        "别忘了买机票。",
+        "别忘了订酒店。"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill_blank",
+      "question": "我想去北京看看长城，听说那里的风景特别___。(아름답다)",
+      "options": [
+        "好",
+        "大",
+        "美",
+        "远"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "好久不___了！",
+      "options": [
+        "吃",
+        "穿",
+        "住",
+        "见"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill_blank",
+      "question": "我在中国生活得很___。",
+      "options": [
+        "多少",
+        "什么",
+        "舒服",
+        "怎么"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "你的中文说得很___！",
+      "options": [
+        "好",
+        "穿",
+        "住",
+        "走"
+      ],
+      "answer": 0
+    }
+  ]
+}

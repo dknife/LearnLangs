@@ -1,0 +1,466 @@
+{
+  "level": 13,
+  "title": "옷 & 외모",
+  "titleCn": "衣服和外貌",
+  "description": "옷차림과 외모를 묘사하는 중국어 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "你今天穿的衣服真好看！",
+          "pinyin": "Nǐ jīntiān chuān de yīfu zhēn hǎokàn!",
+          "korean": "오늘 입은 옷 정말 예쁘다!"
+        },
+        {
+          "chinese": "哇，你今天打扮得真漂亮！",
+          "pinyin": "Wā, nǐ jīntiān dǎban de zhēn piàoliang!",
+          "korean": "와, 오늘 정말 예쁘게 꾸몄다!"
+        },
+        {
+          "chinese": "你这身衣服真不错！",
+          "pinyin": "Nǐ zhè shēn yīfu zhēn búcuò!",
+          "korean": "이 옷 정말 괜찮다!"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "谢谢！这是我新买的裙子。",
+          "pinyin": "Xièxie! Zhè shì wǒ xīn mǎi de qúnzi.",
+          "korean": "고마워! 이건 새로 산 치마야."
+        },
+        {
+          "chinese": "谢谢夸奖！刚买的裙子。",
+          "pinyin": "Xièxie kuājiǎng! Gāng mǎi de qúnzi.",
+          "korean": "칭찬 고마워! 방금 산 치마야."
+        },
+        {
+          "chinese": "真的吗？谢谢！这裙子是昨天买的。",
+          "pinyin": "Zhēn de ma? Xièxie! Zhè qúnzi shì zuótiān mǎi de.",
+          "korean": "진짜? 고마워! 이 치마 어제 산 거야."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "我喜欢这个颜色，红色很适合你。",
+          "pinyin": "Wǒ xǐhuān zhège yánsè, hóngsè hěn shìhé nǐ.",
+          "korean": "이 색깔 마음에 들어, 빨간색이 너한테 잘 어울려."
+        },
+        {
+          "chinese": "红色很配你，穿起来特别好看。",
+          "pinyin": "Hóngsè hěn pèi nǐ, chuān qǐlái tèbié hǎokàn.",
+          "korean": "빨간색이 너한테 잘 맞아, 입으니까 특히 예뻐."
+        },
+        {
+          "chinese": "这个红色好好看，你穿很合适。",
+          "pinyin": "Zhège hóngsè hǎo hǎokàn, nǐ chuān hěn héshì.",
+          "korean": "이 빨간색 정말 예뻐, 너한테 잘 어울려."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "你觉得这件衣服大不大？",
+          "pinyin": "Nǐ juéde zhè jiàn yīfu dà bu dà?",
+          "korean": "이 옷 큰 것 같아?"
+        },
+        {
+          "chinese": "你看这件合身吗？",
+          "pinyin": "Nǐ kàn zhè jiàn héshēn ma?",
+          "korean": "이거 몸에 맞아 보여?"
+        },
+        {
+          "chinese": "这件尺寸你觉得怎么样？",
+          "pinyin": "Zhè jiàn chǐcùn nǐ juéde zěnmeyàng?",
+          "korean": "이 사이즈 어때?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "不大不小，刚刚好。",
+          "pinyin": "Bú dà bù xiǎo, gānggāng hǎo.",
+          "korean": "크지도 작지도 않아, 딱 맞아."
+        },
+        {
+          "chinese": "大小正合适，很完美。",
+          "pinyin": "Dàxiǎo zhèng héshì, hěn wánměi.",
+          "korean": "사이즈 딱 맞아, 완벽해."
+        },
+        {
+          "chinese": "很合身，穿着刚刚好。",
+          "pinyin": "Hěn héshēn, chuān zhe gānggāng hǎo.",
+          "korean": "딱 맞아, 입으니 딱이야."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "那我还想买一条蓝色的裤子。",
+          "pinyin": "Nà wǒ hái xiǎng mǎi yì tiáo lánsè de kùzi.",
+          "korean": "그러면 파란색 바지도 하나 사고 싶어."
+        },
+        {
+          "chinese": "那我再配一条蓝色的裤子吧。",
+          "pinyin": "Nà wǒ zài pèi yì tiáo lánsè de kùzi ba.",
+          "korean": "그럼 파란색 바지도 하나 맞춰볼까."
+        },
+        {
+          "chinese": "我还想找一条蓝色裤子搭配。",
+          "pinyin": "Wǒ hái xiǎng zhǎo yì tiáo lánsè kùzi dāpèi.",
+          "korean": "파란색 바지도 하나 찾아서 코디하고 싶어."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "好啊，你穿什么都好看。",
+          "pinyin": "Hǎo a, nǐ chuān shénme dōu hǎokàn.",
+          "korean": "좋아, 너는 뭘 입어도 예뻐."
+        },
+        {
+          "chinese": "不错，你穿什么都很有气质。",
+          "pinyin": "Búcuò, nǐ chuān shénme dōu hěn yǒu qìzhì.",
+          "korean": "괜찮겠다, 너는 뭘 입어도 멋져."
+        },
+        {
+          "chinese": "一定很好看，你穿衣服特别有品味。",
+          "pinyin": "Yídìng hěn hǎokàn, nǐ chuān yīfu tèbié yǒu pǐnwèi.",
+          "korean": "분명 예쁠 거야, 너는 옷 입는 감각이 좋아."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "哈哈，你太会说话了！",
+          "pinyin": "Hāhā, nǐ tài huì shuōhuà le!",
+          "korean": "하하, 너 말 정말 잘한다!"
+        },
+        {
+          "chinese": "哈哈，你嘴真甜！",
+          "pinyin": "Hāhā, nǐ zuǐ zhēn tián!",
+          "korean": "하하, 입이 정말 달다!"
+        },
+        {
+          "chinese": "过奖了！你太客气了。",
+          "pinyin": "Guòjiǎng le! Nǐ tài kèqi le.",
+          "korean": "과찬이야! 너무 겸손해."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "chinese": "穿",
+      "pinyin": "chuān",
+      "korean": "입다, 신다"
+    },
+    {
+      "chinese": "好看",
+      "pinyin": "hǎokàn",
+      "korean": "예쁘다, 보기 좋다"
+    },
+    {
+      "chinese": "颜色",
+      "pinyin": "yánsè",
+      "korean": "색깔"
+    },
+    {
+      "chinese": "大",
+      "pinyin": "dà",
+      "korean": "크다"
+    },
+    {
+      "chinese": "小",
+      "pinyin": "xiǎo",
+      "korean": "작다"
+    },
+    {
+      "chinese": "适合",
+      "pinyin": "shìhé",
+      "korean": "어울리다, 적합하다"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "cn_to_kr",
+      "question": "好看",
+      "options": [
+        "맛있다",
+        "예쁘다",
+        "좋아하다",
+        "편하다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "색깔",
+      "options": [
+        "衣服",
+        "颜色",
+        "大小",
+        "好看"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "你今天___的衣服真好看！",
+      "options": [
+        "买",
+        "穿",
+        "看",
+        "做"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "不大不小，刚刚好。",
+      "options": [
+        "너무 크다",
+        "너무 작다",
+        "크지도 작지도 않아, 딱 맞아",
+        "좀 큰 것 같아"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "입다",
+      "options": [
+        "穿",
+        "买",
+        "看",
+        "做"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "适合",
+      "options": [
+        "크다",
+        "작다",
+        "어울리다",
+        "입다"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "颜色",
+      "options": [
+        "옷",
+        "색깔",
+        "크기",
+        "치마"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "红色很适合你。",
+      "options": [
+        "빨간색이 너한테 잘 어울려.",
+        "빨간색을 좋아해.",
+        "파란색이 예뻐.",
+        "이 옷이 크다."
+      ],
+      "answer": 0
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "这是我新买的裙子。",
+      "options": [
+        "이건 새로 산 바지야.",
+        "이건 새로 산 치마야.",
+        "이건 오래된 옷이야.",
+        "이건 빌린 치마야."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "你穿什么都好看。",
+      "options": [
+        "너는 뭘 사도 비싸.",
+        "너는 뭘 먹어도 맛있어.",
+        "너는 뭘 입어도 예뻐.",
+        "너는 뭘 해도 잘해."
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "红色很___你。",
+      "options": [
+        "喜欢",
+        "适合",
+        "好看",
+        "漂亮"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "裤子",
+      "options": [
+        "치마",
+        "바지",
+        "모자",
+        "신발"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "어울리다, 적합하다",
+      "options": [
+        "好看",
+        "适合",
+        "喜欢",
+        "穿"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "크다",
+      "options": [
+        "小",
+        "大",
+        "好",
+        "新"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "작다",
+      "options": [
+        "大",
+        "好",
+        "小",
+        "新"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "치마",
+      "options": [
+        "裤子",
+        "衣服",
+        "裙子",
+        "鞋子"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "파란색",
+      "options": [
+        "红色",
+        "蓝色",
+        "白色",
+        "黑色"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "빨간색",
+      "options": [
+        "蓝色",
+        "白色",
+        "红色",
+        "黄色"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "我喜欢这个___，红色很适合你。",
+      "options": [
+        "衣服",
+        "颜色",
+        "大小",
+        "裙子"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "那我还想买一条蓝色的___。",
+      "options": [
+        "裙子",
+        "衣服",
+        "裤子",
+        "鞋子"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "这件衣服太___了。",
+      "options": [
+        "吃",
+        "走",
+        "住",
+        "大"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill_blank",
+      "question": "你喜欢什么___的衣服？",
+      "options": [
+        "颜色",
+        "天气",
+        "时间",
+        "号码"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill_blank",
+      "question": "这条裤子很___。",
+      "options": [
+        "好吃",
+        "好听",
+        "好看",
+        "好闻"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "我想___一条裙子。",
+      "options": [
+        "住",
+        "走",
+        "坐",
+        "买"
+      ],
+      "answer": 3
+    }
+  ]
+}

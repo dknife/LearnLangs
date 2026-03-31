@@ -1,0 +1,455 @@
+{
+  "level": 6,
+  "title": "쇼핑하기",
+  "titleCn": "购物",
+  "description": "가게에서 물건을 사고 가격을 흥정하는 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "你好，我想买一件衣服。",
+          "pinyin": "Nǐ hǎo, wǒ xiǎng mǎi yī jiàn yīfu.",
+          "korean": "안녕하세요, 옷 한 벌 사고 싶어요."
+        },
+        {
+          "chinese": "你好，我想看看衣服。",
+          "pinyin": "Nǐ hǎo, wǒ xiǎng kànkan yīfu.",
+          "korean": "안녕하세요, 옷 좀 보고 싶어요."
+        },
+        {
+          "chinese": "你好，有没有新款的衣服？",
+          "pinyin": "Nǐ hǎo, yǒu méiyǒu xīn kuǎn de yīfu?",
+          "korean": "안녕하세요, 신상 옷이 있나요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "欢迎光临！你想看看什么样的？",
+          "pinyin": "Huānyíng guānglín! Nǐ xiǎng kànkan shénme yàng de?",
+          "korean": "어서 오세요! 어떤 걸 보고 싶으세요?"
+        },
+        {
+          "chinese": "欢迎！你喜欢什么颜色的？",
+          "pinyin": "Huānyíng! Nǐ xǐhuan shénme yánsè de?",
+          "korean": "환영합니다! 어떤 색상을 좋아하세요?"
+        },
+        {
+          "chinese": "欢迎光临！随便看看吧。",
+          "pinyin": "Huānyíng guānglín! Suíbiàn kànkan ba.",
+          "korean": "어서 오세요! 편하게 둘러보세요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "这个多少钱？",
+          "pinyin": "Zhège duōshao qián?",
+          "korean": "이거 얼마예요?"
+        },
+        {
+          "chinese": "这件衣服怎么卖？",
+          "pinyin": "Zhè jiàn yīfu zěnme mài?",
+          "korean": "이 옷은 얼마에 파나요?"
+        },
+        {
+          "chinese": "请问这个什么价格？",
+          "pinyin": "Qǐngwèn zhège shénme jiàgé?",
+          "korean": "이건 가격이 얼마예요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "这件两百块。",
+          "pinyin": "Zhè jiàn liǎng bǎi kuài.",
+          "korean": "이건 200위안이에요."
+        },
+        {
+          "chinese": "这件卖两百元。",
+          "pinyin": "Zhè jiàn mài liǎng bǎi yuán.",
+          "korean": "이건 200위안에 팔아요."
+        },
+        {
+          "chinese": "两百块一件。",
+          "pinyin": "Liǎng bǎi kuài yí jiàn.",
+          "korean": "한 벌에 200위안이에요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "太贵了！能不能便宜一点？",
+          "pinyin": "Tài guì le! Néng bu néng piányi yīdiǎn?",
+          "korean": "너무 비싸요! 좀 싸게 해줄 수 있어요?"
+        },
+        {
+          "chinese": "有点贵。可以打折吗？",
+          "pinyin": "Yǒudiǎn guì. Kěyǐ dǎzhé ma?",
+          "korean": "좀 비싸요. 할인 되나요?"
+        },
+        {
+          "chinese": "能不能再便宜点？",
+          "pinyin": "Néng bu néng zài piányi diǎn?",
+          "korean": "좀 더 싸게 해줄 수 있어요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "好吧，一百五十块怎么样？",
+          "pinyin": "Hǎo ba, yī bǎi wǔshí kuài zěnmeyàng?",
+          "korean": "좋아요, 150위안 어때요?"
+        },
+        {
+          "chinese": "给你打八折，一百六十块。",
+          "pinyin": "Gěi nǐ dǎ bā zhé, yì bǎi liùshí kuài.",
+          "korean": "20% 할인해서 160위안이에요."
+        },
+        {
+          "chinese": "最低一百五，不能再少了。",
+          "pinyin": "Zuì dī yì bǎi wǔ, bù néng zài shǎo le.",
+          "korean": "최저 150위안, 더 이상은 안 돼요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "可以试试吗？",
+          "pinyin": "Kěyǐ shìshi ma?",
+          "korean": "입어볼 수 있을까요?"
+        },
+        {
+          "chinese": "我能试穿一下吗？",
+          "pinyin": "Wǒ néng shì chuān yíxià ma?",
+          "korean": "입어봐도 될까요?"
+        },
+        {
+          "chinese": "有试衣间吗？我想试试。",
+          "pinyin": "Yǒu shìyījiān ma? Wǒ xiǎng shìshi.",
+          "korean": "탈의실 있어요? 입어보고 싶어요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "当然可以，试衣间在那边。",
+          "pinyin": "Dāngrán kěyǐ, shìyījiān zài nàbiān.",
+          "korean": "물론이요, 탈의실은 저쪽에 있어요."
+        },
+        {
+          "chinese": "可以，试衣间在右边。",
+          "pinyin": "Kěyǐ, shìyījiān zài yòubiān.",
+          "korean": "네, 탈의실은 오른쪽에 있어요."
+        },
+        {
+          "chinese": "当然！请跟我来，试衣间在这边。",
+          "pinyin": "Dāngrán! Qǐng gēn wǒ lái, shìyījiān zài zhè biān.",
+          "korean": "물론이죠! 따라오세요, 탈의실은 이쪽이에요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "chinese": "多少钱",
+      "pinyin": "duōshao qián",
+      "korean": "얼마"
+    },
+    {
+      "chinese": "太贵了",
+      "pinyin": "tài guì le",
+      "korean": "너무 비싸다"
+    },
+    {
+      "chinese": "便宜",
+      "pinyin": "piányi",
+      "korean": "싸다, 저렴하다"
+    },
+    {
+      "chinese": "试试",
+      "pinyin": "shìshi",
+      "korean": "시험해 보다, 입어보다"
+    },
+    {
+      "chinese": "衣服",
+      "pinyin": "yīfu",
+      "korean": "옷"
+    },
+    {
+      "chinese": "欢迎光临",
+      "pinyin": "huānyíng guānglín",
+      "korean": "어서 오세요"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "cn_to_kr",
+      "question": "太贵了",
+      "options": [
+        "너무 싸다",
+        "너무 비싸다",
+        "아주 좋다",
+        "너무 크다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "얼마예요?",
+      "options": [
+        "怎么样？",
+        "多少钱？",
+        "是什么？",
+        "在哪儿？"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "能不能___一点？(좀 싸게)",
+      "options": [
+        "贵",
+        "便宜",
+        "大",
+        "好"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "可以试试吗？",
+      "options": [
+        "살 수 있나요?",
+        "볼 수 있나요?",
+        "입어볼 수 있나요?",
+        "먹어볼 수 있나요?"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "옷",
+      "options": [
+        "鞋子",
+        "裤子",
+        "衣服",
+        "帽子"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "欢迎光临",
+      "options": [
+        "안녕히 가세요",
+        "어서 오세요",
+        "감사합니다",
+        "죄송합니다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "这件两百块",
+      "options": [
+        "이건 100위안이에요",
+        "이건 200위안이에요",
+        "이건 300위안이에요",
+        "이건 150위안이에요"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "너무 비싸다",
+      "options": [
+        "太便宜了",
+        "太贵了",
+        "太大了",
+        "太好了"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "입어보다, 시험해 보다",
+      "options": [
+        "看看",
+        "想想",
+        "试试",
+        "走走"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "我想___一件衣服。(사다)",
+      "options": [
+        "看",
+        "买",
+        "试",
+        "穿"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "你想看看什么样的？",
+      "options": [
+        "뭘 사고 싶으세요?",
+        "어떤 걸 보고 싶으세요?",
+        "언제 오셨어요?",
+        "어디에서 왔어요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "싸다, 저렴하다",
+      "options": [
+        "贵",
+        "便宜",
+        "多",
+        "少"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "试衣间在___。(저쪽)",
+      "options": [
+        "这边",
+        "那边",
+        "前边",
+        "里边"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "一百五十块怎么样？",
+      "options": [
+        "100위안 어때요?",
+        "150위안 어때요?",
+        "200위안 어때요?",
+        "250위안 어때요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "탈의실",
+      "options": [
+        "洗手间",
+        "试衣间",
+        "卧室",
+        "教室"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "我想买一件衣服",
+      "options": [
+        "옷 한 벌 입고 싶어요",
+        "옷 한 벌 사고 싶어요",
+        "옷 한 벌 보고 싶어요",
+        "옷 한 벌 빌리고 싶어요"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "___光临！(어서 오세요)",
+      "options": [
+        "你好",
+        "谢谢",
+        "欢迎",
+        "再见"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "当然可以",
+      "options": [
+        "안 돼요",
+        "물론이요",
+        "잠깐만요",
+        "모르겠어요"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "이거 얼마예요?",
+      "options": [
+        "这个是什么？",
+        "这个在哪儿？",
+        "这个多少钱？",
+        "这个怎么样？"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "这___两百块。(벌, 건 - 옷 양사)",
+      "options": [
+        "个",
+        "件",
+        "条",
+        "双"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "这个___钱？",
+      "options": [
+        "什么",
+        "怎么",
+        "多少",
+        "哪儿"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "太___了，便宜一点吧。",
+      "options": [
+        "走",
+        "贵",
+        "穿",
+        "住"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "我可以___一下吗？",
+      "options": [
+        "住",
+        "试",
+        "走",
+        "吃"
+      ],
+      "answer": 1
+    }
+  ]
+}

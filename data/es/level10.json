@@ -1,0 +1,190 @@
+{
+  "level": 10,
+  "title": "음식 & 맛 표현",
+  "titleEs": "Comida y Sabores",
+  "description": "스페인어로 음식과 맛을 표현하는 방법을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Te gusta la comida española?",
+          "pronunciation": "떼 구스따 라 꼬미다 에스빠뇰라?",
+          "korean": "스페인 음식 좋아해요?"
+        },
+        {
+          "spanish": "¿Has probado la paella?",
+          "pronunciation": "아스 쁘로바도 라 빠에야?",
+          "korean": "빠에야 먹어 봤어요?"
+        },
+        {
+          "spanish": "¿Qué tipo de comida prefieres?",
+          "pronunciation": "게 띠뽀 데 꼬미다 쁘레피에레스?",
+          "korean": "어떤 종류의 음식을 좋아해요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "¡Sí, me encanta! Sobre todo las tapas.",
+          "pronunciation": "시, 메 엔깐따! 소브레 또도 라스 따빠스.",
+          "korean": "네, 정말 좋아해요! 특히 타파스요."
+        },
+        {
+          "spanish": "La comida española es deliciosa.",
+          "pronunciation": "라 꼬미다 에스빠뇰라 에스 델리시오사.",
+          "korean": "스페인 음식은 맛있어요."
+        },
+        {
+          "spanish": "Prefiero la comida mediterránea.",
+          "pronunciation": "쁘레피에로 라 꼬미다 메디떼라네아.",
+          "korean": "지중해 음식을 더 좋아해요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Qué sabor tiene este plato?",
+          "pronunciation": "게 사보르 띠에네 에스떼 쁠라또?",
+          "korean": "이 요리는 무슨 맛이에요?"
+        },
+        {
+          "spanish": "¡Prueba esto! Está muy rico.",
+          "pronunciation": "쁘루에바 에스또! 에스따 무이 리꼬.",
+          "korean": "이거 먹어봐요! 정말 맛있어요."
+        },
+        {
+          "spanish": "¿Es picante?",
+          "pronunciation": "에스 삐깐떼?",
+          "korean": "매워요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Está un poco salado, pero rico.",
+          "pronunciation": "에스따 운 뽀꼬 살라도, 뻬로 리꼬.",
+          "korean": "좀 짠데, 맛있어요."
+        },
+        {
+          "spanish": "No es picante. Es muy dulce.",
+          "pronunciation": "노 에스 삐깐떼. 에스 무이 둘세.",
+          "korean": "안 매워요. 아주 달아요."
+        },
+        {
+          "spanish": "Tiene un sabor agridulce. ¡Buenísimo!",
+          "pronunciation": "띠에네 운 사보르 아그리둘세. 부에니시모!",
+          "korean": "새콤달콤한 맛이에요. 정말 맛있어요!"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Quieres postre?",
+          "pronunciation": "끼에레스 뽀스뜨레?",
+          "korean": "디저트 먹을래요?"
+        },
+        {
+          "spanish": "¿Tomamos un café después?",
+          "pronunciation": "또마모스 운 까페 데스뿌에스?",
+          "korean": "나중에 커피 마실래요?"
+        },
+        {
+          "spanish": "¿Pedimos algo más?",
+          "pronunciation": "뻬디모스 알고 마스?",
+          "korean": "더 시킬까요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Sí, quiero el flan. Mi postre favorito.",
+          "pronunciation": "시, 끼에로 엘 플란. 미 뽀스뜨레 파보리또.",
+          "korean": "네, 플란이요. 제일 좋아하는 디저트예요."
+        },
+        {
+          "spanish": "Un café con leche, por favor.",
+          "pronunciation": "운 까페 꼰 레체, 뽀르 파보르.",
+          "korean": "카페라떼 하나 주세요."
+        },
+        {
+          "spanish": "No, gracias. Estoy lleno.",
+          "pronunciation": "노, 그라시아스. 에스또이 예노.",
+          "korean": "아니요, 괜찮아요. 배불러요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡La comida estaba riquísima!",
+          "pronunciation": "라 꼬미다 에스따바 리끼시마!",
+          "korean": "음식이 정말 맛있었어요!"
+        },
+        {
+          "spanish": "Me ha encantado todo.",
+          "pronunciation": "메 아 엔깐따도 또도.",
+          "korean": "다 맘에 들었어요."
+        },
+        {
+          "spanish": "Ha sido una comida estupenda.",
+          "pronunciation": "아 시도 우나 꼬미다 에스뚜뻰다.",
+          "korean": "정말 훌륭한 식사였어요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "comida",
+      "pronunciation": "꼬미다",
+      "korean": "음식"
+    },
+    {
+      "spanish": "sabor",
+      "pronunciation": "사보르",
+      "korean": "맛"
+    },
+    {
+      "spanish": "dulce",
+      "pronunciation": "둘세",
+      "korean": "달콤한"
+    },
+    {
+      "spanish": "salado",
+      "pronunciation": "살라도",
+      "korean": "짠"
+    },
+    {
+      "spanish": "picante",
+      "pronunciation": "삐깐떼",
+      "korean": "매운"
+    },
+    {
+      "spanish": "amargo",
+      "pronunciation": "아마르고",
+      "korean": "쓴"
+    },
+    {
+      "spanish": "delicioso",
+      "pronunciation": "델리시오소",
+      "korean": "맛있는"
+    },
+    {
+      "spanish": "postre",
+      "pronunciation": "뽀스뜨레",
+      "korean": "디저트"
+    }
+  ]
+}

@@ -1,0 +1,466 @@
+{
+  "level": 2,
+  "title": "숫자 & 날짜",
+  "titleCn": "数字和日期",
+  "description": "중국어 숫자와 날짜 표현을 배워봅시다. 생일과 요일도 함께 익혀요.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "今天几月几号？",
+          "pinyin": "Jīntiān jǐ yuè jǐ hào?",
+          "korean": "오늘 몇 월 며칠이에요?"
+        },
+        {
+          "chinese": "请问今天是几号？",
+          "pinyin": "Qǐngwèn jīntiān shì jǐ hào?",
+          "korean": "오늘이 며칠인지 물어봐도 될까요?"
+        },
+        {
+          "chinese": "你知道今天的日期吗？",
+          "pinyin": "Nǐ zhīdào jīntiān de rìqī ma?",
+          "korean": "오늘 날짜 알아요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "今天三月十五号。",
+          "pinyin": "Jīntiān sān yuè shíwǔ hào.",
+          "korean": "오늘은 3월 15일이에요."
+        },
+        {
+          "chinese": "今天是三月十五号。",
+          "pinyin": "Jīntiān shì sān yuè shíwǔ hào.",
+          "korean": "오늘은 3월 15일이에요."
+        },
+        {
+          "chinese": "三月十五号，今天。",
+          "pinyin": "Sān yuè shíwǔ hào, jīntiān.",
+          "korean": "3월 15일이에요, 오늘."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "今天星期几？",
+          "pinyin": "Jīntiān xīngqī jǐ?",
+          "korean": "오늘 무슨 요일이에요?"
+        },
+        {
+          "chinese": "那今天是星期几呢？",
+          "pinyin": "Nà jīntiān shì xīngqī jǐ ne?",
+          "korean": "그러면 오늘은 무슨 요일이에요?"
+        },
+        {
+          "chinese": "今天是周几？",
+          "pinyin": "Jīntiān shì zhōu jǐ?",
+          "korean": "오늘 무슨 요일이에요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "今天星期三。你的生日是几月几号？",
+          "pinyin": "Jīntiān xīngqī sān. Nǐ de shēngrì shì jǐ yuè jǐ hào?",
+          "korean": "오늘은 수요일이에요. 생일이 몇 월 며칠이에요?"
+        },
+        {
+          "chinese": "今天是周三。对了，你生日是哪天？",
+          "pinyin": "Jīntiān shì zhōu sān. Duì le, nǐ shēngrì shì nǎ tiān?",
+          "korean": "오늘은 수요일이에요. 참, 생일이 언제예요?"
+        },
+        {
+          "chinese": "星期三。话说你的生日是什么时候？",
+          "pinyin": "Xīngqī sān. Huàshuō nǐ de shēngrì shì shénme shíhou?",
+          "korean": "수요일이에요. 그런데 생일이 언제예요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "我的生日是五月二十号。你呢？",
+          "pinyin": "Wǒ de shēngrì shì wǔ yuè èrshí hào. Nǐ ne?",
+          "korean": "제 생일은 5월 20일이에요. 당신은요?"
+        },
+        {
+          "chinese": "五月二十号是我的生日。你的呢？",
+          "pinyin": "Wǔ yuè èrshí hào shì wǒ de shēngrì. Nǐ de ne?",
+          "korean": "5월 20일이 제 생일이에요. 당신은요?"
+        },
+        {
+          "chinese": "我是五月二十号出生的。你的生日呢？",
+          "pinyin": "Wǒ shì wǔ yuè èrshí hào chūshēng de. Nǐ de shēngrì ne?",
+          "korean": "저는 5월 20일에 태어났어요. 당신 생일은요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "我的生日是十月八号。",
+          "pinyin": "Wǒ de shēngrì shì shí yuè bā hào.",
+          "korean": "제 생일은 10월 8일이에요."
+        },
+        {
+          "chinese": "十月八号，是我的生日。",
+          "pinyin": "Shí yuè bā hào, shì wǒ de shēngrì.",
+          "korean": "10월 8일이 제 생일이에요."
+        },
+        {
+          "chinese": "我是十月八号生的。",
+          "pinyin": "Wǒ shì shí yuè bā hào shēng de.",
+          "korean": "저는 10월 8일에 태어났어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "你今年多大了？",
+          "pinyin": "Nǐ jīnnián duō dà le?",
+          "korean": "올해 몇 살이에요?"
+        },
+        {
+          "chinese": "你几岁了？",
+          "pinyin": "Nǐ jǐ suì le?",
+          "korean": "몇 살이에요?"
+        },
+        {
+          "chinese": "请问你多大年纪了？",
+          "pinyin": "Qǐngwèn nǐ duō dà niánjì le?",
+          "korean": "나이가 어떻게 되세요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "我今年二十五岁。",
+          "pinyin": "Wǒ jīnnián èrshíwǔ suì.",
+          "korean": "저는 올해 25살이에요."
+        },
+        {
+          "chinese": "二十五岁了。",
+          "pinyin": "Èrshíwǔ suì le.",
+          "korean": "25살이에요."
+        },
+        {
+          "chinese": "我二十五了，时间过得真快！",
+          "pinyin": "Wǒ èrshíwǔ le, shíjiān guò de zhēn kuài!",
+          "korean": "25살이에요, 시간이 정말 빨라요!"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "chinese": "今天",
+      "pinyin": "jīntiān",
+      "korean": "오늘"
+    },
+    {
+      "chinese": "星期",
+      "pinyin": "xīngqī",
+      "korean": "요일"
+    },
+    {
+      "chinese": "生日",
+      "pinyin": "shēngrì",
+      "korean": "생일"
+    },
+    {
+      "chinese": "几月几号",
+      "pinyin": "jǐ yuè jǐ hào",
+      "korean": "몇 월 며칠"
+    },
+    {
+      "chinese": "多大",
+      "pinyin": "duō dà",
+      "korean": "몇 살 (나이)"
+    },
+    {
+      "chinese": "岁",
+      "pinyin": "suì",
+      "korean": "살 (나이 단위)"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "cn_to_kr",
+      "question": "今天几月几号？",
+      "options": [
+        "오늘 무슨 요일이에요?",
+        "오늘 몇 월 며칠이에요?",
+        "생일이 언제예요?",
+        "올해 몇 살이에요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "오늘은 수요일이에요.",
+      "options": [
+        "今天星期五。",
+        "今天星期一。",
+        "今天星期三。",
+        "今天星期天。"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "你的___是几月几号？",
+      "options": [
+        "星期",
+        "今天",
+        "名字",
+        "生日"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "你今年多大了？",
+      "options": [
+        "오늘 몇 월 며칠이에요?",
+        "올해 몇 살이에요?",
+        "생일이 언제예요?",
+        "이름이 뭐예요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "제 생일은 5월 20일이에요.",
+      "options": [
+        "我的生日是五月二十号。",
+        "今天五月二十号。",
+        "我的生日是二月五号。",
+        "你的生日是五月二十号。"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "今天三月十五号。",
+      "options": [
+        "오늘은 3월 5일이에요.",
+        "오늘은 3월 15일이에요.",
+        "오늘은 5월 13일이에요.",
+        "오늘은 10월 15일이에요."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "今天星期几？",
+      "options": [
+        "오늘 몇 월 며칠이에요?",
+        "오늘 무슨 요일이에요?",
+        "올해 몇 살이에요?",
+        "생일이 며칠이에요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "我今年二十五岁。",
+      "options": [
+        "저는 올해 15살이에요.",
+        "저는 올해 20살이에요.",
+        "저는 올해 25살이에요.",
+        "저는 올해 35살이에요."
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "我的生日是十月八号。",
+      "options": [
+        "제 생일은 8월 10일이에요.",
+        "제 생일은 10월 18일이에요.",
+        "제 생일은 10월 8일이에요.",
+        "제 생일은 8월 8일이에요."
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "今天星期三。",
+      "options": [
+        "오늘은 월요일이에요.",
+        "오늘은 화요일이에요.",
+        "오늘은 수요일이에요.",
+        "오늘은 목요일이에요."
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "你的生日是几月几号？",
+      "options": [
+        "올해 몇 살이에요?",
+        "오늘 몇 월 며칠이에요?",
+        "생일이 몇 월 며칠이에요?",
+        "오늘 무슨 요일이에요?"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "올해 몇 살이에요?",
+      "options": [
+        "你今年几岁？",
+        "你今年多大了？",
+        "你几月几号？",
+        "你的生日是几号？"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "오늘 몇 월 며칠이에요?",
+      "options": [
+        "今天星期几？",
+        "你的生日是几月几号？",
+        "今天几月几号？",
+        "今年几月？"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "오늘 무슨 요일이에요?",
+      "options": [
+        "今天几月几号？",
+        "今天星期几？",
+        "今天几号？",
+        "你今年多大了？"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "저는 올해 25살이에요.",
+      "options": [
+        "我今年二十岁。",
+        "我今年二十五岁。",
+        "你今年二十五岁。",
+        "我的生日是二十五号。"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "제 생일은 10월 8일이에요.",
+      "options": [
+        "我的生日是八月十号。",
+        "你的生日是十月八号。",
+        "我的生日是十月八号。",
+        "今天十月八号。"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "당신은요?",
+      "options": [
+        "你好吗？",
+        "你呢？",
+        "你是谁？",
+        "你几岁？"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "今天___几？",
+      "options": [
+        "生日",
+        "几月",
+        "星期",
+        "多大"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "我今年二十五___。",
+      "options": [
+        "号",
+        "月",
+        "年",
+        "岁"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill_blank",
+      "question": "今天三月十五___。",
+      "options": [
+        "岁",
+        "号",
+        "年",
+        "星期"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "你___年多大了？",
+      "options": [
+        "走",
+        "今",
+        "吃",
+        "穿"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "我的生日是五___一号。",
+      "options": [
+        "岁",
+        "天",
+        "月",
+        "年"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "今天是___期一。",
+      "options": [
+        "月",
+        "号",
+        "星",
+        "岁"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "她今年三十___了。",
+      "options": [
+        "月",
+        "号",
+        "天",
+        "岁"
+      ],
+      "answer": 3
+    }
+  ]
+}

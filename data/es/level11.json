@@ -1,0 +1,190 @@
+{
+  "level": 11,
+  "title": "감정 표현",
+  "titleEs": "Expresar Emociones",
+  "description": "스페인어로 다양한 감정을 표현하는 방법을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Cómo estás hoy?",
+          "pronunciation": "꼬모 에스따스 오이?",
+          "korean": "오늘 기분이 어때요?"
+        },
+        {
+          "spanish": "¿Qué tal te encuentras?",
+          "pronunciation": "게 딸 떼 엔꾸엔뜨라스?",
+          "korean": "컨디션이 어때요?"
+        },
+        {
+          "spanish": "Te veo un poco triste. ¿Estás bien?",
+          "pronunciation": "떼 베오 운 뽀꼬 뜨리스떼. 에스따스 비엔?",
+          "korean": "좀 슬퍼 보여요. 괜찮아요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Estoy muy contento. ¡Gran día!",
+          "pronunciation": "에스또이 무이 꼰뗀또. 그란 디아!",
+          "korean": "아주 기뻐요. 좋은 날이에요!"
+        },
+        {
+          "spanish": "Me siento un poco cansado.",
+          "pronunciation": "메 시엔또 운 뽀꼬 깐사도.",
+          "korean": "좀 피곤해요."
+        },
+        {
+          "spanish": "Estoy preocupado por el examen.",
+          "pronunciation": "에스또이 쁘레오꾸빠도 뽀르 엘 엑사멘.",
+          "korean": "시험 때문에 걱정돼요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Por qué estás tan contento?",
+          "pronunciation": "뽀르 게 에스따스 딴 꼰뗀또?",
+          "korean": "왜 그렇게 기뻐요?"
+        },
+        {
+          "spanish": "¿Qué te ha pasado?",
+          "pronunciation": "게 떼 아 빠사도?",
+          "korean": "무슨 일이 있었어요?"
+        },
+        {
+          "spanish": "No te preocupes, todo irá bien.",
+          "pronunciation": "노 떼 쁘레오꾸뻬스, 또도 이라 비엔.",
+          "korean": "걱정 마세요, 다 잘 될 거예요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "¡Me han dado el trabajo!",
+          "pronunciation": "메 안 다도 엘 뜨라바호!",
+          "korean": "취직했어요!"
+        },
+        {
+          "spanish": "Estoy emocionado porque viajo mañana.",
+          "pronunciation": "에스또이 에모시오나도 뽀르게 비아호 마냐나.",
+          "korean": "내일 여행이라서 설레요."
+        },
+        {
+          "spanish": "Gracias, me siento mejor.",
+          "pronunciation": "그라시아스, 메 시엔또 메호르.",
+          "korean": "고마워요, 기분이 나아졌어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡Qué alegría! ¡Me alegro por ti!",
+          "pronunciation": "게 알레그리아! 메 알레그로 뽀르 띠!",
+          "korean": "정말 기쁘다! 축하해요!"
+        },
+        {
+          "spanish": "¡Enhorabuena! Te lo mereces.",
+          "pronunciation": "엔오라부에나! 떼 로 메레세스.",
+          "korean": "축하해요! 당신이 받을 만해요."
+        },
+        {
+          "spanish": "Eso es maravilloso.",
+          "pronunciation": "에소 에스 마라비요소.",
+          "korean": "정말 멋지네요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Gracias. Estoy nervioso también.",
+          "pronunciation": "그라시아스. 에스또이 네르비오소 땀비엔.",
+          "korean": "감사해요. 긴장도 돼요."
+        },
+        {
+          "spanish": "Estoy un poco asustado pero feliz.",
+          "pronunciation": "에스또이 운 뽀꼬 아수스따도 뻬로 펠리스.",
+          "korean": "좀 무섭지만 행복해요."
+        },
+        {
+          "spanish": "Me siento muy agradecido.",
+          "pronunciation": "메 시엔또 무이 아그라데시도.",
+          "korean": "정말 감사한 마음이에요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Es normal. ¡Ánimo!",
+          "pronunciation": "에스 노르말. 아니모!",
+          "korean": "당연해요. 힘내요!"
+        },
+        {
+          "spanish": "Todo saldrá genial. ¡Confía en ti!",
+          "pronunciation": "또도 살드라 헤니알. 꼰피아 엔 띠!",
+          "korean": "다 잘 될 거예요. 자신을 믿어요!"
+        },
+        {
+          "spanish": "¡Mucha suerte!",
+          "pronunciation": "무차 수에르떼!",
+          "korean": "행운을 빌어요!"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "feliz / contento",
+      "pronunciation": "펠리스 / 꼰뗀또",
+      "korean": "행복한 / 기쁜"
+    },
+    {
+      "spanish": "triste",
+      "pronunciation": "뜨리스떼",
+      "korean": "슬픈"
+    },
+    {
+      "spanish": "enojado",
+      "pronunciation": "에노하도",
+      "korean": "화난"
+    },
+    {
+      "spanish": "nervioso",
+      "pronunciation": "네르비오소",
+      "korean": "긴장한"
+    },
+    {
+      "spanish": "cansado",
+      "pronunciation": "깐사도",
+      "korean": "피곤한"
+    },
+    {
+      "spanish": "sorprendido",
+      "pronunciation": "소르쁘렌디도",
+      "korean": "놀란"
+    },
+    {
+      "spanish": "preocupado",
+      "pronunciation": "쁘레오꾸빠도",
+      "korean": "걱정되는"
+    },
+    {
+      "spanish": "emocionado",
+      "pronunciation": "에모시오나도",
+      "korean": "설레는"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "level": 17,
+  "title": "은행 & 환전",
+  "titleEs": "Banco y Cambio de Moneda",
+  "description": "스페인어로 은행 업무와 환전 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Quiero cambiar dinero.",
+          "pronunciation": "끼에로 깜비아르 디네로.",
+          "korean": "환전하고 싶어요."
+        },
+        {
+          "spanish": "¿Dónde puedo cambiar dólares a euros?",
+          "pronunciation": "돈데 뿌에도 깜비아르 돌라레스 아 에우로스?",
+          "korean": "달러를 유로로 어디서 환전할 수 있나요?"
+        },
+        {
+          "spanish": "Necesito abrir una cuenta.",
+          "pronunciation": "네세시또 아브리르 우나 꾸엔따.",
+          "korean": "계좌를 열고 싶어요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "¿Cuánto quiere cambiar?",
+          "pronunciation": "꾸안또 끼에레 깜비아르?",
+          "korean": "얼마를 환전하시겠어요?"
+        },
+        {
+          "spanish": "El tipo de cambio hoy es uno con diez.",
+          "pronunciation": "엘 띠뽀 데 깜비오 오이 에스 우노 꼰 디에스.",
+          "korean": "오늘 환율은 1.10이에요."
+        },
+        {
+          "spanish": "Necesitará su pasaporte.",
+          "pronunciation": "네세시따라 수 빠사뽀르떼.",
+          "korean": "여권이 필요해요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Quiero cambiar trescientos dólares.",
+          "pronunciation": "끼에로 깜비아르 뜨레시엔또스 돌라레스.",
+          "korean": "300달러를 환전하고 싶어요."
+        },
+        {
+          "spanish": "¿Cobran comisión?",
+          "pronunciation": "꼬브란 꼬미시온?",
+          "korean": "수수료가 있나요?"
+        },
+        {
+          "spanish": "Aquí tiene mi pasaporte.",
+          "pronunciation": "아끼 띠에네 미 빠사뽀르떼.",
+          "korean": "여기 여권이요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Hay una comisión del dos por ciento.",
+          "pronunciation": "아이 우나 꼬미시온 델 도스 뽀르 시엔또.",
+          "korean": "2% 수수료가 있어요."
+        },
+        {
+          "spanish": "No cobramos comisión.",
+          "pronunciation": "노 꼬브라모스 꼬미시온.",
+          "korean": "수수료 없어요."
+        },
+        {
+          "spanish": "¿Billetes grandes o pequeños?",
+          "pronunciation": "비예떼스 그란데스 오 뻬게뇨스?",
+          "korean": "큰 지폐, 작은 지폐?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "En billetes pequeños, por favor.",
+          "pronunciation": "엔 비예떼스 뻬게뇨스, 뽀르 파보르.",
+          "korean": "작은 지폐로 주세요."
+        },
+        {
+          "spanish": "¿Puedo sacar dinero del cajero?",
+          "pronunciation": "뿌에도 사까르 디네로 델 까헤로?",
+          "korean": "ATM에서 돈을 뽑을 수 있나요?"
+        },
+        {
+          "spanish": "También quiero hacer una transferencia.",
+          "pronunciation": "땀비엔 끼에로 아세르 우나 뜨란스페렌시아.",
+          "korean": "송금도 하고 싶어요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Aquí tiene. ¿Necesita algo más?",
+          "pronunciation": "아끼 띠에네. 네세시따 알고 마스?",
+          "korean": "여기요. 다른 건 필요 없으세요?"
+        },
+        {
+          "spanish": "El cajero está a la entrada.",
+          "pronunciation": "엘 까헤로 에스따 아 라 엔뜨라다.",
+          "korean": "ATM은 입구에 있어요."
+        },
+        {
+          "spanish": "¿A qué cuenta quiere transferir?",
+          "pronunciation": "아 게 꾸엔따 끼에레 뜨란스페리르?",
+          "korean": "어느 계좌로 송금하시겠어요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Eso es todo. Muchas gracias.",
+          "pronunciation": "에소 에스 또도. 무차스 그라시아스.",
+          "korean": "그게 다예요. 감사합니다."
+        },
+        {
+          "spanish": "Gracias por su ayuda.",
+          "pronunciation": "그라시아스 뽀르 수 아유다.",
+          "korean": "도움 감사합니다."
+        },
+        {
+          "spanish": "Perfecto. ¡Buen día!",
+          "pronunciation": "뻬르펙또. 부엔 디아!",
+          "korean": "좋아요. 좋은 하루 되세요!"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "banco",
+      "pronunciation": "방꼬",
+      "korean": "은행"
+    },
+    {
+      "spanish": "dinero",
+      "pronunciation": "디네로",
+      "korean": "돈"
+    },
+    {
+      "spanish": "cuenta",
+      "pronunciation": "꾸엔따",
+      "korean": "계좌"
+    },
+    {
+      "spanish": "cambio",
+      "pronunciation": "깜비오",
+      "korean": "환전"
+    },
+    {
+      "spanish": "comisión",
+      "pronunciation": "꼬미시온",
+      "korean": "수수료"
+    },
+    {
+      "spanish": "cajero automático",
+      "pronunciation": "까헤로 아우또마띠꼬",
+      "korean": "ATM"
+    },
+    {
+      "spanish": "transferencia",
+      "pronunciation": "뜨란스페렌시아",
+      "korean": "송금"
+    },
+    {
+      "spanish": "billete",
+      "pronunciation": "비예떼",
+      "korean": "지폐"
+    }
+  ]
+}

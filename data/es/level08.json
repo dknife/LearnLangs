@@ -1,0 +1,190 @@
+{
+  "level": 8,
+  "title": "시간 표현",
+  "titleEs": "Expresar la Hora",
+  "description": "스페인어로 시간을 묻고 표현하는 방법을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Perdone, ¿qué hora es?",
+          "pronunciation": "뻬르도네, 게 오라 에스?",
+          "korean": "실례합니다, 몇 시예요?"
+        },
+        {
+          "spanish": "¿Tiene hora?",
+          "pronunciation": "띠에네 오라?",
+          "korean": "시간 좀 알 수 있을까요?"
+        },
+        {
+          "spanish": "¿Me puede decir la hora?",
+          "pronunciation": "메 뿌에데 데시르 라 오라?",
+          "korean": "시간 좀 알려주시겠어요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Son las tres y media.",
+          "pronunciation": "손 라스 뜨레스 이 메디아.",
+          "korean": "3시 반이에요."
+        },
+        {
+          "spanish": "Son las diez menos cuarto.",
+          "pronunciation": "손 라스 디에스 메노스 꾸아르또.",
+          "korean": "10시 15분 전이에요."
+        },
+        {
+          "spanish": "Es la una en punto.",
+          "pronunciation": "에스 라 우나 엔 뿐또.",
+          "korean": "정각 1시예요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿A qué hora abre el museo?",
+          "pronunciation": "아 게 오라 아브레 엘 무세오?",
+          "korean": "박물관은 몇 시에 열어요?"
+        },
+        {
+          "spanish": "¿A qué hora es la reunión?",
+          "pronunciation": "아 게 오라 에스 라 레우니온?",
+          "korean": "회의가 몇 시예요?"
+        },
+        {
+          "spanish": "¿Cuándo empieza la película?",
+          "pronunciation": "꾸안도 엠삐에사 라 뻬리꿀라?",
+          "korean": "영화가 언제 시작해요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Abre a las nueve de la mañana.",
+          "pronunciation": "아브레 아 라스 누에베 데 라 마냐나.",
+          "korean": "아침 9시에 열어요."
+        },
+        {
+          "spanish": "La reunión es a las dos de la tarde.",
+          "pronunciation": "라 레우니온 에스 아 라스 도스 데 라 따르데.",
+          "korean": "회의는 오후 2시예요."
+        },
+        {
+          "spanish": "Empieza a las ocho de la noche.",
+          "pronunciation": "엠삐에사 아 라스 오초 데 라 노체.",
+          "korean": "저녁 8시에 시작해요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Llegamos a tiempo?",
+          "pronunciation": "예가모스 아 띠엠뽀?",
+          "korean": "시간 맞춰 갈 수 있을까요?"
+        },
+        {
+          "spanish": "¡Nos queda poco tiempo!",
+          "pronunciation": "노스 게다 뽀꼬 띠엠뽀!",
+          "korean": "시간이 별로 없어요!"
+        },
+        {
+          "spanish": "Todavía tenemos tiempo.",
+          "pronunciation": "또다비아 떼네모스 띠엠뽀.",
+          "korean": "아직 시간이 있어요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Sí, si salimos ahora, llegaremos.",
+          "pronunciation": "시, 시 살리모스 아오라, 예가레모스.",
+          "korean": "네, 지금 나가면 도착할 거예요."
+        },
+        {
+          "spanish": "Tenemos que darnos prisa.",
+          "pronunciation": "떼네모스 게 다르노스 쁘리사.",
+          "korean": "서둘러야 해요."
+        },
+        {
+          "spanish": "Tranquilo, no hay prisa.",
+          "pronunciation": "뜨란낄로, 노 아이 쁘리사.",
+          "korean": "괜찮아요, 서두를 필요 없어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Vale, ¡vámonos!",
+          "pronunciation": "발레, 바모노스!",
+          "korean": "좋아요, 가자!"
+        },
+        {
+          "spanish": "Nos vemos a las cinco.",
+          "pronunciation": "노스 베모스 아 라스 신꼬.",
+          "korean": "5시에 만나요."
+        },
+        {
+          "spanish": "Quedamos a esa hora.",
+          "pronunciation": "게다모스 아 에사 오라.",
+          "korean": "그 시간에 만나요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "hora",
+      "pronunciation": "오라",
+      "korean": "시간/시"
+    },
+    {
+      "spanish": "minuto",
+      "pronunciation": "미누또",
+      "korean": "분"
+    },
+    {
+      "spanish": "mañana",
+      "pronunciation": "마냐나",
+      "korean": "아침/내일"
+    },
+    {
+      "spanish": "tarde",
+      "pronunciation": "따르데",
+      "korean": "오후"
+    },
+    {
+      "spanish": "noche",
+      "pronunciation": "노체",
+      "korean": "밤"
+    },
+    {
+      "spanish": "temprano",
+      "pronunciation": "뗌쁘라노",
+      "korean": "이른"
+    },
+    {
+      "spanish": "prisa",
+      "pronunciation": "쁘리사",
+      "korean": "서두름"
+    },
+    {
+      "spanish": "puntual",
+      "pronunciation": "뿐뚜알",
+      "korean": "시간을 지키는"
+    }
+  ]
+}

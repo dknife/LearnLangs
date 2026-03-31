@@ -1,0 +1,455 @@
+{
+  "level": 16,
+  "title": "전화 통화",
+  "titleCn": "打电话",
+  "description": "전화 걸기, 받기, 메시지 남기기 등 전화 통화와 관련된 중국어 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "喂，你好！请问李明在吗？",
+          "pinyin": "Wèi, nǐ hǎo! Qǐngwèn Lǐ Míng zài ma?",
+          "korean": "여보세요, 안녕하세요! 리밍 있나요?"
+        },
+        {
+          "chinese": "你好，请问李明在不在？",
+          "pinyin": "Nǐ hǎo, qǐngwèn Lǐ Míng zài bu zài?",
+          "korean": "안녕하세요, 리밍 있나요?"
+        },
+        {
+          "chinese": "喂，我找李明，他在吗？",
+          "pinyin": "Wèi, wǒ zhǎo Lǐ Míng, tā zài ma?",
+          "korean": "여보세요, 리밍 찾는데요, 있나요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "他在，请等一下，我帮你叫他。",
+          "pinyin": "Tā zài, qǐng děng yīxià, wǒ bāng nǐ jiào tā.",
+          "korean": "있어요, 잠깐만요, 제가 불러줄게요."
+        },
+        {
+          "chinese": "在的，稍等一下，我去叫他。",
+          "pinyin": "Zài de, shāo děng yīxià, wǒ qù jiào tā.",
+          "korean": "있어요, 잠시만요, 불러올게요."
+        },
+        {
+          "chinese": "李明在，你等一下哈。",
+          "pinyin": "Lǐ Míng zài, nǐ děng yīxià ha.",
+          "korean": "리밍 있어요, 잠깐만요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "好的，谢谢你。",
+          "pinyin": "Hǎo de, xièxie nǐ.",
+          "korean": "네, 감사합니다."
+        },
+        {
+          "chinese": "好，麻烦你了。",
+          "pinyin": "Hǎo, máfan nǐ le.",
+          "korean": "네, 수고스럽게 해드려요."
+        },
+        {
+          "chinese": "谢谢，我等着。",
+          "pinyin": "Xièxie, wǒ děng zhe.",
+          "korean": "감사해요, 기다릴게요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "喂，我是李明，你找我有什么事？",
+          "pinyin": "Wèi, wǒ shì Lǐ Míng, nǐ zhǎo wǒ yǒu shénme shì?",
+          "korean": "여보세요, 저 리밍인데, 무슨 일이에요?"
+        },
+        {
+          "chinese": "喂，我就是李明，什么事？",
+          "pinyin": "Wèi, wǒ jiùshì Lǐ Míng, shénme shì?",
+          "korean": "여보세요, 접니다 리밍, 무슨 일이에요?"
+        },
+        {
+          "chinese": "你好，我是李明。请说吧。",
+          "pinyin": "Nǐ hǎo, wǒ shì Lǐ Míng. Qǐng shuō ba.",
+          "korean": "안녕하세요, 리밍입니다. 말씀하세요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "我想问你明天有没有时间一起吃饭。",
+          "pinyin": "Wǒ xiǎng wèn nǐ míngtiān yǒu méiyǒu shíjiān yìqǐ chīfàn.",
+          "korean": "내일 같이 밥 먹을 시간 있는지 물어보려고요."
+        },
+        {
+          "chinese": "明天想约你吃饭，你有空吗？",
+          "pinyin": "Míngtiān xiǎng yuē nǐ chīfàn, nǐ yǒu kòng ma?",
+          "korean": "내일 밥 먹자고 하려는데, 시간 있어요?"
+        },
+        {
+          "chinese": "我想明天请你吃顿饭，方便吗？",
+          "pinyin": "Wǒ xiǎng míngtiān qǐng nǐ chī dùn fàn, fāngbiàn ma?",
+          "korean": "내일 밥 한 끼 사고 싶은데, 괜찮아요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "明天下午可以。你打我的手机就行。",
+          "pinyin": "Míngtiān xiàwǔ kěyǐ. Nǐ dǎ wǒ de shǒujī jiù xíng.",
+          "korean": "내일 오후에 가능해요. 제 핸드폰으로 전화하면 돼요."
+        },
+        {
+          "chinese": "可以啊，下午没事。到时候联系吧。",
+          "pinyin": "Kěyǐ a, xiàwǔ méi shì. Dào shíhou liánxì ba.",
+          "korean": "좋아요, 오후에 시간 돼요. 그때 연락해요."
+        },
+        {
+          "chinese": "下午有空，你发微信给我吧。",
+          "pinyin": "Xiàwǔ yǒu kòng, nǐ fā Wēixìn gěi wǒ ba.",
+          "korean": "오후에 시간 있어요, 위챗 보내줘요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "好的，那我明天再给你打电话。",
+          "pinyin": "Hǎo de, nà wǒ míngtiān zài gěi nǐ dǎ diànhuà.",
+          "korean": "좋아요, 그러면 내일 다시 전화할게요."
+        },
+        {
+          "chinese": "行，那明天我再联系你。",
+          "pinyin": "Xíng, nà míngtiān wǒ zài liánxì nǐ.",
+          "korean": "알겠어요, 내일 다시 연락할게요."
+        },
+        {
+          "chinese": "好，明天我提前给你打电话。",
+          "pinyin": "Hǎo, míngtiān wǒ tíqián gěi nǐ dǎ diànhuà.",
+          "korean": "좋아요, 내일 미리 전화할게요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "没问题，不过你别打错了，上次你打错了号码。",
+          "pinyin": "Méi wèntí, búguò nǐ bié dǎ cuò le, shàng cì nǐ dǎ cuò le hàomǎ.",
+          "korean": "문제없어요, 근데 잘못 걸지 마세요, 지난번에 번호 잘못 걸었잖아요."
+        },
+        {
+          "chinese": "好的，不过记得别打错号码啊！",
+          "pinyin": "Hǎo de, búguò jìde bié dǎ cuò hàomǎ a!",
+          "korean": "좋아요, 근데 번호 잘못 누르지 마세요!"
+        },
+        {
+          "chinese": "行，记住我的号码，别又打错了。",
+          "pinyin": "Xíng, jìzhù wǒ de hàomǎ, bié yòu dǎ cuò le.",
+          "korean": "알겠어요, 제 번호 기억하세요, 또 잘못 걸지 마시고."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "chinese": "打电话",
+      "pinyin": "dǎ diànhuà",
+      "korean": "전화를 걸다"
+    },
+    {
+      "chinese": "等一下",
+      "pinyin": "děng yīxià",
+      "korean": "잠깐 기다리다"
+    },
+    {
+      "chinese": "手机",
+      "pinyin": "shǒujī",
+      "korean": "핸드폰"
+    },
+    {
+      "chinese": "打错了",
+      "pinyin": "dǎ cuò le",
+      "korean": "잘못 걸었다"
+    },
+    {
+      "chinese": "号码",
+      "pinyin": "hàomǎ",
+      "korean": "번호"
+    },
+    {
+      "chinese": "请问",
+      "pinyin": "qǐngwèn",
+      "korean": "여쭤볼게요 (정중한 질문)"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "cn_to_kr",
+      "question": "打电话",
+      "options": [
+        "편지를 쓰다",
+        "전화를 걸다",
+        "문자를 보내다",
+        "이메일을 보내다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "잠깐 기다리다",
+      "options": [
+        "等一下",
+        "慢一点",
+        "快一点",
+        "走一下"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill_blank",
+      "question": "喂，___李明在吗？",
+      "options": [
+        "请问",
+        "请坐",
+        "请进",
+        "请说"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "打错了",
+      "options": [
+        "잘 걸었다",
+        "끊었다",
+        "잘못 걸었다",
+        "다시 걸었다"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "핸드폰",
+      "options": [
+        "电话",
+        "电脑",
+        "手机",
+        "电视"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "号码",
+      "options": [
+        "이름",
+        "번호",
+        "주소",
+        "비밀번호"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "请问",
+      "options": [
+        "부탁합니다",
+        "여쭤볼게요",
+        "미안합니다",
+        "감사합니다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "전화를 걸다",
+      "options": [
+        "接电话",
+        "打电话",
+        "挂电话",
+        "回电话"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "번호",
+      "options": [
+        "名字",
+        "地址",
+        "号码",
+        "密码"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "他在，请___，我帮你叫他。",
+      "options": [
+        "等一下",
+        "坐一下",
+        "看一下",
+        "想一下"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "手机",
+      "options": [
+        "컴퓨터",
+        "텔레비전",
+        "핸드폰",
+        "카메라"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "你找我有什么___？",
+      "options": [
+        "人",
+        "事",
+        "话",
+        "问题"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "잘못 걸었다",
+      "options": [
+        "打完了",
+        "打通了",
+        "打错了",
+        "打好了"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "等一下",
+      "options": [
+        "빨리 오다",
+        "잠깐 기다리다",
+        "천천히 가다",
+        "먼저 하다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "你打我的___就行。",
+      "options": [
+        "电话",
+        "手机",
+        "号码",
+        "电脑"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "여쭤볼게요",
+      "options": [
+        "请说",
+        "请看",
+        "请问",
+        "请走"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "我帮你叫他",
+      "options": [
+        "내가 그에게 전화할게요",
+        "제가 그를 불러줄게요",
+        "내가 그에게 말할게요",
+        "내가 그를 찾을게요"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "那我明天再给你___。",
+      "options": [
+        "发短信",
+        "写信",
+        "打电话",
+        "发邮件"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "내일 오후에 가능해요",
+      "options": [
+        "今天下午可以",
+        "明天上午可以",
+        "明天下午可以",
+        "后天下午可以"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "上次你打错了号码",
+      "options": [
+        "지난번에 전화를 안 받았어요",
+        "지난번에 번호를 잘못 걸었어요",
+        "지난번에 전화를 끊었어요",
+        "지난번에 번호를 바꿨어요"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "不好意思，我___错了。",
+      "options": [
+        "穿",
+        "走",
+        "住",
+        "打"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill_blank",
+      "question": "你的电话打不___。",
+      "options": [
+        "通",
+        "吃",
+        "穿",
+        "住"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill_blank",
+      "question": "我给他打了一个___。",
+      "options": [
+        "天气",
+        "风景",
+        "电话",
+        "味道"
+      ],
+      "answer": 2
+    }
+  ]
+}

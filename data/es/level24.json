@@ -1,0 +1,190 @@
+{
+  "level": 24,
+  "title": "문화 & 명절",
+  "titleEs": "Cultura y Festividades",
+  "description": "스페인어로 문화와 명절에 대해 이야기하는 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Cuáles son las fiestas más importantes?",
+          "pronunciation": "꾸알레스 손 라스 피에스따스 마스 임뽀르딴떼스?",
+          "korean": "가장 중요한 명절이 뭐예요?"
+        },
+        {
+          "spanish": "Me encantaría conocer la cultura española.",
+          "pronunciation": "메 엔깐따리아 꼬노세르 라 꿀뚜라 에스빠뇰라.",
+          "korean": "스페인 문화를 알고 싶어요."
+        },
+        {
+          "spanish": "¿Cómo celebráis la Navidad?",
+          "pronunciation": "꼬모 셀레브라이스 라 나비다드?",
+          "korean": "크리스마스를 어떻게 보내요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Semana Santa y Navidad son las principales.",
+          "pronunciation": "세마나 산따 이 나비다드 손 라스 쁘린시빨레스.",
+          "korean": "세마나 산타와 크리스마스가 가장 중요해요."
+        },
+        {
+          "spanish": "También las Fallas y San Fermín.",
+          "pronunciation": "땀비엔 라스 파야스 이 산 페르민.",
+          "korean": "불꽃축제와 산 페르민도 있어요."
+        },
+        {
+          "spanish": "En Navidad, la familia se reúne para cenar.",
+          "pronunciation": "엔 나비다드, 라 파밀리아 세 레우네 빠라 세나르.",
+          "korean": "크리스마스에는 가족이 모여 저녁을 먹어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "En Corea tenemos el Seollal y el Chuseok.",
+          "pronunciation": "엔 꼬레아 떼네모스 엘 설랄 이 엘 추석.",
+          "korean": "한국에는 설날과 추석이 있어요."
+        },
+        {
+          "spanish": "¿Qué se come en Navidad?",
+          "pronunciation": "게 세 꼬메 엔 나비다드?",
+          "korean": "크리스마스에 뭘 먹어요?"
+        },
+        {
+          "spanish": "Me gustaría ver flamenco.",
+          "pronunciation": "메 구스따리아 베르 플라멩꼬.",
+          "korean": "플라멩코를 보고 싶어요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "¡Qué interesante! ¿Qué hacéis?",
+          "pronunciation": "게 인떼레산떼! 게 아세이스?",
+          "korean": "흥미롭네요! 뭘 해요?"
+        },
+        {
+          "spanish": "Comemos turrón, marisco y cordero.",
+          "pronunciation": "꼬메모스 뚜론, 마리스꼬 이 꼬르데로.",
+          "korean": "투론, 해산물, 양고기를 먹어요."
+        },
+        {
+          "spanish": "¡El flamenco es fascinante!",
+          "pronunciation": "엘 플라멩꼬 에스 파시난떼!",
+          "korean": "플라멩코는 매력적이에요!"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Puedo aprender a bailar flamenco?",
+          "pronunciation": "뿌에도 아쁘렌데르 아 바일라르 플라멩꼬?",
+          "korean": "플라멩코 춤을 배울 수 있나요?"
+        },
+        {
+          "spanish": "La música española es muy bonita.",
+          "pronunciation": "라 무시까 에스빠뇰라 에스 무이 보니따.",
+          "korean": "스페인 음악은 아름다워요."
+        },
+        {
+          "spanish": "¿Qué otras tradiciones hay?",
+          "pronunciation": "게 오뜨라스 뜨라디시오네스 아이?",
+          "korean": "다른 전통은 뭐가 있어요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "¡Sí! Hay muchas academias.",
+          "pronunciation": "시! 아이 무차스 아까데미아스.",
+          "korean": "네! 학원이 많아요."
+        },
+        {
+          "spanish": "También prueba la sangría y las tapas.",
+          "pronunciation": "땀비엔 쁘루에바 라 상그리아 이 라스 따빠스.",
+          "korean": "상그리아와 타파스도 먹어봐요."
+        },
+        {
+          "spanish": "Cada región tiene su propia cultura.",
+          "pronunciation": "까다 레히온 띠에네 수 쁘로삐아 꿀뚜라.",
+          "korean": "각 지역마다 고유한 문화가 있어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Me encanta aprender sobre otras culturas.",
+          "pronunciation": "메 엔깐따 아쁘렌데르 소브레 오뜨라스 꿀뚜라스.",
+          "korean": "다른 문화를 배우는 게 좋아요."
+        },
+        {
+          "spanish": "España es un país increíble.",
+          "pronunciation": "에스빠냐 에스 운 빠이스 인끄레이블레.",
+          "korean": "스페인은 대단한 나라예요."
+        },
+        {
+          "spanish": "¡Viva España!",
+          "pronunciation": "비바 에스빠냐!",
+          "korean": "스페인 만세!"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "cultura",
+      "pronunciation": "꿀뚜라",
+      "korean": "문화"
+    },
+    {
+      "spanish": "fiesta",
+      "pronunciation": "피에스따",
+      "korean": "축제/명절"
+    },
+    {
+      "spanish": "Navidad",
+      "pronunciation": "나비다드",
+      "korean": "크리스마스"
+    },
+    {
+      "spanish": "tradición",
+      "pronunciation": "뜨라디시온",
+      "korean": "전통"
+    },
+    {
+      "spanish": "flamenco",
+      "pronunciation": "플라멩꼬",
+      "korean": "플라멩코"
+    },
+    {
+      "spanish": "baile",
+      "pronunciation": "바일레",
+      "korean": "춤"
+    },
+    {
+      "spanish": "costumbre",
+      "pronunciation": "꼬스뚬브레",
+      "korean": "풍습"
+    },
+    {
+      "spanish": "celebrar",
+      "pronunciation": "셀레브라르",
+      "korean": "축하하다"
+    }
+  ]
+}

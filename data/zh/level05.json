@@ -1,0 +1,477 @@
+{
+  "level": 5,
+  "title": "길 묻기 & 방향",
+  "titleCn": "问路和方向",
+  "description": "길을 묻고 방향을 알려주는 중국어 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "请问，地铁站在哪儿？",
+          "pinyin": "Qǐngwèn, dìtiě zhàn zài nǎr?",
+          "korean": "실례합니다, 지하철역이 어디에 있나요?"
+        },
+        {
+          "chinese": "你好，请问地铁站怎么走？",
+          "pinyin": "Nǐ hǎo, qǐngwèn dìtiě zhàn zěnme zǒu?",
+          "korean": "안녕하세요, 지하철역은 어떻게 가나요?"
+        },
+        {
+          "chinese": "不好意思，附近有地铁站吗？",
+          "pinyin": "Bù hǎo yìsi, fùjìn yǒu dìtiě zhàn ma?",
+          "korean": "실례합니다, 근처에 지하철역이 있나요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "地铁站离这儿不远。你一直走。",
+          "pinyin": "Dìtiě zhàn lí zhèr bù yuǎn. Nǐ yìzhí zǒu.",
+          "korean": "지하철역은 여기서 멀지 않아요. 쭉 직진하세요."
+        },
+        {
+          "chinese": "有的，就在前面。你沿着这条路走。",
+          "pinyin": "Yǒu de, jiù zài qiánmiàn. Nǐ yánzhe zhè tiáo lù zǒu.",
+          "korean": "있어요, 바로 앞에요. 이 길을 따라 가세요."
+        },
+        {
+          "chinese": "不远，走路几分钟就到。你先往前走。",
+          "pinyin": "Bù yuǎn, zǒulù jǐ fēnzhōng jiù dào. Nǐ xiān wǎng qián zǒu.",
+          "korean": "멀지 않아요, 걸어서 몇 분이면 돼요. 먼저 앞으로 가세요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "然后怎么走？",
+          "pinyin": "Ránhòu zěnme zǒu?",
+          "korean": "그다음에 어떻게 가요?"
+        },
+        {
+          "chinese": "然后呢？往哪个方向？",
+          "pinyin": "Ránhòu ne? Wǎng nǎge fāngxiàng?",
+          "korean": "그다음에요? 어느 방향이에요?"
+        },
+        {
+          "chinese": "走到哪里再转？",
+          "pinyin": "Zǒu dào nǎlǐ zài zhuǎn?",
+          "korean": "어디까지 가서 돌아요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "到红绿灯往左拐。",
+          "pinyin": "Dào hónglǜdēng wǎng zuǒ guǎi.",
+          "korean": "신호등에서 왼쪽으로 도세요."
+        },
+        {
+          "chinese": "看到红绿灯就左转。",
+          "pinyin": "Kàn dào hónglǜdēng jiù zuǒ zhuǎn.",
+          "korean": "신호등이 보이면 좌회전하세요."
+        },
+        {
+          "chinese": "走到十字路口，往左边拐。",
+          "pinyin": "Zǒu dào shízì lùkǒu, wǎng zuǒbiān guǎi.",
+          "korean": "사거리까지 가서 왼쪽으로 도세요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "往左拐以后呢？",
+          "pinyin": "Wǎng zuǒ guǎi yǐhòu ne?",
+          "korean": "왼쪽으로 돈 다음에요?"
+        },
+        {
+          "chinese": "左拐之后怎么走？",
+          "pinyin": "Zuǒ guǎi zhīhòu zěnme zǒu?",
+          "korean": "좌회전 후에 어떻게 가요?"
+        },
+        {
+          "chinese": "拐了以后还要走多远？",
+          "pinyin": "Guǎi le yǐhòu hái yào zǒu duō yuǎn?",
+          "korean": "돈 다음에 얼마나 더 가야 해요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "再往右拐，地铁站就在你的右边。",
+          "pinyin": "Zài wǎng yòu guǎi, dìtiě zhàn jiù zài nǐ de yòubiān.",
+          "korean": "다시 오른쪽으로 돌면, 지하철역이 오른쪽에 있어요."
+        },
+        {
+          "chinese": "往前走一点，右转就能看到地铁站了。",
+          "pinyin": "Wǎng qián zǒu yìdiǎn, yòu zhuǎn jiù néng kàn dào dìtiě zhàn le.",
+          "korean": "조금 더 앞으로 가서 우회전하면 지하철역이 보여요."
+        },
+        {
+          "chinese": "不远了，右拐以后地铁站就在路边。",
+          "pinyin": "Bù yuǎn le, yòu guǎi yǐhòu dìtiě zhàn jiù zài lù biān.",
+          "korean": "멀지 않아요, 우회전하면 지하철역이 길가에 있어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "大概要走多长时间？",
+          "pinyin": "Dàgài yào zǒu duō cháng shíjiān?",
+          "korean": "대략 얼마나 걸려요?"
+        },
+        {
+          "chinese": "走路要多久？",
+          "pinyin": "Zǒulù yào duōjiǔ?",
+          "korean": "걸어서 얼마나 걸려요?"
+        },
+        {
+          "chinese": "离这儿远不远？",
+          "pinyin": "Lí zhèr yuǎn bu yuǎn?",
+          "korean": "여기서 먼가요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "大概五分钟就到了。",
+          "pinyin": "Dàgài wǔ fēnzhōng jiù dào le.",
+          "korean": "대략 5분이면 도착해요."
+        },
+        {
+          "chinese": "很近，走五分钟左右。",
+          "pinyin": "Hěn jìn, zǒu wǔ fēnzhōng zuǒyòu.",
+          "korean": "가까워요, 5분 정도 걸어요."
+        },
+        {
+          "chinese": "不远，大概五分钟的路。",
+          "pinyin": "Bù yuǎn, dàgài wǔ fēnzhōng de lù.",
+          "korean": "멀지 않아요, 대략 5분 거리예요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "chinese": "请问",
+      "pinyin": "qǐngwèn",
+      "korean": "실례합니다 (길을 물을 때)"
+    },
+    {
+      "chinese": "怎么走",
+      "pinyin": "zěnme zǒu",
+      "korean": "어떻게 가요"
+    },
+    {
+      "chinese": "往左拐",
+      "pinyin": "wǎng zuǒ guǎi",
+      "korean": "왼쪽으로 돌다"
+    },
+    {
+      "chinese": "往右拐",
+      "pinyin": "wǎng yòu guǎi",
+      "korean": "오른쪽으로 돌다"
+    },
+    {
+      "chinese": "一直走",
+      "pinyin": "yìzhí zǒu",
+      "korean": "쭉 직진하다"
+    },
+    {
+      "chinese": "在哪儿",
+      "pinyin": "zài nǎr",
+      "korean": "어디에 있다"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "cn_to_kr",
+      "question": "请问，地铁站在哪儿？",
+      "options": [
+        "실례합니다, 버스 정류장이 어디에 있나요?",
+        "실례합니다, 지하철역이 어디에 있나요?",
+        "실례합니다, 화장실이 어디에 있나요?",
+        "실례합니다, 어떻게 가나요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "쭉 직진하세요.",
+      "options": [
+        "往左拐。",
+        "往右拐。",
+        "一直走。",
+        "请问。"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "到红绿灯___左拐。",
+      "options": [
+        "在",
+        "往",
+        "到",
+        "从"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "大概要走多长时间？",
+      "options": [
+        "어디에 있나요?",
+        "얼마예요?",
+        "대략 얼마나 걸려요?",
+        "어떻게 가요?"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "오른쪽으로 도세요.",
+      "options": [
+        "往左拐。",
+        "一直走。",
+        "往前走。",
+        "往右拐。"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "地铁站离这儿不远。",
+      "options": [
+        "지하철역은 여기서 가까워요.",
+        "지하철역은 여기서 멀지 않아요.",
+        "지하철역은 여기서 멀어요.",
+        "지하철역은 저기에 있어요."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "然后怎么走？",
+      "options": [
+        "어디로 가요?",
+        "여기서 멀어요?",
+        "그다음에 어떻게 가요?",
+        "얼마나 걸려요?"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "到红绿灯往左拐。",
+      "options": [
+        "신호등에서 오른쪽으로 도세요.",
+        "신호등에서 직진하세요.",
+        "신호등에서 왼쪽으로 도세요.",
+        "신호등에서 멈추세요."
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "地铁站就在你的右边。",
+      "options": [
+        "지하철역이 왼쪽에 있어요.",
+        "지하철역이 앞에 있어요.",
+        "지하철역이 오른쪽에 있어요.",
+        "지하철역이 뒤에 있어요."
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "大概五分钟就到了。",
+      "options": [
+        "대략 10분이면 도착해요.",
+        "대략 5분이면 도착해요.",
+        "대략 15분이면 도착해요.",
+        "대략 3분이면 도착해요."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "往左拐以后呢？",
+      "options": [
+        "왼쪽으로 가세요.",
+        "왼쪽으로 돈 다음에요?",
+        "왼쪽에 뭐가 있어요?",
+        "왼쪽으로 돌까요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "再往右拐。",
+      "options": [
+        "다시 왼쪽으로 도세요.",
+        "다시 직진하세요.",
+        "다시 오른쪽으로 도세요.",
+        "다시 돌아가세요."
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "지하철역이 어디에 있나요?",
+      "options": [
+        "地铁站怎么走？",
+        "地铁站在哪儿？",
+        "地铁站远吗？",
+        "地铁站在右边。"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "왼쪽으로 도세요.",
+      "options": [
+        "往右拐。",
+        "一直走。",
+        "往左拐。",
+        "往前走。"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "그다음에 어떻게 가요?",
+      "options": [
+        "然后怎么走？",
+        "然后往哪走？",
+        "怎么走？",
+        "在哪儿？"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "대략 5분이면 도착해요.",
+      "options": [
+        "大概十分钟就到了。",
+        "大概五分钟就到了。",
+        "大概三分钟就到了。",
+        "五分钟以后到。"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "여기서 멀지 않아요.",
+      "options": [
+        "离这儿很远。",
+        "离这儿不远。",
+        "在这儿不远。",
+        "从这儿不远。"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "실례합니다.",
+      "options": [
+        "对不起。",
+        "谢谢。",
+        "请问。",
+        "你好。"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "地铁站___这儿不远。",
+      "options": [
+        "在",
+        "从",
+        "离",
+        "到"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "大概___分钟就到了。",
+      "options": [
+        "三",
+        "五",
+        "十",
+        "八"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "请问，银行在___？",
+      "options": [
+        "多少",
+        "哪儿",
+        "什么",
+        "几个"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "一直___就到了。",
+      "options": [
+        "吃",
+        "买",
+        "走",
+        "穿"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "请问火车站___走？",
+      "options": [
+        "多少",
+        "什么",
+        "哪国",
+        "怎么"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill_blank",
+      "question": "到路口往___拐。",
+      "options": [
+        "吃",
+        "右",
+        "买",
+        "穿"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "那个超市就在马路___。",
+      "options": [
+        "穿",
+        "写",
+        "住",
+        "对面"
+      ],
+      "answer": 3
+    }
+  ]
+}

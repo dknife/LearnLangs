@@ -1,0 +1,190 @@
+{
+  "level": 13,
+  "title": "옷 & 외모",
+  "titleEs": "Ropa y Apariencia",
+  "description": "스페인어로 옷과 외모를 묘사하는 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡Me gusta mucho tu camiseta!",
+          "pronunciation": "메 구스따 무초 뚜 까미세따!",
+          "korean": "티셔츠 정말 예쁘다!"
+        },
+        {
+          "spanish": "¿Dónde compraste esos zapatos?",
+          "pronunciation": "돈데 꼼쁘라스떼 에소스 사빠또스?",
+          "korean": "그 신발 어디서 샀어요?"
+        },
+        {
+          "spanish": "Hoy vas muy elegante.",
+          "pronunciation": "오이 바스 무이 엘레간떼.",
+          "korean": "오늘 정말 멋있어요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "¡Gracias! La compré en las rebajas.",
+          "pronunciation": "그라시아스! 라 꼼쁘레 엔 라스 레바하스.",
+          "korean": "고마워요! 세일 때 샀어요."
+        },
+        {
+          "spanish": "Son nuevos. Costaron treinta euros.",
+          "pronunciation": "손 누에보스. 꼬스따론 뜨레인따 에우로스.",
+          "korean": "새 거예요. 30유로였어요."
+        },
+        {
+          "spanish": "¡Gracias! Tengo una boda hoy.",
+          "pronunciation": "그라시아스! 뗑고 우나 보다 오이.",
+          "korean": "고마워요! 오늘 결혼식이 있어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Necesito un vestido nuevo.",
+          "pronunciation": "네세시또 운 베스띠도 누에보.",
+          "korean": "새 원피스가 필요해요."
+        },
+        {
+          "spanish": "¿Qué me pongo para la fiesta?",
+          "pronunciation": "게 메 뽕고 빠라 라 피에스따?",
+          "korean": "파티에 뭘 입을까요?"
+        },
+        {
+          "spanish": "¿Este color me queda bien?",
+          "pronunciation": "에스떼 꼴로르 메 게다 비엔?",
+          "korean": "이 색이 나한테 어울려요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "El azul te queda muy bien.",
+          "pronunciation": "엘 아술 떼 게다 무이 비엔.",
+          "korean": "파란색이 잘 어울려요."
+        },
+        {
+          "spanish": "Pruébate este vestido rojo.",
+          "pronunciation": "쁘루에바떼 에스떼 베스띠도 로호.",
+          "korean": "이 빨간 원피스 입어봐요."
+        },
+        {
+          "spanish": "El negro es más elegante.",
+          "pronunciation": "엘 네그로 에스 마스 엘레간떼.",
+          "korean": "검정색이 더 우아해요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Cómo es tu amigo nuevo?",
+          "pronunciation": "꼬모 에스 뚜 아미고 누에보?",
+          "korean": "새 친구는 어떻게 생겼어요?"
+        },
+        {
+          "spanish": "¿Es alto o bajo?",
+          "pronunciation": "에스 알또 오 바호?",
+          "korean": "키가 커요, 작아요?"
+        },
+        {
+          "spanish": "¿Tiene el pelo largo o corto?",
+          "pronunciation": "띠에네 엘 뻴로 라르고 오 꼬르또?",
+          "korean": "머리가 길어요, 짧아요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Es alto, pelo castaño y ojos verdes.",
+          "pronunciation": "에스 알또, 뻴로 까스따뇨 이 오호스 베르데스.",
+          "korean": "키가 크고, 갈색 머리에 녹색 눈이에요."
+        },
+        {
+          "spanish": "Estatura media, pelo negro y corto.",
+          "pronunciation": "에스따뚜라 메디아, 뻴로 네그로 이 꼬르또.",
+          "korean": "중간 키에, 검은 짧은 머리예요."
+        },
+        {
+          "spanish": "Es rubio y lleva barba.",
+          "pronunciation": "에스 루비오 이 예바 바르바.",
+          "korean": "금발이고 수염이 있어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡Suena guapo! ¿Cuándo me lo presentas?",
+          "pronunciation": "수에나 구아뽀! 꾸안도 메 로 쁘레센따스?",
+          "korean": "잘생겼나 보네요! 언제 소개해 줄 거예요?"
+        },
+        {
+          "spanish": "¡Interesante! Me gustaría conocerlo.",
+          "pronunciation": "인떼레산떼! 메 구스따리아 꼬노세를로.",
+          "korean": "흥미롭네요! 만나보고 싶어요."
+        },
+        {
+          "spanish": "Preséntamelo pronto.",
+          "pronunciation": "쁘레센따멜로 쁘론또.",
+          "korean": "빨리 소개해 줘요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "camisa",
+      "pronunciation": "까미사",
+      "korean": "셔츠"
+    },
+    {
+      "spanish": "pantalón",
+      "pronunciation": "빤딸론",
+      "korean": "바지"
+    },
+    {
+      "spanish": "vestido",
+      "pronunciation": "베스띠도",
+      "korean": "원피스"
+    },
+    {
+      "spanish": "zapatos",
+      "pronunciation": "사빠또스",
+      "korean": "신발"
+    },
+    {
+      "spanish": "alto / bajo",
+      "pronunciation": "알또 / 바호",
+      "korean": "키 큰 / 작은"
+    },
+    {
+      "spanish": "guapo / guapa",
+      "pronunciation": "구아뽀 / 구아빠",
+      "korean": "잘생긴 / 예쁜"
+    },
+    {
+      "spanish": "pelo",
+      "pronunciation": "뻴로",
+      "korean": "머리카락"
+    },
+    {
+      "spanish": "ojos",
+      "pronunciation": "오호스",
+      "korean": "눈"
+    }
+  ]
+}

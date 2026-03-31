@@ -1,0 +1,190 @@
+{
+  "level": 5,
+  "title": "길 묻기 & 방향",
+  "titleEs": "Preguntar Direcciones",
+  "description": "스페인어로 길을 묻고 방향을 안내하는 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Perdone, ¿dónde está la estación de metro?",
+          "pronunciation": "뻬르도네, 돈데 에스따 라 에스따시온 데 메뜨로?",
+          "korean": "실례합니다, 지하철역이 어디에 있나요?"
+        },
+        {
+          "spanish": "Disculpe, ¿cómo llego al centro?",
+          "pronunciation": "디스꿀뻬, 꼬모 예고 알 센뜨로?",
+          "korean": "실례합니다, 시내 중심가에 어떻게 가나요?"
+        },
+        {
+          "spanish": "Perdone, ¿sabe dónde está el museo?",
+          "pronunciation": "뻬르도네, 사베 돈데 에스따 엘 무세오?",
+          "korean": "실례합니다, 박물관이 어디인지 아세요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Siga todo recto y gire a la derecha.",
+          "pronunciation": "시가 또도 렉또 이 히레 아 라 데레차.",
+          "korean": "쭉 직진하고 오른쪽으로 도세요."
+        },
+        {
+          "spanish": "Está al final de esta calle, a la izquierda.",
+          "pronunciation": "에스따 알 피날 데 에스따 까예, 아 라 이스끼에르다.",
+          "korean": "이 길 끝에서 왼쪽에 있어요."
+        },
+        {
+          "spanish": "Cruce la plaza y lo verá enfrente.",
+          "pronunciation": "끄루세 라 쁠라사 이 로 베라 엔프렌떼.",
+          "korean": "광장을 건너면 앞에 보여요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Está lejos de aquí?",
+          "pronunciation": "에스따 레호스 데 아끼?",
+          "korean": "여기서 먼가요?"
+        },
+        {
+          "spanish": "¿Se puede ir andando?",
+          "pronunciation": "세 뿌에데 이르 안단도?",
+          "korean": "걸어서 갈 수 있나요?"
+        },
+        {
+          "spanish": "¿Cuánto tiempo se tarda?",
+          "pronunciation": "꾸안또 띠엠뽀 세 따르다?",
+          "korean": "얼마나 걸려요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "No, está muy cerca. A unos cinco minutos.",
+          "pronunciation": "노, 에스따 무이 세르까. 아 우노스 신꼬 미누또스.",
+          "korean": "아니요, 아주 가까워요. 걸어서 5분 정도요."
+        },
+        {
+          "spanish": "Está un poco lejos. Es mejor tomar el autobús.",
+          "pronunciation": "에스따 운 뽀꼬 레호스. 에스 메호르 또마르 엘 아우또부스.",
+          "korean": "좀 멀어요. 버스를 타는 게 나아요."
+        },
+        {
+          "spanish": "Unos diez minutos a pie.",
+          "pronunciation": "우노스 디에스 미누또스 아 삐에.",
+          "korean": "걸어서 10분 정도요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Hay alguna parada de autobús cerca?",
+          "pronunciation": "아이 알구나 빠라다 데 아우또부스 세르까?",
+          "korean": "근처에 버스 정류장이 있나요?"
+        },
+        {
+          "spanish": "¿Dónde puedo tomar un taxi?",
+          "pronunciation": "돈데 뿌에도 또마르 운 딱시?",
+          "korean": "어디서 택시를 탈 수 있나요?"
+        },
+        {
+          "spanish": "¿Qué autobús debo tomar?",
+          "pronunciation": "게 아우또부스 데보 또마르?",
+          "korean": "몇 번 버스를 타야 하나요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Hay una parada en la esquina.",
+          "pronunciation": "아이 우나 빠라다 엔 라 에스끼나.",
+          "korean": "모퉁이에 정류장이 있어요."
+        },
+        {
+          "spanish": "Puede tomar el autobús número tres.",
+          "pronunciation": "뿌에데 또마르 엘 아우또부스 누메로 뜨레스.",
+          "korean": "3번 버스를 타면 돼요."
+        },
+        {
+          "spanish": "La parada de taxi está al otro lado.",
+          "pronunciation": "라 빠라다 데 딱시 에스따 알 오뜨로 라도.",
+          "korean": "택시 정류장은 건너편에 있어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Muchas gracias por su ayuda.",
+          "pronunciation": "무차스 그라시아스 뽀르 수 아유다.",
+          "korean": "도와주셔서 정말 감사합니다."
+        },
+        {
+          "spanish": "¡Gracias! Ha sido muy amable.",
+          "pronunciation": "그라시아스! 아 시도 무이 아마블레.",
+          "korean": "감사합니다! 정말 친절하시네요."
+        },
+        {
+          "spanish": "Se lo agradezco mucho.",
+          "pronunciation": "세 로 아그라데스꼬 무초.",
+          "korean": "정말 감사드립니다."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "derecha",
+      "pronunciation": "데레차",
+      "korean": "오른쪽"
+    },
+    {
+      "spanish": "izquierda",
+      "pronunciation": "이스끼에르다",
+      "korean": "왼쪽"
+    },
+    {
+      "spanish": "recto",
+      "pronunciation": "렉또",
+      "korean": "직진"
+    },
+    {
+      "spanish": "cerca",
+      "pronunciation": "세르까",
+      "korean": "가까이"
+    },
+    {
+      "spanish": "lejos",
+      "pronunciation": "레호스",
+      "korean": "멀리"
+    },
+    {
+      "spanish": "calle",
+      "pronunciation": "까예",
+      "korean": "거리/길"
+    },
+    {
+      "spanish": "esquina",
+      "pronunciation": "에스끼나",
+      "korean": "모퉁이"
+    },
+    {
+      "spanish": "parada",
+      "pronunciation": "빠라다",
+      "korean": "정류장"
+    }
+  ]
+}

@@ -1,0 +1,455 @@
+{
+  "level": 18,
+  "title": "병원 & 약국",
+  "titleCn": "医院和药店",
+  "description": "병원에서 증상을 설명하고, 약국에서 약을 사는 등 건강 관련 중국어 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "医生，我不舒服，头很疼。",
+          "pinyin": "Yīshēng, wǒ bù shūfu, tóu hěn téng.",
+          "korean": "의사 선생님, 몸이 안 좋아요, 머리가 많이 아파요."
+        },
+        {
+          "chinese": "大夫，我头疼得厉害。",
+          "pinyin": "Dàifu, wǒ tóu téng de lìhai.",
+          "korean": "선생님, 두통이 심해요."
+        },
+        {
+          "chinese": "医生，我身体不太舒服，头特别疼。",
+          "pinyin": "Yīshēng, wǒ shēntǐ bú tài shūfu, tóu tèbié téng.",
+          "korean": "의사 선생님, 몸이 좀 안 좋고 머리가 특히 아파요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "你发烧了吗？让我量一下体温。",
+          "pinyin": "Nǐ fāshāo le ma? Ràng wǒ liáng yīxià tǐwēn.",
+          "korean": "열이 나요? 체온을 한번 재볼게요."
+        },
+        {
+          "chinese": "有没有发烧？我先给你量体温。",
+          "pinyin": "Yǒu méiyǒu fāshāo? Wǒ xiān gěi nǐ liáng tǐwēn.",
+          "korean": "열이 나나요? 먼저 체온을 재볼게요."
+        },
+        {
+          "chinese": "先量一下体温吧。你觉得有没有发烧？",
+          "pinyin": "Xiān liáng yīxià tǐwēn ba. Nǐ juéde yǒu méiyǒu fāshāo?",
+          "korean": "먼저 체온 재보죠. 열이 나는 것 같아요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "我觉得有点儿发烧，还有点儿咳嗽。",
+          "pinyin": "Wǒ juéde yǒudiǎnr fāshāo, hái yǒudiǎnr késou.",
+          "korean": "좀 열이 나는 것 같고, 기침도 좀 나요."
+        },
+        {
+          "chinese": "好像有点儿烧，嗓子也不舒服，会咳嗽。",
+          "pinyin": "Hǎoxiàng yǒudiǎnr shāo, sǎngzi yě bù shūfu, huì késou.",
+          "korean": "약간 열이 있는 것 같고, 목도 안 좋아서 기침이 나요."
+        },
+        {
+          "chinese": "感觉有点儿发热，还咳嗽。",
+          "pinyin": "Gǎnjué yǒudiǎnr fā rè, hái késou.",
+          "korean": "좀 열이 나는 느낌이고, 기침도 해요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "三十八度五，你发烧了。我给你开点儿药。",
+          "pinyin": "Sānshíbā dù wǔ, nǐ fāshāo le. Wǒ gěi nǐ kāi diǎnr yào.",
+          "korean": "38.5도, 열이 나시네요. 약을 처방해 드릴게요."
+        },
+        {
+          "chinese": "体温三十八度五，确实发烧了。我开药给你。",
+          "pinyin": "Tǐwēn sānshíbā dù wǔ, quèshí fāshāo le. Wǒ kāi yào gěi nǐ.",
+          "korean": "체온 38.5도, 확실히 열이 나네요. 약을 처방할게요."
+        },
+        {
+          "chinese": "三十八度五，有点儿高。我先给你开些药。",
+          "pinyin": "Sānshíbā dù wǔ, yǒudiǎnr gāo. Wǒ xiān gěi nǐ kāi xiē yào.",
+          "korean": "38.5도, 좀 높네요. 먼저 약을 처방해 드릴게요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "我需要吃什么药？",
+          "pinyin": "Wǒ xūyào chī shénme yào?",
+          "korean": "어떤 약을 먹어야 하나요?"
+        },
+        {
+          "chinese": "请问要吃哪种药？",
+          "pinyin": "Qǐngwèn yào chī nǎ zhǒng yào?",
+          "korean": "어떤 종류의 약을 먹어야 하나요?"
+        },
+        {
+          "chinese": "药怎么吃？",
+          "pinyin": "Yào zěnme chī?",
+          "korean": "약은 어떻게 먹나요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "每天吃三次药，饭后吃。多喝水，好好休息。",
+          "pinyin": "Měi tiān chī sān cì yào, fàn hòu chī. Duō hē shuǐ, hǎohāo xiūxi.",
+          "korean": "매일 세 번 식후에 약을 드세요. 물 많이 마시고 푹 쉬세요."
+        },
+        {
+          "chinese": "一天三次，每次饭后服用。注意休息，多喝热水。",
+          "pinyin": "Yì tiān sān cì, měi cì fàn hòu fúyòng. Zhùyì xiūxi, duō hē rè shuǐ.",
+          "korean": "하루 세 번, 매번 식후에 복용하세요. 쉬면서 따뜻한 물 많이 마시세요."
+        },
+        {
+          "chinese": "每天三次，吃完饭再吃药。多休息，多喝水。",
+          "pinyin": "Měi tiān sān cì, chī wán fàn zài chī yào. Duō xiūxi, duō hē shuǐ.",
+          "korean": "하루 세 번, 밥 먹고 나서 약 드세요. 많이 쉬고 물 많이 마시세요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "好的，谢谢医生。药在哪里拿？",
+          "pinyin": "Hǎo de, xièxie yīshēng. Yào zài nǎlǐ ná?",
+          "korean": "네, 감사합니다 의사 선생님. 약은 어디서 받나요?"
+        },
+        {
+          "chinese": "知道了，谢谢您。去哪儿拿药？",
+          "pinyin": "Zhīdào le, xièxie nín. Qù nǎr ná yào?",
+          "korean": "알겠습니다, 감사합니다. 어디서 약을 받나요?"
+        },
+        {
+          "chinese": "明白了，谢谢医生。药房在哪儿？",
+          "pinyin": "Míngbai le, xièxie yīshēng. Yàofáng zài nǎr?",
+          "korean": "이해했어요, 감사합니다. 약국이 어디에 있나요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "你去一楼的药店拿药就可以了。",
+          "pinyin": "Nǐ qù yī lóu de yàodiàn ná yào jiù kěyǐ le.",
+          "korean": "1층 약국에 가서 약을 받으시면 됩니다."
+        },
+        {
+          "chinese": "一楼有药房，拿着处方去取药吧。",
+          "pinyin": "Yī lóu yǒu yàofáng, ná zhe chǔfāng qù qǔ yào ba.",
+          "korean": "1층에 약국이 있어요, 처방전 가지고 약 받으세요."
+        },
+        {
+          "chinese": "药房就在楼下，出门右转就到了。",
+          "pinyin": "Yàofáng jiù zài lóu xià, chūmén yòu zhuǎn jiù dào le.",
+          "korean": "약국이 아래층에 있어요, 나가서 오른쪽으로 돌면 됩니다."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "chinese": "不舒服",
+      "pinyin": "bù shūfu",
+      "korean": "불편하다 / 몸이 안 좋다"
+    },
+    {
+      "chinese": "头疼",
+      "pinyin": "tóu téng",
+      "korean": "두통 / 머리가 아프다"
+    },
+    {
+      "chinese": "发烧",
+      "pinyin": "fāshāo",
+      "korean": "열이 나다"
+    },
+    {
+      "chinese": "吃药",
+      "pinyin": "chī yào",
+      "korean": "약을 먹다"
+    },
+    {
+      "chinese": "医生",
+      "pinyin": "yīshēng",
+      "korean": "의사"
+    },
+    {
+      "chinese": "药店",
+      "pinyin": "yàodiàn",
+      "korean": "약국"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "cn_to_kr",
+      "question": "发烧",
+      "options": [
+        "기침하다",
+        "열이 나다",
+        "감기에 걸리다",
+        "배가 아프다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "머리가 아프다",
+      "options": [
+        "肚子疼",
+        "牙疼",
+        "头疼",
+        "嗓子疼"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "每天___三次药，饭后吃。",
+      "options": [
+        "喝",
+        "吃",
+        "拿",
+        "买"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "不舒服",
+      "options": [
+        "행복하다",
+        "피곤하다",
+        "몸이 안 좋다",
+        "배고프다"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "약국",
+      "options": [
+        "医院",
+        "药店",
+        "诊所",
+        "药房"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "吃药",
+      "options": [
+        "약을 사다",
+        "약을 먹다",
+        "약을 바르다",
+        "약을 처방하다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "医生",
+      "options": [
+        "간호사",
+        "약사",
+        "의사",
+        "환자"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "열이 나다",
+      "options": [
+        "咳嗽",
+        "发烧",
+        "头疼",
+        "感冒"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "의사",
+      "options": [
+        "护士",
+        "药师",
+        "病人",
+        "医生"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill_blank",
+      "question": "让我量一下___。",
+      "options": [
+        "血压",
+        "体温",
+        "身高",
+        "体重"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "药店",
+      "options": [
+        "병원",
+        "약국",
+        "진료소",
+        "응급실"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "我给你___点儿药。",
+      "options": [
+        "买",
+        "拿",
+        "开",
+        "吃"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "약을 먹다",
+      "options": [
+        "开药",
+        "买药",
+        "吃药",
+        "拿药"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "咳嗽",
+      "options": [
+        "두통",
+        "기침",
+        "콧물",
+        "복통"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "몸이 안 좋다",
+      "options": [
+        "很累",
+        "不舒服",
+        "不高兴",
+        "不开心"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "多喝水，好好___。",
+      "options": [
+        "工作",
+        "学习",
+        "休息",
+        "运动"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "头疼",
+      "options": [
+        "치통",
+        "두통",
+        "복통",
+        "요통"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "기침하다",
+      "options": [
+        "发烧",
+        "头疼",
+        "咳嗽",
+        "感冒"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "你去一楼的___拿药就可以了。",
+      "options": [
+        "医院",
+        "诊所",
+        "药店",
+        "超市"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "体温",
+      "options": [
+        "혈압",
+        "체온",
+        "맥박",
+        "체중"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "我觉得不___。",
+      "options": [
+        "好吃",
+        "舒服",
+        "好看",
+        "好听"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "医生说要多___水。",
+      "options": [
+        "穿",
+        "走",
+        "写",
+        "喝"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill_blank",
+      "question": "你___了多长时间了？",
+      "options": [
+        "上班",
+        "发烧",
+        "旅游",
+        "购物"
+      ],
+      "answer": 1
+    }
+  ]
+}

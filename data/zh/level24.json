@@ -1,0 +1,455 @@
+{
+  "level": 24,
+  "title": "문화 & 명절",
+  "titleCn": "文化和节日",
+  "description": "중국의 전통 문화와 명절, 풍습 관련 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "中国最重要的节日是什么？",
+          "pinyin": "Zhōngguó zuì zhòngyào de jiérì shì shénme?",
+          "korean": "중국에서 가장 중요한 명절은 뭐예요?"
+        },
+        {
+          "chinese": "你们中国有哪些重要的节日？",
+          "pinyin": "Nǐmen Zhōngguó yǒu nǎxiē zhòngyào de jiérì?",
+          "korean": "중국에는 어떤 중요한 명절이 있어요?"
+        },
+        {
+          "chinese": "中国人最看重什么节日？",
+          "pinyin": "Zhōngguó rén zuì kànzhòng shénme jiérì?",
+          "korean": "중국 사람들이 가장 중시하는 명절은 뭐예요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "当然是春节了，就是中国的新年。",
+          "pinyin": "Dāngrán shì Chūnjié le, jiùshì Zhōngguó de xīnnián.",
+          "korean": "당연히 춘절이에요, 바로 중국의 설날이죠."
+        },
+        {
+          "chinese": "春节最重要，相当于中国的过年。",
+          "pinyin": "Chūnjié zuì zhòngyào, xiāngdāngyú Zhōngguó de guònián.",
+          "korean": "춘절이 제일 중요해요, 중국의 설날에 해당하죠."
+        },
+        {
+          "chinese": "肯定是春节啊，我们最大的节日。",
+          "pinyin": "Kěndìng shì Chūnjié a, wǒmen zuì dà de jiérì.",
+          "korean": "당연히 춘절이죠, 우리의 가장 큰 명절이에요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "春节的时候你们做什么？",
+          "pinyin": "Chūnjié de shíhou nǐmen zuò shénme?",
+          "korean": "춘절 때 뭐 해요?"
+        },
+        {
+          "chinese": "过春节的时候有什么习俗？",
+          "pinyin": "Guò Chūnjié de shíhou yǒu shénme xísú?",
+          "korean": "춘절 보낼 때 무슨 풍습이 있어요?"
+        },
+        {
+          "chinese": "春节你们一般怎么过？",
+          "pinyin": "Chūnjié nǐmen yìbān zěnme guò?",
+          "korean": "춘절에 보통 어떻게 보내요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "我们全家一起包饺子，还会发红包。",
+          "pinyin": "Wǒmen quánjiā yìqǐ bāo jiǎozi, hái huì fā hóngbāo.",
+          "korean": "온 가족이 함께 만두를 빚고, 또 세뱃돈도 줘요."
+        },
+        {
+          "chinese": "全家人聚在一起包饺子、放鞭炮，还给小孩发红包。",
+          "pinyin": "Quánjiā rén jù zài yìqǐ bāo jiǎozi, fàng biānpào, hái gěi xiǎohái fā hóngbāo.",
+          "korean": "온 가족이 모여 만두를 빚고 폭죽을 터뜨리고, 아이들에게 세뱃돈도 줘요."
+        },
+        {
+          "chinese": "一起吃年夜饭、包饺子、发红包，特别热闹。",
+          "pinyin": "Yìqǐ chī niányèfàn, bāo jiǎozi, fā hóngbāo, tèbié rènao.",
+          "korean": "같이 설날 저녁 먹고, 만두 빚고, 세뱃돈 주고, 아주 흥겨워요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "中秋节是什么时候？",
+          "pinyin": "Zhōngqiūjié shì shénme shíhou?",
+          "korean": "중추절은 언제예요?"
+        },
+        {
+          "chinese": "中秋节在几月份？",
+          "pinyin": "Zhōngqiūjié zài jǐ yuè fèn?",
+          "korean": "중추절은 몇 월이에요?"
+        },
+        {
+          "chinese": "除了春节，中秋节也很重要吧？什么时候过？",
+          "pinyin": "Chúle Chūnjié, Zhōngqiūjié yě hěn zhòngyào ba? Shénme shíhou guò?",
+          "korean": "춘절 말고 중추절도 중요하죠? 언제 보내요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "农历八月十五。我们会吃月饼，赏月。",
+          "pinyin": "Nónglì bā yuè shíwǔ. Wǒmen huì chī yuèbǐng, shǎngyuè.",
+          "korean": "음력 8월 15일이에요. 월병을 먹고 달을 감상해요."
+        },
+        {
+          "chinese": "在农历八月十五，那天我们吃月饼、看月亮。",
+          "pinyin": "Zài nónglì bā yuè shíwǔ, nà tiān wǒmen chī yuèbǐng, kàn yuèliang.",
+          "korean": "음력 8월 15일이에요, 그날 월병 먹고 달을 봐요."
+        },
+        {
+          "chinese": "八月十五，全家人一边赏月一边吃月饼。",
+          "pinyin": "Bā yuè shíwǔ, quánjiā rén yìbiān shǎngyuè yìbiān chī yuèbǐng.",
+          "korean": "8월 15일, 온 가족이 달 보면서 월병을 먹어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "春节放假几天？",
+          "pinyin": "Chūnjié fàngjià jǐ tiān?",
+          "korean": "춘절에 며칠 쉬어요?"
+        },
+        {
+          "chinese": "春节假期一般多长？",
+          "pinyin": "Chūnjié jiàqī yìbān duō cháng?",
+          "korean": "춘절 휴가가 보통 얼마나 길어요?"
+        },
+        {
+          "chinese": "春节能休息几天假？",
+          "pinyin": "Chūnjié néng xiūxi jǐ tiān jià?",
+          "korean": "춘절에 며칠 휴가를 받아요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "一般放假七天，大家都回家过年。",
+          "pinyin": "Yìbān fàngjià qī tiān, dàjiā dōu huíjiā guònián.",
+          "korean": "보통 7일 쉬고, 모두 집에 가서 설을 쇠어요."
+        },
+        {
+          "chinese": "法定假期七天，大部分人回老家团圆。",
+          "pinyin": "Fǎdìng jiàqī qī tiān, dà bùfen rén huí lǎojiā tuányuán.",
+          "korean": "법정 휴일 7일, 대부분 고향에 가서 가족과 모여요."
+        },
+        {
+          "chinese": "放七天假，这段时间大家都回家跟家人团聚。",
+          "pinyin": "Fàng qī tiān jià, zhè duàn shíjiān dàjiā dōu huíjiā gēn jiārén tuánjù.",
+          "korean": "7일 쉬어요, 이 기간에 다들 집에 가서 가족과 모여요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "chinese": "春节",
+      "pinyin": "Chūnjié",
+      "korean": "춘절 (중국 설날)"
+    },
+    {
+      "chinese": "中秋节",
+      "pinyin": "Zhōngqiūjié",
+      "korean": "중추절 (추석)"
+    },
+    {
+      "chinese": "红包",
+      "pinyin": "hóngbāo",
+      "korean": "세뱃돈, 홍바오"
+    },
+    {
+      "chinese": "饺子",
+      "pinyin": "jiǎozi",
+      "korean": "만두"
+    },
+    {
+      "chinese": "放假",
+      "pinyin": "fàngjià",
+      "korean": "휴가, 방학"
+    },
+    {
+      "chinese": "月饼",
+      "pinyin": "yuèbǐng",
+      "korean": "월병"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "cn_to_kr",
+      "question": "红包",
+      "options": [
+        "만두",
+        "월병",
+        "세뱃돈",
+        "선물"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "만두",
+      "options": [
+        "月饼",
+        "红包",
+        "饺子",
+        "春节"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "春节的时候，大家都___七天。(쉬다)",
+      "options": [
+        "过年",
+        "放假",
+        "加班",
+        "上班"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "中秋节",
+      "options": [
+        "춘절",
+        "중추절",
+        "단오절",
+        "원소절"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "춘절 (중국 설날)",
+      "options": [
+        "中秋节",
+        "放假",
+        "春节",
+        "红包"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "饺子",
+      "options": [
+        "월병",
+        "만두",
+        "떡",
+        "국수"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "放假",
+      "options": [
+        "출근",
+        "야근",
+        "휴가",
+        "퇴근"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "월병",
+      "options": [
+        "饺子",
+        "红包",
+        "月饼",
+        "春节"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "세뱃돈, 홍바오",
+      "options": [
+        "春节",
+        "红包",
+        "饺子",
+        "月饼"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "我们全家一起包___。(만두)",
+      "options": [
+        "月饼",
+        "红包",
+        "饺子",
+        "年糕"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "月饼",
+      "options": [
+        "만두",
+        "월병",
+        "세뱃돈",
+        "떡"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "春节",
+      "options": [
+        "중추절",
+        "단오절",
+        "춘절",
+        "원소절"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "휴가, 방학",
+      "options": [
+        "春节",
+        "中秋节",
+        "红包",
+        "放假"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "중추절 (추석)",
+      "options": [
+        "春节",
+        "中秋节",
+        "放假",
+        "红包"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "中秋节我们会吃___，赏月。(월병)",
+      "options": [
+        "饺子",
+        "月饼",
+        "红包",
+        "年糕"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "大家都回家过年。",
+      "options": [
+        "모두 여행을 가요.",
+        "모두 집에 가서 설을 쇠어요.",
+        "모두 야근을 해요.",
+        "모두 만두를 먹어요."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "当然是春节了，就是中国的新年。",
+      "options": [
+        "당연히 중추절이에요, 바로 중국의 추석이죠.",
+        "당연히 춘절이에요, 바로 중국의 설날이죠.",
+        "당연히 단오절이에요, 바로 중국의 단오이죠.",
+        "당연히 원소절이에요, 바로 중국의 정월대보름이죠."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "春节的时候还会发___。(세뱃돈)",
+      "options": [
+        "月饼",
+        "饺子",
+        "红包",
+        "礼物"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "달을 감상하다",
+      "options": [
+        "吃月饼",
+        "包饺子",
+        "赏月",
+        "放假"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "中国最重要的___是什么？(명절)",
+      "options": [
+        "工作",
+        "节日",
+        "食物",
+        "地方"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "春节是中国最重要的___。",
+      "options": [
+        "天气",
+        "味道",
+        "号码",
+        "节日"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill_blank",
+      "question": "过年的时候要___年。",
+      "options": [
+        "拜",
+        "穿",
+        "走",
+        "住"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill_blank",
+      "question": "中秋节大家一起___月。",
+      "options": [
+        "吃",
+        "赏",
+        "穿",
+        "住"
+      ],
+      "answer": 1
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "level": 2,
+  "title": "숫자 & 날짜",
+  "titleEs": "Números y Fechas",
+  "description": "스페인어로 숫자를 세고 날짜를 표현하는 방법을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Qué fecha es hoy?",
+          "pronunciation": "게 페차 에스 오이?",
+          "korean": "오늘 몇 월 며칠이에요?"
+        },
+        {
+          "spanish": "¿A cuántos estamos hoy?",
+          "pronunciation": "아 꾸안또스 에스따모스 오이?",
+          "korean": "오늘이 며칠이에요?"
+        },
+        {
+          "spanish": "¿Qué día es hoy?",
+          "pronunciation": "게 디아 에스 오이?",
+          "korean": "오늘 무슨 요일이에요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Hoy es quince de marzo.",
+          "pronunciation": "오이 에스 낀세 데 마르소.",
+          "korean": "오늘은 3월 15일이에요."
+        },
+        {
+          "spanish": "Estamos a quince de marzo.",
+          "pronunciation": "에스따모스 아 낀세 데 마르소.",
+          "korean": "3월 15일이에요."
+        },
+        {
+          "spanish": "Hoy es lunes, quince de marzo.",
+          "pronunciation": "오이 에스 루네스, 낀세 데 마르소.",
+          "korean": "오늘은 월요일, 3월 15일이에요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Cuántos años tienes?",
+          "pronunciation": "꾸안또스 아뇨스 띠에네스?",
+          "korean": "몇 살이에요?"
+        },
+        {
+          "spanish": "¿Qué edad tienes?",
+          "pronunciation": "게 에다드 띠에네스?",
+          "korean": "나이가 어떻게 돼요?"
+        },
+        {
+          "spanish": "¿Cuál es tu edad?",
+          "pronunciation": "꾸알 에스 뚜 에다드?",
+          "korean": "나이가 어떻게 되세요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Tengo veinticinco años. ¿Y tú?",
+          "pronunciation": "뗑고 베인띠신꼬 아뇨스. 이 뚜?",
+          "korean": "스물다섯 살이에요. 당신은요?"
+        },
+        {
+          "spanish": "Tengo treinta años.",
+          "pronunciation": "뗑고 뜨레인따 아뇨스.",
+          "korean": "서른 살이에요."
+        },
+        {
+          "spanish": "Acabo de cumplir veintiocho.",
+          "pronunciation": "아까보 데 꿈쁠리르 베인띠오초.",
+          "korean": "스물여덟 살이 막 됐어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Cuándo es tu cumpleaños?",
+          "pronunciation": "꾸안도 에스 뚜 꿈쁠레아뇨스?",
+          "korean": "생일이 언제예요?"
+        },
+        {
+          "spanish": "¿En qué mes naciste?",
+          "pronunciation": "엔 게 메스 나시스떼?",
+          "korean": "몇 월에 태어났어요?"
+        },
+        {
+          "spanish": "¿Cuál es la fecha de tu cumpleaños?",
+          "pronunciation": "꾸알 에스 라 페차 데 뚜 꿈쁠레아뇨스?",
+          "korean": "생일 날짜가 어떻게 돼요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Mi cumpleaños es el diez de julio.",
+          "pronunciation": "미 꿈쁠레아뇨스 에스 엘 디에스 데 훌리오.",
+          "korean": "제 생일은 7월 10일이에요."
+        },
+        {
+          "spanish": "Nací el cinco de septiembre.",
+          "pronunciation": "나시 엘 신꼬 데 셉띠엠브레.",
+          "korean": "9월 5일에 태어났어요."
+        },
+        {
+          "spanish": "Es el veinte de diciembre.",
+          "pronunciation": "에스 엘 베인떼 데 디시엠브레.",
+          "korean": "12월 20일이에요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡Qué bien! Lo recordaré.",
+          "pronunciation": "게 비엔! 로 레꼬르다레.",
+          "korean": "좋아요! 기억할게요."
+        },
+        {
+          "spanish": "¡Genial! No lo olvidaré.",
+          "pronunciation": "헤니알! 노 로 올비다레.",
+          "korean": "좋아요! 잊지 않을게요."
+        },
+        {
+          "spanish": "¡Perfecto! Lo apunto.",
+          "pronunciation": "뻬르펙또! 로 아뿐또.",
+          "korean": "좋아요! 메모해 둘게요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "número",
+      "pronunciation": "누메로",
+      "korean": "숫자"
+    },
+    {
+      "spanish": "fecha",
+      "pronunciation": "페차",
+      "korean": "날짜"
+    },
+    {
+      "spanish": "cumpleaños",
+      "pronunciation": "꿈쁠레아뇨스",
+      "korean": "생일"
+    },
+    {
+      "spanish": "año",
+      "pronunciation": "아뇨",
+      "korean": "년/해"
+    },
+    {
+      "spanish": "mes",
+      "pronunciation": "메스",
+      "korean": "월/달"
+    },
+    {
+      "spanish": "día",
+      "pronunciation": "디아",
+      "korean": "일/날"
+    },
+    {
+      "spanish": "edad",
+      "pronunciation": "에다드",
+      "korean": "나이"
+    },
+    {
+      "spanish": "hoy",
+      "pronunciation": "오이",
+      "korean": "오늘"
+    }
+  ]
+}

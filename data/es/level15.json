@@ -1,0 +1,190 @@
+{
+  "level": 15,
+  "title": "취미 & 여가",
+  "titleEs": "Hobbies y Tiempo Libre",
+  "description": "스페인어로 취미와 여가 활동에 대해 이야기하는 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Qué haces en tu tiempo libre?",
+          "pronunciation": "게 아세스 엔 뚜 띠엠뽀 리브레?",
+          "korean": "여가 시간에 뭘 해요?"
+        },
+        {
+          "spanish": "¿Tienes algún hobby?",
+          "pronunciation": "띠에네스 알군 오비?",
+          "korean": "취미가 있어요?"
+        },
+        {
+          "spanish": "¿Qué te gusta hacer los fines de semana?",
+          "pronunciation": "게 떼 구스따 아세르 로스 피네스 데 세마나?",
+          "korean": "주말에 뭘 하는 걸 좋아해요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Me gusta leer y escuchar música.",
+          "pronunciation": "메 구스따 레에르 이 에스꾸차르 무시까.",
+          "korean": "독서와 음악 듣기를 좋아해요."
+        },
+        {
+          "spanish": "Juego al fútbol los domingos.",
+          "pronunciation": "후에고 알 풋볼 로스 도밍고스.",
+          "korean": "일요일마다 축구를 해요."
+        },
+        {
+          "spanish": "Me encanta cocinar y ver películas.",
+          "pronunciation": "메 엔깐따 꼬시나르 이 베르 뻬리꿀라스.",
+          "korean": "요리하고 영화 보는 걸 좋아해요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡Qué interesante! Yo también leo mucho.",
+          "pronunciation": "게 인떼레산떼! 요 땀비엔 레오 무초.",
+          "korean": "흥미롭네요! 저도 책을 많이 읽어요."
+        },
+        {
+          "spanish": "¿Juegas en algún equipo?",
+          "pronunciation": "후에가스 엔 알군 에끼뽀?",
+          "korean": "어떤 팀에서 해요?"
+        },
+        {
+          "spanish": "A mí también me gusta cocinar.",
+          "pronunciation": "아 미 땀비엔 메 구스따 꼬시나르.",
+          "korean": "저도 요리를 좋아해요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "¿Qué tipo de libros te gustan?",
+          "pronunciation": "게 띠뽀 데 리브로스 떼 구스딴?",
+          "korean": "어떤 종류의 책을 좋아해요?"
+        },
+        {
+          "spanish": "Sí, juego con amigos del barrio.",
+          "pronunciation": "시, 후에고 꼰 아미고스 델 바리오.",
+          "korean": "네, 동네 친구들과 해요."
+        },
+        {
+          "spanish": "¿Sabes hacer platos coreanos?",
+          "pronunciation": "사베스 아세르 쁠라또스 꼬레아노스?",
+          "korean": "한국 요리 할 줄 알아요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Me gustan las novelas de ciencia ficción.",
+          "pronunciation": "메 구스딴 라스 노벨라스 데 시엔시아 피시온.",
+          "korean": "SF 소설을 좋아해요."
+        },
+        {
+          "spanish": "También me gusta pintar.",
+          "pronunciation": "땀비엔 메 구스따 삔따르.",
+          "korean": "그림 그리는 것도 좋아해요."
+        },
+        {
+          "spanish": "Estoy aprendiendo a tocar la guitarra.",
+          "pronunciation": "에스또이 아쁘렌디엔도 아 또까르 라 기따라.",
+          "korean": "기타 배우고 있어요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "¡Qué bien! Deberíamos leer el mismo libro.",
+          "pronunciation": "게 비엔! 데베리아모스 레에르 엘 미스모 리브로.",
+          "korean": "좋네요! 같은 책을 읽어봐요."
+        },
+        {
+          "spanish": "¡Genial! ¿Podrías enseñarme?",
+          "pronunciation": "헤니알! 뽀드리아스 엔세냐르메?",
+          "korean": "좋아요! 가르쳐 줄 수 있어요?"
+        },
+        {
+          "spanish": "Yo toco el piano. Podríamos tocar juntos.",
+          "pronunciation": "요 또꼬 엘 삐아노. 뽀드리아모스 또까르 훈또스.",
+          "korean": "저는 피아노 쳐요. 같이 연주해요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡Me encantaría! Vamos a planificarlo.",
+          "pronunciation": "메 엔깐따리아! 바모스 아 쁠라니피까를로.",
+          "korean": "좋아요! 계획을 세워봐요."
+        },
+        {
+          "spanish": "¡Claro! Será muy divertido.",
+          "pronunciation": "끌라로! 세라 무이 디베르띠도.",
+          "korean": "물론이죠! 아주 재미있을 거예요."
+        },
+        {
+          "spanish": "¡Perfecto! Compartimos nuestros hobbies.",
+          "pronunciation": "뻬르펙또! 꼼빠르띠모스 누에스뜨로스 오비스.",
+          "korean": "좋아요! 서로 취미를 공유해요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "hobby / afición",
+      "pronunciation": "오비 / 아피시온",
+      "korean": "취미"
+    },
+    {
+      "spanish": "deporte",
+      "pronunciation": "데뽀르떼",
+      "korean": "스포츠"
+    },
+    {
+      "spanish": "música",
+      "pronunciation": "무시까",
+      "korean": "음악"
+    },
+    {
+      "spanish": "película",
+      "pronunciation": "뻬리꿀라",
+      "korean": "영화"
+    },
+    {
+      "spanish": "leer",
+      "pronunciation": "레에르",
+      "korean": "읽다"
+    },
+    {
+      "spanish": "jugar",
+      "pronunciation": "후가르",
+      "korean": "놀다/경기하다"
+    },
+    {
+      "spanish": "cocinar",
+      "pronunciation": "꼬시나르",
+      "korean": "요리하다"
+    },
+    {
+      "spanish": "viajar",
+      "pronunciation": "비아하르",
+      "korean": "여행하다"
+    }
+  ]
+}

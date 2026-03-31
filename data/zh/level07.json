@@ -1,0 +1,466 @@
+{
+  "level": 7,
+  "title": "택시 & 대중교통",
+  "titleCn": "出租车和公共交通",
+  "description": "택시와 대중교통을 이용할 때 필요한 중국어 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "师傅，我要去火车站。",
+          "pinyin": "Shīfu, wǒ yào qù huǒchēzhàn.",
+          "korean": "기사님, 기차역으로 가주세요."
+        },
+        {
+          "chinese": "师傅，麻烦去火车站。",
+          "pinyin": "Shīfu, máfan qù huǒchēzhàn.",
+          "korean": "기사님, 기차역으로 부탁드려요."
+        },
+        {
+          "chinese": "师傅您好，请送我到火车站。",
+          "pinyin": "Shīfu nín hǎo, qǐng sòng wǒ dào huǒchēzhàn.",
+          "korean": "기사님 안녕하세요, 기차역까지 데려다주세요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "好的，大概二十分钟到。",
+          "pinyin": "Hǎo de, dàgài èrshí fēnzhōng dào.",
+          "korean": "네, 대략 20분이면 도착합니다."
+        },
+        {
+          "chinese": "没问题，大约二十分钟左右。",
+          "pinyin": "Méi wèntí, dàyuē èrshí fēnzhōng zuǒyòu.",
+          "korean": "문제없어요, 약 20분 정도요."
+        },
+        {
+          "chinese": "行，不堵车的话二十分钟能到。",
+          "pinyin": "Xíng, bù dǔ chē de huà èrshí fēnzhōng néng dào.",
+          "korean": "네, 안 막히면 20분이면 가요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "请问，到天安门怎么走？",
+          "pinyin": "Qǐngwèn, dào Tiān'ānmén zěnme zǒu?",
+          "korean": "실례합니다, 천안문까지 어떻게 가나요?"
+        },
+        {
+          "chinese": "我想去天安门，坐什么车？",
+          "pinyin": "Wǒ xiǎng qù Tiān'ānmén, zuò shénme chē?",
+          "korean": "천안문에 가고 싶은데, 무슨 차를 타요?"
+        },
+        {
+          "chinese": "去天安门的话，应该怎么走？",
+          "pinyin": "Qù Tiān'ānmén de huà, yīnggāi zěnme zǒu?",
+          "korean": "천안문 가려면, 어떻게 가야 해요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "你可以坐地铁一号线。",
+          "pinyin": "Nǐ kěyǐ zuò dìtiě yī hào xiàn.",
+          "korean": "지하철 1호선을 타면 됩니다."
+        },
+        {
+          "chinese": "坐一号线地铁最方便。",
+          "pinyin": "Zuò yī hào xiàn dìtiě zuì fāngbiàn.",
+          "korean": "1호선 지하철이 제일 편해요."
+        },
+        {
+          "chinese": "建议你坐地铁，一号线直达。",
+          "pinyin": "Jiànyì nǐ zuò dìtiě, yī hào xiàn zhídá.",
+          "korean": "지하철 타는 걸 추천해요, 1호선이 바로 가요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "下一站是哪里？",
+          "pinyin": "Xià yī zhàn shì nǎlǐ?",
+          "korean": "다음 역은 어디예요?"
+        },
+        {
+          "chinese": "请问下一站叫什么？",
+          "pinyin": "Qǐngwèn xià yī zhàn jiào shénme?",
+          "korean": "다음 역 이름이 뭐예요?"
+        },
+        {
+          "chinese": "这趟车下一站到哪儿？",
+          "pinyin": "Zhè tàng chē xià yī zhàn dào nǎr?",
+          "korean": "이 차 다음 역이 어디예요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "下一站是王府井。",
+          "pinyin": "Xià yī zhàn shì Wángfǔjǐng.",
+          "korean": "다음 역은 왕푸징입니다."
+        },
+        {
+          "chinese": "马上到王府井站了。",
+          "pinyin": "Mǎshàng dào Wángfǔjǐng zhàn le.",
+          "korean": "곧 왕푸징역에 도착합니다."
+        },
+        {
+          "chinese": "下一站就是王府井。",
+          "pinyin": "Xià yī zhàn jiù shì Wángfǔjǐng.",
+          "korean": "다음 역이 바로 왕푸징이에요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "我应该在哪一站下车？",
+          "pinyin": "Wǒ yīnggāi zài nǎ yī zhàn xià chē?",
+          "korean": "몇 번째 역에서 내려야 하나요?"
+        },
+        {
+          "chinese": "还有几站到？",
+          "pinyin": "Hái yǒu jǐ zhàn dào?",
+          "korean": "몇 정거장 남았어요?"
+        },
+        {
+          "chinese": "请问我在哪儿下车？",
+          "pinyin": "Qǐngwèn wǒ zài nǎr xià chē?",
+          "korean": "어디서 내리면 되나요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "再坐三站就到了。",
+          "pinyin": "Zài zuò sān zhàn jiù dào le.",
+          "korean": "세 정거장 더 가면 도착합니다."
+        },
+        {
+          "chinese": "还有三站，到了我提醒你。",
+          "pinyin": "Hái yǒu sān zhàn, dào le wǒ tíxǐng nǐ.",
+          "korean": "세 정거장 남았어요, 도착하면 알려드릴게요."
+        },
+        {
+          "chinese": "三站以后下车就行。",
+          "pinyin": "Sān zhàn yǐhòu xià chē jiù xíng.",
+          "korean": "세 정거장 후에 내리면 돼요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "chinese": "出租车",
+      "pinyin": "chūzūchē",
+      "korean": "택시"
+    },
+    {
+      "chinese": "地铁",
+      "pinyin": "dìtiě",
+      "korean": "지하철"
+    },
+    {
+      "chinese": "下一站",
+      "pinyin": "xià yī zhàn",
+      "korean": "다음 역"
+    },
+    {
+      "chinese": "下车",
+      "pinyin": "xià chē",
+      "korean": "하차하다, 내리다"
+    },
+    {
+      "chinese": "火车站",
+      "pinyin": "huǒchēzhàn",
+      "korean": "기차역"
+    },
+    {
+      "chinese": "怎么走",
+      "pinyin": "zěnme zǒu",
+      "korean": "어떻게 가나요"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "cn_to_kr",
+      "question": "下一站是哪里？",
+      "options": [
+        "어디에서 타나요?",
+        "다음 역은 어디예요?",
+        "여기가 어디예요?",
+        "어디로 가나요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "지하철",
+      "options": [
+        "公共汽车",
+        "火车",
+        "地铁",
+        "出租车"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "我要___火车站。(기차역으로 가다)",
+      "options": [
+        "在",
+        "去",
+        "来",
+        "到"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "坐地铁一号线",
+      "options": [
+        "지하철 1호선을 타다",
+        "버스 1번을 타다",
+        "택시를 타다",
+        "기차를 타다"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "내리다",
+      "options": [
+        "上车",
+        "开车",
+        "下车",
+        "坐车"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "师傅",
+      "options": [
+        "선생님",
+        "기사님",
+        "사장님",
+        "아저씨"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "大概二十分钟到",
+      "options": [
+        "정확히 20분 걸려요",
+        "대략 20분이면 도착해요",
+        "20분 후에 출발해요",
+        "약 12분이면 도착해요"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "택시",
+      "options": [
+        "地铁",
+        "公共汽车",
+        "火车",
+        "出租车"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "기차역",
+      "options": [
+        "地铁站",
+        "火车站",
+        "汽车站",
+        "飞机场"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "你可以___地铁一号线。(타다)",
+      "options": [
+        "走",
+        "坐",
+        "去",
+        "开"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "到天安门怎么走？",
+      "options": [
+        "천안문은 어디에 있나요?",
+        "천안문까지 어떻게 가나요?",
+        "천안문에서 내리나요?",
+        "천안문은 몇 호선이에요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "다음 역",
+      "options": [
+        "上一站",
+        "这一站",
+        "下一站",
+        "最后一站"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "我应该在哪一站___？(내리다)",
+      "options": [
+        "上车",
+        "下车",
+        "坐车",
+        "开车"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "再坐三站就到了",
+      "options": [
+        "세 정거장 더 가면 도착합니다",
+        "세 시간 더 가면 도착합니다",
+        "세 번 갈아타면 도착합니다",
+        "세 번째 역에서 내리세요"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "어떻게 가나요",
+      "options": [
+        "在哪儿",
+        "怎么走",
+        "多少钱",
+        "几点到"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "我应该在哪一站下车？",
+      "options": [
+        "어디에서 타야 하나요?",
+        "몇 번째 역에서 내려야 하나요?",
+        "어느 역이 가장 가까운가요?",
+        "이 역에서 내리나요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "___二十分钟到。(대략)",
+      "options": [
+        "一共",
+        "大概",
+        "已经",
+        "马上"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "실례합니다 (길을 물을 때)",
+      "options": [
+        "对不起",
+        "请问",
+        "你好",
+        "谢谢"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "下一站是王府井",
+      "options": [
+        "이번 역은 왕푸징입니다",
+        "다음 역은 왕푸징입니다",
+        "지난 역은 왕푸징이었습니다",
+        "왕푸징에서 내리세요"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "대략, 대개",
+      "options": [
+        "一定",
+        "大概",
+        "已经",
+        "常常"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "师傅，请去___站。",
+      "options": [
+        "便宜",
+        "多少",
+        "火车",
+        "好吃"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "请在这里___车。",
+      "options": [
+        "吃",
+        "穿",
+        "停",
+        "写"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "下一___是哪里？",
+      "options": [
+        "碗",
+        "杯",
+        "块",
+        "站"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill_blank",
+      "question": "请帮我叫一辆___。",
+      "options": [
+        "菜单",
+        "钥匙",
+        "护照",
+        "出租车"
+      ],
+      "answer": 3
+    }
+  ]
+}

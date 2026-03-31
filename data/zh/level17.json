@@ -1,0 +1,455 @@
+{
+  "level": 17,
+  "title": "은행 & 환전",
+  "titleCn": "银行和换钱",
+  "description": "은행에서 환전, 입금, 출금 등을 할 때 사용하는 중국어 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "你好，我想换钱。",
+          "pinyin": "Nǐ hǎo, wǒ xiǎng huàn qián.",
+          "korean": "안녕하세요, 환전하고 싶습니다."
+        },
+        {
+          "chinese": "你好，请问这里可以换钱吗？",
+          "pinyin": "Nǐ hǎo, qǐngwèn zhèlǐ kěyǐ huàn qián ma?",
+          "korean": "안녕하세요, 여기서 환전할 수 있나요?"
+        },
+        {
+          "chinese": "你好，我需要办理外币兑换。",
+          "pinyin": "Nǐ hǎo, wǒ xūyào bànlǐ wàibì duìhuàn.",
+          "korean": "안녕하세요, 외화 환전을 하고 싶습니다."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "好的，您想换什么货币？",
+          "pinyin": "Hǎo de, nín xiǎng huàn shénme huòbì?",
+          "korean": "네, 어떤 화폐로 환전하시겠습니까?"
+        },
+        {
+          "chinese": "可以的，请问您要换哪种货币？",
+          "pinyin": "Kěyǐ de, qǐngwèn nín yào huàn nǎ zhǒng huòbì?",
+          "korean": "가능합니다, 어떤 종류의 화폐를 환전하시겠어요?"
+        },
+        {
+          "chinese": "没问题，您想把什么货币换成人民币？",
+          "pinyin": "Méi wèntí, nín xiǎng bǎ shénme huòbì huàn chéng Rénmínbì?",
+          "korean": "문제없습니다, 어떤 화폐를 인민폐로 바꾸시겠어요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "我想把韩币换成人民币。今天的汇率是多少？",
+          "pinyin": "Wǒ xiǎng bǎ Hánbì huàn chéng Rénmínbì. Jīntiān de huìlǜ shì duōshao?",
+          "korean": "한국 원화를 인민폐로 바꾸고 싶어요. 오늘 환율이 얼마예요?"
+        },
+        {
+          "chinese": "韩币换人民币，今天的汇率怎么样？",
+          "pinyin": "Hánbì huàn Rénmínbì, jīntiān de huìlǜ zěnmeyàng?",
+          "korean": "한국 원화를 인민폐로요, 오늘 환율이 어떤가요?"
+        },
+        {
+          "chinese": "我要把韩币兑换成人民币。请问今天汇率是多少？",
+          "pinyin": "Wǒ yào bǎ Hánbì duìhuàn chéng Rénmínbì. Qǐngwèn jīntiān huìlǜ shì duōshao?",
+          "korean": "한국 원화를 인민폐로 환전하려고요. 오늘 환율이 얼마인가요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "今天的汇率是一百韩币换零点五三元人民币。",
+          "pinyin": "Jīntiān de huìlǜ shì yìbǎi Hánbì huàn líng diǎn wǔ sān yuán Rénmínbì.",
+          "korean": "오늘 환율은 100원당 0.53위안입니다."
+        },
+        {
+          "chinese": "一百韩币可以换零点五三块人民币。",
+          "pinyin": "Yìbǎi Hánbì kěyǐ huàn líng diǎn wǔ sān kuài Rénmínbì.",
+          "korean": "100원으로 0.53위안을 바꿀 수 있어요."
+        },
+        {
+          "chinese": "今天的牌价是一百韩币兑零点五三元。",
+          "pinyin": "Jīntiān de páijià shì yìbǎi Hánbì duì líng diǎn wǔ sān yuán.",
+          "korean": "오늘 고시 환율은 100원에 0.53위안입니다."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "好的，我换五十万韩币。另外我还想开一个存款账户。",
+          "pinyin": "Hǎo de, wǒ huàn wǔshí wàn Hánbì. Lìngwài wǒ hái xiǎng kāi yí gè cúnkuǎn zhànghù.",
+          "korean": "좋아요, 50만 원을 환전할게요. 그리고 예금 계좌도 하나 개설하고 싶습니다."
+        },
+        {
+          "chinese": "那我换五十万吧。还有，我想开个账户。",
+          "pinyin": "Nà wǒ huàn wǔshí wàn ba. Hái yǒu, wǒ xiǎng kāi ge zhànghù.",
+          "korean": "그럼 50만 원 환전할게요. 그리고 계좌도 개설하고 싶어요."
+        },
+        {
+          "chinese": "好，麻烦换五十万韩币。顺便可以开户吗？",
+          "pinyin": "Hǎo, máfan huàn wǔshí wàn Hánbì. Shùnbiàn kěyǐ kāihù ma?",
+          "korean": "네, 50만 원 환전 부탁해요. 그리고 계좌 개설도 되나요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "没问题。请出示您的护照。",
+          "pinyin": "Méi wèntí. Qǐng chūshì nín de hùzhào.",
+          "korean": "문제없습니다. 여권을 보여주세요."
+        },
+        {
+          "chinese": "可以的。请把护照给我看一下。",
+          "pinyin": "Kěyǐ de. Qǐng bǎ hùzhào gěi wǒ kàn yīxià.",
+          "korean": "가능합니다. 여권 좀 보여주세요."
+        },
+        {
+          "chinese": "好的，麻烦您出示护照和签证。",
+          "pinyin": "Hǎo de, máfan nín chūshì hùzhào hé qiānzhèng.",
+          "korean": "네, 여권과 비자를 보여주세요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "给您。我以后可以在这里取款吗？",
+          "pinyin": "Gěi nín. Wǒ yǐhòu kěyǐ zài zhèlǐ qǔkuǎn ma?",
+          "korean": "여기요. 나중에 여기서 출금할 수 있나요?"
+        },
+        {
+          "chinese": "这是我的护照。取钱的话怎么办？",
+          "pinyin": "Zhè shì wǒ de hùzhào. Qǔ qián de huà zěnme bàn?",
+          "korean": "제 여권입니다. 출금은 어떻게 하나요?"
+        },
+        {
+          "chinese": "给您护照。以后取款方便吗？",
+          "pinyin": "Gěi nín hùzhào. Yǐhòu qǔkuǎn fāngbiàn ma?",
+          "korean": "여권 여기요. 나중에 출금이 편리한가요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "可以的，您也可以用ATM机取款。",
+          "pinyin": "Kěyǐ de, nín yě kěyǐ yòng ATM jī qǔkuǎn.",
+          "korean": "가능합니다, ATM으로도 출금할 수 있습니다."
+        },
+        {
+          "chinese": "当然可以，柜台或者ATM都可以取款。",
+          "pinyin": "Dāngrán kěyǐ, guìtái huòzhě ATM dōu kěyǐ qǔkuǎn.",
+          "korean": "물론이죠, 창구나 ATM 어디서든 출금 가능합니다."
+        },
+        {
+          "chinese": "没问题，用银行卡在ATM上就能取钱。",
+          "pinyin": "Méi wèntí, yòng yínháng kǎ zài ATM shàng jiù néng qǔ qián.",
+          "korean": "문제없어요, 은행카드로 ATM에서 출금하면 됩니다."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "chinese": "换钱",
+      "pinyin": "huàn qián",
+      "korean": "환전하다"
+    },
+    {
+      "chinese": "汇率",
+      "pinyin": "huìlǜ",
+      "korean": "환율"
+    },
+    {
+      "chinese": "存款",
+      "pinyin": "cúnkuǎn",
+      "korean": "예금 / 입금하다"
+    },
+    {
+      "chinese": "取款",
+      "pinyin": "qǔkuǎn",
+      "korean": "출금하다"
+    },
+    {
+      "chinese": "人民币",
+      "pinyin": "Rénmínbì",
+      "korean": "인민폐 (중국 화폐)"
+    },
+    {
+      "chinese": "账户",
+      "pinyin": "zhànghù",
+      "korean": "계좌"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "cn_to_kr",
+      "question": "汇率",
+      "options": [
+        "이자",
+        "환율",
+        "수수료",
+        "잔액"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "환전하다",
+      "options": [
+        "存钱",
+        "换钱",
+        "花钱",
+        "借钱"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "我想把韩币换成___。",
+      "options": [
+        "美元",
+        "人民币",
+        "日元",
+        "欧元"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "取款",
+      "options": [
+        "입금하다",
+        "송금하다",
+        "출금하다",
+        "환전하다"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "계좌",
+      "options": [
+        "银行",
+        "账户",
+        "存款",
+        "汇率"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "存款",
+      "options": [
+        "출금하다",
+        "예금하다",
+        "환전하다",
+        "송금하다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "人民币",
+      "options": [
+        "미국 달러",
+        "일본 엔",
+        "인민폐",
+        "유로"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "출금하다",
+      "options": [
+        "存款",
+        "取款",
+        "换钱",
+        "汇款"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "환율",
+      "options": [
+        "利率",
+        "汇率",
+        "手续费",
+        "余额"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "请出示您的___。",
+      "options": [
+        "身份证",
+        "护照",
+        "银行卡",
+        "手机"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "换钱",
+      "options": [
+        "돈을 빌리다",
+        "돈을 쓰다",
+        "환전하다",
+        "돈을 모으다"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "我还想开一个___账户。",
+      "options": [
+        "取款",
+        "存款",
+        "汇款",
+        "转账"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "인민폐",
+      "options": [
+        "美元",
+        "韩币",
+        "人民币",
+        "日元"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "账户",
+      "options": [
+        "은행",
+        "환율",
+        "계좌",
+        "이자"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "您也可以用ATM机___。",
+      "options": [
+        "存款",
+        "换钱",
+        "取款",
+        "汇款"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "货币",
+      "options": [
+        "화폐",
+        "환율",
+        "이자",
+        "수수료"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "예금하다",
+      "options": [
+        "取款",
+        "换钱",
+        "存款",
+        "汇款"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "今天的___是多少？",
+      "options": [
+        "价格",
+        "汇率",
+        "利息",
+        "手续费"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "여권을 보여주세요",
+      "options": [
+        "请出示您的身份证",
+        "请出示您的护照",
+        "请出示您的银行卡",
+        "请出示您的机票"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "我想换钱",
+      "options": [
+        "돈을 빌리고 싶어요",
+        "환전하고 싶어요",
+        "돈을 찾고 싶어요",
+        "돈을 보내고 싶어요"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "我想___点钱。",
+      "options": [
+        "穿",
+        "走",
+        "取",
+        "吃"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "请填一下这张___。",
+      "options": [
+        "碗",
+        "表",
+        "杯",
+        "块"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "我想开一个银行___。",
+      "options": [
+        "天气",
+        "风景",
+        "味道",
+        "账户"
+      ],
+      "answer": 3
+    }
+  ]
+}

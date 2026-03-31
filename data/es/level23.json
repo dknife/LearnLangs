@@ -1,0 +1,190 @@
+{
+  "level": 23,
+  "title": "직장 & 업무",
+  "titleEs": "Trabajo y Oficina",
+  "description": "스페인어로 직장에서 사용하는 업무 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿En qué trabajas?",
+          "pronunciation": "엔 게 뜨라바하스?",
+          "korean": "무슨 일 하세요?"
+        },
+        {
+          "spanish": "¿A qué te dedicas?",
+          "pronunciation": "아 게 떼 데디까스?",
+          "korean": "직업이 뭐예요?"
+        },
+        {
+          "spanish": "¿Dónde trabajas?",
+          "pronunciation": "돈데 뜨라바하스?",
+          "korean": "어디서 일해요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Soy ingeniero en una empresa de tecnología.",
+          "pronunciation": "소이 인헤니에로 엔 우나 엠쁘레사 데 떼크놀로히아.",
+          "korean": "기술 회사에서 엔지니어예요."
+        },
+        {
+          "spanish": "Trabajo como diseñadora.",
+          "pronunciation": "뜨라바호 꼬모 디세냐도라.",
+          "korean": "디자이너로 일해요."
+        },
+        {
+          "spanish": "Soy profesor de español.",
+          "pronunciation": "소이 쁘로페소르 데 에스빠뇰.",
+          "korean": "스페인어 선생님이에요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Te gusta tu trabajo?",
+          "pronunciation": "떼 구스따 뚜 뜨라바호?",
+          "korean": "일이 마음에 들어요?"
+        },
+        {
+          "spanish": "¿Cuál es tu horario?",
+          "pronunciation": "꾸알 에스 뚜 오라리오?",
+          "korean": "근무 시간이 어떻게 돼요?"
+        },
+        {
+          "spanish": "¿Trabajas desde casa?",
+          "pronunciation": "뜨라바하스 데스데 까사?",
+          "korean": "재택근무해요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Sí, me encanta. Es muy interesante.",
+          "pronunciation": "시, 메 엔깐따. 에스 무이 인떼레산떼.",
+          "korean": "네, 정말 좋아요. 흥미로워요."
+        },
+        {
+          "spanish": "De nueve a seis, lunes a viernes.",
+          "pronunciation": "데 누에베 아 세이스, 루네스 아 비에르네스.",
+          "korean": "월~금, 9시부터 6시까지요."
+        },
+        {
+          "spanish": "Hago teletrabajo tres días.",
+          "pronunciation": "아고 뗄레뜨라바호 뜨레스 디아스.",
+          "korean": "3일은 재택근무해요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Tenemos reunión a las diez.",
+          "pronunciation": "떼네모스 레우니온 아 라스 디에스.",
+          "korean": "10시에 회의가 있어요."
+        },
+        {
+          "spanish": "¿Puedes enviarme ese informe?",
+          "pronunciation": "뿌에데스 엔비아르메 에세 인포르메?",
+          "korean": "그 보고서 보내줄 수 있어요?"
+        },
+        {
+          "spanish": "El jefe quiere hablar contigo.",
+          "pronunciation": "엘 헤페 끼에레 아블라르 꼰띠고.",
+          "korean": "상사가 당신과 얘기하고 싶대요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Preparo la presentación.",
+          "pronunciation": "쁘레빠로 라 쁘레센따시온.",
+          "korean": "프레젠테이션 준비할게요."
+        },
+        {
+          "spanish": "Te lo envío por correo ahora.",
+          "pronunciation": "떼 로 엔비오 뽀르 꼬레오 아오라.",
+          "korean": "이메일로 지금 보낼게요."
+        },
+        {
+          "spanish": "¿Sabes de qué se trata?",
+          "pronunciation": "사베스 데 게 세 뜨라따?",
+          "korean": "무슨 일인지 알아요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Buen trabajo hoy. Nos vemos mañana.",
+          "pronunciation": "부엔 뜨라바호 오이. 노스 베모스 마냐나.",
+          "korean": "오늘 수고했어요. 내일 봐요."
+        },
+        {
+          "spanish": "¡Buen fin de semana!",
+          "pronunciation": "부엔 핀 데 세마나!",
+          "korean": "좋은 주말 보내세요!"
+        },
+        {
+          "spanish": "Gracias por tu ayuda con el proyecto.",
+          "pronunciation": "그라시아스 뽀르 뚜 아유다 꼰 엘 쁘로예또.",
+          "korean": "프로젝트 도와줘서 고마워요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "trabajo",
+      "pronunciation": "뜨라바호",
+      "korean": "일/직장"
+    },
+    {
+      "spanish": "oficina",
+      "pronunciation": "오피시나",
+      "korean": "사무실"
+    },
+    {
+      "spanish": "reunión",
+      "pronunciation": "레우니온",
+      "korean": "회의"
+    },
+    {
+      "spanish": "jefe",
+      "pronunciation": "헤페",
+      "korean": "상사"
+    },
+    {
+      "spanish": "proyecto",
+      "pronunciation": "쁘로예또",
+      "korean": "프로젝트"
+    },
+    {
+      "spanish": "informe",
+      "pronunciation": "인포르메",
+      "korean": "보고서"
+    },
+    {
+      "spanish": "correo electrónico",
+      "pronunciation": "꼬레오 엘렉뜨로니꼬",
+      "korean": "이메일"
+    },
+    {
+      "spanish": "horario",
+      "pronunciation": "오라리오",
+      "korean": "근무 시간"
+    }
+  ]
+}

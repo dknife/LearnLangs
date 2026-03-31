@@ -28,8 +28,9 @@ jobs:
         run: |
           mkdir _site
           V=$(date +%s)
-          sed "s/style\.css/style.css?v=$V/;s/data\.js/data.js?v=$V/;s/spanish_data\.js/spanish_data.js?v=$V/;s/app\.js/app.js?v=$V/" index.html > _site/index.html
-          cp style.css app.js data.js spanish_data.js _site/
+          sed "s/style\.css/style.css?v=$V/;s/app\.js/app.js?v=$V/" index.html > _site/index.html
+          cp style.css app.js _site/
+          cp -r data _site/data
           cp -r public/* _site/ 2>/dev/null || true
 
       - name: Setup Pages

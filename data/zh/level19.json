@@ -1,0 +1,455 @@
+{
+  "level": 19,
+  "title": "공항 & 비행기",
+  "titleCn": "机场和飞机",
+  "description": "공항에서 탑승 수속, 보안 검색, 탑승구 찾기 등과 관련된 중국어 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "你好，请出示您的护照和机票。",
+          "pinyin": "Nǐ hǎo, qǐng chūshì nín de hùzhào hé jīpiào.",
+          "korean": "안녕하세요, 여권과 항공권을 보여주세요."
+        },
+        {
+          "chinese": "您好，麻烦出示一下护照和机票。",
+          "pinyin": "Nín hǎo, máfan chūshì yīxià hùzhào hé jīpiào.",
+          "korean": "안녕하세요, 여권과 항공권 좀 보여주세요."
+        },
+        {
+          "chinese": "你好，请把护照和机票给我看一下。",
+          "pinyin": "Nǐ hǎo, qǐng bǎ hùzhào hé jīpiào gěi wǒ kàn yīxià.",
+          "korean": "안녕하세요, 여권과 항공권을 보여주시겠어요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "给您。我有两件行李要托运。",
+          "pinyin": "Gěi nín. Wǒ yǒu liǎng jiàn xíngli yào tuōyùn.",
+          "korean": "여기요. 수하물 두 개를 부치고 싶습니다."
+        },
+        {
+          "chinese": "这是我的护照和机票。行李可以托运吗？我有两件。",
+          "pinyin": "Zhè shì wǒ de hùzhào hé jīpiào. Xíngli kěyǐ tuōyùn ma? Wǒ yǒu liǎng jiàn.",
+          "korean": "제 여권과 항공권입니다. 수하물 부칠 수 있나요? 두 개예요."
+        },
+        {
+          "chinese": "给你。另外我想托运两个箱子。",
+          "pinyin": "Gěi nǐ. Lìngwài wǒ xiǎng tuōyùn liǎng ge xiāngzi.",
+          "korean": "여기요. 그리고 캐리어 두 개를 부치고 싶어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "好的，这是您的登机牌。您的座位是25A，靠窗。",
+          "pinyin": "Hǎo de, zhè shì nín de dēngjīpái. Nín de zuòwèi shì èrshíwǔ A, kào chuāng.",
+          "korean": "네, 이것은 탑승권입니다. 좌석은 25A, 창가석이에요."
+        },
+        {
+          "chinese": "这是登机牌，座位25A，窗边的位置。",
+          "pinyin": "Zhè shì dēngjīpái, zuòwèi èrshíwǔ A, chuāng biān de wèizhì.",
+          "korean": "탑승권 여기요, 좌석 25A, 창가자리예요."
+        },
+        {
+          "chinese": "办好了，您的座位号是25A，靠窗位。",
+          "pinyin": "Bàn hǎo le, nín de zuòwèi hào shì èrshíwǔ A, kào chuāng wèi.",
+          "korean": "다 됐어요, 좌석번호 25A, 창가석입니다."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "请问几号登机口？",
+          "pinyin": "Qǐngwèn jǐ hào dēngjīkǒu?",
+          "korean": "탑승구가 몇 번인가요?"
+        },
+        {
+          "chinese": "在哪个登机口登机？",
+          "pinyin": "Zài nǎge dēngjīkǒu dēngjī?",
+          "korean": "어느 탑승구에서 탑승하나요?"
+        },
+        {
+          "chinese": "登机口是几号？",
+          "pinyin": "Dēngjīkǒu shì jǐ hào?",
+          "korean": "탑승구 번호가 뭐예요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "十二号登机口，在二楼。飞机下午三点起飞。",
+          "pinyin": "Shí'èr hào dēngjīkǒu, zài èr lóu. Fēijī xiàwǔ sān diǎn qǐfēi.",
+          "korean": "12번 탑승구, 2층에 있습니다. 비행기는 오후 3시에 출발합니다."
+        },
+        {
+          "chinese": "登机口是12号，二楼。三点准时起飞。",
+          "pinyin": "Dēngjīkǒu shì shí'èr hào, èr lóu. Sān diǎn zhǔnshí qǐfēi.",
+          "korean": "탑승구 12번, 2층이에요. 3시 정각에 출발합니다."
+        },
+        {
+          "chinese": "12号口，在二楼那边。下午三点的航班。",
+          "pinyin": "Shí'èr hào kǒu, zài èr lóu nàbiān. Xiàwǔ sān diǎn de hángbān.",
+          "korean": "12번 게이트, 2층 저쪽이에요. 오후 3시 항공편입니다."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "飞机几点降落？",
+          "pinyin": "Fēijī jǐ diǎn jiàngluò?",
+          "korean": "비행기는 몇 시에 착륙하나요?"
+        },
+        {
+          "chinese": "请问到达时间是几点？",
+          "pinyin": "Qǐngwèn dàodá shíjiān shì jǐ diǎn?",
+          "korean": "도착 시간이 몇 시인가요?"
+        },
+        {
+          "chinese": "大概什么时候到？",
+          "pinyin": "Dàgài shénme shíhou dào?",
+          "korean": "대략 언제 도착하나요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "预计晚上六点降落。请提前半小时到登机口。",
+          "pinyin": "Yùjì wǎnshang liù diǎn jiàngluò. Qǐng tíqián bàn xiǎoshí dào dēngjīkǒu.",
+          "korean": "저녁 6시에 도착 예정입니다. 30분 전에 탑승구에 오세요."
+        },
+        {
+          "chinese": "预计六点到达。登机前三十分钟请到登机口。",
+          "pinyin": "Yùjì liù diǎn dàodá. Dēngjī qián sānshí fēnzhōng qǐng dào dēngjīkǒu.",
+          "korean": "6시 도착 예정이에요. 탑승 30분 전에 탑승구로 와주세요."
+        },
+        {
+          "chinese": "晚上六点左右到。请早点去登机口等候。",
+          "pinyin": "Wǎnshang liù diǎn zuǒyòu dào. Qǐng zǎo diǎn qù dēngjīkǒu děnghòu.",
+          "korean": "저녁 6시쯤 도착해요. 일찍 탑승구에 가서 기다려주세요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "好的，谢谢。我先去安检了。",
+          "pinyin": "Hǎo de, xièxie. Wǒ xiān qù ānjiǎn le.",
+          "korean": "네, 감사합니다. 먼저 보안 검색대로 가겠습니다."
+        },
+        {
+          "chinese": "明白了，谢谢！那我先去过安检。",
+          "pinyin": "Míngbai le, xièxie! Nà wǒ xiān qù guò ānjiǎn.",
+          "korean": "알겠습니다, 감사합니다! 먼저 보안 검색 받으러 갈게요."
+        },
+        {
+          "chinese": "好，谢谢你。安检在哪个方向？",
+          "pinyin": "Hǎo, xièxie nǐ. Ānjiǎn zài nǎge fāngxiàng?",
+          "korean": "네, 감사합니다. 보안 검색대가 어느 방향인가요?"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "chinese": "登机牌",
+      "pinyin": "dēngjīpái",
+      "korean": "탑승권"
+    },
+    {
+      "chinese": "行李",
+      "pinyin": "xíngli",
+      "korean": "수하물 / 짐"
+    },
+    {
+      "chinese": "登机口",
+      "pinyin": "dēngjīkǒu",
+      "korean": "탑승구"
+    },
+    {
+      "chinese": "起飞",
+      "pinyin": "qǐfēi",
+      "korean": "이륙하다"
+    },
+    {
+      "chinese": "降落",
+      "pinyin": "jiàngluò",
+      "korean": "착륙하다"
+    },
+    {
+      "chinese": "托运",
+      "pinyin": "tuōyùn",
+      "korean": "수하물을 부치다"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "cn_to_kr",
+      "question": "登机牌",
+      "options": [
+        "여권",
+        "탑승권",
+        "항공권",
+        "비자"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "탑승구",
+      "options": [
+        "登机牌",
+        "登机口",
+        "出口",
+        "入口"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "飞机下午三点___。",
+      "options": [
+        "降落",
+        "起飞",
+        "到达",
+        "出发"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "行李",
+      "options": [
+        "항공권",
+        "여권",
+        "수하물",
+        "탑승권"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "착륙하다",
+      "options": [
+        "起飞",
+        "出发",
+        "到达",
+        "降落"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "托运",
+      "options": [
+        "수하물을 찾다",
+        "수하물을 부치다",
+        "짐을 싸다",
+        "짐을 풀다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "起飞",
+      "options": [
+        "착륙하다",
+        "이륙하다",
+        "출발하다",
+        "도착하다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "탑승권",
+      "options": [
+        "机票",
+        "护照",
+        "登机牌",
+        "签证"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "이륙하다",
+      "options": [
+        "降落",
+        "到达",
+        "起飞",
+        "出发"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "请出示您的护照和___。",
+      "options": [
+        "身份证",
+        "银行卡",
+        "机票",
+        "驾照"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "降落",
+      "options": [
+        "이륙하다",
+        "출발하다",
+        "착륙하다",
+        "도착하다"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "我有两件行李要___。",
+      "options": [
+        "托运",
+        "携带",
+        "打包",
+        "寄送"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "수하물을 부치다",
+      "options": [
+        "取行李",
+        "托运",
+        "打包",
+        "搬运"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "安检",
+      "options": [
+        "출국 심사",
+        "보안 검색",
+        "세관 검사",
+        "입국 심사"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "수하물",
+      "options": [
+        "包裹",
+        "背包",
+        "行李",
+        "箱子"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "您的座位是25A，___窗。",
+      "options": [
+        "靠",
+        "在",
+        "对",
+        "向"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "登机口",
+      "options": [
+        "출구",
+        "입구",
+        "탑승구",
+        "게이트"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "请提前半小时到___。",
+      "options": [
+        "出口",
+        "入口",
+        "安检",
+        "登机口"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "보안 검색",
+      "options": [
+        "海关",
+        "安检",
+        "出境",
+        "入境"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "预计晚上六点降落",
+      "options": [
+        "저녁 6시에 출발 예정입니다",
+        "저녁 6시에 도착 예정입니다",
+        "오후 6시에 이륙 예정입니다",
+        "오전 6시에 착륙 예정입니다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "飞机什么时候___？",
+      "options": [
+        "好吃",
+        "好看",
+        "降落",
+        "好听"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "请系好___带。",
+      "options": [
+        "安全",
+        "好吃",
+        "便宜",
+        "好看"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill_blank",
+      "question": "我的___在哪里取？",
+      "options": [
+        "天气",
+        "风景",
+        "行李",
+        "味道"
+      ],
+      "answer": 2
+    }
+  ]
+}

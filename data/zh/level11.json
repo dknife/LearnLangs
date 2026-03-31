@@ -1,0 +1,466 @@
+{
+  "level": 11,
+  "title": "감정 표현",
+  "titleCn": "表达感情",
+  "description": "기쁨, 슬픔, 화남 등 다양한 감정을 중국어로 표현하는 방법을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "你怎么了？看起来不太高兴。",
+          "pinyin": "Nǐ zěnme le? Kàn qǐlái bú tài gāoxìng.",
+          "korean": "무슨 일이야? 별로 기뻐 보이지 않아."
+        },
+        {
+          "chinese": "你的脸色不太好，怎么了？",
+          "pinyin": "Nǐ de liǎnsè bú tài hǎo, zěnme le?",
+          "korean": "안색이 안 좋아 보여, 무슨 일이야?"
+        },
+        {
+          "chinese": "你今天看起来不开心，出什么事了？",
+          "pinyin": "Nǐ jīntiān kàn qǐlái bù kāixīn, chū shénme shì le?",
+          "korean": "오늘 기분이 안 좋아 보여, 무슨 일 있었어?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "我今天考试没考好，很难过。",
+          "pinyin": "Wǒ jīntiān kǎoshì méi kǎo hǎo, hěn nánguò.",
+          "korean": "오늘 시험을 못 봤어, 너무 슬퍼."
+        },
+        {
+          "chinese": "考试考砸了，心情很差。",
+          "pinyin": "Kǎoshì kǎo zá le, xīnqíng hěn chà.",
+          "korean": "시험을 망쳤어, 기분이 안 좋아."
+        },
+        {
+          "chinese": "今天的考试太难了，我考得很不好。",
+          "pinyin": "Jīntiān de kǎoshì tài nán le, wǒ kǎo de hěn bù hǎo.",
+          "korean": "오늘 시험이 너무 어려웠어, 못 봤어."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "别难过了，下次一定会更好的。",
+          "pinyin": "Bié nánguò le, xià cì yídìng huì gèng hǎo de.",
+          "korean": "슬퍼하지 마, 다음에는 분명 더 잘할 거야."
+        },
+        {
+          "chinese": "没关系，一次考试不代表什么。",
+          "pinyin": "Méi guānxi, yí cì kǎoshì bù dàibiǎo shénme.",
+          "korean": "괜찮아, 시험 한 번이 전부는 아니야."
+        },
+        {
+          "chinese": "别担心，继续努力就好了。",
+          "pinyin": "Bié dānxīn, jìxù nǔlì jiù hǎo le.",
+          "korean": "걱정 마, 계속 노력하면 돼."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "谢谢你，我现在心情好多了。",
+          "pinyin": "Xièxie nǐ, wǒ xiànzài xīnqíng hǎo duō le.",
+          "korean": "고마워, 지금 기분이 훨씬 좋아졌어."
+        },
+        {
+          "chinese": "谢谢你的安慰，我好多了。",
+          "pinyin": "Xièxie nǐ de ānwèi, wǒ hǎo duō le.",
+          "korean": "위로해줘서 고마워, 많이 나아졌어."
+        },
+        {
+          "chinese": "听你这么说我开心多了。",
+          "pinyin": "Tīng nǐ zhème shuō wǒ kāixīn duō le.",
+          "korean": "네 말 들으니 기분이 훨씬 좋아졌어."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "对了，昨天小王为什么生气了？",
+          "pinyin": "Duì le, zuótiān Xiǎo Wáng wèi shénme shēngqì le?",
+          "korean": "맞다, 어제 샤오왕은 왜 화를 냈어?"
+        },
+        {
+          "chinese": "话说小王昨天怎么了？好像很生气。",
+          "pinyin": "Huàshuō Xiǎo Wáng zuótiān zěnme le? Hǎoxiàng hěn shēngqì.",
+          "korean": "그런데 샤오왕 어제 왜 그래? 많이 화난 것 같던데."
+        },
+        {
+          "chinese": "小王昨天发脾气了，你知道原因吗？",
+          "pinyin": "Xiǎo Wáng zuótiān fā píqi le, nǐ zhīdào yuányīn ma?",
+          "korean": "샤오왕 어제 화냈는데, 이유 알아?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "因为有人说了他的坏话，他很生气。",
+          "pinyin": "Yīnwèi yǒu rén shuō le tā de huàihuà, tā hěn shēngqì.",
+          "korean": "누군가 그의 험담을 해서 많이 화났어."
+        },
+        {
+          "chinese": "听说有人在背后说他坏话，所以生气了。",
+          "pinyin": "Tīngshuō yǒu rén zài bèihòu shuō tā huàihuà, suǒyǐ shēngqì le.",
+          "korean": "뒤에서 험담하는 사람이 있다고 해서 화났대."
+        },
+        {
+          "chinese": "有人说了不好听的话，他特别生气。",
+          "pinyin": "Yǒu rén shuō le bù hǎo tīng de huà, tā tèbié shēngqì.",
+          "korean": "안 좋은 말을 한 사람이 있어서 많이 화났어."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "他现在还害怕跟那个人说话吗？",
+          "pinyin": "Tā xiànzài hái hàipà gēn nàge rén shuōhuà ma?",
+          "korean": "그는 지금도 그 사람이랑 얘기하는 게 무서워?"
+        },
+        {
+          "chinese": "那他们现在关系怎么样了？",
+          "pinyin": "Nà tāmen xiànzài guānxi zěnmeyàng le?",
+          "korean": "그럼 지금 둘 사이는 어때?"
+        },
+        {
+          "chinese": "他跟那个人和好了吗？",
+          "pinyin": "Tā gēn nàge rén hé hǎo le ma?",
+          "korean": "그 사람이랑 화해했어?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "不怕了，他们已经和好了，都很开心。",
+          "pinyin": "Bú pà le, tāmen yǐjīng hé hǎo le, dōu hěn kāixīn.",
+          "korean": "안 무서워해, 이미 화해했어, 둘 다 기뻐하고 있어."
+        },
+        {
+          "chinese": "没事了，两个人已经和好了。",
+          "pinyin": "Méi shì le, liǎng ge rén yǐjīng hé hǎo le.",
+          "korean": "괜찮아, 두 사람 이미 화해했어."
+        },
+        {
+          "chinese": "和好了！现在又是好朋友了。",
+          "pinyin": "Hé hǎo le! Xiànzài yòu shì hǎo péngyou le.",
+          "korean": "화해했어! 지금은 다시 좋은 친구야."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "chinese": "高兴",
+      "pinyin": "gāoxìng",
+      "korean": "기쁘다, 즐겁다"
+    },
+    {
+      "chinese": "难过",
+      "pinyin": "nánguò",
+      "korean": "슬프다, 괴롭다"
+    },
+    {
+      "chinese": "生气",
+      "pinyin": "shēngqì",
+      "korean": "화나다"
+    },
+    {
+      "chinese": "害怕",
+      "pinyin": "hàipà",
+      "korean": "무섭다, 두렵다"
+    },
+    {
+      "chinese": "心情",
+      "pinyin": "xīnqíng",
+      "korean": "기분, 심정"
+    },
+    {
+      "chinese": "开心",
+      "pinyin": "kāixīn",
+      "korean": "즐겁다, 기쁘다"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "cn_to_kr",
+      "question": "高兴",
+      "options": [
+        "슬프다",
+        "기쁘다",
+        "화나다",
+        "무섭다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "害怕",
+      "options": [
+        "기쁘다",
+        "슬프다",
+        "화나다",
+        "무섭다"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "화나다",
+      "options": [
+        "难过",
+        "高兴",
+        "生气",
+        "害怕"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "你___了？看起来不太高兴。",
+      "options": [
+        "怎么",
+        "什么",
+        "哪里",
+        "为什么"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "기분, 심정",
+      "options": [
+        "开心",
+        "心情",
+        "高兴",
+        "难过"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "难过",
+      "options": [
+        "기쁘다",
+        "슬프다",
+        "두렵다",
+        "즐겁다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "开心",
+      "options": [
+        "화나다",
+        "무섭다",
+        "즐겁다",
+        "슬프다"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "别难过了，下次一定会更好的。",
+      "options": [
+        "화내지 마, 다음에 더 잘하자.",
+        "슬퍼하지 마, 다음에는 분명 더 잘할 거야.",
+        "무서워하지 마, 괜찮을 거야.",
+        "기뻐하지 마, 아직 끝나지 않았어."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "他们已经和好了。",
+      "options": [
+        "그들은 이미 화해했다.",
+        "그들은 아직 화가 나 있다.",
+        "그들은 이미 떠났다.",
+        "그들은 아직 만나지 못했다."
+      ],
+      "answer": 0
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "我现在心情好多了。",
+      "options": [
+        "나는 지금 배가 많이 고프다.",
+        "나는 지금 기분이 훨씬 좋아졌다.",
+        "나는 지금 많이 피곤하다.",
+        "나는 지금 시간이 많다."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "因为有人说了他的坏话。",
+      "options": [
+        "누군가 그를 도와줬기 때문이다.",
+        "누군가 그의 험담을 했기 때문이다.",
+        "누군가 그에게 선물을 줬기 때문이다.",
+        "누군가 그를 칭찬했기 때문이다."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "슬프다",
+      "options": [
+        "高兴",
+        "开心",
+        "难过",
+        "害怕"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "즐겁다, 기쁘다",
+      "options": [
+        "难过",
+        "生气",
+        "害怕",
+        "开心"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "기쁘다, 즐겁다",
+      "options": [
+        "高兴",
+        "难过",
+        "心情",
+        "害怕"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "무섭다, 두렵다",
+      "options": [
+        "生气",
+        "难过",
+        "害怕",
+        "高兴"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "험담",
+      "options": [
+        "好话",
+        "坏话",
+        "笑话",
+        "大话"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "화해하다",
+      "options": [
+        "生气",
+        "和好",
+        "害怕",
+        "难过"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "我今天考试没考好，很___。",
+      "options": [
+        "高兴",
+        "开心",
+        "难过",
+        "害怕"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "因为有人说了他的___，他很生气。",
+      "options": [
+        "好话",
+        "坏话",
+        "笑话",
+        "大话"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "他们已经___了，都很开心。",
+      "options": [
+        "生气",
+        "害怕",
+        "难过",
+        "和好"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill_blank",
+      "question": "别___了，没什么可怕的。",
+      "options": [
+        "多少",
+        "什么",
+        "害怕",
+        "怎么走"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "他今天___很好。",
+      "options": [
+        "天气",
+        "心情",
+        "菜单",
+        "号码"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "别___了，都是小事。",
+      "options": [
+        "吃饭",
+        "上班",
+        "走路",
+        "生气"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill_blank",
+      "question": "听到好消息，我真___！",
+      "options": [
+        "地址",
+        "号码",
+        "菜单",
+        "开心"
+      ],
+      "answer": 3
+    }
+  ]
+}

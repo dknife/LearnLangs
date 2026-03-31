@@ -1,0 +1,190 @@
+{
+  "level": 14,
+  "title": "날씨 & 계절",
+  "titleEs": "El Clima y las Estaciones",
+  "description": "스페인어로 날씨와 계절에 관해 이야기하는 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Qué tiempo hace hoy?",
+          "pronunciation": "게 띠엠뽀 아세 오이?",
+          "korean": "오늘 날씨가 어때요?"
+        },
+        {
+          "spanish": "¡Hace un día precioso!",
+          "pronunciation": "아세 운 디아 쁘레시오소!",
+          "korean": "날씨가 정말 좋네요!"
+        },
+        {
+          "spanish": "Parece que va a llover.",
+          "pronunciation": "빠레세 게 바 아 요베르.",
+          "korean": "비가 올 것 같아요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Hace mucho sol y un poco de viento.",
+          "pronunciation": "아세 무초 솔 이 운 뽀꼬 데 비엔또.",
+          "korean": "햇살이 강하고 바람이 좀 불어요."
+        },
+        {
+          "spanish": "Sí, perfecto para pasear.",
+          "pronunciation": "시, 뻬르펙또 빠라 빠세아르.",
+          "korean": "네, 산책하기 딱이에요."
+        },
+        {
+          "spanish": "Está nublado y hace frío.",
+          "pronunciation": "에스따 누블라도 이 아세 프리오.",
+          "korean": "흐리고 추워요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Cuál es tu estación favorita?",
+          "pronunciation": "꾸알 에스 뚜 에스따시온 파보리따?",
+          "korean": "가장 좋아하는 계절이 뭐예요?"
+        },
+        {
+          "spanish": "A mí me gusta la primavera.",
+          "pronunciation": "아 미 메 구스따 라 쁘리마베라.",
+          "korean": "저는 봄을 좋아해요."
+        },
+        {
+          "spanish": "¿Prefieres el calor o el frío?",
+          "pronunciation": "쁘레피에레스 엘 깔로르 오 엘 프리오?",
+          "korean": "더운 게 좋아요, 추운 게 좋아요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Me encanta el otoño. Los colores son bonitos.",
+          "pronunciation": "메 엔깐따 엘 오또뇨. 로스 꼴로레스 손 보니또스.",
+          "korean": "가을이 좋아요. 색깔이 예뻐요."
+        },
+        {
+          "spanish": "Prefiero el verano. Me gusta la playa.",
+          "pronunciation": "쁘레피에로 엘 베라노. 메 구스따 라 쁠라야.",
+          "korean": "여름이 좋아요. 해변을 좋아해요."
+        },
+        {
+          "spanish": "El invierno, porque me gusta la nieve.",
+          "pronunciation": "엘 인비에르노, 뽀르게 메 구스따 라 니에베.",
+          "korean": "겨울이요, 눈을 좋아해요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "En Corea hace mucho calor en verano.",
+          "pronunciation": "엔 꼬레아 아세 무초 깔로르 엔 베라노.",
+          "korean": "한국은 여름에 아주 더워요."
+        },
+        {
+          "spanish": "¿Nieva mucho en España?",
+          "pronunciation": "니에바 무초 엔 에스빠냐?",
+          "korean": "스페인에 눈이 많이 와요?"
+        },
+        {
+          "spanish": "El clima aquí es muy diferente.",
+          "pronunciation": "엘 끌리마 아끼 에스 무이 디페렌떼.",
+          "korean": "여기 기후는 아주 달라요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Los veranos son secos y calurosos.",
+          "pronunciation": "로스 베라노스 손 세꼬스 이 깔루로소스.",
+          "korean": "여름은 건조하고 더워요."
+        },
+        {
+          "spanish": "Solo nieva en el norte y las montañas.",
+          "pronunciation": "솔로 니에바 엔 엘 노르떼 이 라스 몬따냐스.",
+          "korean": "북쪽과 산에만 눈이 와요."
+        },
+        {
+          "spanish": "El clima mediterráneo es bastante suave.",
+          "pronunciation": "엘 끌리마 메디떼라네오 에스 바스딴떼 수아베.",
+          "korean": "지중해 기후는 꽤 온화해요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¡Me encanta el clima de aquí!",
+          "pronunciation": "메 엔깐따 엘 끌리마 데 아끼!",
+          "korean": "여기 기후가 정말 좋아요!"
+        },
+        {
+          "spanish": "Tengo que acostumbrarme al calor.",
+          "pronunciation": "뗑고 게 아꼬스뚬브라르메 알 깔로르.",
+          "korean": "더위에 적응해야 해요."
+        },
+        {
+          "spanish": "Ojalá haga buen tiempo el fin de semana.",
+          "pronunciation": "오할라 아가 부엔 띠엠뽀 엘 핀 데 세마나.",
+          "korean": "주말에 날씨가 좋았으면 좋겠어요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "tiempo / clima",
+      "pronunciation": "띠엠뽀 / 끌리마",
+      "korean": "날씨 / 기후"
+    },
+    {
+      "spanish": "sol",
+      "pronunciation": "솔",
+      "korean": "해/태양"
+    },
+    {
+      "spanish": "lluvia",
+      "pronunciation": "유비아",
+      "korean": "비"
+    },
+    {
+      "spanish": "nieve",
+      "pronunciation": "니에베",
+      "korean": "눈"
+    },
+    {
+      "spanish": "primavera",
+      "pronunciation": "쁘리마베라",
+      "korean": "봄"
+    },
+    {
+      "spanish": "verano",
+      "pronunciation": "베라노",
+      "korean": "여름"
+    },
+    {
+      "spanish": "otoño",
+      "pronunciation": "오또뇨",
+      "korean": "가을"
+    },
+    {
+      "spanish": "invierno",
+      "pronunciation": "인비에르노",
+      "korean": "겨울"
+    }
+  ]
+}

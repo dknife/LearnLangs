@@ -1,0 +1,455 @@
+{
+  "level": 21,
+  "title": "관광 & 사진",
+  "titleCn": "观光和拍照",
+  "description": "관광지에서 사진 찍기, 명소 방문, 입장권 구매 등 관광 관련 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "这里的风景真美，我们拍张照吧！",
+          "pinyin": "Zhèlǐ de fēngjǐng zhēn měi, wǒmen pāi zhāng zhào ba!",
+          "korean": "여기 풍경이 정말 아름다워요, 우리 사진 찍어요!"
+        },
+        {
+          "chinese": "哇，这个地方太漂亮了！来拍个照！",
+          "pinyin": "Wā, zhège dìfāng tài piàoliang le! Lái pāi ge zhào!",
+          "korean": "와, 여기 너무 예쁘다! 사진 찍자!"
+        },
+        {
+          "chinese": "风景好美啊，赶紧拍张照片吧！",
+          "pinyin": "Fēngjǐng hǎo měi a, gǎnjǐn pāi zhāng zhàopiàn ba!",
+          "korean": "풍경이 너무 예뻐, 얼른 사진 찍자!"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "好啊！你帮我拍一张，好吗？",
+          "pinyin": "Hǎo a! Nǐ bāng wǒ pāi yì zhāng, hǎo ma?",
+          "korean": "좋아요! 저 한 장 찍어 줄래요?"
+        },
+        {
+          "chinese": "好！帮我照一张吧。",
+          "pinyin": "Hǎo! Bāng wǒ zhào yì zhāng ba.",
+          "korean": "좋아! 저 한 장 찍어줘요."
+        },
+        {
+          "chinese": "来来来，先帮我拍一张！",
+          "pinyin": "Lái lái lái, xiān bāng wǒ pāi yì zhāng!",
+          "korean": "자자자, 먼저 나 한 장 찍어줘!"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "没问题。笑一笑！拍好了。",
+          "pinyin": "Méi wèntí. Xiào yí xiào! Pāi hǎo le.",
+          "korean": "문제없어요. 웃어 보세요! 찍었어요."
+        },
+        {
+          "chinese": "好，看这里！一、二、三，茄子！拍好了。",
+          "pinyin": "Hǎo, kàn zhèlǐ! Yī, èr, sān, qiézi! Pāi hǎo le.",
+          "korean": "좋아, 여기 봐! 하나, 둘, 셋, 치즈! 찍었어."
+        },
+        {
+          "chinese": "准备好了吗？笑一个！好了！",
+          "pinyin": "Zhǔnbèi hǎo le ma? Xiào yí ge! Hǎo le!",
+          "korean": "준비됐어요? 웃어봐요! 됐어요!"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "谢谢！这个名胜古迹叫什么名字？",
+          "pinyin": "Xièxie! Zhège míngshèng gǔjì jiào shénme míngzì?",
+          "korean": "고마워요! 이 명승고적은 이름이 뭐예요?"
+        },
+        {
+          "chinese": "拍得不错！对了，这里叫什么？",
+          "pinyin": "Pāi de búcuò! Duì le, zhèlǐ jiào shénme?",
+          "korean": "잘 찍었다! 그런데 여기가 어디야?"
+        },
+        {
+          "chinese": "谢谢！这个古迹是什么地方？",
+          "pinyin": "Xièxie! Zhège gǔjì shì shénme dìfāng?",
+          "korean": "고마워요! 이 고적은 어떤 곳이에요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "这是长城，中国最有名的古迹之一。",
+          "pinyin": "Zhè shì Chángchéng, Zhōngguó zuì yǒumíng de gǔjì zhī yī.",
+          "korean": "이것은 만리장성이에요, 중국에서 가장 유명한 고적 중 하나예요."
+        },
+        {
+          "chinese": "这就是长城！世界上最著名的古迹之一。",
+          "pinyin": "Zhè jiùshì Chángchéng! Shìjiè shàng zuì zhùmíng de gǔjì zhī yī.",
+          "korean": "이게 바로 만리장성! 세계에서 가장 유명한 고적 중 하나야."
+        },
+        {
+          "chinese": "是万里长城，来中国必去的地方。",
+          "pinyin": "Shì Wànlǐ Chángchéng, lái Zhōngguó bì qù de dìfāng.",
+          "korean": "만리장성이야, 중국 오면 꼭 가야 하는 곳이지."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "门票多少钱一张？",
+          "pinyin": "Ménpiào duōshao qián yì zhāng?",
+          "korean": "입장권은 한 장에 얼마예요?"
+        },
+        {
+          "chinese": "入场券多少钱？",
+          "pinyin": "Rùchǎngquàn duōshao qián?",
+          "korean": "입장권이 얼마예요?"
+        },
+        {
+          "chinese": "请问买票要多少钱？",
+          "pinyin": "Qǐngwèn mǎi piào yào duōshao qián?",
+          "korean": "표 사려면 얼마예요?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "成人票四十元，学生票半价。",
+          "pinyin": "Chéngrén piào sìshí yuán, xuéshēng piào bànjià.",
+          "korean": "성인 표는 40위안이고, 학생 표는 반값이에요."
+        },
+        {
+          "chinese": "大人四十块，学生二十块。",
+          "pinyin": "Dàrén sìshí kuài, xuéshēng èrshí kuài.",
+          "korean": "어른 40위안, 학생 20위안이에요."
+        },
+        {
+          "chinese": "全票四十元，学生凭证件可以半价。",
+          "pinyin": "Quán piào sìshí yuán, xuéshēng píng zhèngjiàn kěyǐ bànjià.",
+          "korean": "정가 40위안이고, 학생은 증명서 있으면 반값이에요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "我们需要请一个导游吗？",
+          "pinyin": "Wǒmen xūyào qǐng yí gè dǎoyóu ma?",
+          "korean": "우리 가이드를 한 명 부를까요?"
+        },
+        {
+          "chinese": "要不要请个导游给我们讲解？",
+          "pinyin": "Yào bu yào qǐng ge dǎoyóu gěi wǒmen jiǎngjiě?",
+          "korean": "가이드 불러서 설명 들을까?"
+        },
+        {
+          "chinese": "需要导游吗？还是我们自己逛？",
+          "pinyin": "Xūyào dǎoyóu ma? Háishi wǒmen zìjǐ guàng?",
+          "korean": "가이드 필요해? 아니면 우리끼리 돌아다닐까?"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "chinese": "拍照",
+      "pinyin": "pāizhào",
+      "korean": "사진을 찍다"
+    },
+    {
+      "chinese": "风景",
+      "pinyin": "fēngjǐng",
+      "korean": "풍경"
+    },
+    {
+      "chinese": "名胜古迹",
+      "pinyin": "míngshèng gǔjì",
+      "korean": "명승고적"
+    },
+    {
+      "chinese": "门票",
+      "pinyin": "ménpiào",
+      "korean": "입장권"
+    },
+    {
+      "chinese": "导游",
+      "pinyin": "dǎoyóu",
+      "korean": "가이드, 관광 안내원"
+    },
+    {
+      "chinese": "半价",
+      "pinyin": "bànjià",
+      "korean": "반값"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "cn_to_kr",
+      "question": "风景",
+      "options": [
+        "날씨",
+        "풍경",
+        "사진",
+        "입장권"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "导游",
+      "options": [
+        "운전사",
+        "손님",
+        "가이드",
+        "경찰"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "입장권",
+      "options": [
+        "导游",
+        "门票",
+        "半价",
+        "风景"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "这里的___真美！(풍경)",
+      "options": [
+        "拍照",
+        "门票",
+        "风景",
+        "导游"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "사진을 찍다",
+      "options": [
+        "风景",
+        "名胜古迹",
+        "导游",
+        "拍照"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "半价",
+      "options": [
+        "전액",
+        "반값",
+        "무료",
+        "할인"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "名胜古迹",
+      "options": [
+        "관광지",
+        "명승고적",
+        "박물관",
+        "공원"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "반값",
+      "options": [
+        "门票",
+        "导游",
+        "半价",
+        "风景"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "풍경",
+      "options": [
+        "拍照",
+        "风景",
+        "名胜古迹",
+        "导游"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "你帮我___一张，好吗？(찍다)",
+      "options": [
+        "拍",
+        "看",
+        "买",
+        "写"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "门票多少钱一张？",
+      "options": [
+        "가이드는 어디에 있어요?",
+        "입장권은 한 장에 얼마예요?",
+        "사진 한 장 찍어 줄래요?",
+        "풍경이 어때요?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "拍照",
+      "options": [
+        "관광하다",
+        "사진을 찍다",
+        "여행하다",
+        "구경하다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "가이드, 관광 안내원",
+      "options": [
+        "门票",
+        "半价",
+        "风景",
+        "导游"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill_blank",
+      "question": "成人票四十元，学生票___。(반값)",
+      "options": [
+        "免费",
+        "半价",
+        "全价",
+        "打折"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "笑一笑",
+      "options": [
+        "잠깐만요",
+        "웃어 보세요",
+        "기다려 주세요",
+        "조심하세요"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "명승고적",
+      "options": [
+        "风景",
+        "门票",
+        "名胜古迹",
+        "拍照"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "我们需要请一个___吗？(가이드)",
+      "options": [
+        "风景",
+        "门票",
+        "导游",
+        "半价"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "우리 사진 찍어요!",
+      "options": [
+        "我们走吧！",
+        "我们拍张照吧！",
+        "我们吃饭吧！",
+        "我们休息吧！"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "这是长城，中国最有名的古迹之一。",
+      "options": [
+        "이것은 자금성이에요, 중국에서 가장 큰 궁전이에요.",
+        "이것은 만리장성이에요, 중국에서 가장 유명한 고적 중 하나예요.",
+        "이것은 천안문이에요, 중국에서 가장 유명한 광장이에요.",
+        "이것은 서호예요, 중국에서 가장 아름다운 호수예요."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "___多少钱一张？(입장권)",
+      "options": [
+        "风景",
+        "导游",
+        "门票",
+        "拍照"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "这里可以___照吗？",
+      "options": [
+        "吃",
+        "穿",
+        "住",
+        "拍"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill_blank",
+      "question": "___在哪里买？",
+      "options": [
+        "门票",
+        "天气",
+        "味道",
+        "号码"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill_blank",
+      "question": "我想去看___古迹。",
+      "options": [
+        "好吃",
+        "名胜",
+        "好看",
+        "便宜"
+      ],
+      "answer": 1
+    }
+  ]
+}

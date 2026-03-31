@@ -1,0 +1,190 @@
+{
+  "level": 18,
+  "title": "병원 & 약국",
+  "titleEs": "Hospital y Farmacia",
+  "description": "스페인어로 병원과 약국에서 사용하는 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "No me encuentro bien. Me duele la cabeza.",
+          "pronunciation": "노 메 엔꾸엔뜨로 비엔. 메 두엘레 라 까베사.",
+          "korean": "컨디션이 안 좋아요. 머리가 아파요."
+        },
+        {
+          "spanish": "Necesito ver a un médico.",
+          "pronunciation": "네세시또 베르 아 운 메디꼬.",
+          "korean": "의사를 만나야 해요."
+        },
+        {
+          "spanish": "¿Dónde está la farmacia más cercana?",
+          "pronunciation": "돈데 에스따 라 파르마시아 마스 세르까나?",
+          "korean": "가장 가까운 약국이 어디에요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "¿Qué síntomas tiene?",
+          "pronunciation": "게 신또마스 띠에네?",
+          "korean": "증상이 어떠세요?"
+        },
+        {
+          "spanish": "¿Desde cuándo se siente mal?",
+          "pronunciation": "데스데 꾸안도 세 시엔떼 말?",
+          "korean": "언제부터 아프셨어요?"
+        },
+        {
+          "spanish": "Hay una farmacia en la esquina.",
+          "pronunciation": "아이 우나 파르마시아 엔 라 에스끼나.",
+          "korean": "모퉁이에 약국이 있어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Tengo fiebre y me duele la garganta.",
+          "pronunciation": "뗑고 피에브레 이 메 두엘레 라 가르간따.",
+          "korean": "열이 있고 목이 아파요."
+        },
+        {
+          "spanish": "Me duele el estómago desde ayer.",
+          "pronunciation": "메 두엘레 엘 에스또마고 데스데 아예르.",
+          "korean": "어제부터 배가 아파요."
+        },
+        {
+          "spanish": "Creo que tengo un resfriado.",
+          "pronunciation": "끄레오 게 뗑고 운 레스프리아도.",
+          "korean": "감기에 걸린 것 같아요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Voy a examinarle. Abra la boca.",
+          "pronunciation": "보이 아 엑사미나를레. 아브라 라 보까.",
+          "korean": "진찰해 볼게요. 입을 벌리세요."
+        },
+        {
+          "spanish": "Le voy a recetar unas pastillas.",
+          "pronunciation": "레 보이 아 레세따르 우나스 빠스띠야스.",
+          "korean": "약을 처방해 드릴게요."
+        },
+        {
+          "spanish": "Necesita descansar y beber mucha agua.",
+          "pronunciation": "네세시따 데스깐사르 이 베베르 무차 아구아.",
+          "korean": "쉬고 물을 많이 마셔야 해요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Es algo grave?",
+          "pronunciation": "에스 알고 그라베?",
+          "korean": "심각한 건가요?"
+        },
+        {
+          "spanish": "¿Cuántas pastillas debo tomar al día?",
+          "pronunciation": "꾸안따스 빠스띠야스 데보 또마르 알 디아?",
+          "korean": "하루에 약을 몇 알 먹어야 하나요?"
+        },
+        {
+          "spanish": "¿Necesito hacer algún análisis?",
+          "pronunciation": "네세시또 아세르 알군 아날리시스?",
+          "korean": "검사를 받아야 하나요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "No, es un resfriado. Se pondrá bien.",
+          "pronunciation": "노, 에스 운 레스프리아도. 세 뽄드라 비엔.",
+          "korean": "아니요, 감기예요. 곧 나을 거예요."
+        },
+        {
+          "spanish": "Tome una cada ocho horas.",
+          "pronunciation": "또메 우나 까다 오초 오라스.",
+          "korean": "8시간마다 한 알 드세요."
+        },
+        {
+          "spanish": "Si no mejora en tres días, vuelva.",
+          "pronunciation": "시 노 메호라 엔 뜨레스 디아스, 부엘바.",
+          "korean": "3일 안에 안 나으면 다시 오세요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Gracias, doctor. Me quedo más tranquilo.",
+          "pronunciation": "그라시아스, 독또르. 메 게도 마스 뜨란낄로.",
+          "korean": "감사합니다, 선생님. 안심이 돼요."
+        },
+        {
+          "spanish": "¿Puedo comprar la medicina aquí?",
+          "pronunciation": "뿌에도 꼼쁘라르 라 메디시나 아끼?",
+          "korean": "여기서 약을 살 수 있나요?"
+        },
+        {
+          "spanish": "Muchas gracias por todo.",
+          "pronunciation": "무차스 그라시아스 뽀르 또도.",
+          "korean": "모든 것에 감사합니다."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "médico / doctor",
+      "pronunciation": "메디꼬 / 독또르",
+      "korean": "의사"
+    },
+    {
+      "spanish": "farmacia",
+      "pronunciation": "파르마시아",
+      "korean": "약국"
+    },
+    {
+      "spanish": "medicina / pastilla",
+      "pronunciation": "메디시나 / 빠스띠야",
+      "korean": "약"
+    },
+    {
+      "spanish": "fiebre",
+      "pronunciation": "피에브레",
+      "korean": "열"
+    },
+    {
+      "spanish": "dolor",
+      "pronunciation": "돌로르",
+      "korean": "통증"
+    },
+    {
+      "spanish": "resfriado",
+      "pronunciation": "레스프리아도",
+      "korean": "감기"
+    },
+    {
+      "spanish": "receta",
+      "pronunciation": "레세따",
+      "korean": "처방전"
+    },
+    {
+      "spanish": "hospital",
+      "pronunciation": "오스삐딸",
+      "korean": "병원"
+    }
+  ]
+}

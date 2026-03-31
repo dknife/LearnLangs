@@ -1,0 +1,466 @@
+{
+  "level": 12,
+  "title": "약속 잡기",
+  "titleCn": "约会安排",
+  "description": "친구와 만남을 약속하고 시간과 장소를 정하는 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "这个周末你有空吗？",
+          "pinyin": "Zhège zhōumò nǐ yǒu kòng ma?",
+          "korean": "이번 주말에 시간 있어?"
+        },
+        {
+          "chinese": "周末有没有时间？",
+          "pinyin": "Zhōumò yǒu méiyǒu shíjiān?",
+          "korean": "주말에 시간 있어?"
+        },
+        {
+          "chinese": "你周末有什么安排？",
+          "pinyin": "Nǐ zhōumò yǒu shénme ānpái?",
+          "korean": "주말에 무슨 계획 있어?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "有空啊，你想做什么？",
+          "pinyin": "Yǒu kòng a, nǐ xiǎng zuò shénme?",
+          "korean": "시간 있어, 뭐 하고 싶어?"
+        },
+        {
+          "chinese": "没什么安排，怎么了？",
+          "pinyin": "Méi shénme ānpái, zěnme le?",
+          "korean": "별다른 계획 없어, 왜?"
+        },
+        {
+          "chinese": "有时间，你有什么想法？",
+          "pinyin": "Yǒu shíjiān, nǐ yǒu shénme xiǎngfǎ?",
+          "korean": "시간 있어, 뭔가 생각 있어?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "我们一起去看电影吧。什么时候方便？",
+          "pinyin": "Wǒmen yìqǐ qù kàn diànyǐng ba. Shénme shíhòu fāngbiàn?",
+          "korean": "같이 영화 보러 가자. 언제가 편해?"
+        },
+        {
+          "chinese": "想不想一起看电影？你哪天方便？",
+          "pinyin": "Xiǎng bu xiǎng yìqǐ kàn diànyǐng? Nǐ nǎ tiān fāngbiàn?",
+          "korean": "같이 영화 볼래? 무슨 요일이 편해?"
+        },
+        {
+          "chinese": "一起去看电影怎么样？什么时候好？",
+          "pinyin": "Yìqǐ qù kàn diànyǐng zěnmeyàng? Shénme shíhou hǎo?",
+          "korean": "같이 영화 보러 가는 거 어때? 언제가 좋아?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "周六下午两点怎么样？",
+          "pinyin": "Zhōuliù xiàwǔ liǎng diǎn zěnmeyàng?",
+          "korean": "토요일 오후 두 시 어때?"
+        },
+        {
+          "chinese": "星期六下午可以吗？两点行不行？",
+          "pinyin": "Xīngqīliù xiàwǔ kěyǐ ma? Liǎng diǎn xíng bu xíng?",
+          "korean": "토요일 오후 괜찮아? 두 시 되나?"
+        },
+        {
+          "chinese": "周六吧，下午两点可以吗？",
+          "pinyin": "Zhōuliù ba, xiàwǔ liǎng diǎn kěyǐ ma?",
+          "korean": "토요일로 하자, 오후 두 시 괜찮아?"
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "好的，在哪儿见？",
+          "pinyin": "Hǎo de, zài nǎr jiàn?",
+          "korean": "좋아, 어디서 만날까?"
+        },
+        {
+          "chinese": "行，我们约在哪里？",
+          "pinyin": "Xíng, wǒmen yuē zài nǎlǐ?",
+          "korean": "좋아, 어디서 만나기로 할까?"
+        },
+        {
+          "chinese": "没问题，在哪见面？",
+          "pinyin": "Méi wèntí, zài nǎ jiànmiàn?",
+          "korean": "문제없어, 어디서 만나?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "我们在电影院门口见吧。",
+          "pinyin": "Wǒmen zài diànyǐngyuàn ménkǒu jiàn ba.",
+          "korean": "영화관 입구에서 만나자."
+        },
+        {
+          "chinese": "在电影院大门口等我吧。",
+          "pinyin": "Zài diànyǐngyuàn dà ménkǒu děng wǒ ba.",
+          "korean": "영화관 정문에서 기다려줘."
+        },
+        {
+          "chinese": "电影院门口见面吧，好找。",
+          "pinyin": "Diànyǐngyuàn ménkǒu jiànmiàn ba, hǎo zhǎo.",
+          "korean": "영화관 입구에서 만나자, 찾기 쉬우니까."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "没问题，不见不散！",
+          "pinyin": "Méi wèntí, bú jiàn bú sàn!",
+          "korean": "문제없어, 꼭 만나자!"
+        },
+        {
+          "chinese": "好的，说好了，不见不散！",
+          "pinyin": "Hǎo de, shuō hǎo le, bú jiàn bú sàn!",
+          "korean": "좋아, 약속이야, 꼭 만나자!"
+        },
+        {
+          "chinese": "行，一言为定！",
+          "pinyin": "Xíng, yì yán wéi dìng!",
+          "korean": "좋아, 약속!"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "好的，到时候见！",
+          "pinyin": "Hǎo de, dào shíhòu jiàn!",
+          "korean": "좋아, 그때 보자!"
+        },
+        {
+          "chinese": "到时候见，别迟到哦！",
+          "pinyin": "Dào shíhòu jiàn, bié chídào ó!",
+          "korean": "그때 보자, 늦지 마!"
+        },
+        {
+          "chinese": "好，周六见！",
+          "pinyin": "Hǎo, zhōuliù jiàn!",
+          "korean": "좋아, 토요일에 보자!"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "chinese": "有空",
+      "pinyin": "yǒu kòng",
+      "korean": "시간이 있다"
+    },
+    {
+      "chinese": "什么时候",
+      "pinyin": "shénme shíhòu",
+      "korean": "언제"
+    },
+    {
+      "chinese": "方便",
+      "pinyin": "fāngbiàn",
+      "korean": "편리하다"
+    },
+    {
+      "chinese": "在哪儿见",
+      "pinyin": "zài nǎr jiàn",
+      "korean": "어디서 만날까"
+    },
+    {
+      "chinese": "不见不散",
+      "pinyin": "bú jiàn bú sàn",
+      "korean": "꼭 만나자 (만날 때까지 안 헤어진다)"
+    },
+    {
+      "chinese": "电影院",
+      "pinyin": "diànyǐngyuàn",
+      "korean": "영화관"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "cn_to_kr",
+      "question": "不见不散",
+      "options": [
+        "다음에 보자",
+        "꼭 만나자",
+        "만나서 반갑다",
+        "잘 가"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "시간이 있다",
+      "options": [
+        "没空",
+        "有空",
+        "方便",
+        "有时间"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "这个周末你___吗？",
+      "options": [
+        "有空",
+        "在哪儿",
+        "什么时候",
+        "怎么样"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "什么时候方便？",
+      "options": [
+        "어디가 편해?",
+        "언제가 편해?",
+        "뭐가 편해?",
+        "누가 편해?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "我们在电影院门口___吧。",
+      "options": [
+        "去",
+        "来",
+        "见",
+        "走"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "方便",
+      "options": [
+        "바쁘다",
+        "편리하다",
+        "멀다",
+        "가깝다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "电影院",
+      "options": [
+        "도서관",
+        "영화관",
+        "식당",
+        "학교"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "到时候见！",
+      "options": [
+        "내일 보자!",
+        "그때 보자!",
+        "다시 만나자!",
+        "조심히 가!"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "我们一起去看电影吧。",
+      "options": [
+        "우리 같이 밥 먹으러 가자.",
+        "우리 같이 영화 보러 가자.",
+        "우리 같이 산책하러 가자.",
+        "우리 같이 운동하러 가자."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "周六下午两点怎么样？",
+      "options": [
+        "토요일 오전 두 시 어때?",
+        "일요일 오후 두 시 어때?",
+        "토요일 오후 두 시 어때?",
+        "금요일 오후 세 시 어때?"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "有空啊，你想做什么？",
+      "options": [
+        "바빠, 다음에 하자.",
+        "시간 있어, 뭐 하고 싶어?",
+        "시간 없어, 미안해.",
+        "좋아, 어디서 만날까?"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "没问题",
+      "options": [
+        "문제있어",
+        "문제없어",
+        "미안해",
+        "걱정마"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "편리하다",
+      "options": [
+        "有空",
+        "方便",
+        "没问题",
+        "怎么样"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "영화관",
+      "options": [
+        "图书馆",
+        "电影院",
+        "体育馆",
+        "博物馆"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "언제",
+      "options": [
+        "什么时候",
+        "在哪儿",
+        "怎么样",
+        "为什么"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "어디서 만날까",
+      "options": [
+        "什么时候见",
+        "在哪儿见",
+        "怎么见",
+        "为什么见"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "주말",
+      "options": [
+        "周末",
+        "周一",
+        "下午",
+        "上午"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "입구",
+      "options": [
+        "出口",
+        "门口",
+        "窗口",
+        "路口"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "周六下午两点___？",
+      "options": [
+        "怎么样",
+        "在哪儿",
+        "什么时候",
+        "有空"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill_blank",
+      "question": "我们一起去看___吧。",
+      "options": [
+        "电视",
+        "电影",
+        "书",
+        "比赛"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "你___时候有空？",
+      "options": [
+        "多少",
+        "什么",
+        "几个",
+        "哪国"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "明天下午___点见吧。",
+      "options": [
+        "很",
+        "三",
+        "也",
+        "都"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "我们___不散！",
+      "options": [
+        "走",
+        "吃",
+        "穿",
+        "不见"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill_blank",
+      "question": "周末你___吗？",
+      "options": [
+        "多少",
+        "有空",
+        "什么",
+        "怎么"
+      ],
+      "answer": 1
+    }
+  ]
+}

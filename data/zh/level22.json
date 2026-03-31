@@ -1,0 +1,455 @@
+{
+  "level": 22,
+  "title": "긴급 상황",
+  "titleCn": "紧急情况",
+  "description": "긴급 상황에서 도움을 요청하거나 신고하는 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "救命！有人受伤了！",
+          "pinyin": "Jiùmìng! Yǒu rén shòushāng le!",
+          "korean": "살려주세요! 누가 다쳤어요!"
+        },
+        {
+          "chinese": "快来帮忙！有人摔倒了！",
+          "pinyin": "Kuài lái bāngmáng! Yǒu rén shuāidǎo le!",
+          "korean": "빨리 도와주세요! 누가 넘어졌어요!"
+        },
+        {
+          "chinese": "请帮忙！这里出事了！",
+          "pinyin": "Qǐng bāngmáng! Zhèlǐ chūshì le!",
+          "korean": "도와주세요! 여기 사고가 났어요!"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "别着急，我马上打电话报警。",
+          "pinyin": "Bié zhāojí, wǒ mǎshàng dǎ diànhuà bàojǐng.",
+          "korean": "당황하지 마세요, 제가 바로 전화해서 신고할게요."
+        },
+        {
+          "chinese": "冷静，我现在就报警！",
+          "pinyin": "Lěngjìng, wǒ xiànzài jiù bàojǐng!",
+          "korean": "침착하세요, 지금 바로 신고할게요!"
+        },
+        {
+          "chinese": "别慌，我马上叫救护车。",
+          "pinyin": "Bié huāng, wǒ mǎshàng jiào jiùhùchē.",
+          "korean": "당황하지 마세요, 바로 구급차 부를게요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "我的钱包丢了，怎么办？",
+          "pinyin": "Wǒ de qiánbāo diū le, zěnme bàn?",
+          "korean": "제 지갑을 잃어버렸어요, 어떡하죠?"
+        },
+        {
+          "chinese": "糟糕，我的钱包不见了！",
+          "pinyin": "Zāogāo, wǒ de qiánbāo bújiàn le!",
+          "korean": "큰일이야, 지갑이 없어졌어!"
+        },
+        {
+          "chinese": "完了，钱包找不到了！",
+          "pinyin": "Wán le, qiánbāo zhǎo bú dào le!",
+          "korean": "큰일이야, 지갑을 찾을 수가 없어!"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "你先去附近的派出所报案吧。",
+          "pinyin": "Nǐ xiān qù fùjìn de pàichūsuǒ bào'àn ba.",
+          "korean": "먼저 근처 파출소에 가서 신고하세요."
+        },
+        {
+          "chinese": "赶紧去派出所报案，越快越好。",
+          "pinyin": "Gǎnjǐn qù pàichūsuǒ bào'àn, yuè kuài yuè hǎo.",
+          "korean": "빨리 파출소 가서 신고하세요, 빠를수록 좋아요."
+        },
+        {
+          "chinese": "先报警吧，附近就有派出所。",
+          "pinyin": "Xiān bàojǐng ba, fùjìn jiù yǒu pàichūsuǒ.",
+          "korean": "먼저 신고해요, 근처에 파출소가 있어요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "请帮帮忙，我找不到我的朋友了。",
+          "pinyin": "Qǐng bāngbang máng, wǒ zhǎo bú dào wǒ de péngyou le.",
+          "korean": "도와주세요, 제 친구를 찾을 수가 없어요."
+        },
+        {
+          "chinese": "麻烦你，我跟朋友走散了。",
+          "pinyin": "Máfan nǐ, wǒ gēn péngyou zǒusàn le.",
+          "korean": "실례합니다, 친구랑 헤어졌어요."
+        },
+        {
+          "chinese": "请问能帮帮我吗？我的朋友不见了。",
+          "pinyin": "Qǐngwèn néng bāngbang wǒ ma? Wǒ de péngyou bújiàn le.",
+          "korean": "도와주실 수 있나요? 친구가 안 보여요."
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "别担心，我帮你一起找。他长什么样？",
+          "pinyin": "Bié dānxīn, wǒ bāng nǐ yìqǐ zhǎo. Tā zhǎng shénme yàng?",
+          "korean": "걱정 마세요, 제가 같이 찾아줄게요. 어떻게 생겼어요?"
+        },
+        {
+          "chinese": "没事的，我们一起找。你朋友穿什么衣服？",
+          "pinyin": "Méi shì de, wǒmen yìqǐ zhǎo. Nǐ péngyou chuān shénme yīfu?",
+          "korean": "괜찮아요, 같이 찾아요. 친구가 무슨 옷 입었어요?"
+        },
+        {
+          "chinese": "别急，先给他打电话试试。",
+          "pinyin": "Bié jí, xiān gěi tā dǎ diànhuà shìshi.",
+          "korean": "조급해하지 마세요, 먼저 전화해 보세요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "chinese": "这附近有没有急救中心？",
+          "pinyin": "Zhè fùjìn yǒu méiyǒu jíjiù zhōngxīn?",
+          "korean": "이 근처에 응급 센터가 있나요?"
+        },
+        {
+          "chinese": "最近的医院在哪里？",
+          "pinyin": "Zuìjìn de yīyuàn zài nǎlǐ?",
+          "korean": "가장 가까운 병원이 어디에요?"
+        },
+        {
+          "chinese": "附近有医院吗？需要急救！",
+          "pinyin": "Fùjìn yǒu yīyuàn ma? Xūyào jíjiù!",
+          "korean": "근처에 병원 있어요? 응급 치료가 필요해요!"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "chinese": "前面五百米就有一家医院。",
+          "pinyin": "Qiánmiàn wǔbǎi mǐ jiù yǒu yì jiā yīyuàn.",
+          "korean": "앞쪽 500미터에 병원이 하나 있어요."
+        },
+        {
+          "chinese": "往前走五百米就到医院了。",
+          "pinyin": "Wǎng qián zǒu wǔbǎi mǐ jiù dào yīyuàn le.",
+          "korean": "앞으로 500미터 가면 병원이에요."
+        },
+        {
+          "chinese": "附近有医院，我带你去！",
+          "pinyin": "Fùjìn yǒu yīyuàn, wǒ dài nǐ qù!",
+          "korean": "근처에 병원 있어요, 제가 데려다줄게요!"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "chinese": "救命",
+      "pinyin": "jiùmìng",
+      "korean": "살려주세요, 도와주세요"
+    },
+    {
+      "chinese": "报警",
+      "pinyin": "bàojǐng",
+      "korean": "신고하다, 경찰에 알리다"
+    },
+    {
+      "chinese": "丢了",
+      "pinyin": "diū le",
+      "korean": "잃어버렸다"
+    },
+    {
+      "chinese": "帮忙",
+      "pinyin": "bāngmáng",
+      "korean": "도와주다, 도움"
+    },
+    {
+      "chinese": "急救",
+      "pinyin": "jíjiù",
+      "korean": "응급 처치"
+    },
+    {
+      "chinese": "派出所",
+      "pinyin": "pàichūsuǒ",
+      "korean": "파출소"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "cn_to_kr",
+      "question": "救命",
+      "options": [
+        "도와주세요",
+        "살려주세요",
+        "실례합니다",
+        "감사합니다"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "잃어버렸다",
+      "options": [
+        "帮忙",
+        "报警",
+        "丢了",
+        "急救"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "我马上打电话___。(신고하다)",
+      "options": [
+        "帮忙",
+        "救命",
+        "报警",
+        "丢了"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "急救",
+      "options": [
+        "파출소",
+        "응급 처치",
+        "신고",
+        "도움"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "도와주다",
+      "options": [
+        "救命",
+        "报警",
+        "急救",
+        "帮忙"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "派出所",
+      "options": [
+        "병원",
+        "파출소",
+        "소방서",
+        "학교"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "报警",
+      "options": [
+        "도와주다",
+        "잃어버리다",
+        "신고하다",
+        "다치다"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "파출소",
+      "options": [
+        "急救",
+        "救命",
+        "派出所",
+        "报警"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "응급 처치",
+      "options": [
+        "报警",
+        "急救",
+        "帮忙",
+        "救命"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "我的钱包___了，怎么办？(잃어버리다)",
+      "options": [
+        "丢",
+        "找",
+        "买",
+        "卖"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "别着急",
+      "options": [
+        "걱정 마세요",
+        "당황하지 마세요",
+        "조심하세요",
+        "빨리 오세요"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "帮忙",
+      "options": [
+        "신고하다",
+        "응급 처치",
+        "도와주다",
+        "살려주세요"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "살려주세요",
+      "options": [
+        "帮忙",
+        "急救",
+        "报警",
+        "救命"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "fill_blank",
+      "question": "你先去附近的___报案吧。(파출소)",
+      "options": [
+        "医院",
+        "派出所",
+        "学校",
+        "商店"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "신고하다, 경찰에 알리다",
+      "options": [
+        "帮忙",
+        "报警",
+        "救命",
+        "丢了"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "有人受伤了",
+      "options": [
+        "누가 잃어버렸어요",
+        "누가 다쳤어요",
+        "누가 왔어요",
+        "누가 갔어요"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "fill_blank",
+      "question": "这附近有没有___中心？(응급 처치)",
+      "options": [
+        "帮忙",
+        "报警",
+        "救命",
+        "急救"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "kr_to_cn",
+      "question": "걱정 마세요",
+      "options": [
+        "别着急",
+        "别担心",
+        "别走",
+        "别说"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "cn_to_kr",
+      "question": "丢了",
+      "options": [
+        "찾았다",
+        "샀다",
+        "잃어버렸다",
+        "버렸다"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "请___忙，我找不到我的朋友了。(도와주다)",
+      "options": [
+        "帮帮",
+        "救救",
+        "报报",
+        "找找"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill_blank",
+      "question": "请快叫___车！",
+      "options": [
+        "救护",
+        "火",
+        "公共",
+        "出租"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill_blank",
+      "question": "我需要你的___！",
+      "options": [
+        "天气",
+        "味道",
+        "帮忙",
+        "风景"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "fill_blank",
+      "question": "有人受___了！",
+      "options": [
+        "吃",
+        "穿",
+        "住",
+        "伤"
+      ],
+      "answer": 3
+    }
+  ]
+}

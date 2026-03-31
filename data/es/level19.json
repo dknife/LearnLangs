@@ -1,0 +1,190 @@
+{
+  "level": 19,
+  "title": "공항 & 비행기",
+  "titleEs": "Aeropuerto y Avión",
+  "description": "스페인어로 공항과 비행기에서 사용하는 표현을 배워봅시다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Quiero facturar mi equipaje.",
+          "pronunciation": "끼에로 팍뚜라르 미 에끼빠헤.",
+          "korean": "수하물을 부치고 싶어요."
+        },
+        {
+          "spanish": "¿Dónde está el mostrador de Iberia?",
+          "pronunciation": "돈데 에스따 엘 모스뜨라도르 데 이베리아?",
+          "korean": "이베리아 카운터가 어디에요?"
+        },
+        {
+          "spanish": "¿A qué hora sale mi vuelo?",
+          "pronunciation": "아 게 오라 살레 미 부엘로?",
+          "korean": "비행기가 몇 시에 출발해요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Su pasaporte y billete, por favor.",
+          "pronunciation": "수 빠사뽀르떼 이 비예떼, 뽀르 파보르.",
+          "korean": "여권과 티켓 주세요."
+        },
+        {
+          "spanish": "¿Ventanilla o pasillo?",
+          "pronunciation": "벤따니야 오 빠시요?",
+          "korean": "창가석이요, 복도석이요?"
+        },
+        {
+          "spanish": "Sale a las catorce treinta, puerta B5.",
+          "pronunciation": "살레 아 라스 까또르세 뜨레인따, 뿌에르따 베 신꼬.",
+          "korean": "14시 30분 출발, B5 게이트입니다."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Ventanilla, por favor.",
+          "pronunciation": "벤따니야, 뽀르 파보르.",
+          "korean": "창가석이요."
+        },
+        {
+          "spanish": "¿Hay retraso en el vuelo?",
+          "pronunciation": "아이 레뜨라소 엔 엘 부엘로?",
+          "korean": "비행기가 지연되나요?"
+        },
+        {
+          "spanish": "¿Dónde está la puerta de embarque?",
+          "pronunciation": "돈데 에스따 라 뿌에르따 데 엠바르게?",
+          "korean": "탑승 게이트가 어디에요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "Puede llevar una maleta de veintitrés kilos.",
+          "pronunciation": "뿌에데 예바르 우나 말레따 데 베인띠뜨레스 낄로스.",
+          "korean": "23킬로 가방 하나 가능합니다."
+        },
+        {
+          "spanish": "No, el vuelo sale puntual.",
+          "pronunciation": "노, 엘 부엘로 살레 뿐뚜알.",
+          "korean": "아니요, 정시 출발합니다."
+        },
+        {
+          "spanish": "Siga las señales, a la derecha.",
+          "pronunciation": "시가 라스 세냘레스, 아 라 데레차.",
+          "korean": "표지판을 따라가세요, 오른쪽이요."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "¿Cuánto dura el vuelo a Madrid?",
+          "pronunciation": "꾸안또 두라 엘 부엘로 아 마드리드?",
+          "korean": "마드리드까지 비행 시간이 얼마나 돼요?"
+        },
+        {
+          "spanish": "¿Puedo llevar esto en el equipaje de mano?",
+          "pronunciation": "뿌에도 예바르 에스또 엔 엘 에끼빠헤 데 마노?",
+          "korean": "기내 수하물로 가져갈 수 있나요?"
+        },
+        {
+          "spanish": "¿A qué hora empiezan a embarcar?",
+          "pronunciation": "아 게 오라 엠삐에산 아 엠바르까르?",
+          "korean": "탑승은 몇 시에 시작해요?"
+        }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        {
+          "spanish": "El vuelo dura unas dos horas.",
+          "pronunciation": "엘 부엘로 두라 우나스 도스 오라스.",
+          "korean": "약 2시간 걸립니다."
+        },
+        {
+          "spanish": "Sí, si cabe en el compartimento.",
+          "pronunciation": "시, 시 까베 엔 엘 꼼빠르띠멘또.",
+          "korean": "네, 위 선반에 들어가면 됩니다."
+        },
+        {
+          "spanish": "Treinta minutos antes de la salida.",
+          "pronunciation": "뜨레인따 미누또스 안떼스 데 라 살리다.",
+          "korean": "출발 30분 전입니다."
+        }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        {
+          "spanish": "Perfecto. Muchas gracias.",
+          "pronunciation": "뻬르펙또. 무차스 그라시아스.",
+          "korean": "좋아요. 감사합니다."
+        },
+        {
+          "spanish": "¡Buen viaje!",
+          "pronunciation": "부엔 비아헤!",
+          "korean": "좋은 여행 되세요!"
+        },
+        {
+          "spanish": "Voy a la puerta de embarque.",
+          "pronunciation": "보이 아 라 뿌에르따 데 엠바르게.",
+          "korean": "탑승 게이트로 갈게요."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "aeropuerto",
+      "pronunciation": "아에로뿌에르또",
+      "korean": "공항"
+    },
+    {
+      "spanish": "vuelo",
+      "pronunciation": "부엘로",
+      "korean": "비행편"
+    },
+    {
+      "spanish": "equipaje",
+      "pronunciation": "에끼빠헤",
+      "korean": "수하물"
+    },
+    {
+      "spanish": "pasaporte",
+      "pronunciation": "빠사뽀르떼",
+      "korean": "여권"
+    },
+    {
+      "spanish": "embarque",
+      "pronunciation": "엠바르게",
+      "korean": "탑승"
+    },
+    {
+      "spanish": "puerta",
+      "pronunciation": "뿌에르따",
+      "korean": "게이트/문"
+    },
+    {
+      "spanish": "maleta",
+      "pronunciation": "말레따",
+      "korean": "여행 가방"
+    },
+    {
+      "spanish": "retraso",
+      "pronunciation": "레뜨라소",
+      "korean": "지연"
+    }
+  ]
+}
