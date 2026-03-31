@@ -130,11 +130,10 @@ function speakChinese(text, onEnd) {
   window.speechSynthesis.speak(utterance);
 }
 
-// 자동 음성 재생 설정 (기본값 OFF)
-let _autoTTS = localStorage.getItem('learnChinese_autoTTS') === 'on';
+// 자동 음성 재생 설정 (항상 OFF로 시작, 레슨 내에서만 토글)
+let _autoTTS = false;
 function setAutoTTS(val) {
   _autoTTS = val;
-  localStorage.setItem('learnChinese_autoTTS', val ? 'on' : 'off');
 }
 
 // 음성 목록이 비동기로 로드되므로 미리 요청
