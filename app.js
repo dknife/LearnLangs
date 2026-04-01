@@ -350,6 +350,7 @@ function createConfetti() {
 // renderLangSelect() — Language selection landing page
 // ------------------------------------------------------------
 async function renderLangSelect() {
+  hideLessonBg();
   const app = document.getElementById('app');
   const langCodes = Object.keys(LANGS);
   const metas = await Promise.all(langCodes.map(code => DataLoader.loadMeta(code)));
@@ -385,6 +386,7 @@ async function renderLangSelect() {
 // renderHome() — Level grid (language-aware)
 // ------------------------------------------------------------
 async function renderHome() {
+  hideLessonBg();
   const app = document.getElementById('app');
   const lang = getLang();
   const completedCount = Progress.getTotalProgress();
@@ -462,6 +464,7 @@ async function renderHome() {
 // renderLesson(level) — Conversation lesson (language-aware)
 // ------------------------------------------------------------
 async function renderLesson(level) {
+  showLessonBg(currentLang);
   const app = document.getElementById('app');
   const lang = getLang();
   const levelData = await DataLoader.loadLevel(currentLang, level);
@@ -574,11 +577,9 @@ async function renderLesson(level) {
     }
 
     const foreignTitle = levelData[lang.titleField] || '';
-    const bgNum = String(Math.floor(Math.random() * 5) + 1).padStart(3, '0');
-    const bgImage = `data/${currentLang}/images/${bgNum}.jpg`;
 
     app.innerHTML = `
-      <div class="lesson-page" style="--lesson-bg: url('${bgImage}')">
+      <div class="lesson-page">
         <div class="lesson-container">
           <a href="#/${currentLang}" class="back-link">&larr; 레벨 선택</a>
 
@@ -682,15 +683,13 @@ async function renderLesson(level) {
 // renderQuiz(level) — Quiz (language-aware)
 // ------------------------------------------------------------
 async function renderQuiz(level) {
+  showLessonBg(currentLang);
   const app = document.getElementById('app');
   const lang = getLang();
   const levelData = await DataLoader.loadLevel(currentLang, level);
   const ff = lang.foreignField;
   const pf = lang.pronField;
   const titles = await DataLoader.getTitles(currentLang);
-
-  const bgNum = String(Math.floor(Math.random() * 5) + 1).padStart(3, '0');
-  const bgImage = `data/${currentLang}/images/${bgNum}.jpg`;
 
   if (!levelData) {
     app.innerHTML = `
@@ -815,7 +814,7 @@ async function renderQuiz(level) {
     }
 
     app.innerHTML = `
-      <div class="quiz-page" style="--lesson-bg: url('${bgImage}')">
+      <div class="quiz-page">
         <div class="quiz-header">
           <span class="quiz-level-info">레벨 ${level} — ${titles[level] || ''}</span>
           <span class="quiz-counter">${currentQuestion + 1} / ${totalQuestions}</span>
@@ -889,8 +888,6 @@ async function renderResult(level, searchParams) {
   const PASS_THRESHOLD = 8;
   const TOTAL_QUESTIONS = 10;
   const passed = scoreVal >= PASS_THRESHOLD;
-  const bgNum = String(Math.floor(Math.random() * 5) + 1).padStart(3, '0');
-  const bgImage = `data/${currentLang}/images/${bgNum}.jpg`;
   const totalLevels = await DataLoader.getTotal(currentLang);
   const isLastLevel = level >= totalLevels;
   const nextLevel = level + 1;
@@ -915,7 +912,7 @@ async function renderResult(level, searchParams) {
   }
 
   app.innerHTML = `
-    <div class="result-page" style="--lesson-bg: url('${bgImage}')">
+    <div class="result-page">
       <div class="result-card-wrapper">
         <div class="result-card ${passed ? 'result-card-pass' : 'result-card-fail'}">
           <div class="result-top-bar ${passed ? 'result-top-bar-pass' : 'result-top-bar-fail'}"></div>
@@ -960,6 +957,26 @@ async function renderResult(level, searchParams) {
       }
     });
   }
+}
+
+// ------------------------------------------------------------
+// Background image overlay
+// ------------------------------------------------------------
+let _bgOverlay = null;
+
+function showLessonBg(langCode) {
+  if (!_bgOverlay) {
+    _bgOverlay = document.createElement('div');
+    _bgOverlay.id = 'lesson-bg-overlay';
+    document.body.appendChild(_bgOverlay);
+  }
+  const num = String(Math.floor(Math.random() * 5) + 1).padStart(3, '0');
+  _bgOverlay.style.backgroundImage = `url('data/${langCode}/images/${num}.jpg')`;
+  _bgOverlay.style.display = 'block';
+}
+
+function hideLessonBg() {
+  if (_bgOverlay) _bgOverlay.style.display = 'none';
 }
 
 // ------------------------------------------------------------
