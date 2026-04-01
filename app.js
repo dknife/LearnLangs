@@ -691,9 +691,19 @@ async function renderLesson(level) {
 
   visibleCount = 1;
   render();
-  setTimeout(() => {
-    if (_autoTTS) speakForeign(conversations[0][ff]);
-  }, 300);
+  if (_autoTTS) {
+    const speakFirst = () => speakForeign(conversations[0][ff]);
+    // 음성 목록이 이미 로드되었으면 바로 재생, 아니면 로드 후 재생
+    if (window.speechSynthesis && window.speechSynthesis.getVoices().length > 0) {
+      setTimeout(speakFirst, 400);
+    } else if (window.speechSynthesis) {
+      const onReady = () => {
+        window.speechSynthesis.removeEventListener('voiceschanged', onReady);
+        setTimeout(speakFirst, 200);
+      };
+      window.speechSynthesis.addEventListener('voiceschanged', onReady);
+    }
+  }
 }
 
 // ------------------------------------------------------------
