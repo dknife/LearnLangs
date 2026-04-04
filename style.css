@@ -1837,6 +1837,17 @@ html { scrollbar-width: thin; scrollbar-color: rgba(34,34,34,0.15) transparent; 
   background: var(--bg-main);
   border-radius: var(--radius-md);
   text-align: center;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.alpha-cell:hover {
+  background: var(--border);
+  transform: scale(1.05);
+}
+
+.alpha-cell:active {
+  transform: scale(0.97);
 }
 
 .alpha-char {
@@ -1883,6 +1894,50 @@ html { scrollbar-width: thin; scrollbar-color: rgba(34,34,34,0.15) transparent; 
 .alpha-back-bottom:hover {
   color: var(--text-primary);
   border-color: var(--text-primary);
+}
+
+/* Quick level button after countries */
+.intro-quick-btn {
+  display: block;
+  text-align: center;
+  margin: 0.75rem 0;
+  padding: 0.7rem 1.5rem;
+  background: var(--bg-white);
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  font-weight: 700;
+  border: 2px solid var(--text-primary);
+  border-radius: var(--radius-xl);
+  text-decoration: none;
+  transition: all var(--transition);
+}
+
+.intro-quick-btn:hover {
+  background: var(--text-primary);
+  color: #fff;
+}
+
+/* TTS button in sentences */
+.intro-tts-btn {
+  cursor: pointer;
+  font-size: 0.85rem;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+  vertical-align: middle;
+}
+
+.intro-tts-btn:hover {
+  opacity: 1;
+}
+
+/* Clickable word cards */
+.intro-word-card[data-tts] {
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.intro-word-card[data-tts]:hover {
+  background: var(--border);
 }
 
 .intro-skip-btn {

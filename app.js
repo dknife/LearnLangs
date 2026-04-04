@@ -1123,12 +1123,20 @@ function renderAlphabet(langCode) {
   const alpha = LANG_ALPHABETS[langCode];
   if (!alpha) { window.location.hash = `#/${langCode}`; return; }
 
+  // Extract the first meaningful character for TTS
+  function ttsChar(charStr) {
+    // Remove leading dash for Thai vowels like "-า"
+    const cleaned = charStr.replace(/^-/, '').trim();
+    // Take first character/word (before space if present, e.g. "A a" → "A", "あ ア" → "あ")
+    return cleaned.split(/\s/)[0];
+  }
+
   const sectionsHTML = alpha.sections.map(sec => `
     <div class="alpha-section">
       <h3 class="alpha-section-name">${sec.name}</h3>
       <div class="alpha-grid">
         ${sec.chars.map(c => `
-          <div class="alpha-cell">
+          <div class="alpha-cell" data-tts="${ttsChar(c.char).replace(/"/g, '&quot;')}">
             <span class="alpha-char">${c.char}</span>
             <span class="alpha-pron">${c.pron}</span>
             <span class="alpha-note">${c.note}</span>
@@ -1153,6 +1161,14 @@ function renderAlphabet(langCode) {
       <a class="alpha-back-bottom" href="#/${langCode}">← 소개 페이지로 돌아가기</a>
     </div>
   `;
+
+  // TTS on alphabet cell click
+  app.querySelectorAll('.alpha-cell[data-tts]').forEach(cell => {
+    cell.addEventListener('click', () => {
+      const text = cell.dataset.tts;
+      if (text) speakForeign(text);
+    });
+  });
 }
 
 // ------------------------------------------------------------
@@ -1168,19 +1184,23 @@ async function renderLangIntro(langCode) {
   const featuresHTML = intro.features.map(f => `<li>${f}</li>`).join('');
   const readingHTML = intro.reading.map(r => `<li>${r}</li>`).join('');
   const wordsHTML = intro.basicWords.map(w => `
-    <div class="intro-word-card">
+    <div class="intro-word-card" data-tts="${w.word.replace(/"/g, '&quot;')}">
       <span class="intro-word-foreign">${w.word}</span>
       <span class="intro-word-pron">${w.pron}</span>
       <span class="intro-word-meaning">${w.meaning}</span>
     </div>
   `).join('');
-  const sentenceHTML = intro.sentenceStructure.map(s => `
+  const sentenceHTML = intro.sentenceStructure.map(s => {
+    // Extract foreign text before parenthesis for TTS
+    const ttsText = s.example.replace(/\s*\(.*\)$/, '').trim();
+    return `
     <div class="intro-sentence-card">
       <span class="intro-sentence-pattern">${s.pattern}</span>
-      <span class="intro-sentence-example">${s.example}</span>
+      <span class="intro-sentence-example">${s.example} <span class="intro-tts-btn" data-tts="${ttsText.replace(/"/g, '&quot;')}">🔊</span></span>
       <span class="intro-sentence-meaning">${s.meaning}</span>
     </div>
-  `).join('');
+  `;
+  }).join('');
 
   app.innerHTML = `
     <div class="intro-page">
@@ -1196,6 +1216,8 @@ async function renderLangIntro(langCode) {
         <p class="intro-countries-text">${intro.countries}</p>
         <p class="intro-speakers">${intro.speakers}</p>
       </div>
+
+      <a class="intro-quick-btn" href="#/${langCode}/levels">바로 레벨 학습하기 →</a>
 
       <div class="intro-section">
         <h2 class="intro-section-title">언어의 특징</h2>
@@ -1221,6 +1243,21 @@ async function renderLangIntro(langCode) {
       <a class="intro-skip-btn" href="#/${langCode}/levels">학습 시작하기</a>
     </div>
   `;
+
+  // TTS on word card click
+  app.querySelectorAll('.intro-word-card[data-tts]').forEach(card => {
+    card.addEventListener('click', () => {
+      if (card.dataset.tts) speakForeign(card.dataset.tts);
+    });
+  });
+
+  // TTS on sentence speaker icon click
+  app.querySelectorAll('.intro-tts-btn[data-tts]').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (btn.dataset.tts) speakForeign(btn.dataset.tts);
+    });
+  });
 }
 
 // ------------------------------------------------------------
@@ -1708,9 +1745,8 @@ async function renderQuiz(level) {
         selected = index;
         if (index === question.answer) score++;
         const newScore = score;
+        window.speechSynthesis.cancel();
         render();
-
-        if (_autoTTS && question.tts) speakForeign(question.tts);
 
         setTimeout(() => {
           if (currentQuestion + 1 < totalQuestions) {
