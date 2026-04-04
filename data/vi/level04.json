@@ -1,0 +1,74 @@
+{
+  "level": 4,
+  "title": "식당에서 주문",
+  "titleVi": "Gọi món ở nhà hàng",
+  "description": "식당에서 음식을 주문하는 베트남어 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Xin chào, cho tôi xem thực đơn.", "pronunciation": "신 짜오, 쪼 또이 쎔 특 던.", "korean": "안녕하세요, 메뉴 좀 보여주세요." },
+        { "vietnamese": "Cho tôi một bàn hai người.", "pronunciation": "쪼 또이 못 반 하이 응으어이.", "korean": "2인 테이블 하나 주세요." },
+        { "vietnamese": "Ở đây có món gì ngon?", "pronunciation": "어 더이 꼬 몬 지 응온?", "korean": "여기 맛있는 메뉴가 뭐예요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Vâng, đây là thực đơn ạ. Anh muốn gọi gì?", "pronunciation": "벙, 더이 라 특 던 아. 아잉 무온 고이 지?", "korean": "네, 메뉴입니다. 무엇을 주문하시겠어요?" },
+        { "vietnamese": "Mời anh ngồi đây. Để tôi lấy thực đơn.", "pronunciation": "머이 아잉 응오이 더이. 데 또이 러이 특 던.", "korean": "여기 앉으세요. 메뉴를 가져올게요." },
+        { "vietnamese": "Món phở bò là đặc biệt của nhà hàng.", "pronunciation": "몬 퍼 보 라 닥 비엣 꾸아 냐 항.", "korean": "쌀국수가 저희 식당의 특별 메뉴입니다." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Cho tôi một tô phở bò và một ly cà phê sữa.", "pronunciation": "쪼 또이 못 또 퍼 보 바 못 리 까 페 스어.", "korean": "쌀국수 한 그릇과 연유 커피 한 잔 주세요." },
+        { "vietnamese": "Tôi muốn gọi cơm tấm sườn.", "pronunciation": "또이 무온 고이 껌 떰 스언.", "korean": "꺼므떰쓰언을 주문할게요." },
+        { "vietnamese": "Cho tôi hai bát bún chả.", "pronunciation": "쪼 또이 하이 밧 분 짜.", "korean": "분짜 두 그릇 주세요." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Vâng ạ. Anh có muốn thêm gì không?", "pronunciation": "벙 아. 아잉 꼬 무온 템 지 콩?", "korean": "네. 더 추가하실 거 있으세요?" },
+        { "vietnamese": "Dạ, để tôi ghi lại. Còn gì nữa không ạ?", "pronunciation": "자, 데 또이 기 라이. 꼰 지 느어 콩 아?", "korean": "네, 적어둘게요. 더 있으신가요?" },
+        { "vietnamese": "Anh muốn ăn cay không?", "pronunciation": "아잉 무온 안 까이 콩?", "korean": "매운 걸로 드릴까요?" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Không cay. Cho thêm một chai nước.", "pronunciation": "콩 까이. 쪼 템 못 짜이 느억.", "korean": "안 맵게 해주세요. 물 한 병 더 주세요." },
+        { "vietnamese": "Vâng, cho thêm rau sống.", "pronunciation": "벙, 쪼 템 라우 송.", "korean": "네, 생채소도 추가해 주세요." },
+        { "vietnamese": "Cho ít ớt thôi.", "pronunciation": "쪼 잇 엇 토이.", "korean": "고추는 조금만 주세요." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Vâng ạ. Xin chờ một chút.", "pronunciation": "벙 아. 신 쩌 못 쭛.", "korean": "네. 잠시만 기다려 주세요." },
+        { "vietnamese": "Món ăn sẽ ra trong mười phút.", "pronunciation": "몬 안 세 라 쫑 므어이 풋.", "korean": "음식이 10분 안에 나옵니다." },
+        { "vietnamese": "Được rồi ạ. Anh chờ một lát nhé.", "pronunciation": "드억 로이 아. 아잉 쩌 못 랏 녜.", "korean": "알겠습니다. 잠시만 기다려 주세요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Tính tiền cho tôi. Cảm ơn.", "pronunciation": "띤 띠엔 쪼 또이. 깜 언.", "korean": "계산해 주세요. 감사합니다." },
+        { "vietnamese": "Cho tôi hóa đơn. Bao nhiêu tiền ạ?", "pronunciation": "쪼 또이 호아 던. 바오 니에우 띠엔 아?", "korean": "영수증 주세요. 얼마예요?" },
+        { "vietnamese": "Rất ngon! Xin tính tiền.", "pronunciation": "럿 응온! 신 띤 띠엔.", "korean": "아주 맛있었어요! 계산해 주세요." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "thực đơn", "pronunciation": "특 던", "korean": "메뉴" },
+    { "vietnamese": "gọi món", "pronunciation": "고이 몬", "korean": "주문하다" },
+    { "vietnamese": "phở", "pronunciation": "퍼", "korean": "쌀국수" },
+    { "vietnamese": "cà phê", "pronunciation": "까 페", "korean": "커피" },
+    { "vietnamese": "nước", "pronunciation": "느억", "korean": "물" },
+    { "vietnamese": "ngon", "pronunciation": "응온", "korean": "맛있는" },
+    { "vietnamese": "tính tiền", "pronunciation": "띤 띠엔", "korean": "계산하다" },
+    { "vietnamese": "nhà hàng", "pronunciation": "냐 항", "korean": "식당, 레스토랑" }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "level": 14,
+  "title": "날씨 & 계절",
+  "titleVi": "Thời tiết & Mùa",
+  "description": "날씨와 계절을 표현하는 베트남어를 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Hôm nay thời tiết thế nào?", "pronunciation": "홈 나이 터이 띠엣 테 나오?", "korean": "오늘 날씨가 어때요?" },
+        { "vietnamese": "Trời nóng quá!", "pronunciation": "쩌이 농 꾸아!", "korean": "너무 덥다!" },
+        { "vietnamese": "Hình như sắp mưa.", "pronunciation": "힝 느 삽 므어.", "korean": "비가 올 것 같아요." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Hôm nay trời nắng đẹp lắm.", "pronunciation": "홈 나이 쩌이 낭 뎁 럼.", "korean": "오늘 날씨가 아주 좋아요." },
+        { "vietnamese": "Ừ, nhiệt độ ba mươi lăm độ C.", "pronunciation": "으, 니엣 도 바 므어이 럼 도 씨.", "korean": "네, 기온이 35도예요." },
+        { "vietnamese": "Vâng, mang theo ô đi nhé.", "pronunciation": "벙, 망 테오 오 디 녜.", "korean": "네, 우산 가져가세요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Việt Nam có mấy mùa?", "pronunciation": "비엣 남 꼬 머이 무아?", "korean": "베트남에는 계절이 몇 개예요?" },
+        { "vietnamese": "Mùa nào đẹp nhất ở Việt Nam?", "pronunciation": "무아 나오 뎁 녓 어 비엣 남?", "korean": "베트남에서 가장 아름다운 계절은 언제예요?" },
+        { "vietnamese": "Mùa mưa kéo dài bao lâu?", "pronunciation": "무아 므어 게오 자이 바오 러우?", "korean": "우기는 얼마나 오래 지속돼요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Miền Nam có hai mùa: mùa mưa và mùa khô.", "pronunciation": "미엔 남 꼬 하이 무아: 무아 므어 바 무아 코.", "korean": "남부에는 두 계절이 있어요: 우기와 건기." },
+        { "vietnamese": "Mùa xuân rất đẹp, thời tiết mát mẻ.", "pronunciation": "무아 쑤언 럿 뎁, 터이 띠엣 맛 메.", "korean": "봄이 아주 아름다워요, 날씨가 시원해요." },
+        { "vietnamese": "Mùa mưa từ tháng năm đến tháng mười một.", "pronunciation": "무아 므어 뜨 탕 남 덴 탕 므어이 못.", "korean": "우기는 5월부터 11월까지예요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Bạn thích mùa nào nhất?", "pronunciation": "반 틱 무아 나오 녓?", "korean": "어떤 계절을 가장 좋아해요?" },
+        { "vietnamese": "Mùa đông ở Hà Nội có lạnh không?", "pronunciation": "무아 동 어 하 노이 꼬 란 콩?", "korean": "하노이 겨울은 추워요?" },
+        { "vietnamese": "Khi nào đi Việt Nam là tốt nhất?", "pronunciation": "키 나오 디 비엣 남 라 톳 녓?", "korean": "베트남에 언제 가는 게 가장 좋아요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Tôi thích mùa thu vì trời mát.", "pronunciation": "또이 틱 무아 투 비 쩌이 맛.", "korean": "가을이 좋아요, 시원하거든요." },
+        { "vietnamese": "Vâng, mùa đông Hà Nội khá lạnh, khoảng mười độ.", "pronunciation": "벙, 무아 동 하 노이 카 란, 쾅 므어이 도.", "korean": "네, 하노이 겨울은 꽤 추워요, 약 10도 정도예요." },
+        { "vietnamese": "Tháng mười hai đến tháng hai là đẹp nhất.", "pronunciation": "탕 므어이 하이 덴 탕 하이 라 뎁 녓.", "korean": "12월부터 2월까지가 가장 좋아요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Cảm ơn, tôi sẽ lên kế hoạch đi.", "pronunciation": "깜 언, 또이 세 렌 게 호악 디.", "korean": "고마워요, 계획을 세울게요." },
+        { "vietnamese": "Tôi sẽ mang nhiều quần áo mát.", "pronunciation": "또이 세 망 니에우 꾸언 아오 맛.", "korean": "시원한 옷을 많이 가져갈게요." },
+        { "vietnamese": "Vậy tôi sẽ đi vào mùa khô.", "pronunciation": "버이 또이 세 디 바오 무아 코.", "korean": "그럼 건기에 갈게요." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "thời tiết", "pronunciation": "터이 띠엣", "korean": "날씨" },
+    { "vietnamese": "nóng", "pronunciation": "농", "korean": "더운" },
+    { "vietnamese": "lạnh", "pronunciation": "란", "korean": "추운" },
+    { "vietnamese": "mưa", "pronunciation": "므어", "korean": "비" },
+    { "vietnamese": "nắng", "pronunciation": "낭", "korean": "맑은, 햇볕" },
+    { "vietnamese": "mùa", "pronunciation": "무아", "korean": "계절" },
+    { "vietnamese": "mát", "pronunciation": "맛", "korean": "시원한" },
+    { "vietnamese": "ô", "pronunciation": "오", "korean": "우산" }
+  ]
+}

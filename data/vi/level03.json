@@ -1,0 +1,74 @@
+{
+  "level": 3,
+  "title": "가족 소개",
+  "titleVi": "Giới thiệu gia đình",
+  "description": "가족 관련 베트남어 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Gia đình bạn có mấy người?", "pronunciation": "자 딩 반 꼬 머이 응으어이?", "korean": "가족이 몇 명이에요?" },
+        { "vietnamese": "Bạn có bao nhiêu anh chị em?", "pronunciation": "반 꼬 바오 니에우 아잉 찌 엠?", "korean": "형제자매가 몇 명이에요?" },
+        { "vietnamese": "Nhà bạn có đông người không?", "pronunciation": "냐 반 꼬 동 응으어이 콩?", "korean": "가족이 많아요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Gia đình tôi có bốn người: bố, mẹ, anh trai và tôi.", "pronunciation": "자 딩 또이 꼬 본 응으어이: 보, 메, 아잉 짜이 바 또이.", "korean": "우리 가족은 네 명이에요: 아버지, 어머니, 형, 그리고 저예요." },
+        { "vietnamese": "Tôi có một chị gái và một em trai.", "pronunciation": "또이 꼬 못 찌 가이 바 못 엠 짜이.", "korean": "저는 언니 한 명과 남동생 한 명이 있어요." },
+        { "vietnamese": "Nhà tôi có năm người.", "pronunciation": "냐 또이 꼬 남 응으어이.", "korean": "우리 집은 다섯 식구예요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Bố mẹ bạn làm nghề gì?", "pronunciation": "보 메 반 람 응에 지?", "korean": "부모님은 무슨 일을 하세요?" },
+        { "vietnamese": "Bố bạn bao nhiêu tuổi?", "pronunciation": "보 반 바오 니에우 뚜오이?", "korean": "아버지는 몇 살이세요?" },
+        { "vietnamese": "Mẹ bạn có khỏe không?", "pronunciation": "메 반 꼬 쾨 콩?", "korean": "어머니는 건강하세요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Bố tôi là bác sĩ, mẹ tôi là giáo viên.", "pronunciation": "보 또이 라 박 시, 메 또이 라 자오 비엔.", "korean": "아버지는 의사이고 어머니는 선생님이에요." },
+        { "vietnamese": "Bố tôi năm mươi lăm tuổi.", "pronunciation": "보 또이 남 므어이 럼 뚜오이.", "korean": "아버지는 55세이십니다." },
+        { "vietnamese": "Vâng, mẹ tôi rất khỏe. Cảm ơn bạn.", "pronunciation": "벙, 메 또이 럿 쾨. 깜 언 반.", "korean": "네, 어머니는 매우 건강하세요. 감사합니다." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Bạn đã kết hôn chưa?", "pronunciation": "반 다 껫 혼 쯔어?", "korean": "결혼했어요?" },
+        { "vietnamese": "Bạn có con chưa?", "pronunciation": "반 꼬 꼰 쯔어?", "korean": "아이가 있어요?" },
+        { "vietnamese": "Bạn sống với gia đình phải không?", "pronunciation": "반 송 버이 자 딩 파이 콩?", "korean": "가족과 함께 살아요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Tôi đã kết hôn rồi. Tôi có một con gái.", "pronunciation": "또이 다 껫 혼 로이. 또이 꼬 못 꼰 가이.", "korean": "결혼했어요. 딸이 한 명 있어요." },
+        { "vietnamese": "Tôi chưa kết hôn. Tôi còn độc thân.", "pronunciation": "또이 쯔어 껫 혼. 또이 꼰 독 턴.", "korean": "아직 결혼 안 했어요. 아직 독신이에요." },
+        { "vietnamese": "Vâng, tôi sống với bố mẹ.", "pronunciation": "벙, 또이 송 버이 보 메.", "korean": "네, 부모님과 함께 살아요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Gia đình bạn thật hạnh phúc!", "pronunciation": "자 딩 반 턷 한 푹!", "korean": "가족이 정말 행복하네요!" },
+        { "vietnamese": "Gia đình bạn rất đáng yêu.", "pronunciation": "자 딩 반 럿 당 이에우.", "korean": "가족이 정말 사랑스러워요." },
+        { "vietnamese": "Chúc gia đình bạn luôn vui vẻ!", "pronunciation": "쭉 자 딩 반 루온 부이 베!", "korean": "가족 모두 항상 즐겁길 바랍니다!" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "gia đình", "pronunciation": "자 딩", "korean": "가족" },
+    { "vietnamese": "bố", "pronunciation": "보", "korean": "아버지" },
+    { "vietnamese": "mẹ", "pronunciation": "메", "korean": "어머니" },
+    { "vietnamese": "anh trai", "pronunciation": "아잉 짜이", "korean": "형, 오빠" },
+    { "vietnamese": "chị gái", "pronunciation": "찌 가이", "korean": "누나, 언니" },
+    { "vietnamese": "em trai", "pronunciation": "엠 짜이", "korean": "남동생" },
+    { "vietnamese": "em gái", "pronunciation": "엠 가이", "korean": "여동생" },
+    { "vietnamese": "kết hôn", "pronunciation": "껫 혼", "korean": "결혼하다" }
+  ]
+}

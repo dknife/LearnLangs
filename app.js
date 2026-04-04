@@ -109,6 +109,40 @@ const LANGS = {
       kr_to_foreign: '한국어 → 아랍어',
     },
   },
+  th: {
+    code: 'th',
+    name: 'ภาษาไทย',
+    nameKr: '태국어',
+    emoji: '🇹🇭',
+    progressKey: 'learnThai_progress',
+    ttsLang: 'th-TH',
+    ttsRate: 0.85,
+    foreignField: 'thai',
+    pronField: 'pronunciation',
+    titleField: 'titleTh',
+    quizLabels: {
+      vocab: '단어 시험',
+      foreign_to_kr: '태국어 → 한국어',
+      kr_to_foreign: '한국어 → 태국어',
+    },
+  },
+  vi: {
+    code: 'vi',
+    name: 'Tiếng Việt',
+    nameKr: '베트남어',
+    emoji: '🇻🇳',
+    progressKey: 'learnVietnamese_progress',
+    ttsLang: 'vi-VN',
+    ttsRate: 0.9,
+    foreignField: 'vietnamese',
+    pronField: 'pronunciation',
+    titleField: 'titleVi',
+    quizLabels: {
+      vocab: '단어 시험',
+      foreign_to_kr: '베트남어 → 한국어',
+      kr_to_foreign: '한국어 → 베트남어',
+    },
+  },
 };
 
 // ------------------------------------------------------------
@@ -220,7 +254,7 @@ async function handleRoute() {
   let match;
 
   // Language-prefixed routes: #/zh/... or #/es/...
-  match = hash.match(/^#\/(zh|es|fr|ja|sw|ar)\/result\/(\d+)\??(.*)?$/);
+  match = hash.match(/^#\/(zh|es|fr|ja|sw|ar|th|vi)\/result\/(\d+)\??(.*)?$/);
   if (match) {
     currentLang = match[1];
     const level = parseInt(match[2]);
@@ -229,14 +263,14 @@ async function handleRoute() {
     return;
   }
 
-  match = hash.match(/^#\/(zh|es|fr|ja|sw|ar)\/quiz\/(\d+)$/);
+  match = hash.match(/^#\/(zh|es|fr|ja|sw|ar|th|vi)\/quiz\/(\d+)$/);
   if (match) {
     currentLang = match[1];
     await renderQuiz(parseInt(match[2]));
     return;
   }
 
-  match = hash.match(/^#\/(zh|es|fr|ja|sw|ar)\/lesson\/(\d+)$/);
+  match = hash.match(/^#\/(zh|es|fr|ja|sw|ar|th|vi)\/lesson\/(\d+)$/);
   if (match) {
     currentLang = match[1];
     await renderLesson(parseInt(match[2]));
@@ -271,6 +305,16 @@ async function handleRoute() {
   }
   if (hash === '#/ar' || hash === '#/arabic') {
     currentLang = 'ar';
+    await renderHome();
+    return;
+  }
+  if (hash === '#/th' || hash === '#/thai') {
+    currentLang = 'th';
+    await renderHome();
+    return;
+  }
+  if (hash === '#/vi' || hash === '#/vietnamese') {
+    currentLang = 'vi';
     await renderHome();
     return;
   }
@@ -403,6 +447,7 @@ async function renderLangSelect() {
   const CARD_COLORS = {
     zh: '#1a1a1a', es: '#c0392b', fr: '#3B5998',
     ja: '#BE185D', sw: '#047857', ar: '#0D9488',
+    th: '#7C3AED', vi: '#DC2626',
   };
 
   const langData = langCodes.map((code, i) => {

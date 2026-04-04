@@ -1,0 +1,74 @@
+{
+  "level": 15,
+  "title": "취미 & 여가",
+  "titleVi": "Sở thích & Giải trí",
+  "description": "취미와 여가 활동에 관한 베트남어 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Sở thích của bạn là gì?", "pronunciation": "서 틱 꾸아 반 라 지?", "korean": "취미가 뭐예요?" },
+        { "vietnamese": "Bạn thường làm gì vào cuối tuần?", "pronunciation": "반 트엉 람 지 바오 꾸오이 뚜언?", "korean": "주말에 보통 뭐 해요?" },
+        { "vietnamese": "Bạn có sở thích gì đặc biệt không?", "pronunciation": "반 꼬 서 틱 지 닥 비엣 콩?", "korean": "특별한 취미가 있어요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Tôi thích đọc sách và nghe nhạc.", "pronunciation": "또이 틱 독 싸익 바 응에 냑.", "korean": "저는 독서와 음악 감상을 좋아해요." },
+        { "vietnamese": "Cuối tuần tôi thường đi đá bóng.", "pronunciation": "꾸오이 뚜언 또이 트엉 디 다 봉.", "korean": "주말에는 보통 축구를 해요." },
+        { "vietnamese": "Tôi thích chụp ảnh và du lịch.", "pronunciation": "또이 틱 쭙 아잉 바 주 릭.", "korean": "저는 사진 찍기와 여행을 좋아해요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Bạn chơi nhạc cụ gì không?", "pronunciation": "반 쩌이 냑 꾸 지 콩?", "korean": "악기 연주할 줄 알아요?" },
+        { "vietnamese": "Bạn có hay xem phim không?", "pronunciation": "반 꼬 하이 쎔 핌 콩?", "korean": "영화 자주 봐요?" },
+        { "vietnamese": "Bạn thích thể loại nhạc nào?", "pronunciation": "반 틱 테 로아이 냑 나오?", "korean": "어떤 음악 장르를 좋아해요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Tôi biết chơi đàn guitar.", "pronunciation": "또이 비엣 쩌이 단 기타.", "korean": "저는 기타를 칠 줄 알아요." },
+        { "vietnamese": "Vâng, tôi rất thích xem phim Hàn Quốc.", "pronunciation": "벙, 또이 럿 틱 쎔 핌 한 꾸옥.", "korean": "네, 한국 영화를 아주 좋아해요." },
+        { "vietnamese": "Tôi thích nhạc pop và nhạc truyền thống.", "pronunciation": "또이 틱 냑 팝 바 냑 쭤엔 통.", "korean": "팝과 전통 음악을 좋아해요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Bạn có tập thể dục không?", "pronunciation": "반 꼬 땁 테 죽 콩?", "korean": "운동 해요?" },
+        { "vietnamese": "Bạn thích môn thể thao nào?", "pronunciation": "반 틱 몬 테 타오 나오?", "korean": "어떤 운동을 좋아해요?" },
+        { "vietnamese": "Chúng ta đi bơi nhé!", "pronunciation": "쭝 따 디 버이 녜!", "korean": "우리 수영하러 가요!" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Tôi chạy bộ mỗi sáng.", "pronunciation": "또이 짜이 보 모이 상.", "korean": "매일 아침 조깅해요." },
+        { "vietnamese": "Tôi thích bóng đá và cầu lông.", "pronunciation": "또이 틱 봉 다 바 거우 롱.", "korean": "축구와 배드민턴을 좋아해요." },
+        { "vietnamese": "Được! Tôi rất thích bơi.", "pronunciation": "드억! 또이 럿 틱 버이.", "korean": "좋아요! 수영을 아주 좋아해요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Lần sau cùng đi chơi nhé!", "pronunciation": "런 사우 꿍 디 쩌이 녜!", "korean": "다음에 같이 놀러 가요!" },
+        { "vietnamese": "Mình có nhiều sở thích giống nhau.", "pronunciation": "밍 꼬 니에우 서 틱 종 냐우.", "korean": "우리 취미가 비슷하네요." },
+        { "vietnamese": "Cuối tuần sau đi tập gym cùng nhé.", "pronunciation": "꾸오이 뚜언 사우 디 땁 짐 꿍 녜.", "korean": "다음 주말에 같이 헬스장 가요." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "sở thích", "pronunciation": "서 틱", "korean": "취미" },
+    { "vietnamese": "đọc sách", "pronunciation": "독 싸익", "korean": "독서" },
+    { "vietnamese": "nghe nhạc", "pronunciation": "응에 냑", "korean": "음악 듣기" },
+    { "vietnamese": "xem phim", "pronunciation": "쎔 핌", "korean": "영화 보기" },
+    { "vietnamese": "thể thao", "pronunciation": "테 타오", "korean": "운동, 스포츠" },
+    { "vietnamese": "du lịch", "pronunciation": "주 릭", "korean": "여행" },
+    { "vietnamese": "chụp ảnh", "pronunciation": "쭙 아잉", "korean": "사진 찍기" },
+    { "vietnamese": "bơi", "pronunciation": "버이", "korean": "수영" }
+  ]
+}

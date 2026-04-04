@@ -1,0 +1,74 @@
+{
+  "level": 6,
+  "title": "쇼핑하기",
+  "titleVi": "Mua sắm",
+  "description": "쇼핑할 때 사용하는 베트남어 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Cái áo này bao nhiêu tiền?", "pronunciation": "까이 아오 나이 바오 니에우 띠엔?", "korean": "이 옷은 얼마예요?" },
+        { "vietnamese": "Cho tôi xem cái túi kia.", "pronunciation": "쪼 또이 쎔 까이 뚜이 끼아.", "korean": "저 가방 좀 보여주세요." },
+        { "vietnamese": "Có màu khác không?", "pronunciation": "꼬 마우 칵 콩?", "korean": "다른 색상 있나요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Cái này ba trăm nghìn đồng.", "pronunciation": "까이 나이 바 짬 응인 동.", "korean": "이건 30만 동입니다." },
+        { "vietnamese": "Đây là hàng mới nhất.", "pronunciation": "더이 라 항 머이 녓.", "korean": "이건 최신 상품이에요." },
+        { "vietnamese": "Có màu đen, trắng và đỏ.", "pronunciation": "꼬 마우 덴, 짱 바 도.", "korean": "검정, 흰색, 빨간색이 있어요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Đắt quá! Bớt cho tôi đi.", "pronunciation": "닷 꾸아! 벗 쪼 또이 디.", "korean": "너무 비싸요! 깎아주세요." },
+        { "vietnamese": "Giảm giá được không?", "pronunciation": "잠 자 드억 콩?", "korean": "할인 돼요?" },
+        { "vietnamese": "Mua nhiều có giảm giá không?", "pronunciation": "무아 니에우 꼬 잠 자 콩?", "korean": "많이 사면 할인해줘요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Giá này rẻ lắm rồi. Nhưng tôi bớt cho hai mươi nghìn.", "pronunciation": "자 나이 레 럼 로이. 느응 또이 벗 쪼 하이 므어이 응인.", "korean": "이 가격이 이미 싸요. 그래도 2만 동 깎아드릴게요." },
+        { "vietnamese": "Nếu mua hai cái, tôi giảm mười phần trăm.", "pronunciation": "네우 무아 하이 까이, 또이 잠 므어이 펀 짬.", "korean": "두 개 사시면 10% 할인해드릴게요." },
+        { "vietnamese": "Được rồi, tôi bán rẻ cho bạn.", "pronunciation": "드억 로이, 또이 반 레 쪼 반.", "korean": "알겠어요, 싸게 드릴게요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Cho tôi thử được không?", "pronunciation": "쪼 또이 트 드억 콩?", "korean": "입어봐도 되나요?" },
+        { "vietnamese": "Có size lớn hơn không?", "pronunciation": "꼬 사이즈 런 헌 콩?", "korean": "더 큰 사이즈 있나요?" },
+        { "vietnamese": "Tôi mặc size M.", "pronunciation": "또이 막 사이즈 엠.", "korean": "저는 M 사이즈를 입어요." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Phòng thử đồ ở bên kia.", "pronunciation": "퐁 트 도 어 벤 끼아.", "korean": "탈의실은 저쪽이에요." },
+        { "vietnamese": "Để tôi tìm size cho bạn.", "pronunciation": "데 또이 띰 사이즈 쪼 반.", "korean": "사이즈를 찾아볼게요." },
+        { "vietnamese": "Cái này vừa với bạn đấy.", "pronunciation": "까이 나이 브어 버이 반 더이.", "korean": "이거 잘 맞으실 거예요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Tôi lấy cái này. Thanh toán ở đâu?", "pronunciation": "또이 러이 까이 나이. 탄 또안 어 더우?", "korean": "이걸로 할게요. 결제는 어디서 해요?" },
+        { "vietnamese": "Được, tôi mua cái này. Bọc lại cho tôi.", "pronunciation": "드억, 또이 무아 까이 나이. 복 라이 쪼 또이.", "korean": "좋아요, 이걸 살게요. 포장해 주세요." },
+        { "vietnamese": "Thanh toán bằng thẻ được không?", "pronunciation": "탄 또안 방 테 드억 콩?", "korean": "카드로 결제할 수 있나요?" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "mua", "pronunciation": "무아", "korean": "사다" },
+    { "vietnamese": "bán", "pronunciation": "반", "korean": "팔다" },
+    { "vietnamese": "đắt", "pronunciation": "닷", "korean": "비싼" },
+    { "vietnamese": "rẻ", "pronunciation": "레", "korean": "싼" },
+    { "vietnamese": "giảm giá", "pronunciation": "잠 자", "korean": "할인" },
+    { "vietnamese": "màu", "pronunciation": "마우", "korean": "색깔" },
+    { "vietnamese": "size", "pronunciation": "사이즈", "korean": "사이즈" },
+    { "vietnamese": "thanh toán", "pronunciation": "탄 또안", "korean": "결제하다" }
+  ]
+}

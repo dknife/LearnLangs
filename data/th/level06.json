@@ -1,0 +1,74 @@
+{
+  "level": 6,
+  "title": "쇼핑하기",
+  "titleTh": "ช้อปปิ้ง",
+  "description": "태국에서 쇼핑할 때 사용하는 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "ขอดูอันนี้หน่อยครับ", "pronunciation": "커 두 안니 노이 크랍", "korean": "이것 좀 보여주세요." },
+        { "thai": "มีสีอื่นไหมคะ", "pronunciation": "미 시 은 마이 카", "korean": "다른 색상 있어요?" },
+        { "thai": "มีไซส์ใหญ่กว่านี้ไหมครับ", "pronunciation": "미 사이 야이 꽈 니 마이 크랍", "korean": "이것보다 큰 사이즈 있어요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "thai": "ได้ครับ เชิญดูได้เลยครับ", "pronunciation": "다이 크랍 천 두 다이 르이 크랍", "korean": "네, 마음껏 보세요." },
+        { "thai": "มีค่ะ มีสีแดง สีน้ำเงิน และสีขาว", "pronunciation": "미 카 미 시 댕 시 남응언 래 시 카오", "korean": "있어요. 빨강, 파랑, 하양이 있어요." },
+        { "thai": "มีครับ เดี๋ยวเอามาให้ดูนะครับ", "pronunciation": "미 크랍 디아오 아오 마 하이 두 나 크랍", "korean": "있어요. 가져다 보여드릴게요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "ราคาเท่าไหร่ครับ", "pronunciation": "라카 타오라이 크랍", "korean": "가격이 얼마예요?" },
+        { "thai": "ลดราคาได้ไหมคะ", "pronunciation": "롯 라카 다이 마이 카", "korean": "할인해 줄 수 있어요?" },
+        { "thai": "แพงไปหน่อยครับ ลดได้ไหม", "pronunciation": "팽 빠이 노이 크랍 롯 다이 마이", "korean": "좀 비싸요. 깎아 줄 수 있어요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "thai": "ห้าร้อยบาทครับ", "pronunciation": "하 로이 밧 크랍", "korean": "500바트예요." },
+        { "thai": "ลดให้ยี่สิบเปอร์เซ็นต์ค่ะ", "pronunciation": "롯 하이 이씹 뻐센 카", "korean": "20% 할인해 드릴게요." },
+        { "thai": "ถ้าซื้อสองชิ้นลดให้ครับ", "pronunciation": "타 쓰 쏭 친 롯 하이 크랍", "korean": "두 개 사시면 할인해 드릴게요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "ลองใส่ได้ไหมครับ", "pronunciation": "롱 사이 다이 마이 크랍", "korean": "입어봐도 돼요?" },
+        { "thai": "ห้องลองเสื้ออยู่ที่ไหนคะ", "pronunciation": "홍 롱 쓰아 유 티 나이 카", "korean": "탈의실이 어디에 있어요?" },
+        { "thai": "ขอลองสีนี้ได้ไหมครับ", "pronunciation": "커 롱 시 니 다이 마이 크랍", "korean": "이 색으로 입어봐도 돼요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "thai": "ได้ครับ ห้องลองอยู่ทางนี้ครับ", "pronunciation": "다이 크랍 홍 롱 유 탕 니 크랍", "korean": "네, 탈의실은 이쪽이에요." },
+        { "thai": "เชิญลองค่ะ ห้องลองอยู่ข้างหลัง", "pronunciation": "천 롱 카 홍 롱 유 캉 랑", "korean": "어서 입어보세요. 탈의실은 뒤쪽에 있어요." },
+        { "thai": "ได้เลยครับ ตรงนี้ครับ", "pronunciation": "다이 르이 크랍 뜨롱 니 크랍", "korean": "물론이죠. 여기예요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "เอาอันนี้ครับ จ่ายด้วยบัตรเครดิตได้ไหม", "pronunciation": "아오 안니 크랍 짜이 두아이 밧 크레딧 다이 마이", "korean": "이걸로 할게요. 신용카드로 결제돼요?" },
+        { "thai": "ขอถุงใส่ด้วยนะคะ", "pronunciation": "커 퉁 사이 두아이 나 카", "korean": "봉투에 넣어 주세요." },
+        { "thai": "ขอบคุณครับ ซื้ออันนี้แหละ", "pronunciation": "컵쿤 크랍 쓰 안니 래", "korean": "감사합니다. 이걸 살게요." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "thai": "ซื้อ", "pronunciation": "쓰", "korean": "사다" },
+    { "thai": "ราคา", "pronunciation": "라카", "korean": "가격" },
+    { "thai": "แพง", "pronunciation": "팽", "korean": "비싸다" },
+    { "thai": "ถูก", "pronunciation": "툭", "korean": "싸다" },
+    { "thai": "ลดราคา", "pronunciation": "롯 라카", "korean": "할인하다" },
+    { "thai": "สี", "pronunciation": "시", "korean": "색상" },
+    { "thai": "ไซส์", "pronunciation": "사이", "korean": "사이즈" },
+    { "thai": "จ่าย", "pronunciation": "짜이", "korean": "지불하다" }
+  ]
+}

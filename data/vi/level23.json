@@ -1,0 +1,74 @@
+{
+  "level": 23,
+  "title": "직장 & 업무",
+  "titleVi": "Công việc & Văn phòng",
+  "description": "직장과 업무에 관한 베트남어 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Bạn làm nghề gì?", "pronunciation": "반 람 응에 지?", "korean": "무슨 일을 하세요?" },
+        { "vietnamese": "Bạn làm việc ở đâu?", "pronunciation": "반 람 비엑 어 더우?", "korean": "어디서 일해요?" },
+        { "vietnamese": "Bạn làm trong ngành gì?", "pronunciation": "반 람 쫑 응안 지?", "korean": "어떤 분야에서 일해요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Tôi là kỹ sư phần mềm.", "pronunciation": "또이 라 끼 스 펀 멤.", "korean": "저는 소프트웨어 엔지니어예요." },
+        { "vietnamese": "Tôi làm việc ở một công ty Hàn Quốc.", "pronunciation": "또이 람 비엑 어 못 꽁 띠 한 꾸옥.", "korean": "한국 회사에서 일해요." },
+        { "vietnamese": "Tôi làm trong ngành thương mại.", "pronunciation": "또이 람 쫑 응안 트엉 마이.", "korean": "무역 분야에서 일해요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Mấy giờ bạn đi làm?", "pronunciation": "머이 저 반 디 람?", "korean": "몇 시에 출근해요?" },
+        { "vietnamese": "Bạn có thường xuyên làm thêm giờ không?", "pronunciation": "반 꼬 트엉 쑤옌 람 템 저 콩?", "korean": "야근 자주 해요?" },
+        { "vietnamese": "Công việc có vất vả không?", "pronunciation": "꽁 비엑 꼬 벗 바 콩?", "korean": "일이 힘들어요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Tôi đi làm lúc tám giờ, về lúc năm giờ.", "pronunciation": "또이 디 람 룩 땀 저, 베 룩 남 저.", "korean": "8시에 출근하고 5시에 퇴근해요." },
+        { "vietnamese": "Thỉnh thoảng, khi có dự án gấp.", "pronunciation": "틴 토앙, 키 꼬 즈 안 겁.", "korean": "가끔요, 급한 프로젝트가 있을 때." },
+        { "vietnamese": "Hơi vất vả, nhưng tôi thích công việc này.", "pronunciation": "허이 벗 바, 느응 또이 틱 꽁 비엑 나이.", "korean": "좀 힘들지만 이 일이 좋아요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Cuộc họp bắt đầu lúc mấy giờ?", "pronunciation": "꾸옥 홉 밧 더우 룩 머이 저?", "korean": "회의가 몇 시에 시작해요?" },
+        { "vietnamese": "Anh đã gửi email chưa?", "pronunciation": "아잉 다 그이 이메일 쯔어?", "korean": "이메일 보냈어요?" },
+        { "vietnamese": "Báo cáo phải nộp khi nào?", "pronunciation": "바오 까오 파이 놉 키 나오?", "korean": "보고서 언제까지 제출해야 해요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Cuộc họp lúc mười giờ ở phòng họp A.", "pronunciation": "꾸옥 홉 룩 므어이 저 어 퐁 홉 에이.", "korean": "회의는 10시에 A 회의실에서요." },
+        { "vietnamese": "Rồi, tôi đã gửi sáng nay.", "pronunciation": "로이, 또이 다 그이 상 나이.", "korean": "네, 오늘 아침에 보냈어요." },
+        { "vietnamese": "Trước thứ sáu tuần này.", "pronunciation": "쯔억 트 사우 뚜언 나이.", "korean": "이번 주 금요일까지요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Được rồi, tôi sẽ hoàn thành đúng hạn.", "pronunciation": "드억 로이, 또이 세 호안 탄 둥 한.", "korean": "알겠어요, 기한 내에 완성할게요." },
+        { "vietnamese": "Chúng ta cùng cố gắng nhé!", "pronunciation": "쭝 따 꿍 꼬 강 녜!", "korean": "우리 함께 힘내요!" },
+        { "vietnamese": "Hết giờ làm rồi! Về thôi.", "pronunciation": "헷 저 람 로이! 베 토이.", "korean": "퇴근 시간이다! 갑시다." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "công việc", "pronunciation": "꽁 비엑", "korean": "일, 직업" },
+    { "vietnamese": "công ty", "pronunciation": "꽁 띠", "korean": "회사" },
+    { "vietnamese": "văn phòng", "pronunciation": "번 퐁", "korean": "사무실" },
+    { "vietnamese": "cuộc họp", "pronunciation": "꾸옥 홉", "korean": "회의" },
+    { "vietnamese": "làm thêm giờ", "pronunciation": "람 템 저", "korean": "야근하다" },
+    { "vietnamese": "báo cáo", "pronunciation": "바오 까오", "korean": "보고서" },
+    { "vietnamese": "dự án", "pronunciation": "즈 안", "korean": "프로젝트" },
+    { "vietnamese": "nghỉ phép", "pronunciation": "응이 펩", "korean": "휴가" }
+  ]
+}

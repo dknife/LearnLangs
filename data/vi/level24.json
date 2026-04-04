@@ -1,0 +1,74 @@
+{
+  "level": 24,
+  "title": "문화 & 명절",
+  "titleVi": "Văn hóa & Lễ hội",
+  "description": "베트남 문화와 명절에 관한 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Tết Nguyên Đán là ngày nào?", "pronunciation": "뗏 응우옌 단 라 응아이 나오?", "korean": "설날은 언제예요?" },
+        { "vietnamese": "Người Việt Nam ăn Tết như thế nào?", "pronunciation": "응으어이 비엣 남 안 뗏 느 테 나오?", "korean": "베트남 사람들은 설을 어떻게 보내요?" },
+        { "vietnamese": "Tết có gì đặc biệt?", "pronunciation": "뗏 꼬 지 닥 비엣?", "korean": "설날에 특별한 게 뭐가 있어요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Tết theo lịch âm, thường vào tháng một hoặc tháng hai.", "pronunciation": "뗏 테오 릭 엄, 트엉 바오 탕 못 혹 탕 하이.", "korean": "설날은 음력에 따르며, 보통 1월이나 2월이에요." },
+        { "vietnamese": "Cả gia đình quây quần ăn cỗ và chúc Tết.", "pronunciation": "까 자 딩 꾸어이 꾸언 안 꼬 바 쭉 뗏.", "korean": "온 가족이 모여 음식을 먹고 새해 인사를 해요." },
+        { "vietnamese": "Có bánh chưng, hoa mai, và lì xì.", "pronunciation": "꼬 반 쯩, 호아 마이, 바 리 시.", "korean": "반쯩 떡, 매화, 그리고 세뱃돈이 있어요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Lì xì là gì?", "pronunciation": "리 시 라 지?", "korean": "리시(세뱃돈)가 뭐예요?" },
+        { "vietnamese": "Bánh chưng được làm từ gì?", "pronunciation": "반 쯩 드억 람 뜨 지?", "korean": "반쯩은 무엇으로 만들어요?" },
+        { "vietnamese": "Người Việt Nam thường làm gì vào ngày Tết?", "pronunciation": "응으어이 비엣 남 트엉 람 지 바오 응아이 뗏?", "korean": "베트남 사람들은 설날에 보통 뭘 해요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Lì xì là phong bao đỏ có tiền, tặng cho trẻ em.", "pronunciation": "리 시 라 퐁 바오 도 꼬 띠엔, 땅 쪼 쩨 엠.", "korean": "리시는 돈이 든 빨간 봉투로 아이들에게 줘요." },
+        { "vietnamese": "Bánh chưng làm từ gạo nếp, thịt lợn và đậu xanh.", "pronunciation": "반 쯩 람 뜨 가오 넵, 팃 런 바 더우 싸잉.", "korean": "반쯩은 찹쌀, 돼지고기, 녹두로 만들어요." },
+        { "vietnamese": "Đi chùa, thăm họ hàng và chúc nhau sức khỏe.", "pronunciation": "디 쭈아, 탐 호 항 바 쭉 냐우 석 쾨.", "korean": "절에 가고, 친척을 방문하고, 건강을 기원해요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Ngoài Tết, còn lễ hội nào khác?", "pronunciation": "응오아이 뗏, 꼰 레 호이 나오 칵?", "korean": "설 말고 다른 축제가 있어요?" },
+        { "vietnamese": "Tết Trung Thu là gì?", "pronunciation": "뗏 쭝 투 라 지?", "korean": "추석은 뭐예요?" },
+        { "vietnamese": "Ngày Phụ Nữ ở Việt Nam có quan trọng không?", "pronunciation": "응아이 푸 느 어 비엣 남 꼬 꾸안 쫑 콩?", "korean": "베트남에서 여성의 날이 중요해요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Có Tết Trung Thu, lễ Quốc Khánh và nhiều lễ hội khác.", "pronunciation": "꼬 뗏 쭝 투, 레 꾸옥 칸 바 니에우 레 호이 칵.", "korean": "추석, 국경일 등 많은 축제가 있어요." },
+        { "vietnamese": "Tết Trung Thu là ngày dành cho trẻ em, có đèn lồng và bánh trung thu.", "pronunciation": "뗏 쭝 투 라 응아이 잔 쪼 쩨 엠, 꼬 덴 롱 바 반 쭝 투.", "korean": "추석은 어린이날 같은 날로, 등불과 월병이 있어요." },
+        { "vietnamese": "Rất quan trọng! Ngày 8/3 và 20/10 đều tặng hoa.", "pronunciation": "럿 꾸안 쫑! 응아이 땀 탕 바 바 하이 므어이 탕 므어이 데우 땅 호아.", "korean": "매우 중요해요! 3월 8일과 10월 20일에 꽃을 선물해요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Văn hóa Việt Nam rất phong phú!", "pronunciation": "번 호아 비엣 남 럿 퐁 푸!", "korean": "베트남 문화가 정말 풍부하네요!" },
+        { "vietnamese": "Tôi muốn trải nghiệm Tết ở Việt Nam.", "pronunciation": "또이 무온 짜이 응이엠 뗏 어 비엣 남.", "korean": "베트남에서 설을 경험해보고 싶어요." },
+        { "vietnamese": "Cảm ơn bạn đã giới thiệu!", "pronunciation": "깜 언 반 다 저이 티에우!", "korean": "소개해줘서 고마워요!" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "Tết", "pronunciation": "뗏", "korean": "설날" },
+    { "vietnamese": "lễ hội", "pronunciation": "레 호이", "korean": "축제" },
+    { "vietnamese": "văn hóa", "pronunciation": "번 호아", "korean": "문화" },
+    { "vietnamese": "truyền thống", "pronunciation": "쭤엔 통", "korean": "전통" },
+    { "vietnamese": "lì xì", "pronunciation": "리 시", "korean": "세뱃돈" },
+    { "vietnamese": "bánh chưng", "pronunciation": "반 쯩", "korean": "반쯩 (전통 떡)" },
+    { "vietnamese": "chùa", "pronunciation": "쭈아", "korean": "절, 사원" },
+    { "vietnamese": "phong tục", "pronunciation": "퐁 뚝", "korean": "풍습, 관습" }
+  ]
+}

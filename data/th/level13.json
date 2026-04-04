@@ -1,0 +1,74 @@
+{
+  "level": 13,
+  "title": "옷 & 외모",
+  "titleTh": "เสื้อผ้าและรูปร่าง",
+  "description": "옷과 외모를 묘사하는 태국어 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "วันนี้คุณแต่งตัวสวยจังครับ", "pronunciation": "완니 쿤 땡 뚜아 수아이 짱 크랍", "korean": "오늘 옷 정말 예쁘게 입었네요." },
+        { "thai": "เสื้อตัวนี้สีสวยมากค่ะ", "pronunciation": "쓰아 뚜아 니 시 수아이 막 카", "korean": "이 옷 색이 정말 예뻐요." },
+        { "thai": "รองเท้าคู่นี้ใหม่หรือเปล่าครับ", "pronunciation": "롱타오 쿠 니 마이 르 쁠라오 크랍", "korean": "이 신발 새 거예요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "thai": "ขอบคุณครับ เพิ่งซื้อมาใหม่", "pronunciation": "컵쿤 크랍 펑 쓰 마 마이", "korean": "감사합니다. 새로 샀어요." },
+        { "thai": "ขอบคุณค่ะ เป็นสีชมพูค่ะ", "pronunciation": "컵쿤 카 뻰 시 촘푸 카", "korean": "감사합니다. 핑크색이에요." },
+        { "thai": "ใช่ครับ ซื้อมาจากตลาดนัด", "pronunciation": "차이 크랍 쓰 마 짝 딸랏 낫", "korean": "네, 야시장에서 샀어요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "คุณใส่ไซส์อะไรครับ", "pronunciation": "쿤 사이 사이 아라이 크랍", "korean": "사이즈가 어떻게 되세요?" },
+        { "thai": "มีสีดำไหมคะ", "pronunciation": "미 시 담 마이 카", "korean": "검은색 있어요?" },
+        { "thai": "ชุดนี้เหมาะกับคุณมากครับ", "pronunciation": "춧 니 머 갑 쿤 막 크랍", "korean": "이 옷이 정말 잘 어울려요." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "thai": "ไซส์เอ็มครับ", "pronunciation": "사이 엠 크랍", "korean": "M 사이즈요." },
+        { "thai": "มีค่ะ มีทั้งสีดำและสีขาว", "pronunciation": "미 카 미 탕 시 담 래 시 카오", "korean": "있어요. 검정과 흰색 다 있어요." },
+        { "thai": "จริงเหรอครับ ขอบคุณ", "pronunciation": "찡 러 크랍 컵쿤", "korean": "정말요? 감사합니다." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "เขาเป็นคนตัวสูงผอมใช่ไหมครับ", "pronunciation": "카오 뻰 콘 뚜아 숭 폼 차이 마이 크랍", "korean": "그 사람은 키가 크고 마른 사람이죠?" },
+        { "thai": "ผู้หญิงคนนั้นผมยาวใช่ไหมคะ", "pronunciation": "푸잉 콘 난 폼 야오 차이 마이 카", "korean": "저 여자분은 머리가 긴 분이죠?" },
+        { "thai": "เขาใส่แว่นตาหรือเปล่าครับ", "pronunciation": "카오 사이 웬따 르 쁠라오 크랍", "korean": "그 사람 안경 쓰고 있어요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "thai": "ใช่ครับ ตัวสูงผอม ผมสั้น", "pronunciation": "차이 크랍 뚜아 숭 폼 폼 산", "korean": "네, 키가 크고 마른 편이에요. 짧은 머리예요." },
+        { "thai": "ใช่ค่ะ ผมยาวสีดำ", "pronunciation": "차이 카 폼 야오 시 담", "korean": "네, 긴 검은 머리예요." },
+        { "thai": "ใช่ครับ ใส่แว่นตากรอบดำ", "pronunciation": "차이 크랍 사이 웬따 끄롭 담", "korean": "네, 검은 테 안경을 쓰고 있어요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "ขอบคุณครับ จำได้แล้ว", "pronunciation": "컵쿤 크랍 짬 다이 래오", "korean": "감사합니다. 이제 알겠어요." },
+        { "thai": "เข้าใจแล้วค่ะ จะมองหาคนนั้น", "pronunciation": "카오짜이 래오 카 짜 멍 하 콘 난", "korean": "알겠어요. 그 사람을 찾아볼게요." },
+        { "thai": "โอเคครับ รู้จักแล้ว", "pronunciation": "오게 크랍 루짝 래오", "korean": "네, 알겠어요." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "thai": "เสื้อ", "pronunciation": "쓰아", "korean": "옷/상의" },
+    { "thai": "กางเกง", "pronunciation": "깡겡", "korean": "바지" },
+    { "thai": "รองเท้า", "pronunciation": "롱타오", "korean": "신발" },
+    { "thai": "สวย", "pronunciation": "수아이", "korean": "예쁘다" },
+    { "thai": "หล่อ", "pronunciation": "러", "korean": "잘생기다" },
+    { "thai": "ตัวสูง", "pronunciation": "뚜아 숭", "korean": "키가 크다" },
+    { "thai": "ผอม", "pronunciation": "폼", "korean": "마르다" },
+    { "thai": "แว่นตา", "pronunciation": "웬따", "korean": "안경" }
+  ]
+}

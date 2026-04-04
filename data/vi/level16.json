@@ -1,0 +1,74 @@
+{
+  "level": 16,
+  "title": "전화 통화",
+  "titleVi": "Gọi điện thoại",
+  "description": "전화 통화 상황에서 사용하는 베트남어 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "A lô, xin cho tôi gặp anh Nam.", "pronunciation": "알로, 신 쪼 또이 갑 아잉 남.", "korean": "여보세요, 남 씨와 통화할 수 있을까요?" },
+        { "vietnamese": "A lô, đây có phải công ty ABC không?", "pronunciation": "알로, 더이 꼬 파이 꽁 띠 ABC 콩?", "korean": "여보세요, ABC 회사 맞나요?" },
+        { "vietnamese": "A lô, tôi muốn đặt lịch hẹn.", "pronunciation": "알로, 또이 무온 닷 릭 헨.", "korean": "여보세요, 예약하고 싶습니다." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Xin chờ một chút, tôi nối máy cho anh.", "pronunciation": "신 쩌 못 쭛, 또이 노이 마이 쪼 아잉.", "korean": "잠시만요, 연결해 드리겠습니다." },
+        { "vietnamese": "Vâng, đúng rồi ạ. Anh cần gì ạ?", "pronunciation": "벙, 둥 로이 아. 아잉 건 지 아?", "korean": "네, 맞습니다. 무엇을 도와드릴까요?" },
+        { "vietnamese": "Vâng, anh muốn hẹn ngày nào?", "pronunciation": "벙, 아잉 무온 헨 응아이 나오?", "korean": "네, 몇일로 예약하시겠어요?" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Xin lỗi, tôi nghe không rõ. Nói lại được không?", "pronunciation": "신 로이, 또이 응에 콩 로. 노이 라이 드억 콩?", "korean": "죄송해요, 잘 안 들려요. 다시 말씀해 주시겠어요?" },
+        { "vietnamese": "Anh có thể nói to hơn không?", "pronunciation": "아잉 꼬 테 노이 또 헌 콩?", "korean": "좀 더 크게 말씀해 주시겠어요?" },
+        { "vietnamese": "Sóng điện thoại yếu quá.", "pronunciation": "숑 디엔 토아이 이에우 꾸아.", "korean": "전화 신호가 약해요." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Tôi sẽ nói to hơn. Anh nghe rõ chưa?", "pronunciation": "또이 세 노이 또 헌. 아잉 응에 로 쯔어?", "korean": "더 크게 말할게요. 잘 들리세요?" },
+        { "vietnamese": "Để tôi gọi lại cho anh nhé.", "pronunciation": "데 또이 고이 라이 쪼 아잉 녜.", "korean": "제가 다시 전화할게요." },
+        { "vietnamese": "Xin lỗi, đường truyền hơi xấu.", "pronunciation": "신 로이, 드엉 쭤엔 허이 서우.", "korean": "죄송해요, 연결 상태가 좀 안 좋아요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Anh ấy có ở đó không?", "pronunciation": "아잉 어이 꼬 어 도 콩?", "korean": "그분 계신가요?" },
+        { "vietnamese": "Khi nào anh ấy về?", "pronunciation": "키 나오 아잉 어이 베?", "korean": "그분 언제 돌아오세요?" },
+        { "vietnamese": "Tôi có thể để lại lời nhắn không?", "pronunciation": "또이 꼬 테 데 라이 러이 년 콩?", "korean": "메시지 남겨도 될까요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Anh ấy đang họp. Khoảng một giờ nữa sẽ xong.", "pronunciation": "아잉 어이 당 홉. 쾅 못 저 느어 세 숑.", "korean": "회의 중이세요. 약 1시간 후에 끝나요." },
+        { "vietnamese": "Anh ấy đi vắng rồi. Chiều mới về.", "pronunciation": "아잉 어이 디 방 로이. 찌에우 머이 베.", "korean": "외출하셨어요. 오후에 돌아오세요." },
+        { "vietnamese": "Vâng, anh cứ nhắn, tôi sẽ chuyển lời.", "pronunciation": "벙, 아잉 끄 년, 또이 세 쭤엔 러이.", "korean": "네, 전해드릴 테니 말씀하세요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Nhờ anh ấy gọi lại cho tôi. Cảm ơn.", "pronunciation": "녀 아잉 어이 고이 라이 쪼 또이. 깜 언.", "korean": "저에게 다시 전화해 달라고 전해주세요. 감사합니다." },
+        { "vietnamese": "Tôi sẽ gọi lại sau. Cảm ơn nhiều.", "pronunciation": "또이 세 고이 라이 사우. 깜 언 니에우.", "korean": "나중에 다시 전화할게요. 감사합니다." },
+        { "vietnamese": "Vâng, cảm ơn. Tạm biệt.", "pronunciation": "벙, 깜 언. 땀 비엣.", "korean": "네, 감사합니다. 안녕히 계세요." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "gọi điện", "pronunciation": "고이 디엔", "korean": "전화하다" },
+    { "vietnamese": "máy", "pronunciation": "마이", "korean": "기계, 전화기" },
+    { "vietnamese": "nối máy", "pronunciation": "노이 마이", "korean": "전화 연결하다" },
+    { "vietnamese": "lời nhắn", "pronunciation": "러이 년", "korean": "메시지" },
+    { "vietnamese": "gọi lại", "pronunciation": "고이 라이", "korean": "다시 전화하다" },
+    { "vietnamese": "nghe", "pronunciation": "응에", "korean": "듣다" },
+    { "vietnamese": "chờ", "pronunciation": "쩌", "korean": "기다리다" },
+    { "vietnamese": "đường truyền", "pronunciation": "드엉 쭤엔", "korean": "통화 연결, 회선" }
+  ]
+}

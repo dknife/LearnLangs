@@ -1,0 +1,74 @@
+{
+  "level": 13,
+  "title": "옷 & 외모",
+  "titleVi": "Quần áo & Ngoại hình",
+  "description": "옷과 외모를 묘사하는 베트남어 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Hôm nay bạn mặc đẹp quá!", "pronunciation": "홈 나이 반 막 뎁 꾸아!", "korean": "오늘 옷이 아주 예쁘네요!" },
+        { "vietnamese": "Cái áo dài này đẹp quá!", "pronunciation": "까이 아오 자이 나이 뎁 꾸아!", "korean": "이 아오자이 정말 예쁘다!" },
+        { "vietnamese": "Bạn mua quần áo mới à?", "pronunciation": "반 무아 꾸언 아오 머이 아?", "korean": "새 옷 샀어요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Cảm ơn! Tôi mới mua hôm qua.", "pronunciation": "깜 언! 또이 머이 무아 홈 꾸아.", "korean": "고마워요! 어제 새로 샀어요." },
+        { "vietnamese": "Đây là áo dài truyền thống Việt Nam.", "pronunciation": "더이 라 아오 자이 쭤엔 통 비엣 남.", "korean": "이건 베트남 전통 아오자이예요." },
+        { "vietnamese": "Vâng, tôi mua ở chợ Bến Thành.", "pronunciation": "벙, 또이 무아 어 쩌 벤 탄.", "korean": "네, 벤탄 시장에서 샀어요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Bạn thường mặc gì đi làm?", "pronunciation": "반 트엉 막 지 디 람?", "korean": "출근할 때 보통 뭘 입어요?" },
+        { "vietnamese": "Bạn thích phong cách gì?", "pronunciation": "반 틱 퐁 까익 지?", "korean": "어떤 스타일을 좋아해요?" },
+        { "vietnamese": "Màu nào hợp với tôi?", "pronunciation": "마우 나오 헙 버이 또이?", "korean": "어떤 색이 저한테 어울려요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Tôi thường mặc áo sơ mi và quần tây.", "pronunciation": "또이 트엉 막 아오 서 미 바 꾸언 떠이.", "korean": "보통 셔츠와 정장 바지를 입어요." },
+        { "vietnamese": "Tôi thích phong cách đơn giản và thoải mái.", "pronunciation": "또이 틱 퐁 까익 던 잔 바 토아이 마이.", "korean": "저는 심플하고 편한 스타일을 좋아해요." },
+        { "vietnamese": "Màu xanh rất hợp với bạn.", "pronunciation": "마우 싸잉 럿 헙 버이 반.", "korean": "파란색이 잘 어울려요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Người đó trông thế nào?", "pronunciation": "응으어이 도 쫑 테 나오?", "korean": "그 사람은 어떻게 생겼어요?" },
+        { "vietnamese": "Anh ấy cao hay thấp?", "pronunciation": "아잉 어이 까오 하이 텁?", "korean": "그는 키가 커요, 작아요?" },
+        { "vietnamese": "Chị ấy tóc dài hay ngắn?", "pronunciation": "찌 어이 톡 자이 하이 응언?", "korean": "그녀는 머리가 길어요, 짧아요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Anh ấy cao, tóc ngắn, mặc áo trắng.", "pronunciation": "아잉 어이 까오, 톡 응언, 막 아오 짱.", "korean": "그는 키가 크고 짧은 머리에 흰 옷을 입었어요." },
+        { "vietnamese": "Chị ấy tóc dài, mặc váy đỏ.", "pronunciation": "찌 어이 톡 자이, 막 바이 도.", "korean": "그녀는 긴 머리에 빨간 치마를 입었어요." },
+        { "vietnamese": "Anh ấy đeo kính, trông rất thông minh.", "pronunciation": "아잉 어이 데오 낑, 쫑 럿 통 밍.", "korean": "그는 안경을 쓰고 있고, 아주 똑똑해 보여요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "À, tôi biết người đó rồi!", "pronunciation": "아, 또이 비엣 응으어이 도 로이!", "korean": "아, 그 사람 알겠어요!" },
+        { "vietnamese": "Bạn miêu tả rất giỏi!", "pronunciation": "반 미에우 따 럿 조이!", "korean": "묘사를 아주 잘하네요!" },
+        { "vietnamese": "Cảm ơn, tôi nhận ra rồi.", "pronunciation": "깜 언, 또이 년 라 로이.", "korean": "고마워요, 알아봤어요." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "áo", "pronunciation": "아오", "korean": "윗옷, 상의" },
+    { "vietnamese": "quần", "pronunciation": "꾸언", "korean": "바지" },
+    { "vietnamese": "váy", "pronunciation": "바이", "korean": "치마" },
+    { "vietnamese": "áo dài", "pronunciation": "아오 자이", "korean": "아오자이 (전통 의상)" },
+    { "vietnamese": "đẹp", "pronunciation": "뎁", "korean": "예쁜, 아름다운" },
+    { "vietnamese": "cao", "pronunciation": "까오", "korean": "키가 큰" },
+    { "vietnamese": "tóc", "pronunciation": "톡", "korean": "머리카락" },
+    { "vietnamese": "mặc", "pronunciation": "막", "korean": "입다" }
+  ]
+}

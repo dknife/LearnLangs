@@ -1,0 +1,74 @@
+{
+  "level": 11,
+  "title": "감정 표현",
+  "titleVi": "Biểu đạt cảm xúc",
+  "description": "다양한 감정을 표현하는 베트남어를 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Hôm nay bạn có vui không?", "pronunciation": "홈 나이 반 꼬 부이 콩?", "korean": "오늘 기분 좋아요?" },
+        { "vietnamese": "Bạn trông có vẻ buồn. Có chuyện gì không?", "pronunciation": "반 쫑 꼬 베 부온. 꼬 쭤엔 지 콩?", "korean": "슬퍼 보여요. 무슨 일 있어요?" },
+        { "vietnamese": "Sao bạn trông mệt thế?", "pronunciation": "사오 반 쫑 멧 테?", "korean": "왜 이렇게 피곤해 보여요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Tôi rất vui vì hôm nay được nghỉ.", "pronunciation": "또이 럿 부이 비 홈 나이 드억 응이.", "korean": "오늘 쉬어서 아주 기뻐요." },
+        { "vietnamese": "Tôi hơi buồn vì nhớ nhà.", "pronunciation": "또이 허이 부온 비 녀 냐.", "korean": "집이 그리워서 좀 슬퍼요." },
+        { "vietnamese": "Tôi mệt vì làm việc nhiều quá.", "pronunciation": "또이 멧 비 람 비엑 니에우 꾸아.", "korean": "일을 너무 많이 해서 피곤해요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Tôi hiểu cảm giác đó. Đừng lo lắng.", "pronunciation": "또이 히에우 깜 작 도. 등 로 랑.", "korean": "그 기분 이해해요. 걱정하지 마세요." },
+        { "vietnamese": "Bạn có muốn nói chuyện không?", "pronunciation": "반 꼬 무온 노이 쭤엔 콩?", "korean": "이야기하고 싶어요?" },
+        { "vietnamese": "Tôi hy vọng bạn sẽ vui hơn.", "pronunciation": "또이 히 봉 반 세 부이 헌.", "korean": "기분이 나아지길 바라요." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Cảm ơn bạn. Tôi cảm thấy tốt hơn rồi.", "pronunciation": "깜 언 반. 또이 깜 터이 톳 헌 로이.", "korean": "고마워요. 좀 나아진 것 같아요." },
+        { "vietnamese": "Bạn thật tốt bụng. Cảm ơn nhiều.", "pronunciation": "반 턷 톳 붕. 깜 언 니에우.", "korean": "정말 마음이 따뜻하네요. 고마워요." },
+        { "vietnamese": "Nói chuyện với bạn làm tôi vui hơn.", "pronunciation": "노이 쭤엔 버이 반 람 또이 부이 헌.", "korean": "당신과 이야기하니까 기분이 좋아졌어요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Bạn có hay lo lắng không?", "pronunciation": "반 꼬 하이 로 랑 콩?", "korean": "자주 걱정해요?" },
+        { "vietnamese": "Khi nào bạn cảm thấy hạnh phúc nhất?", "pronunciation": "키 나오 반 깜 터이 한 푹 녓?", "korean": "언제 가장 행복해요?" },
+        { "vietnamese": "Bạn làm gì khi buồn?", "pronunciation": "반 람 지 키 부온?", "korean": "슬플 때 뭐 해요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Thỉnh thoảng tôi lo lắng về công việc.", "pronunciation": "틴 토앙 또이 로 랑 베 꽁 비엑.", "korean": "가끔 일에 대해 걱정해요." },
+        { "vietnamese": "Khi ở bên gia đình, tôi hạnh phúc nhất.", "pronunciation": "키 어 벤 자 딩, 또이 한 푹 녓.", "korean": "가족과 함께 있을 때 가장 행복해요." },
+        { "vietnamese": "Khi buồn tôi nghe nhạc hoặc đi dạo.", "pronunciation": "키 부온 또이 응에 냑 혹 디 자오.", "korean": "슬플 때 음악을 듣거나 산책해요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Chúc bạn luôn vui vẻ và hạnh phúc!", "pronunciation": "쭉 반 루온 부이 베 바 한 푹!", "korean": "항상 즐겁고 행복하길 바랍니다!" },
+        { "vietnamese": "Cùng nhau vui vẻ nhé!", "pronunciation": "꿍 냐우 부이 베 녜!", "korean": "함께 즐거운 시간 보내요!" },
+        { "vietnamese": "Hy vọng ngày mai sẽ tốt hơn.", "pronunciation": "히 봉 응아이 마이 세 톳 헌.", "korean": "내일은 더 좋은 날이 되길 바라요." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "vui", "pronunciation": "부이", "korean": "기쁜, 즐거운" },
+    { "vietnamese": "buồn", "pronunciation": "부온", "korean": "슬픈" },
+    { "vietnamese": "giận", "pronunciation": "전", "korean": "화난" },
+    { "vietnamese": "lo lắng", "pronunciation": "로 랑", "korean": "걱정하다" },
+    { "vietnamese": "hạnh phúc", "pronunciation": "한 푹", "korean": "행복한" },
+    { "vietnamese": "mệt", "pronunciation": "멧", "korean": "피곤한" },
+    { "vietnamese": "sợ", "pronunciation": "서", "korean": "무서운, 두려운" },
+    { "vietnamese": "cảm xúc", "pronunciation": "깜 쑥", "korean": "감정" }
+  ]
+}

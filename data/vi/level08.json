@@ -1,0 +1,74 @@
+{
+  "level": 8,
+  "title": "시간 표현",
+  "titleVi": "Cách nói giờ",
+  "description": "시간을 묻고 표현하는 베트남어를 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Bây giờ là mấy giờ?", "pronunciation": "버이 저 라 머이 저?", "korean": "지금 몇 시예요?" },
+        { "vietnamese": "Xin lỗi, bạn có đồng hồ không?", "pronunciation": "신 로이, 반 꼬 동 호 콩?", "korean": "실례합니다, 시계 있으세요?" },
+        { "vietnamese": "Mấy giờ rồi bạn?", "pronunciation": "머이 저 로이 반?", "korean": "몇 시야?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Bây giờ là chín giờ sáng.", "pronunciation": "버이 저 라 찐 저 상.", "korean": "지금 아침 9시예요." },
+        { "vietnamese": "Hai giờ rưỡi chiều.", "pronunciation": "하이 저 르어이 찌에우.", "korean": "오후 2시 반이에요." },
+        { "vietnamese": "Mười một giờ mười lăm phút.", "pronunciation": "므어이 못 저 므어이 럼 풋.", "korean": "11시 15분이에요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Cửa hàng mở cửa lúc mấy giờ?", "pronunciation": "끄어 항 머 끄어 룩 머이 저?", "korean": "가게가 몇 시에 열어요?" },
+        { "vietnamese": "Bảo tàng đóng cửa lúc mấy giờ?", "pronunciation": "바오 탕 동 끄어 룩 머이 저?", "korean": "박물관은 몇 시에 닫아요?" },
+        { "vietnamese": "Buổi biểu diễn bắt đầu lúc mấy giờ?", "pronunciation": "부오이 비에우 지엔 밧 더우 룩 머이 저?", "korean": "공연이 몇 시에 시작해요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Cửa hàng mở cửa lúc tám giờ sáng.", "pronunciation": "끄어 항 머 끄어 룩 땀 저 상.", "korean": "가게는 아침 8시에 열어요." },
+        { "vietnamese": "Bảo tàng đóng cửa lúc năm giờ chiều.", "pronunciation": "바오 탕 동 끄어 룩 남 저 찌에우.", "korean": "박물관은 오후 5시에 닫아요." },
+        { "vietnamese": "Buổi biểu diễn bắt đầu lúc bảy giờ tối.", "pronunciation": "부오이 비에우 지엔 밧 더우 룩 바이 저 또이.", "korean": "공연은 저녁 7시에 시작해요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Tôi phải đến trước mấy giờ?", "pronunciation": "또이 파이 덴 쯔억 머이 저?", "korean": "몇 시까지 도착해야 해요?" },
+        { "vietnamese": "Cuộc họp mấy giờ bắt đầu?", "pronunciation": "꾸옥 홉 머이 저 밧 더우?", "korean": "회의 몇 시에 시작해요?" },
+        { "vietnamese": "Chúng ta hẹn mấy giờ?", "pronunciation": "쭝 따 헨 머이 저?", "korean": "몇 시에 만날까요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Trước chín giờ nhé.", "pronunciation": "쯔억 찐 저 녜.", "korean": "9시 전에요." },
+        { "vietnamese": "Cuộc họp lúc mười giờ.", "pronunciation": "꾸옥 홉 룩 므어이 저.", "korean": "회의는 10시에요." },
+        { "vietnamese": "Hẹn sáu giờ chiều ở quán cà phê.", "pronunciation": "헨 사우 저 찌에우 어 꾸안 까 페.", "korean": "오후 6시에 카페에서 만나요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Được rồi, tôi sẽ đến đúng giờ.", "pronunciation": "드억 로이, 또이 세 덴 둥 저.", "korean": "알겠어요, 정시에 갈게요." },
+        { "vietnamese": "Tốt, tôi sẽ không đến trễ.", "pronunciation": "톳, 또이 세 콩 덴 쩨.", "korean": "좋아요, 늦지 않을게요." },
+        { "vietnamese": "Vâng, hẹn gặp lúc đó nhé.", "pronunciation": "벙, 헨 갑 룩 도 녜.", "korean": "네, 그때 만나요." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "giờ", "pronunciation": "저", "korean": "시" },
+    { "vietnamese": "phút", "pronunciation": "풋", "korean": "분" },
+    { "vietnamese": "sáng", "pronunciation": "상", "korean": "아침" },
+    { "vietnamese": "chiều", "pronunciation": "찌에우", "korean": "오후" },
+    { "vietnamese": "tối", "pronunciation": "또이", "korean": "저녁" },
+    { "vietnamese": "rưỡi", "pronunciation": "르어이", "korean": "반 (30분)" },
+    { "vietnamese": "đúng giờ", "pronunciation": "둥 저", "korean": "정시에" },
+    { "vietnamese": "trễ", "pronunciation": "쩨", "korean": "늦은" }
+  ]
+}

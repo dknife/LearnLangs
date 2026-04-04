@@ -1,0 +1,74 @@
+{
+  "level": 20,
+  "title": "호텔 체크인/아웃",
+  "titleVi": "Nhận phòng / Trả phòng khách sạn",
+  "description": "호텔 체크인과 체크아웃 시 사용하는 베트남어 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Tôi đã đặt phòng trước. Tên là Kim.", "pronunciation": "또이 다 닷 퐁 쯔억. 뗀 라 킴.", "korean": "미리 예약했어요. 이름은 김입니다." },
+        { "vietnamese": "Còn phòng trống không?", "pronunciation": "꼰 퐁 쫑 콩?", "korean": "빈 방 있나요?" },
+        { "vietnamese": "Tôi muốn đặt phòng cho hai đêm.", "pronunciation": "또이 무온 닷 퐁 쪼 하이 뎀.", "korean": "2박으로 방을 예약하고 싶어요." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Vâng, tôi tìm thấy rồi. Phòng 305, tầng ba.", "pronunciation": "벙, 또이 띰 터이 로이. 퐁 바 콩 남, 떵 바.", "korean": "네, 확인됐습니다. 305호, 3층이에요." },
+        { "vietnamese": "Vâng, có phòng đôi và phòng đơn.", "pronunciation": "벙, 꼬 퐁 도이 바 퐁 던.", "korean": "네, 더블룸과 싱글룸이 있어요." },
+        { "vietnamese": "Được ạ. Xin cho xem hộ chiếu.", "pronunciation": "드억 아. 신 쪼 쎔 호 찌에우.", "korean": "네. 여권을 보여주세요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Phòng có bao gồm bữa sáng không?", "pronunciation": "퐁 꼬 바오 곰 브어 상 콩?", "korean": "조식 포함인가요?" },
+        { "vietnamese": "Wifi mật khẩu là gì?", "pronunciation": "와이파이 먿 커우 라 지?", "korean": "와이파이 비밀번호가 뭐예요?" },
+        { "vietnamese": "Giá phòng một đêm bao nhiêu?", "pronunciation": "자 퐁 못 뎀 바오 니에우?", "korean": "1박에 얼마예요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Vâng, bao gồm bữa sáng từ sáu đến chín giờ.", "pronunciation": "벙, 바오 곰 브어 상 뜨 사우 덴 찐 저.", "korean": "네, 6시부터 9시까지 조식 포함입니다." },
+        { "vietnamese": "Mật khẩu wifi ở trên bàn trong phòng.", "pronunciation": "먿 커우 와이파이 어 쩬 반 쫑 퐁.", "korean": "와이파이 비밀번호는 방 안 테이블 위에 있어요." },
+        { "vietnamese": "Phòng đôi một triệu đồng một đêm.", "pronunciation": "퐁 도이 못 찌에우 동 못 뎀.", "korean": "더블룸은 1박에 100만 동입니다." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Máy lạnh trong phòng bị hỏng.", "pronunciation": "마이 란 쫑 퐁 비 홍.", "korean": "방 에어컨이 고장났어요." },
+        { "vietnamese": "Cho tôi thêm một cái khăn tắm.", "pronunciation": "쪼 또이 템 못 까이 컨 떰.", "korean": "수건 하나 더 주세요." },
+        { "vietnamese": "Phòng tôi chưa được dọn.", "pronunciation": "퐁 또이 쯔어 드억 존.", "korean": "제 방이 아직 청소가 안 됐어요." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Xin lỗi, tôi sẽ cho người sửa ngay.", "pronunciation": "신 로이, 또이 세 쪼 응으어이 스어 응아이.", "korean": "죄송합니다, 바로 수리 보내드리겠습니다." },
+        { "vietnamese": "Vâng, tôi mang lên ngay ạ.", "pronunciation": "벙, 또이 망 렌 응아이 아.", "korean": "네, 바로 가져다 드리겠습니다." },
+        { "vietnamese": "Xin lỗi, tôi sẽ cho dọn phòng ngay.", "pronunciation": "신 로이, 또이 세 쪼 존 퐁 응아이.", "korean": "죄송합니다, 바로 청소하겠습니다." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Tôi muốn trả phòng. Tính tiền cho tôi.", "pronunciation": "또이 무온 짜 퐁. 띤 띠엔 쪼 또이.", "korean": "체크아웃하려고요. 계산해 주세요." },
+        { "vietnamese": "Tôi có thể trả phòng trễ được không?", "pronunciation": "또이 꼬 테 짜 퐁 쩨 드억 콩?", "korean": "늦게 체크아웃할 수 있나요?" },
+        { "vietnamese": "Cảm ơn, tôi rất hài lòng với dịch vụ.", "pronunciation": "깜 언, 또이 럿 하이 롱 버이 직 부.", "korean": "감사합니다, 서비스에 매우 만족했어요." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "khách sạn", "pronunciation": "칵 산", "korean": "호텔" },
+    { "vietnamese": "đặt phòng", "pronunciation": "닷 퐁", "korean": "방 예약" },
+    { "vietnamese": "nhận phòng", "pronunciation": "년 퐁", "korean": "체크인" },
+    { "vietnamese": "trả phòng", "pronunciation": "짜 퐁", "korean": "체크아웃" },
+    { "vietnamese": "phòng đôi", "pronunciation": "퐁 도이", "korean": "더블룸" },
+    { "vietnamese": "phòng đơn", "pronunciation": "퐁 던", "korean": "싱글룸" },
+    { "vietnamese": "bữa sáng", "pronunciation": "브어 상", "korean": "아침 식사" },
+    { "vietnamese": "dịch vụ", "pronunciation": "직 부", "korean": "서비스" }
+  ]
+}

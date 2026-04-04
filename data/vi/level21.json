@@ -1,0 +1,74 @@
+{
+  "level": 21,
+  "title": "관광 & 사진",
+  "titleVi": "Du lịch & Chụp ảnh",
+  "description": "관광과 사진 촬영에 관한 베트남어 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Ở đây có gì đáng xem?", "pronunciation": "어 더이 꼬 지 당 쎔?", "korean": "여기에 볼 만한 곳이 있나요?" },
+        { "vietnamese": "Bạn giới thiệu cho tôi nơi nào đẹp.", "pronunciation": "반 저이 티에우 쪼 또이 너이 나오 뎁.", "korean": "예쁜 곳을 추천해 주세요." },
+        { "vietnamese": "Tour tham quan một ngày giá bao nhiêu?", "pronunciation": "투어 탐 꾸안 못 응아이 자 바오 니에우?", "korean": "1일 관광 투어 가격이 얼마예요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Bạn nên đi thăm Nhà thờ Đức Bà và Bưu điện.", "pronunciation": "반 넨 디 탐 냐 터 득 바 바 브우 디엔.", "korean": "노트르담 성당과 우체국에 가보세요." },
+        { "vietnamese": "Phố cổ Hội An rất đẹp, nhất là ban đêm.", "pronunciation": "포 꼬 호이 안 럿 뎁, 녓 라 반 뎀.", "korean": "호이안 구시가가 아주 아름다워요, 특히 밤에요." },
+        { "vietnamese": "Tour nửa ngày năm trăm nghìn đồng.", "pronunciation": "투어 느어 응아이 남 짬 응인 동.", "korean": "반나절 투어는 50만 동이에요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Cho tôi chụp ảnh ở đây được không?", "pronunciation": "쪼 또이 쭙 아잉 어 더이 드억 콩?", "korean": "여기서 사진 찍어도 되나요?" },
+        { "vietnamese": "Bạn có thể chụp ảnh giúp tôi không?", "pronunciation": "반 꼬 테 쭙 아잉 줍 또이 콩?", "korean": "사진 좀 찍어줄 수 있어요?" },
+        { "vietnamese": "Mình chụp ảnh chung nhé!", "pronunciation": "밍 쭙 아잉 쭝 녜!", "korean": "같이 사진 찍어요!" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Được, chụp thoải mái.", "pronunciation": "드억, 쭙 토아이 마이.", "korean": "네, 마음껏 찍으세요." },
+        { "vietnamese": "Được chứ! Đứng ở đây, tôi chụp cho.", "pronunciation": "드억 쯔! 등 어 더이, 또이 쭙 쪼.", "korean": "물론이죠! 여기 서세요, 제가 찍어줄게요." },
+        { "vietnamese": "Tốt quá! Một, hai, ba, cười lên!", "pronunciation": "톳 꾸아! 못, 하이, 바, 끄어이 렌!", "korean": "좋아요! 하나, 둘, 셋, 웃으세요!" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Cảnh ở đây đẹp quá!", "pronunciation": "깐 어 더이 뎁 꾸아!", "korean": "여기 경치가 너무 아름다워요!" },
+        { "vietnamese": "Khu phố này rất thú vị.", "pronunciation": "쿠 포 나이 럿 투 비.", "korean": "이 거리가 아주 흥미로워요." },
+        { "vietnamese": "Tôi muốn mua quà lưu niệm.", "pronunciation": "또이 무온 무아 꾸아 르우 니엠.", "korean": "기념품을 사고 싶어요." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Đúng rồi, nơi này rất nổi tiếng.", "pronunciation": "둥 로이, 너이 나이 럿 노이 띠엥.", "korean": "맞아요, 여기는 아주 유명해요." },
+        { "vietnamese": "Bạn nên đi vào buổi chiều, ánh sáng đẹp hơn.", "pronunciation": "반 넨 디 바오 부오이 찌에우, 아잉 상 뎁 헌.", "korean": "오후에 오세요, 빛이 더 예뻐요." },
+        { "vietnamese": "Ở chợ đêm có nhiều quà lưu niệm đẹp.", "pronunciation": "어 쩌 뎀 꼬 니에우 꾸아 르우 니엠 뎁.", "korean": "야시장에 예쁜 기념품이 많아요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Cảm ơn bạn, chuyến đi rất vui!", "pronunciation": "깜 언 반, 쭤엔 디 럿 부이!", "korean": "고마워요, 여행이 아주 즐거웠어요!" },
+        { "vietnamese": "Tôi sẽ quay lại Việt Nam.", "pronunciation": "또이 세 꾸아이 라이 비엣 남.", "korean": "베트남에 다시 올게요." },
+        { "vietnamese": "Ảnh chụp đẹp lắm. Cảm ơn nhé!", "pronunciation": "아잉 쭙 뎁 럼. 깜 언 녜!", "korean": "사진이 잘 나왔어요. 고마워요!" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "du lịch", "pronunciation": "주 릭", "korean": "관광, 여행" },
+    { "vietnamese": "chụp ảnh", "pronunciation": "쭙 아잉", "korean": "사진 찍다" },
+    { "vietnamese": "cảnh đẹp", "pronunciation": "깐 뎁", "korean": "아름다운 경치" },
+    { "vietnamese": "tham quan", "pronunciation": "탐 꾸안", "korean": "관광하다" },
+    { "vietnamese": "nổi tiếng", "pronunciation": "노이 띠엥", "korean": "유명한" },
+    { "vietnamese": "quà lưu niệm", "pronunciation": "꾸아 르우 니엠", "korean": "기념품" },
+    { "vietnamese": "phố cổ", "pronunciation": "포 꼬", "korean": "구시가, 올드타운" },
+    { "vietnamese": "chợ đêm", "pronunciation": "쩌 뎀", "korean": "야시장" }
+  ]
+}

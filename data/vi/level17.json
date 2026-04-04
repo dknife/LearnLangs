@@ -1,0 +1,74 @@
+{
+  "level": 17,
+  "title": "은행 & 환전",
+  "titleVi": "Ngân hàng & Đổi tiền",
+  "description": "은행 업무와 환전에 필요한 베트남어 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Tôi muốn đổi tiền. Tỷ giá hôm nay bao nhiêu?", "pronunciation": "또이 무온 도이 띠엔. 띠 자 홈 나이 바오 니에우?", "korean": "환전하고 싶어요. 오늘 환율이 얼마예요?" },
+        { "vietnamese": "Cho tôi đổi đô la sang tiền Việt.", "pronunciation": "쪼 또이 도이 도 라 상 띠엔 비엣.", "korean": "달러를 베트남 동으로 환전해 주세요." },
+        { "vietnamese": "Tôi muốn đổi won Hàn Quốc.", "pronunciation": "또이 무온 도이 원 한 꾸옥.", "korean": "한국 원화를 환전하고 싶어요." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Hôm nay một đô la bằng hai mươi ba nghìn đồng.", "pronunciation": "홈 나이 못 도 라 방 하이 므어이 바 응인 동.", "korean": "오늘 1달러는 2만 3천 동입니다." },
+        { "vietnamese": "Anh muốn đổi bao nhiêu?", "pronunciation": "아잉 무온 도이 바오 니에우?", "korean": "얼마나 환전하시겠어요?" },
+        { "vietnamese": "Xin anh cho xem hộ chiếu.", "pronunciation": "신 아잉 쪼 쎔 호 찌에우.", "korean": "여권을 보여주세요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Tôi muốn đổi năm trăm đô la.", "pronunciation": "또이 무온 도이 남 짬 도 라.", "korean": "500달러를 환전하고 싶어요." },
+        { "vietnamese": "Cho tôi đổi một triệu won.", "pronunciation": "쪼 또이 도이 못 찌에우 원.", "korean": "100만 원을 환전해 주세요." },
+        { "vietnamese": "Có phí đổi tiền không?", "pronunciation": "꼬 피 도이 띠엔 콩?", "korean": "환전 수수료가 있나요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Vâng, tổng cộng là mười một triệu năm trăm nghìn đồng.", "pronunciation": "벙, 통 꽁 라 므어이 못 찌에우 남 짬 응인 동.", "korean": "네, 총 1,150만 동입니다." },
+        { "vietnamese": "Không có phí ạ. Anh đếm lại tiền nhé.", "pronunciation": "콩 꼬 피 아. 아잉 뎀 라이 띠엔 녜.", "korean": "수수료 없습니다. 돈을 확인해 주세요." },
+        { "vietnamese": "Phí đổi tiền là một phần trăm.", "pronunciation": "피 도이 띠엔 라 못 펀 짬.", "korean": "환전 수수료는 1%입니다." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Tôi muốn mở tài khoản ngân hàng.", "pronunciation": "또이 무온 머 따이 코안 응언 항.", "korean": "은행 계좌를 개설하고 싶어요." },
+        { "vietnamese": "Tôi muốn gửi tiền vào tài khoản.", "pronunciation": "또이 무온 그이 띠엔 바오 따이 코안.", "korean": "계좌에 입금하고 싶어요." },
+        { "vietnamese": "Tôi muốn rút tiền.", "pronunciation": "또이 무온 룻 띠엔.", "korean": "출금하고 싶어요." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Anh cần hộ chiếu và điền vào mẫu đơn này.", "pronunciation": "아잉 건 호 찌에우 바 디엔 바오 머우 던 나이.", "korean": "여권이 필요하고 이 양식을 작성해 주세요." },
+        { "vietnamese": "Anh muốn gửi bao nhiêu?", "pronunciation": "아잉 무온 그이 바오 니에우?", "korean": "얼마를 입금하시겠어요?" },
+        { "vietnamese": "Anh rút bao nhiêu? Xin ký tên ở đây.", "pronunciation": "아잉 룻 바오 니에우? 신 끼 뗀 어 더이.", "korean": "얼마를 출금하시겠어요? 여기 서명해 주세요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Cảm ơn. Xin cho tôi biên lai.", "pronunciation": "깜 언. 신 쪼 또이 비엔 라이.", "korean": "감사해요. 영수증 주세요." },
+        { "vietnamese": "Vâng, tôi đã hiểu. Cảm ơn nhiều.", "pronunciation": "벙, 또이 다 히에우. 깜 언 니에우.", "korean": "네, 알겠어요. 감사합니다." },
+        { "vietnamese": "ATM gần nhất ở đâu?", "pronunciation": "에이티엠 건 녓 어 더우?", "korean": "가장 가까운 ATM이 어디에 있나요?" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "ngân hàng", "pronunciation": "응언 항", "korean": "은행" },
+    { "vietnamese": "đổi tiền", "pronunciation": "도이 띠엔", "korean": "환전하다" },
+    { "vietnamese": "tỷ giá", "pronunciation": "띠 자", "korean": "환율" },
+    { "vietnamese": "tài khoản", "pronunciation": "따이 코안", "korean": "계좌" },
+    { "vietnamese": "gửi tiền", "pronunciation": "그이 띠엔", "korean": "입금하다" },
+    { "vietnamese": "rút tiền", "pronunciation": "룻 띠엔", "korean": "출금하다" },
+    { "vietnamese": "hộ chiếu", "pronunciation": "호 찌에우", "korean": "여권" },
+    { "vietnamese": "biên lai", "pronunciation": "비엔 라이", "korean": "영수증" }
+  ]
+}

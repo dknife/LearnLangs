@@ -1,0 +1,74 @@
+{
+  "level": 2,
+  "title": "숫자 & 날짜",
+  "titleVi": "Số & Ngày tháng",
+  "description": "베트남어 숫자와 날짜 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Hôm nay là ngày bao nhiêu?", "pronunciation": "홈 나이 라 응아이 바오 니에우?", "korean": "오늘 며칠이에요?" },
+        { "vietnamese": "Hôm nay là thứ mấy?", "pronunciation": "홈 나이 라 트 머이?", "korean": "오늘 무슨 요일이에요?" },
+        { "vietnamese": "Hôm nay ngày mấy rồi?", "pronunciation": "홈 나이 응아이 머이 로이?", "korean": "오늘이 벌써 며칠이죠?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Hôm nay là ngày mười lăm tháng ba.", "pronunciation": "홈 나이 라 응아이 므어이 럼 탕 바.", "korean": "오늘은 3월 15일입니다." },
+        { "vietnamese": "Hôm nay là thứ hai.", "pronunciation": "홈 나이 라 트 하이.", "korean": "오늘은 월요일입니다." },
+        { "vietnamese": "Hôm nay là ngày hai mươi tháng năm.", "pronunciation": "홈 나이 라 응아이 하이 므어이 탕 남.", "korean": "오늘은 5월 20일입니다." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Cái này giá bao nhiêu?", "pronunciation": "까이 나이 자 바오 니에우?", "korean": "이것은 얼마예요?" },
+        { "vietnamese": "Tổng cộng bao nhiêu tiền?", "pronunciation": "통 꽁 바오 니에우 띠엔?", "korean": "전부 얼마예요?" },
+        { "vietnamese": "Giá tiền là bao nhiêu?", "pronunciation": "자 띠엔 라 바오 니에우?", "korean": "가격이 얼마예요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Năm mươi nghìn đồng.", "pronunciation": "남 므어이 응인 동.", "korean": "5만 동입니다." },
+        { "vietnamese": "Một trăm nghìn đồng.", "pronunciation": "못 짬 응인 동.", "korean": "10만 동입니다." },
+        { "vietnamese": "Hai trăm năm mươi nghìn đồng.", "pronunciation": "하이 짬 남 므어이 응인 동.", "korean": "25만 동입니다." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Sinh nhật bạn là ngày nào?", "pronunciation": "싱 녓 반 라 응아이 나오?", "korean": "생일이 언제예요?" },
+        { "vietnamese": "Bạn sinh ngày nào?", "pronunciation": "반 싱 응아이 나오?", "korean": "생일이 며칠이에요?" },
+        { "vietnamese": "Sinh nhật bạn tháng mấy?", "pronunciation": "싱 녓 반 탕 머이?", "korean": "생일이 몇 월이에요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Sinh nhật tôi là ngày mười tháng mười.", "pronunciation": "싱 녓 또이 라 응아이 므어이 탕 므어이.", "korean": "제 생일은 10월 10일입니다." },
+        { "vietnamese": "Tôi sinh ngày năm tháng một.", "pronunciation": "또이 싱 응아이 남 탕 못.", "korean": "저는 1월 5일에 태어났어요." },
+        { "vietnamese": "Sinh nhật tôi tháng bảy.", "pronunciation": "싱 녓 또이 탕 바이.", "korean": "제 생일은 7월이에요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Cảm ơn bạn! Tôi hiểu rồi.", "pronunciation": "깜 언 반! 또이 히에우 로이.", "korean": "고마워요! 이해했어요." },
+        { "vietnamese": "À, tôi biết rồi. Cảm ơn nhé.", "pronunciation": "아, 또이 비엣 로이. 깜 언 녜.", "korean": "아, 알겠어요. 고마워요." },
+        { "vietnamese": "Vâng, tôi nhớ rồi. Cảm ơn bạn.", "pronunciation": "벙, 또이 녀 로이. 깜 언 반.", "korean": "네, 기억했어요. 고마워요." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "số", "pronunciation": "소", "korean": "숫자" },
+    { "vietnamese": "ngày", "pronunciation": "응아이", "korean": "날, 일" },
+    { "vietnamese": "tháng", "pronunciation": "탕", "korean": "월" },
+    { "vietnamese": "năm", "pronunciation": "남", "korean": "년, 다섯" },
+    { "vietnamese": "tiền", "pronunciation": "띠엔", "korean": "돈" },
+    { "vietnamese": "nghìn", "pronunciation": "응인", "korean": "천" },
+    { "vietnamese": "trăm", "pronunciation": "짬", "korean": "백" },
+    { "vietnamese": "sinh nhật", "pronunciation": "싱 녓", "korean": "생일" }
+  ]
+}

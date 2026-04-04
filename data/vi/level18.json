@@ -1,0 +1,74 @@
+{
+  "level": 18,
+  "title": "병원 & 약국",
+  "titleVi": "Bệnh viện & Nhà thuốc",
+  "description": "병원과 약국에서 사용하는 베트남어 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Tôi bị đau đầu từ sáng.", "pronunciation": "또이 비 다우 더우 뜨 상.", "korean": "아침부터 두통이 있어요." },
+        { "vietnamese": "Tôi bị sốt và đau họng.", "pronunciation": "또이 비 솟 바 다우 홍.", "korean": "열이 나고 목이 아파요." },
+        { "vietnamese": "Tôi cảm thấy không khỏe.", "pronunciation": "또이 깜 터이 콩 쾨.", "korean": "몸이 안 좋아요." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Anh bị đau từ bao giờ?", "pronunciation": "아잉 비 다우 뜨 바오 저?", "korean": "언제부터 아프셨어요?" },
+        { "vietnamese": "Để tôi khám cho anh. Ngồi xuống đây.", "pronunciation": "데 또이 캄 쪼 아잉. 응오이 쑤옹 더이.", "korean": "진찰해 드릴게요. 여기 앉으세요." },
+        { "vietnamese": "Anh có dị ứng thuốc gì không?", "pronunciation": "아잉 꼬 지 응 투옥 지 콩?", "korean": "약물 알레르기가 있으세요?" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Từ hôm qua. Đau nhiều lắm.", "pronunciation": "뜨 홈 꾸아. 다우 니에우 럼.", "korean": "어제부터요. 많이 아파요." },
+        { "vietnamese": "Tôi bị đau bụng và buồn nôn.", "pronunciation": "또이 비 다우 붕 바 부온 논.", "korean": "배가 아프고 메스꺼워요." },
+        { "vietnamese": "Không, tôi không dị ứng gì.", "pronunciation": "콩, 또이 콩 지 응 지.", "korean": "아니요, 알레르기 없어요." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Anh bị cảm cúm. Cần nghỉ ngơi và uống nhiều nước.", "pronunciation": "아잉 비 깜 꿈. 건 응이 응어이 바 우옹 니에우 느억.", "korean": "감기에 걸리셨어요. 쉬시고 물을 많이 드세요." },
+        { "vietnamese": "Tôi sẽ kê đơn thuốc cho anh.", "pronunciation": "또이 세 게 던 투옥 쪼 아잉.", "korean": "처방전을 써드릴게요." },
+        { "vietnamese": "Anh nên đi xét nghiệm máu.", "pronunciation": "아잉 넨 디 쎗 응이엠 마우.", "korean": "혈액 검사를 받으셔야 해요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Cho tôi mua thuốc theo đơn này.", "pronunciation": "쪼 또이 무아 투옥 테오 던 나이.", "korean": "이 처방전대로 약을 주세요." },
+        { "vietnamese": "Có thuốc giảm đau không?", "pronunciation": "꼬 투옥 잠 다우 콩?", "korean": "진통제 있나요?" },
+        { "vietnamese": "Thuốc này uống ngày mấy lần?", "pronunciation": "투옥 나이 우옹 응아이 머이 런?", "korean": "이 약은 하루에 몇 번 먹어요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Uống ngày ba lần, sau khi ăn.", "pronunciation": "우옹 응아이 바 런, 사우 키 안.", "korean": "하루 세 번, 식후에 드세요." },
+        { "vietnamese": "Đây là thuốc giảm đau. Uống hai viên một lần.", "pronunciation": "더이 라 투옥 잠 다우. 우옹 하이 비엔 못 런.", "korean": "이건 진통제예요. 한 번에 두 알 드세요." },
+        { "vietnamese": "Nếu không đỡ thì quay lại khám nhé.", "pronunciation": "네우 콩 더 티 꾸아이 라이 캄 녜.", "korean": "낫지 않으면 다시 진찰받으러 오세요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Cảm ơn bác sĩ. Tổng cộng bao nhiêu tiền?", "pronunciation": "깜 언 박 시. 통 꽁 바오 니에우 띠엔?", "korean": "감사합니다 선생님. 전부 얼마예요?" },
+        { "vietnamese": "Vâng, tôi sẽ uống thuốc đầy đủ.", "pronunciation": "벙, 또이 세 우옹 투옥 더이 두.", "korean": "네, 약을 잘 챙겨 먹을게요." },
+        { "vietnamese": "Cảm ơn nhiều. Tôi sẽ nghỉ ngơi.", "pronunciation": "깜 언 니에우. 또이 세 응이 응어이.", "korean": "감사합니다. 푹 쉴게요." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "bệnh viện", "pronunciation": "벵 비엔", "korean": "병원" },
+    { "vietnamese": "nhà thuốc", "pronunciation": "냐 투옥", "korean": "약국" },
+    { "vietnamese": "bác sĩ", "pronunciation": "박 시", "korean": "의사" },
+    { "vietnamese": "thuốc", "pronunciation": "투옥", "korean": "약" },
+    { "vietnamese": "đau", "pronunciation": "다우", "korean": "아프다" },
+    { "vietnamese": "sốt", "pronunciation": "솟", "korean": "열" },
+    { "vietnamese": "đơn thuốc", "pronunciation": "던 투옥", "korean": "처방전" },
+    { "vietnamese": "nghỉ ngơi", "pronunciation": "응이 응어이", "korean": "쉬다" }
+  ]
+}

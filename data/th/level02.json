@@ -1,0 +1,74 @@
+{
+  "level": 2,
+  "title": "숫자 & 날짜",
+  "titleTh": "ตัวเลขและวันที่",
+  "description": "태국어 숫자와 날짜 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "วันนี้วันที่เท่าไหร่ครับ", "pronunciation": "완니 완티 타오라이 크랍", "korean": "오늘 몇 일이에요?" },
+        { "thai": "วันนี้วันอะไรคะ", "pronunciation": "완니 완 아라이 카", "korean": "오늘 무슨 요일이에요?" },
+        { "thai": "วันนี้เดือนอะไรครับ", "pronunciation": "완니 드안 아라이 크랍", "korean": "오늘 몇 월이에요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "thai": "วันนี้วันที่สิบห้าครับ", "pronunciation": "완니 완티 씹하 크랍", "korean": "오늘은 15일입니다." },
+        { "thai": "วันนี้วันจันทร์ค่ะ", "pronunciation": "완니 완 짠 카", "korean": "오늘은 월요일이에요." },
+        { "thai": "เดือนมกราคมครับ", "pronunciation": "드안 모까라콤 크랍", "korean": "1월입니다." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "นี่ราคาเท่าไหร่ครับ", "pronunciation": "니 라카 타오라이 크랍", "korean": "이거 가격이 얼마예요?" },
+        { "thai": "อันนี้กี่บาทคะ", "pronunciation": "안니 기 밧 카", "korean": "이것은 몇 바트예요?" },
+        { "thai": "ทั้งหมดเท่าไหร่ครับ", "pronunciation": "탕못 타오라이 크랍", "korean": "전부 얼마예요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "thai": "สามร้อยห้าสิบบาทครับ", "pronunciation": "삼 로이 하 씹 밧 크랍", "korean": "350바트입니다." },
+        { "thai": "ร้อยยี่สิบบาทค่ะ", "pronunciation": "로이 이씹 밧 카", "korean": "120바트예요." },
+        { "thai": "พันห้าร้อยบาทครับ", "pronunciation": "판 하 로이 밧 크랍", "korean": "1,500바트입니다." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "คุณเกิดวันที่เท่าไหร่ครับ", "pronunciation": "쿤 끗 완티 타오라이 크랍", "korean": "생일이 언제예요?" },
+        { "thai": "คุณอายุเท่าไหร่คะ", "pronunciation": "쿤 아유 타오라이 카", "korean": "나이가 어떻게 되세요?" },
+        { "thai": "คุณเกิดปีอะไรครับ", "pronunciation": "쿤 끗 삐 아라이 크랍", "korean": "몇 년생이에요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "thai": "ผมเกิดวันที่ยี่สิบเอ็ดมีนาคมครับ", "pronunciation": "폼 끗 완티 이씹엣 미나콤 크랍", "korean": "저는 3월 21일에 태어났어요." },
+        { "thai": "ดิฉันอายุยี่สิบห้าปีค่ะ", "pronunciation": "디찬 아유 이씹하 삐 카", "korean": "저는 25살이에요." },
+        { "thai": "ผมเกิดปีสองพันครับ", "pronunciation": "폼 끗 삐 쏭판 크랍", "korean": "저는 2000년생이에요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "ขอบคุณครับ วันนี้ขอตัวก่อนนะครับ", "pronunciation": "컵쿤 크랍 완니 커 뚜어 꼰 나 크랍", "korean": "감사합니다, 오늘은 먼저 가볼게요." },
+        { "thai": "โอเค ขอบคุณค่ะ แล้วเจอกันนะคะ", "pronunciation": "오게 컵쿤 카 래오 저 깐 나 카", "korean": "네, 감사합니다. 또 만나요." },
+        { "thai": "ได้ครับ ขอบคุณมากครับ", "pronunciation": "다이 크랍 컵쿤 막 크랍", "korean": "네, 정말 감사합니다." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "thai": "วันนี้", "pronunciation": "완니", "korean": "오늘" },
+    { "thai": "เท่าไหร่", "pronunciation": "타오라이", "korean": "얼마" },
+    { "thai": "บาท", "pronunciation": "밧", "korean": "바트(태국 화폐)" },
+    { "thai": "ร้อย", "pronunciation": "로이", "korean": "백" },
+    { "thai": "พัน", "pronunciation": "판", "korean": "천" },
+    { "thai": "วัน", "pronunciation": "완", "korean": "날/요일" },
+    { "thai": "เดือน", "pronunciation": "드안", "korean": "월/달" },
+    { "thai": "อายุ", "pronunciation": "아유", "korean": "나이" }
+  ]
+}

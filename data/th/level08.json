@@ -1,0 +1,74 @@
+{
+  "level": 8,
+  "title": "시간 표현",
+  "titleTh": "การบอกเวลา",
+  "description": "태국어로 시간을 묻고 답하는 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "ตอนนี้กี่โมงครับ", "pronunciation": "떤니 기 몽 크랍", "korean": "지금 몇 시예요?" },
+        { "thai": "เวลาเท่าไหร่แล้วคะ", "pronunciation": "웨라 타오라이 래오 카", "korean": "몇 시가 됐어요?" },
+        { "thai": "ขอโทษครับ ช่วยบอกเวลาหน่อยได้ไหมครับ", "pronunciation": "커톳 크랍 추아이 벅 웨라 노이 다이 마이 크랍", "korean": "실례합니다, 시간 좀 알려주실 수 있어요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "thai": "ตอนนี้สิบโมงครึ่งครับ", "pronunciation": "떤니 씹 몽 크릉 크랍", "korean": "지금 10시 반이에요." },
+        { "thai": "บ่ายสองโมงค่ะ", "pronunciation": "바이 쏭 몽 카", "korean": "오후 2시예요." },
+        { "thai": "เก้าโมงสิบห้านาทีครับ", "pronunciation": "까오 몽 씹하 나티 크랍", "korean": "9시 15분이에요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "ร้านเปิดกี่โมงครับ", "pronunciation": "란 뻣 기 몽 크랍", "korean": "가게 몇 시에 열어요?" },
+        { "thai": "ร้านปิดกี่โมงคะ", "pronunciation": "란 삣 기 몽 카", "korean": "가게 몇 시에 닫아요?" },
+        { "thai": "เปิดทุกวันไหมครับ", "pronunciation": "뻣 툭 완 마이 크랍", "korean": "매일 열어요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "thai": "เปิดเก้าโมงเช้าครับ", "pronunciation": "뻣 까오 몽 차오 크랍", "korean": "아침 9시에 열어요." },
+        { "thai": "ปิดสี่ทุ่มค่ะ", "pronunciation": "삣 시 툼 카", "korean": "밤 10시에 닫아요." },
+        { "thai": "เปิดทุกวันครับ ยกเว้นวันอาทิตย์", "pronunciation": "뻣 툭 완 크랍 욕웬 완 아틋", "korean": "매일 열어요, 일요일 빼고요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "นัดพบกันกี่โมงดีครับ", "pronunciation": "낫 폽 깐 기 몽 디 크랍", "korean": "몇 시에 만날까요?" },
+        { "thai": "เจอกันตอนเย็นได้ไหมคะ", "pronunciation": "저 깐 떤 옌 다이 마이 카", "korean": "저녁에 만날 수 있어요?" },
+        { "thai": "เช้าหรือบ่ายดีครับ", "pronunciation": "차오 르 바이 디 크랍", "korean": "아침이 좋아요, 오후가 좋아요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "thai": "สิบเอ็ดโมงได้ไหมครับ", "pronunciation": "씹엣 몽 다이 마이 크랍", "korean": "11시 괜찮아요?" },
+        { "thai": "หกโมงเย็นเจอกันค่ะ", "pronunciation": "혹 몽 옌 저 깐 카", "korean": "저녁 6시에 만나요." },
+        { "thai": "บ่ายสามโมงดีกว่าครับ", "pronunciation": "바이 삼 몽 디 꽈 크랍", "korean": "오후 3시가 더 좋겠어요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "ตกลงครับ เจอกันตอนนั้นนะครับ", "pronunciation": "똑롱 크랍 저 깐 떤 난 나 크랍", "korean": "좋아요, 그때 만나요." },
+        { "thai": "โอเคค่ะ อย่ามาสายนะคะ", "pronunciation": "오게 카 야 마 사이 나 카", "korean": "네, 늦지 마세요." },
+        { "thai": "ได้ครับ ผมจะไปตรงเวลา", "pronunciation": "다이 크랍 폼 짜 빠이 뜨롱 웨라", "korean": "네, 제시간에 갈게요." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "thai": "เวลา", "pronunciation": "웨라", "korean": "시간" },
+    { "thai": "โมง", "pronunciation": "몽", "korean": "시(시각)" },
+    { "thai": "นาที", "pronunciation": "나티", "korean": "분" },
+    { "thai": "เช้า", "pronunciation": "차오", "korean": "아침" },
+    { "thai": "บ่าย", "pronunciation": "바이", "korean": "오후" },
+    { "thai": "เย็น", "pronunciation": "옌", "korean": "저녁" },
+    { "thai": "เปิด", "pronunciation": "뻣", "korean": "열다" },
+    { "thai": "ปิด", "pronunciation": "삣", "korean": "닫다" }
+  ]
+}

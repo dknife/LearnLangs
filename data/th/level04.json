@@ -1,0 +1,74 @@
+{
+  "level": 4,
+  "title": "식당에서 주문",
+  "titleTh": "สั่งอาหารที่ร้าน",
+  "description": "태국 식당에서 음식을 주문하는 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "ขอเมนูหน่อยครับ", "pronunciation": "커 메누 노이 크랍", "korean": "메뉴판 좀 주세요." },
+        { "thai": "มีเมนูภาษาอังกฤษไหมคะ", "pronunciation": "미 메누 파사 앙끄릿 마이 카", "korean": "영어 메뉴판 있어요?" },
+        { "thai": "แนะนำอาหารอะไรดีครับ", "pronunciation": "내남 아한 아라이 디 크랍", "korean": "어떤 음식을 추천하세요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "thai": "ได้ครับ เชิญดูเมนูก่อนนะครับ", "pronunciation": "다이 크랍 천 두 메누 꼰 나 크랍", "korean": "네, 먼저 메뉴를 보세요." },
+        { "thai": "มีค่ะ เดี๋ยวเอามาให้นะคะ", "pronunciation": "미 카 디아오 아오 마 하이 나 카", "korean": "있어요, 가져다 드릴게요." },
+        { "thai": "ผัดไทยอร่อยครับ แนะนำเลย", "pronunciation": "팟타이 아로이 크랍 내남 르이", "korean": "팟타이가 맛있어요. 추천합니다." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "ขอผัดไทยหนึ่งจานครับ", "pronunciation": "커 팟타이 능 짠 크랍", "korean": "팟타이 한 접시 주세요." },
+        { "thai": "ขอต้มยำกุ้งหนึ่งชามค่ะ", "pronunciation": "커 똠얌꿍 능 참 카", "korean": "똠얌꿍 한 그릇 주세요." },
+        { "thai": "ขอข้าวผัดสองจานครับ", "pronunciation": "커 카오팟 쏭 짠 크랍", "korean": "볶음밥 두 접시 주세요." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "thai": "เอาเผ็ดไหมครับ", "pronunciation": "아오 펫 마이 크랍", "korean": "매운 거 괜찮으세요?" },
+        { "thai": "ต้องการเครื่องดื่มอะไรไหมคะ", "pronunciation": "떵깐 크르앙듬 아라이 마이 카", "korean": "음료는 뭐 드릴까요?" },
+        { "thai": "รับอะไรเพิ่มไหมครับ", "pronunciation": "랍 아라이 펌 마이 크랍", "korean": "더 주문하실 거 있으세요?" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "ไม่เผ็ดครับ ขอไม่เผ็ด", "pronunciation": "마이 펫 크랍 커 마이 펫", "korean": "안 맵게 해주세요." },
+        { "thai": "ขอน้ำเปล่าหนึ่งขวดค่ะ", "pronunciation": "커 남쁠라오 능 쿠앗 카", "korean": "물 한 병 주세요." },
+        { "thai": "เอาเผ็ดนิดหน่อยครับ", "pronunciation": "아오 펫 닛노이 크랍", "korean": "살짝 맵게 해주세요." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "thai": "ได้ครับ รอสักครู่นะครับ", "pronunciation": "다이 크랍 로 삭 크루 나 크랍", "korean": "네, 잠시만 기다려 주세요." },
+        { "thai": "ประมาณสิบนาทีนะคะ", "pronunciation": "쁘라만 씹 나티 나 카", "korean": "약 10분 정도 걸려요." },
+        { "thai": "เดี๋ยวจะเสิร์ฟให้เลยครับ", "pronunciation": "디아오 짜 서브 하이 르이 크랍", "korean": "곧 가져다 드릴게요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "เช็คบิลด้วยครับ", "pronunciation": "첵 빈 두아이 크랍", "korean": "계산서 주세요." },
+        { "thai": "ทั้งหมดเท่าไหร่คะ", "pronunciation": "탕못 타오라이 카", "korean": "전부 얼마예요?" },
+        { "thai": "อร่อยมากครับ ขอบคุณ", "pronunciation": "아로이 막 크랍 컵쿤", "korean": "아주 맛있었어요. 감사합니다." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "thai": "เมนู", "pronunciation": "메누", "korean": "메뉴" },
+    { "thai": "อาหาร", "pronunciation": "아한", "korean": "음식" },
+    { "thai": "เผ็ด", "pronunciation": "펫", "korean": "맵다" },
+    { "thai": "อร่อย", "pronunciation": "아로이", "korean": "맛있다" },
+    { "thai": "น้ำ", "pronunciation": "남", "korean": "물" },
+    { "thai": "จาน", "pronunciation": "짠", "korean": "접시" },
+    { "thai": "เช็คบิล", "pronunciation": "첵 빈", "korean": "계산서" },
+    { "thai": "สั่ง", "pronunciation": "상", "korean": "주문하다" }
+  ]
+}

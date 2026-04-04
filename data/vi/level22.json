@@ -1,0 +1,74 @@
+{
+  "level": 22,
+  "title": "긴급 상황",
+  "titleVi": "Tình huống khẩn cấp",
+  "description": "긴급 상황에서 사용하는 베트남어 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Cứu tôi với! Tôi cần giúp đỡ!", "pronunciation": "끄우 또이 버이! 또이 건 줍 더!", "korean": "살려주세요! 도와주세요!" },
+        { "vietnamese": "Xin gọi cảnh sát cho tôi!", "pronunciation": "신 고이 깐 삿 쪼 또이!", "korean": "경찰을 불러주세요!" },
+        { "vietnamese": "Có ai giúp tôi không?", "pronunciation": "꼬 아이 줍 또이 콩?", "korean": "저 좀 도와줄 사람 있나요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Bình tĩnh! Chuyện gì xảy ra?", "pronunciation": "빈 띤! 쭤엔 지 싸이 라?", "korean": "진정하세요! 무슨 일이에요?" },
+        { "vietnamese": "Tôi gọi cảnh sát ngay. Đừng lo.", "pronunciation": "또이 고이 깐 삿 응아이. 등 로.", "korean": "바로 경찰에 전화할게요. 걱정 마세요." },
+        { "vietnamese": "Tôi ở đây, tôi sẽ giúp bạn.", "pronunciation": "또이 어 더이, 또이 세 줍 반.", "korean": "제가 여기 있어요, 도와드릴게요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Tôi bị mất ví rồi!", "pronunciation": "또이 비 먿 비 로이!", "korean": "지갑을 잃어버렸어요!" },
+        { "vietnamese": "Tôi bị cướp!", "pronunciation": "또이 비 끄업!", "korean": "강도를 당했어요!" },
+        { "vietnamese": "Tôi bị lạc đường.", "pronunciation": "또이 비 락 드엉.", "korean": "길을 잃었어요." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Bạn nhớ mất ở đâu không?", "pronunciation": "반 녀 먿 어 더우 콩?", "korean": "어디서 잃어버렸는지 기억해요?" },
+        { "vietnamese": "Chúng ta phải báo cảnh sát ngay.", "pronunciation": "쭝 따 파이 바오 깐 삿 응아이.", "korean": "바로 경찰에 신고해야 해요." },
+        { "vietnamese": "Bạn muốn đi đâu? Tôi chỉ đường cho.", "pronunciation": "반 무온 디 더우? 또이 찌 드엉 쪼.", "korean": "어디로 가고 싶어요? 길을 알려줄게요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Số điện thoại khẩn cấp là bao nhiêu?", "pronunciation": "소 디엔 토아이 컨 겁 라 바오 니에우?", "korean": "긴급 전화번호가 뭐예요?" },
+        { "vietnamese": "Đại sứ quán Hàn Quốc ở đâu?", "pronunciation": "다이 스 꾸안 한 꾸옥 어 더우?", "korean": "한국 대사관이 어디에 있어요?" },
+        { "vietnamese": "Xin gọi xe cứu thương!", "pronunciation": "신 고이 쎄 끄우 트엉!", "korean": "구급차를 불러주세요!" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Số cảnh sát là 113, cứu thương là 115.", "pronunciation": "소 깐 삿 라 못 못 바, 끄우 트엉 라 못 못 남.", "korean": "경찰은 113, 구급차는 115예요." },
+        { "vietnamese": "Đại sứ quán ở quận 1, đường Nguyễn Du.", "pronunciation": "다이 스 꾸안 어 꾸언 못, 드엉 응우옌 주.", "korean": "대사관은 1군 응우옌주 거리에 있어요." },
+        { "vietnamese": "Xe cứu thương sẽ đến trong mười phút.", "pronunciation": "쎄 끄우 트엉 세 덴 쫑 므어이 풋.", "korean": "구급차가 10분 안에 도착합니다." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Cảm ơn bạn rất nhiều. Bạn đã cứu tôi.", "pronunciation": "깜 언 반 럿 니에우. 반 다 끄우 또이.", "korean": "정말 감사합니다. 저를 구해주셨어요." },
+        { "vietnamese": "May quá có bạn giúp đỡ.", "pronunciation": "마이 꾸아 꼬 반 줍 더.", "korean": "도와주셔서 정말 다행이에요." },
+        { "vietnamese": "Tôi sẽ cẩn thận hơn. Cảm ơn.", "pronunciation": "또이 세 건 턴 헌. 깜 언.", "korean": "더 조심할게요. 감사합니다." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "khẩn cấp", "pronunciation": "컨 겁", "korean": "긴급한" },
+    { "vietnamese": "cảnh sát", "pronunciation": "깐 삿", "korean": "경찰" },
+    { "vietnamese": "cứu thương", "pronunciation": "끄우 트엉", "korean": "구급차" },
+    { "vietnamese": "cướp", "pronunciation": "끄업", "korean": "강도, 도둑" },
+    { "vietnamese": "mất", "pronunciation": "먿", "korean": "잃어버리다" },
+    { "vietnamese": "lạc đường", "pronunciation": "락 드엉", "korean": "길을 잃다" },
+    { "vietnamese": "giúp đỡ", "pronunciation": "줍 더", "korean": "도움" },
+    { "vietnamese": "đại sứ quán", "pronunciation": "다이 스 꾸안", "korean": "대사관" }
+  ]
+}

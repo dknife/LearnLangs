@@ -1,0 +1,74 @@
+{
+  "level": 10,
+  "title": "음식 & 맛 표현",
+  "titleVi": "Thức ăn & Cách diễn tả vị",
+  "description": "음식과 맛을 표현하는 베트남어를 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Bạn thích ăn món gì nhất?", "pronunciation": "반 틱 안 몬 지 녓?", "korean": "어떤 음식을 가장 좋아해요?" },
+        { "vietnamese": "Bạn đã ăn phở bao giờ chưa?", "pronunciation": "반 다 안 퍼 바오 저 쯔어?", "korean": "쌀국수 먹어본 적 있어요?" },
+        { "vietnamese": "Món ăn Việt Nam bạn thích nhất là gì?", "pronunciation": "몬 안 비엣 남 반 틱 녓 라 지?", "korean": "가장 좋아하는 베트남 음식이 뭐예요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Tôi thích ăn bánh mì nhất. Nó rất ngon.", "pronunciation": "또이 틱 안 반 미 녓. 노 럿 응온.", "korean": "저는 반미를 가장 좋아해요. 아주 맛있어요." },
+        { "vietnamese": "Tôi rất thích phở. Nước dùng rất thơm.", "pronunciation": "또이 럿 틱 퍼. 느억 중 럿 텀.", "korean": "저는 쌀국수를 아주 좋아해요. 국물이 아주 향기로워요." },
+        { "vietnamese": "Tôi thích bún bò Huế vì nó cay và đậm đà.", "pronunciation": "또이 틱 분 보 후에 비 노 까이 바 덤 다.", "korean": "저는 분보후에를 좋아해요, 맵고 진한 맛이에요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Món này có cay không?", "pronunciation": "몬 나이 꼬 까이 콩?", "korean": "이 음식 매워요?" },
+        { "vietnamese": "Cái này vị gì?", "pronunciation": "까이 나이 비 지?", "korean": "이건 무슨 맛이에요?" },
+        { "vietnamese": "Ăn thử đi, ngon lắm!", "pronunciation": "안 트 디, 응온 럼!", "korean": "먹어봐요, 맛있어요!" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Hơi cay, nhưng rất ngon.", "pronunciation": "허이 까이, 느응 럿 응온.", "korean": "좀 맵지만 아주 맛있어요." },
+        { "vietnamese": "Vị ngọt ngọt, chua chua, rất đặc biệt.", "pronunciation": "비 응옷 응옷, 쭈아 쭈아, 럿 닥 비엣.", "korean": "달콤새콤한 맛이에요, 아주 독특해요." },
+        { "vietnamese": "Mặn mặn, béo béo, ăn với cơm rất hợp.", "pronunciation": "먼 먼, 베오 베오, 안 버이 껌 럿 헙.", "korean": "짭조름하고 고소한 맛으로 밥이랑 잘 어울려요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Bạn biết nấu món gì?", "pronunciation": "반 비엣 너우 몬 지?", "korean": "무슨 요리를 할 줄 알아요?" },
+        { "vietnamese": "Ai nấu món này vậy? Ngon quá!", "pronunciation": "아이 너우 몬 나이 버이? 응온 꾸아!", "korean": "누가 이거 만들었어요? 너무 맛있어요!" },
+        { "vietnamese": "Bạn có thể dạy tôi nấu món này không?", "pronunciation": "반 꼬 테 자이 또이 너우 몬 나이 콩?", "korean": "이 요리하는 법을 알려줄 수 있어요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Tôi biết nấu phở và gỏi cuốn.", "pronunciation": "또이 비엣 너우 퍼 바 고이 꾸온.", "korean": "저는 쌀국수와 월남쌈을 만들 수 있어요." },
+        { "vietnamese": "Mẹ tôi nấu đấy. Mẹ nấu ăn rất giỏi.", "pronunciation": "메 또이 너우 더이. 메 너우 안 럿 조이.", "korean": "우리 엄마가 만들었어요. 엄마가 요리를 잘해요." },
+        { "vietnamese": "Được chứ! Món này rất dễ làm.", "pronunciation": "드억 쯔! 몬 나이 럿 제 람.", "korean": "그럼요! 이 요리는 아주 쉬워요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Tôi ăn no rồi. Cảm ơn bạn!", "pronunciation": "또이 안 노 로이. 깜 언 반!", "korean": "배불러요. 감사해요!" },
+        { "vietnamese": "Ngon quá! Tôi muốn ăn thêm.", "pronunciation": "응온 꾸아! 또이 무온 안 템.", "korean": "너무 맛있어요! 더 먹고 싶어요." },
+        { "vietnamese": "Lần sau mình đi ăn cùng nhé!", "pronunciation": "런 사우 밍 디 안 꿍 녜!", "korean": "다음에 같이 먹으러 가요!" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "ngon", "pronunciation": "응온", "korean": "맛있는" },
+    { "vietnamese": "cay", "pronunciation": "까이", "korean": "매운" },
+    { "vietnamese": "ngọt", "pronunciation": "응옷", "korean": "단" },
+    { "vietnamese": "mặn", "pronunciation": "먼", "korean": "짠" },
+    { "vietnamese": "chua", "pronunciation": "쭈아", "korean": "신" },
+    { "vietnamese": "nấu ăn", "pronunciation": "너우 안", "korean": "요리하다" },
+    { "vietnamese": "thức ăn", "pronunciation": "특 안", "korean": "음식" },
+    { "vietnamese": "no", "pronunciation": "노", "korean": "배부른" }
+  ]
+}

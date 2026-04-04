@@ -1,0 +1,74 @@
+{
+  "level": 19,
+  "title": "공항 & 비행기",
+  "titleVi": "Sân bay & Máy bay",
+  "description": "공항과 비행기 이용 시 필요한 베트남어 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Quầy làm thủ tục ở đâu?", "pronunciation": "꾸어이 람 투 뚝 어 더우?", "korean": "체크인 카운터가 어디예요?" },
+        { "vietnamese": "Tôi muốn làm thủ tục cho chuyến bay đi Hà Nội.", "pronunciation": "또이 무온 람 투 뚝 쪼 쭤엔 바이 디 하 노이.", "korean": "하노이행 비행기 체크인하고 싶어요." },
+        { "vietnamese": "Cổng lên máy bay số mấy?", "pronunciation": "꽁 렌 마이 바이 소 머이?", "korean": "탑승구가 몇 번이에요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Quầy làm thủ tục ở tầng hai, bên trái.", "pronunciation": "꾸어이 람 투 뚝 어 떵 하이, 벤 짜이.", "korean": "체크인 카운터는 2층 왼쪽이에요." },
+        { "vietnamese": "Cho tôi xem hộ chiếu và vé máy bay.", "pronunciation": "쪼 또이 쎔 호 찌에우 바 베 마이 바이.", "korean": "여권과 항공권을 보여주세요." },
+        { "vietnamese": "Cổng C5, bắt đầu lên máy bay lúc hai giờ.", "pronunciation": "꽁 씨 남, 밧 더우 렌 마이 바이 룩 하이 저.", "korean": "C5 게이트, 2시에 탑승 시작합니다." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Tôi có thể mang bao nhiêu hành lý?", "pronunciation": "또이 꼬 테 망 바오 니에우 한 리?", "korean": "수하물을 얼마나 가져갈 수 있어요?" },
+        { "vietnamese": "Tôi muốn ngồi cạnh cửa sổ.", "pronunciation": "또이 무온 응오이 깐 끄어 소.", "korean": "창가 자리에 앉고 싶어요." },
+        { "vietnamese": "Hành lý xách tay tối đa bao nhiêu ký?", "pronunciation": "한 리 싸익 따이 또이 다 바오 니에우 끼?", "korean": "기내 반입 수하물 최대 몇 kg까지 가능해요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Hành lý ký gửi tối đa hai mươi ký.", "pronunciation": "한 리 끼 그이 또이 다 하이 므어이 끼.", "korean": "위탁 수하물은 최대 20kg입니다." },
+        { "vietnamese": "Được ạ, chỗ ngồi cạnh cửa sổ. Đây là thẻ lên máy bay.", "pronunciation": "드억 아, 쪼 응오이 깐 끄어 소. 더이 라 테 렌 마이 바이.", "korean": "네, 창가 좌석입니다. 탑승권이에요." },
+        { "vietnamese": "Hành lý xách tay tối đa bảy ký.", "pronunciation": "한 리 싸익 따이 또이 다 바이 끼.", "korean": "기내 반입 수하물은 최대 7kg입니다." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Chuyến bay có bị trễ không?", "pronunciation": "쭤엔 바이 꼬 비 쩨 콩?", "korean": "비행기가 지연됐나요?" },
+        { "vietnamese": "Máy bay đến lúc mấy giờ?", "pronunciation": "마이 바이 덴 룩 머이 저?", "korean": "비행기가 몇 시에 도착해요?" },
+        { "vietnamese": "Phải quá cảnh ở đâu không?", "pronunciation": "파이 꾸아 깐 어 더우 콩?", "korean": "어디서 경유해야 하나요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Chuyến bay bị trễ ba mươi phút.", "pronunciation": "쭤엔 바이 비 쩨 바 므어이 풋.", "korean": "비행기가 30분 지연됐습니다." },
+        { "vietnamese": "Dự kiến đến lúc năm giờ chiều.", "pronunciation": "즈 끼엔 덴 룩 남 저 찌에우.", "korean": "오후 5시 도착 예정입니다." },
+        { "vietnamese": "Bay thẳng, không quá cảnh.", "pronunciation": "바이 탕, 콩 꾸아 깐.", "korean": "직항이에요, 경유 없습니다." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Cảm ơn. Tôi đến cổng ngay.", "pronunciation": "깜 언. 또이 덴 꽁 응아이.", "korean": "감사합니다. 바로 게이트로 갈게요." },
+        { "vietnamese": "Xin chỗ để hành lý ở trên.", "pronunciation": "신 쪼 데 한 리 어 쩬.", "korean": "위에 짐 넣을 자리 주세요." },
+        { "vietnamese": "Cảm ơn, chuyến bay rất thoải mái.", "pronunciation": "깜 언, 쭤엔 바이 럿 토아이 마이.", "korean": "감사합니다, 비행이 아주 편안했어요." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "sân bay", "pronunciation": "선 바이", "korean": "공항" },
+    { "vietnamese": "máy bay", "pronunciation": "마이 바이", "korean": "비행기" },
+    { "vietnamese": "chuyến bay", "pronunciation": "쭤엔 바이", "korean": "항공편" },
+    { "vietnamese": "hành lý", "pronunciation": "한 리", "korean": "수하물" },
+    { "vietnamese": "hộ chiếu", "pronunciation": "호 찌에우", "korean": "여권" },
+    { "vietnamese": "cổng", "pronunciation": "꽁", "korean": "게이트, 탑승구" },
+    { "vietnamese": "thẻ lên máy bay", "pronunciation": "테 렌 마이 바이", "korean": "탑승권" },
+    { "vietnamese": "quá cảnh", "pronunciation": "꾸아 깐", "korean": "경유" }
+  ]
+}

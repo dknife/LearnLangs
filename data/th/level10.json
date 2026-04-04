@@ -1,0 +1,74 @@
+{
+  "level": 10,
+  "title": "음식 & 맛 표현",
+  "titleTh": "อาหารและรสชาติ",
+  "description": "태국 음식과 맛을 표현하는 태국어를 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "อาหารไทยจานไหนอร่อยที่สุดครับ", "pronunciation": "아한 타이 짠 나이 아로이 티 숫 크랍", "korean": "태국 음식 중 가장 맛있는 게 뭐예요?" },
+        { "thai": "คุณชอบกินอะไรคะ", "pronunciation": "쿤 첩 긴 아라이 카", "korean": "뭘 좋아하세요?" },
+        { "thai": "อาหารไทยเผ็ดไหมครับ", "pronunciation": "아한 타이 펫 마이 크랍", "korean": "태국 음식은 매워요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "thai": "ส้มตำอร่อยมากครับ เป็นอาหารยอดนิยม", "pronunciation": "솜땀 아로이 막 크랍 뻰 아한 욧 니욤", "korean": "솜땀이 아주 맛있어요. 가장 인기 있는 음식이에요." },
+        { "thai": "ชอบกินผัดกะเพราค่ะ ทำง่ายและอร่อย", "pronunciation": "첩 긴 팟 까프라오 카 탐 응아이 래 아로이", "korean": "팟 까프라오를 좋아해요. 만들기 쉽고 맛있어요." },
+        { "thai": "บางจานเผ็ดมากครับ แต่มีไม่เผ็ดด้วย", "pronunciation": "방 짠 펫 막 크랍 때 미 마이 펫 두아이", "korean": "어떤 요리는 아주 매워요. 하지만 안 매운 것도 있어요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "รสชาติเป็นยังไงครับ", "pronunciation": "롯차앗 뻰 양 응아이 크랍", "korean": "맛이 어때요?" },
+        { "thai": "เปรี้ยวไหมคะ", "pronunciation": "쁘리아오 마이 카", "korean": "신맛이 나요?" },
+        { "thai": "หวานไปไหมครับ", "pronunciation": "완 빠이 마이 크랍", "korean": "너무 달지 않아요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "thai": "มีทั้งเปรี้ยว หวาน เค็ม และเผ็ดครับ", "pronunciation": "미 탕 쁘리아오 완 켐 래 펫 크랍", "korean": "신맛, 단맛, 짠맛, 매운맛 다 있어요." },
+        { "thai": "นิดหน่อยค่ะ ต้มยำจะเปรี้ยวหน่อย", "pronunciation": "닛노이 카 똠얌 짜 쁘리아오 노이", "korean": "조금요. 똠얌은 약간 새콤해요." },
+        { "thai": "ไม่หวานมากครับ พอดีเลย", "pronunciation": "마이 완 막 크랍 포디 르이", "korean": "많이 달지 않아요. 딱 적당해요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "ขอลองชิมหน่อยได้ไหมครับ", "pronunciation": "커 롱 침 노이 다이 마이 크랍", "korean": "조금 맛볼 수 있을까요?" },
+        { "thai": "กินกับข้าวใช่ไหมคะ", "pronunciation": "긴 갑 카오 차이 마이 카", "korean": "밥이랑 같이 먹는 거죠?" },
+        { "thai": "ใส่พริกด้วยไหมครับ", "pronunciation": "사이 프릭 두아이 마이 크랍", "korean": "고추도 넣어요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "thai": "ได้ครับ ลองชิมเลย", "pronunciation": "다이 크랍 롱 침 르이", "korean": "네, 맛보세요." },
+        { "thai": "ใช่ค่ะ กินกับข้าวสวยร้อนๆ", "pronunciation": "차이 카 긴 갑 카오 수아이 론론", "korean": "네, 따끈한 밥이랑 같이 먹어요." },
+        { "thai": "ใส่ก็ได้ ไม่ใส่ก็ได้ครับ แล้วแต่ชอบ", "pronunciation": "사이 꼬 다이 마이 사이 꼬 다이 크랍 래오 때 첩", "korean": "넣어도 되고 안 넣어도 돼요. 취향대로요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "อร่อยมากเลยครับ ชอบรสชาตินี้", "pronunciation": "아로이 막 르이 크랍 첩 롯차앗 니", "korean": "정말 맛있어요. 이 맛이 좋아요." },
+        { "thai": "จะมากินอีกแน่นอนค่ะ", "pronunciation": "짜 마 긴 잌 내넌 카", "korean": "또 먹으러 올 거예요." },
+        { "thai": "อาหารไทยอร่อยจริงๆ ครับ", "pronunciation": "아한 타이 아로이 찡찡 크랍", "korean": "태국 음식이 정말 맛있어요." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "thai": "อร่อย", "pronunciation": "아로이", "korean": "맛있다" },
+    { "thai": "เผ็ด", "pronunciation": "펫", "korean": "맵다" },
+    { "thai": "หวาน", "pronunciation": "완", "korean": "달다" },
+    { "thai": "เปรี้ยว", "pronunciation": "쁘리아오", "korean": "시다" },
+    { "thai": "เค็ม", "pronunciation": "켐", "korean": "짜다" },
+    { "thai": "รสชาติ", "pronunciation": "롯차앗", "korean": "맛" },
+    { "thai": "ข้าว", "pronunciation": "카오", "korean": "밥" },
+    { "thai": "พริก", "pronunciation": "프릭", "korean": "고추" }
+  ]
+}

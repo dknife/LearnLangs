@@ -1,0 +1,74 @@
+{
+  "level": 1,
+  "title": "인사 & 자기소개",
+  "titleVi": "Chào hỏi & Tự giới thiệu",
+  "description": "베트남어 기본 인사말과 자기소개 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Xin chào! Tôi là Minh.", "pronunciation": "신 짜오! 또이 라 밍.", "korean": "안녕하세요! 저는 민입니다." },
+        { "vietnamese": "Chào bạn! Tên tôi là Hoa.", "pronunciation": "짜오 반! 뗀 또이 라 호아.", "korean": "안녕! 제 이름은 호아입니다." },
+        { "vietnamese": "Xin chào! Tôi tên là Lan.", "pronunciation": "신 짜오! 또이 뗀 라 란.", "korean": "안녕하세요! 저는 란이라고 합니다." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Chào anh! Tôi là Hằng. Rất vui được gặp anh.", "pronunciation": "짜오 아잉! 또이 라 헝. 럿 부이 드억 갑 아잉.", "korean": "안녕하세요! 저는 항입니다. 만나서 반갑습니다." },
+        { "vietnamese": "Chào chị! Tôi tên là Nam. Rất hân hạnh.", "pronunciation": "짜오 찌! 또이 뗀 라 남. 럿 헌 한.", "korean": "안녕하세요! 저는 남입니다. 영광입니다." },
+        { "vietnamese": "Xin chào! Tôi là Tùng. Vui được gặp bạn.", "pronunciation": "신 짜오! 또이 라 뚱. 부이 드억 갑 반.", "korean": "안녕하세요! 저는 뚱입니다. 만나서 반가워요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Bạn là người nước nào?", "pronunciation": "반 라 응으어이 느억 나오?", "korean": "어느 나라 사람이에요?" },
+        { "vietnamese": "Bạn đến từ đâu?", "pronunciation": "반 덴 뜨 더우?", "korean": "어디에서 왔어요?" },
+        { "vietnamese": "Bạn từ nước nào đến?", "pronunciation": "반 뜨 느억 나오 덴?", "korean": "어느 나라에서 왔어요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Tôi là người Hàn Quốc.", "pronunciation": "또이 라 응으어이 한 꾸옥.", "korean": "저는 한국 사람입니다." },
+        { "vietnamese": "Tôi đến từ Hàn Quốc.", "pronunciation": "또이 덴 뜨 한 꾸옥.", "korean": "저는 한국에서 왔습니다." },
+        { "vietnamese": "Tôi từ Seoul, Hàn Quốc.", "pronunciation": "또이 뜨 서울, 한 꾸옥.", "korean": "저는 서울, 한국에서 왔습니다." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Bạn bao nhiêu tuổi?", "pronunciation": "반 바오 니에우 뚜오이?", "korean": "나이가 몇 살이에요?" },
+        { "vietnamese": "Năm nay bạn bao nhiêu tuổi?", "pronunciation": "남 나이 반 바오 니에우 뚜오이?", "korean": "올해 몇 살이에요?" },
+        { "vietnamese": "Bạn sinh năm bao nhiêu?", "pronunciation": "반 싱 남 바오 니에우?", "korean": "몇 년생이에요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Tôi hai mươi lăm tuổi.", "pronunciation": "또이 하이 므어이 럼 뚜오이.", "korean": "저는 스물다섯 살입니다." },
+        { "vietnamese": "Năm nay tôi ba mươi tuổi.", "pronunciation": "남 나이 또이 바 므어이 뚜오이.", "korean": "올해 서른 살입니다." },
+        { "vietnamese": "Tôi sinh năm 1995.", "pronunciation": "또이 싱 남 못 응인 진 남 럼.", "korean": "저는 1995년생입니다." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Rất vui được gặp bạn! Hẹn gặp lại.", "pronunciation": "럿 부이 드억 갑 반! 헨 갑 라이.", "korean": "만나서 반가웠어요! 또 만나요." },
+        { "vietnamese": "Vui quá! Chúng ta sẽ gặp lại nhé.", "pronunciation": "부이 꾸아! 쭝 따 세 갑 라이 녜.", "korean": "기뻐요! 다시 만나요." },
+        { "vietnamese": "Tạm biệt! Hẹn gặp lại bạn.", "pronunciation": "땀 비엣! 헨 갑 라이 반.", "korean": "안녕히 가세요! 다시 만나요." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "xin chào", "pronunciation": "신 짜오", "korean": "안녕하세요" },
+    { "vietnamese": "tôi", "pronunciation": "또이", "korean": "나, 저" },
+    { "vietnamese": "tên", "pronunciation": "뗀", "korean": "이름" },
+    { "vietnamese": "rất vui", "pronunciation": "럿 부이", "korean": "매우 기쁜" },
+    { "vietnamese": "gặp", "pronunciation": "갑", "korean": "만나다" },
+    { "vietnamese": "người", "pronunciation": "응으어이", "korean": "사람" },
+    { "vietnamese": "nước", "pronunciation": "느억", "korean": "나라, 물" },
+    { "vietnamese": "tạm biệt", "pronunciation": "땀 비엣", "korean": "안녕히 가세요" }
+  ]
+}

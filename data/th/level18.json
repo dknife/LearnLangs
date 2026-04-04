@@ -1,0 +1,74 @@
+{
+  "level": 18,
+  "title": "병원 & 약국",
+  "titleTh": "โรงพยาบาลและร้านขายยา",
+  "description": "병원과 약국에서 사용하는 태국어 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "ไม่สบายครับ อยากไปหาหมอ", "pronunciation": "마이 사바이 크랍 약 빠이 하 머", "korean": "몸이 안 좋아요. 병원에 가고 싶어요." },
+        { "thai": "ปวดหัวมากค่ะ มีไข้ด้วย", "pronunciation": "뿌앗 후아 막 카 미 카이 두아이", "korean": "머리가 너무 아파요. 열도 있어요." },
+        { "thai": "ปวดท้องตั้งแต่เมื่อวานครับ", "pronunciation": "뿌앗 텅 땅때 므아 완 크랍", "korean": "어제부터 배가 아파요." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "thai": "เป็นมานานแค่ไหนแล้วครับ", "pronunciation": "뻰 마 난 캐 나이 래오 크랍", "korean": "얼마나 됐어요?" },
+        { "thai": "มีอาการอะไรอีกไหมคะ", "pronunciation": "미 아깐 아라이 잌 마이 카", "korean": "다른 증상은 없어요?" },
+        { "thai": "เดี๋ยวตรวจให้ก่อนนะครับ", "pronunciation": "디아오 뜨루앗 하이 꼰 나 크랍", "korean": "먼저 진찰해 드릴게요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "เป็นมาสองวันแล้วครับ", "pronunciation": "뻰 마 쏭 완 래오 크랍", "korean": "2일 됐어요." },
+        { "thai": "มีอาเจียนด้วยค่ะ กินอะไรไม่ได้เลย", "pronunciation": "미 아찌안 두아이 카 긴 아라이 마이 다이 르이", "korean": "구토도 해요. 아무것도 못 먹어요." },
+        { "thai": "แพ้ยาปฏิชีวนะครับ", "pronunciation": "패 야 빠띠치와나 크랍", "korean": "항생제 알레르기가 있어요." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "thai": "น่าจะเป็นหวัดครับ ให้ยาไปกินสามวัน", "pronunciation": "나 짜 뻰 왓 크랍 하이 야 빠이 긴 삼 완", "korean": "감기인 것 같아요. 3일치 약을 드릴게요." },
+        { "thai": "ต้องเจาะเลือดตรวจค่ะ", "pronunciation": "떵 저 르앗 뜨루앗 카", "korean": "혈액 검사를 해야 해요." },
+        { "thai": "จะให้ยาที่ไม่ใช่ปฏิชีวนะนะครับ", "pronunciation": "짜 하이 야 티 마이 차이 빠띠치와나 나 크랍", "korean": "항생제가 아닌 약을 처방할게요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "ต้องกินยาอย่างไรครับ", "pronunciation": "떵 긴 야 양 라이 크랍", "korean": "약을 어떻게 먹어야 하나요?" },
+        { "thai": "ร้านขายยาอยู่ที่ไหนคะ", "pronunciation": "란 카이 야 유 티 나이 카", "korean": "약국이 어디에 있어요?" },
+        { "thai": "ต้องพักผ่อนกี่วันครับ", "pronunciation": "떵 팍 폰 기 완 크랍", "korean": "며칠 쉬어야 하나요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "thai": "กินวันละสามครั้ง หลังอาหารครับ", "pronunciation": "긴 완 라 삼 크랑 랑 아한 크랍", "korean": "하루 세 번, 식후에 드세요." },
+        { "thai": "อยู่ชั้นล่างค่ะ ข้างห้องฉุกเฉิน", "pronunciation": "유 찬 랑 카 캉 홍 축천", "korean": "1층에 있어요. 응급실 옆이에요." },
+        { "thai": "พักผ่อนสักสองสามวันครับ แล้วจะดีขึ้น", "pronunciation": "팍 폰 삭 쏭 삼 완 크랍 래오 짜 디 큰", "korean": "2~3일 쉬세요. 그러면 나아질 거예요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "thai": "ขอบคุณมากครับ คุณหมอ", "pronunciation": "컵쿤 막 크랍 쿤 머", "korean": "감사합니다, 선생님." },
+        { "thai": "ค่ารักษาเท่าไหร่คะ", "pronunciation": "카 락사 타오라이 카", "korean": "치료비가 얼마예요?" },
+        { "thai": "ใช้ประกันสุขภาพได้ไหมครับ", "pronunciation": "차이 쁘라깐 숙카팝 다이 마이 크랍", "korean": "건강보험을 쓸 수 있나요?" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "thai": "โรงพยาบาล", "pronunciation": "롱 파야반", "korean": "병원" },
+    { "thai": "หมอ", "pronunciation": "머", "korean": "의사" },
+    { "thai": "ยา", "pronunciation": "야", "korean": "약" },
+    { "thai": "ปวด", "pronunciation": "뿌앗", "korean": "아프다" },
+    { "thai": "ไข้", "pronunciation": "카이", "korean": "열" },
+    { "thai": "ร้านขายยา", "pronunciation": "란 카이 야", "korean": "약국" },
+    { "thai": "ไม่สบาย", "pronunciation": "마이 사바이", "korean": "몸이 안 좋다" },
+    { "thai": "ตรวจ", "pronunciation": "뜨루앗", "korean": "검사하다/진찰하다" }
+  ]
+}

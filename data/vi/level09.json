@@ -1,0 +1,74 @@
+{
+  "level": 9,
+  "title": "전화번호 & 주소",
+  "titleVi": "Số điện thoại & Địa chỉ",
+  "description": "전화번호와 주소를 묻고 알려주는 베트남어 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Số điện thoại của bạn là bao nhiêu?", "pronunciation": "소 디엔 토아이 꾸아 반 라 바오 니에우?", "korean": "전화번호가 뭐예요?" },
+        { "vietnamese": "Cho tôi xin số điện thoại.", "pronunciation": "쪼 또이 신 소 디엔 토아이.", "korean": "전화번호 좀 알려주세요." },
+        { "vietnamese": "Bạn có số Zalo không?", "pronunciation": "반 꼬 소 잘로 콩?", "korean": "잘로 번호 있어요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Số của tôi là không chín không ba, năm sáu bảy, tám chín không.", "pronunciation": "소 꾸아 또이 라 콩 찐 콩 바, 남 사우 바이, 땀 찐 콩.", "korean": "제 번호는 0903-567-890이에요." },
+        { "vietnamese": "Đây là số di động của tôi.", "pronunciation": "더이 라 소 지 동 꾸아 또이.", "korean": "이건 제 핸드폰 번호예요." },
+        { "vietnamese": "Vâng, để tôi nhắn số cho bạn.", "pronunciation": "벙, 데 또이 년 소 쪼 반.", "korean": "네, 번호를 문자로 보내줄게요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Bạn sống ở đâu?", "pronunciation": "반 송 어 더우?", "korean": "어디에 살아요?" },
+        { "vietnamese": "Địa chỉ nhà bạn là gì?", "pronunciation": "디아 찌 냐 반 라 지?", "korean": "집 주소가 뭐예요?" },
+        { "vietnamese": "Bạn ở quận mấy?", "pronunciation": "반 어 꾸언 머이?", "korean": "몇 구에 살아요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Tôi sống ở quận 1, thành phố Hồ Chí Minh.", "pronunciation": "또이 송 어 꾸언 못, 탄 포 호 찌 밍.", "korean": "저는 호치민시 1군에 살아요." },
+        { "vietnamese": "Nhà tôi ở số 25 đường Lê Lợi.", "pronunciation": "냐 또이 어 소 하이 럼 드엉 레 러이.", "korean": "저는 레러이 거리 25번지에 살아요." },
+        { "vietnamese": "Tôi ở quận 7, gần Phú Mỹ Hưng.", "pronunciation": "또이 어 꾸언 바이, 건 푸 미 흥.", "korean": "저는 7군 푸미흥 근처에 살아요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Tôi có thể gọi cho bạn lúc nào?", "pronunciation": "또이 꼬 테 고이 쪼 반 룩 나오?", "korean": "언제 전화할 수 있어요?" },
+        { "vietnamese": "Khi nào liên lạc được?", "pronunciation": "키 나오 리엔 락 드억?", "korean": "언제 연락할 수 있어요?" },
+        { "vietnamese": "Bạn thường online lúc mấy giờ?", "pronunciation": "반 트엉 온라인 룩 머이 저?", "korean": "보통 몇 시에 온라인이에요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Bạn gọi cho tôi buổi tối nhé, sau sáu giờ.", "pronunciation": "반 고이 쪼 또이 부오이 또이 녜, 사우 사우 저.", "korean": "저녁에 전화해 주세요, 6시 이후에요." },
+        { "vietnamese": "Bạn có thể nhắn tin cho tôi bất cứ lúc nào.", "pronunciation": "반 꼬 테 년 띤 쪼 또이 벗 끄 룩 나오.", "korean": "언제든지 문자해도 돼요." },
+        { "vietnamese": "Tôi thường online từ tám giờ tối.", "pronunciation": "또이 트엉 온라인 뜨 땀 저 또이.", "korean": "보통 저녁 8시부터 온라인이에요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Được rồi, tôi sẽ liên lạc sau. Cảm ơn.", "pronunciation": "드억 로이, 또이 세 리엔 락 사우. 깜 언.", "korean": "알겠어요, 나중에 연락할게요. 감사해요." },
+        { "vietnamese": "Tốt, tôi sẽ gọi cho bạn tối nay.", "pronunciation": "톳, 또이 세 고이 쪼 반 또이 나이.", "korean": "좋아요, 오늘 저녁에 전화할게요." },
+        { "vietnamese": "Vâng, tôi đã lưu số rồi.", "pronunciation": "벙, 또이 다 르우 소 로이.", "korean": "네, 번호 저장했어요." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "số điện thoại", "pronunciation": "소 디엔 토아이", "korean": "전화번호" },
+    { "vietnamese": "địa chỉ", "pronunciation": "디아 찌", "korean": "주소" },
+    { "vietnamese": "di động", "pronunciation": "지 동", "korean": "휴대폰" },
+    { "vietnamese": "gọi điện", "pronunciation": "고이 디엔", "korean": "전화하다" },
+    { "vietnamese": "nhắn tin", "pronunciation": "년 띤", "korean": "문자하다" },
+    { "vietnamese": "quận", "pronunciation": "꾸언", "korean": "구, 군" },
+    { "vietnamese": "đường", "pronunciation": "드엉", "korean": "거리, 도로" },
+    { "vietnamese": "liên lạc", "pronunciation": "리엔 락", "korean": "연락하다" }
+  ]
+}

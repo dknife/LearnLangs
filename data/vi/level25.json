@@ -1,0 +1,74 @@
+{
+  "level": 25,
+  "title": "종합 회화",
+  "titleVi": "Hội thoại tổng hợp",
+  "description": "다양한 상황을 종합한 고급 베트남어 회화를 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Xin chào, lâu quá không gặp! Dạo này bạn thế nào?", "pronunciation": "신 짜오, 러우 꾸아 콩 갑! 자오 나이 반 테 나오?", "korean": "안녕하세요, 오랜만이에요! 요즘 어떻게 지내요?" },
+        { "vietnamese": "Trời ơi, mấy năm rồi không gặp nhau!", "pronunciation": "쩌이 어이, 머이 남 로이 콩 갑 냐우!", "korean": "세상에, 몇 년 만이에요!" },
+        { "vietnamese": "Chào bạn! Nghe nói bạn mới đi du lịch về?", "pronunciation": "짜오 반! 응에 노이 반 머이 디 주 릭 베?", "korean": "안녕! 여행 다녀왔다면서?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Tôi khỏe, cảm ơn! Tôi vừa chuyển công ty mới.", "pronunciation": "또이 쾨, 깜 언! 또이 브어 쭤엔 꽁 띠 머이.", "korean": "잘 지내요, 고마워요! 새 회사로 옮겼어요." },
+        { "vietnamese": "Ừ, lâu quá rồi! Tôi đã kết hôn và có con rồi.", "pronunciation": "으, 러우 꾸아 로이! 또이 다 껫 혼 바 꼬 꼰 로이.", "korean": "응, 정말 오래됐다! 결혼해서 아이도 있어요." },
+        { "vietnamese": "Đúng rồi! Tôi vừa đi Đà Lạt, đẹp lắm!", "pronunciation": "둥 로이! 또이 브어 디 다 랏, 뎁 럼!", "korean": "맞아요! 달랏 다녀왔는데 정말 예뻤어요!" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Thật hả? Kể cho tôi nghe đi!", "pronunciation": "턷 하? 게 쪼 또이 응에 디!", "korean": "정말요? 이야기해 줘요!" },
+        { "vietnamese": "Cuộc sống ở công ty mới thế nào?", "pronunciation": "꾸옥 송 어 꽁 띠 머이 테 나오?", "korean": "새 회사 생활은 어때요?" },
+        { "vietnamese": "Đà Lạt mùa này đẹp lắm, tôi cũng muốn đi.", "pronunciation": "다 랏 무아 나이 뎁 럼, 또이 꿍 무온 디.", "korean": "이 계절에 달랏이 예쁘죠, 나도 가고 싶어요." }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Công việc mới rất thú vị, đồng nghiệp tốt lắm.", "pronunciation": "꽁 비엑 머이 럿 투 비, 동 응이엡 톳 럼.", "korean": "새 일이 아주 재미있고, 동료들이 좋아요." },
+        { "vietnamese": "Mệt nhưng hạnh phúc. Con gái tôi rất dễ thương.", "pronunciation": "멧 느응 한 푹. 꼰 가이 또이 럿 제 트엉.", "korean": "피곤하지만 행복해요. 딸이 아주 귀여워요." },
+        { "vietnamese": "Bạn nên đi, khí hậu mát mẻ, hoa đẹp lắm.", "pronunciation": "반 넨 디, 키 허우 맛 메, 호아 뎁 럼.", "korean": "꼭 가보세요, 날씨 시원하고 꽃이 예뻐요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Cuối tuần này mình đi ăn cùng nhé? Tôi biết một quán rất ngon.", "pronunciation": "꾸오이 뚜언 나이 밍 디 안 꿍 녜? 또이 비엣 못 꾸안 럿 응온.", "korean": "이번 주말에 같이 밥 먹을래요? 맛있는 집 알아요." },
+        { "vietnamese": "Tôi muốn gặp con gái bạn. Cho tôi mua quà nhé.", "pronunciation": "또이 무온 갑 꼰 가이 반. 쪼 또이 무아 꾸아 녜.", "korean": "따님을 만나고 싶어요. 선물 사갈게요." },
+        { "vietnamese": "Lần sau mình đi Đà Lạt cùng nhau nhé!", "pronunciation": "런 사우 밍 디 다 랏 꿍 냐우 녜!", "korean": "다음에 같이 달랏 가요!" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Tốt quá! Hẹn thứ bảy mười một giờ nhé.", "pronunciation": "톳 꾸아! 헨 트 바이 므어이 못 저 녜.", "korean": "좋아요! 토요일 11시에 만나요." },
+        { "vietnamese": "Bạn tốt quá! Con gái tôi sẽ rất vui.", "pronunciation": "반 톳 꾸아! 꼰 가이 또이 세 럿 부이.", "korean": "고마워요! 딸이 아주 좋아할 거예요." },
+        { "vietnamese": "Nhất định! Mình sẽ lên kế hoạch.", "pronunciation": "녓 딩! 밍 세 렌 게 호악.", "korean": "꼭이요! 계획을 세울게요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Tuyệt vời! Rất vui được gặp lại bạn. Hẹn gặp!", "pronunciation": "뚜옛 버이! 럿 부이 드억 갑 라이 반. 헨 갑!", "korean": "멋져요! 다시 만나서 반가워요. 또 만나요!" },
+        { "vietnamese": "Nhớ giữ liên lạc nhé. Chúc bạn và gia đình khỏe mạnh!", "pronunciation": "녀 즈 리엔 락 녜. 쭉 반 바 자 딩 쾨 만!", "korean": "연락하고 지내요. 가족 모두 건강하세요!" },
+        { "vietnamese": "Hẹn gặp lại! Bạn là người bạn tốt nhất của tôi.", "pronunciation": "헨 갑 라이! 반 라 응으어이 반 톳 녓 꾸아 또이.", "korean": "또 만나요! 당신은 내 최고의 친구예요." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "lâu", "pronunciation": "러우", "korean": "오래" },
+    { "vietnamese": "dạo này", "pronunciation": "자오 나이", "korean": "요즘" },
+    { "vietnamese": "cuộc sống", "pronunciation": "꾸옥 송", "korean": "삶, 생활" },
+    { "vietnamese": "đồng nghiệp", "pronunciation": "동 응이엡", "korean": "동료" },
+    { "vietnamese": "kế hoạch", "pronunciation": "게 호악", "korean": "계획" },
+    { "vietnamese": "tuyệt vời", "pronunciation": "뚜옛 버이", "korean": "훌륭한, 멋진" },
+    { "vietnamese": "giữ liên lạc", "pronunciation": "즈 리엔 락", "korean": "연락을 유지하다" },
+    { "vietnamese": "khỏe mạnh", "pronunciation": "쾨 만", "korean": "건강한" }
+  ]
+}

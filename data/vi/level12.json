@@ -1,0 +1,74 @@
+{
+  "level": 12,
+  "title": "약속 잡기",
+  "titleVi": "Hẹn gặp",
+  "description": "약속을 잡고 일정을 조율하는 베트남어 표현을 배웁니다.",
+  "conversations": [
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Cuối tuần này bạn có rảnh không?", "pronunciation": "꾸오이 뚜언 나이 반 꼬 란 콩?", "korean": "이번 주말에 시간 있어요?" },
+        { "vietnamese": "Thứ bảy bạn có bận gì không?", "pronunciation": "트 바이 반 꼬 번 지 콩?", "korean": "토요일에 바쁜 일 있어요?" },
+        { "vietnamese": "Chúng ta đi chơi nhé?", "pronunciation": "쭝 따 디 쩌이 녜?", "korean": "우리 놀러 갈까요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Cuối tuần tôi rảnh. Đi đâu?", "pronunciation": "꾸오이 뚜언 또이 란. 디 더우?", "korean": "주말에 시간 있어요. 어디로 갈까요?" },
+        { "vietnamese": "Thứ bảy tôi bận, nhưng chủ nhật được.", "pronunciation": "트 바이 또이 번, 느응 쭈 녓 드억.", "korean": "토요일은 바쁜데, 일요일은 돼요." },
+        { "vietnamese": "Tốt quá! Đi đâu bây giờ?", "pronunciation": "톳 꾸아! 디 더우 버이 저?", "korean": "좋아요! 어디로 갈까요?" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Mình hẹn mấy giờ?", "pronunciation": "밍 헨 머이 저?", "korean": "몇 시에 만날까?" },
+        { "vietnamese": "Gặp nhau ở đâu?", "pronunciation": "갑 냐우 어 더우?", "korean": "어디서 만날까요?" },
+        { "vietnamese": "Bạn muốn đi ăn hay đi xem phim?", "pronunciation": "반 무온 디 안 하이 디 쎔 핌?", "korean": "밥 먹으러 갈까요, 영화 보러 갈까요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Hẹn mười giờ sáng nhé.", "pronunciation": "헨 므어이 저 상 녜.", "korean": "오전 10시에 만나요." },
+        { "vietnamese": "Gặp nhau ở quán cà phê gần nhà bạn.", "pronunciation": "갑 냐우 어 꾸안 까 페 건 냐 반.", "korean": "당신 집 근처 카페에서 만나요." },
+        { "vietnamese": "Đi ăn trước rồi xem phim sau.", "pronunciation": "디 안 쯔억 로이 쎔 핌 사우.", "korean": "먼저 밥 먹고 나서 영화 봐요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Nếu trời mưa thì sao?", "pronunciation": "네우 쩌이 므어 티 사오?", "korean": "비가 오면 어쩌죠?" },
+        { "vietnamese": "Tôi có thể đến trễ một chút.", "pronunciation": "또이 꼬 테 덴 쩨 못 쭛.", "korean": "조금 늦을 수도 있어요." },
+        { "vietnamese": "Có cần mang theo gì không?", "pronunciation": "꼬 건 망 테오 지 콩?", "korean": "뭐 가져갈 거 있어요?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "variants": [
+        { "vietnamese": "Nếu trời mưa thì mình đổi sang ngày khác.", "pronunciation": "네우 쩌이 므어 티 밍 도이 상 응아이 칵.", "korean": "비가 오면 다른 날로 바꿔요." },
+        { "vietnamese": "Không sao, cứ từ từ.", "pronunciation": "콩 사오, 끄 뜨 뜨.", "korean": "괜찮아요, 천천히 오세요." },
+        { "vietnamese": "Không cần đâu, mình đi tay không thôi.", "pronunciation": "콩 건 더우, 밍 디 따이 콩 토이.", "korean": "필요 없어요, 빈손으로 가요." }
+      ]
+    },
+    {
+      "speaker": "A",
+      "variants": [
+        { "vietnamese": "Vậy hẹn gặp cuối tuần nhé!", "pronunciation": "버이 헨 갑 꾸오이 뚜언 녜!", "korean": "그럼 주말에 만나요!" },
+        { "vietnamese": "Tôi rất mong đến ngày đó.", "pronunciation": "또이 럿 몽 덴 응아이 도.", "korean": "그날이 기대돼요." },
+        { "vietnamese": "Đừng quên nhé! Hẹn gặp lại.", "pronunciation": "등 꾸엔 녜! 헨 갑 라이.", "korean": "잊지 마요! 다시 만나요." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "vietnamese": "hẹn", "pronunciation": "헨", "korean": "약속하다" },
+    { "vietnamese": "rảnh", "pronunciation": "란", "korean": "한가한" },
+    { "vietnamese": "bận", "pronunciation": "번", "korean": "바쁜" },
+    { "vietnamese": "cuối tuần", "pronunciation": "꾸오이 뚜언", "korean": "주말" },
+    { "vietnamese": "gặp nhau", "pronunciation": "갑 냐우", "korean": "만나다" },
+    { "vietnamese": "đổi", "pronunciation": "도이", "korean": "바꾸다" },
+    { "vietnamese": "trễ", "pronunciation": "쩨", "korean": "늦은" },
+    { "vietnamese": "mong", "pronunciation": "몽", "korean": "기대하다, 바라다" }
+  ]
+}
