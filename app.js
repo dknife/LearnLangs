@@ -846,9 +846,9 @@ async function handleRouteWithTransition() {
   const children = app.querySelectorAll(':scope > *, :scope > * > .intro-section, :scope > * > .alpha-section, :scope > * > .alpha-tips');
   let maxEnd = 0;
   children.forEach((el, i) => {
-    const delay = i * 0.04 + Math.random() * 0.15;
-    const dur = 0.5 + Math.random() * 0.35;
-    el.style.animation = `dropIn ${dur}s cubic-bezier(0.16, 1, 0.3, 1) ${delay}s both`;
+    const delay = i * 0.06 + Math.random() * 0.12;
+    const dur = 0.8 + Math.random() * 0.4;
+    el.style.animation = `dropIn ${dur}s cubic-bezier(0.25, 1, 0.5, 1) ${delay}s both`;
     maxEnd = Math.max(maxEnd, (delay + dur) * 1000);
   });
   setTimeout(() => {
