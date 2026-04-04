@@ -400,29 +400,40 @@ async function renderLangSelect() {
   const langCodes = Object.keys(LANGS);
   const metas = await Promise.all(langCodes.map(code => DataLoader.loadMeta(code)));
 
-  let cardsHTML = '';
-  langCodes.forEach((code, i) => {
+  const langData = langCodes.map((code, i) => {
     const lang = LANGS[code];
     const progress = Progress._getStore(code).data.completedLevels.length;
     const total = metas[i].totalLevels;
-    cardsHTML += `
-      <a href="#/${code}" class="lang-card lang-card-${code}">
-        <div class="lang-card-top">
-          <span class="lang-card-icon">${lang.emoji}</span>
-          <span class="lang-card-name">${lang.name}</span>
-        </div>
-        <span class="lang-card-levels">${progress} / ${total} 레벨 완료</span>
-      </a>
-    `;
+    return { code, lang, progress, total };
   });
+
+  // Build wheel items
+  let itemsHTML = langData.map((d, i) => `
+    <div class="wheel-item" data-index="${i}" data-code="${d.code}">
+      <span class="wheel-item-emoji">${d.lang.emoji}</span>
+      <div class="wheel-item-info">
+        <span class="wheel-item-name">${d.lang.name}</span>
+        <span class="wheel-item-kr">${d.lang.nameKr}</span>
+      </div>
+      <span class="wheel-item-progress">${d.progress}/${d.total}</span>
+    </div>
+  `).join('');
 
   app.innerHTML = `
     <div class="lang-select-page">
       <h1 class="lang-select-title">어떤 언어를 배울까요?</h1>
-      <p class="lang-select-subtitle">학습할 언어를 선택하세요</p>
-      <div class="lang-cards">
-        ${cardsHTML}
+      <p class="lang-select-subtitle">스크롤하여 언어를 선택하세요</p>
+      <div class="wheel-container">
+        <div class="wheel-highlight"></div>
+        <div class="wheel-mask wheel-mask-top"></div>
+        <div class="wheel-mask wheel-mask-bottom"></div>
+        <div class="wheel-track" id="wheelTrack">
+          ${itemsHTML}
+        </div>
       </div>
+      <a id="wheelSelectBtn" class="wheel-select-btn" href="#/${langData[0].code}">
+        ${langData[0].lang.nameKr} 시작하기
+      </a>
       <div class="lang-select-tts-toggle">
         <label class="tts-switch">
           <input type="checkbox" id="langSelectAutoTTS" ${_autoTTS ? 'checked' : ''}>
@@ -433,6 +444,144 @@ async function renderLangSelect() {
     </div>
   `;
 
+  // --- Wheel scroll logic ---
+  const track = document.getElementById('wheelTrack');
+  const btn = document.getElementById('wheelSelectBtn');
+  const ITEM_H = 72; // must match CSS .wheel-item height
+  const count = langData.length;
+  let currentIndex = 0;
+  let scrollY = 0;
+  let startY = 0;
+  let dragging = false;
+  let velocity = 0;
+  let lastY = 0;
+  let lastTime = 0;
+  let animFrame = null;
+
+  function clampIndex(idx) { return Math.max(0, Math.min(count - 1, idx)); }
+
+  function updateWheel(animate) {
+    const targetY = -currentIndex * ITEM_H;
+    if (animate) {
+      scrollY = targetY;
+      track.style.transition = 'transform 0.3s cubic-bezier(0.23, 1, 0.32, 1)';
+    } else {
+      track.style.transition = 'none';
+    }
+    track.style.transform = `translateY(${scrollY}px)`;
+
+    // Update items opacity/scale
+    track.querySelectorAll('.wheel-item').forEach((el, i) => {
+      const dist = Math.abs(i - currentIndex);
+      if (dist === 0) {
+        el.classList.add('wheel-item-active');
+        el.style.opacity = '1';
+        el.style.transform = 'scale(1)';
+      } else if (dist === 1) {
+        el.classList.remove('wheel-item-active');
+        el.style.opacity = '0.45';
+        el.style.transform = 'scale(0.88)';
+      } else {
+        el.classList.remove('wheel-item-active');
+        el.style.opacity = '0.2';
+        el.style.transform = 'scale(0.78)';
+      }
+    });
+
+    // Update button
+    const d = langData[currentIndex];
+    btn.href = `#/${d.code}`;
+    btn.textContent = `${d.lang.nameKr} 시작하기`;
+    btn.style.background = getComputedStyle(document.documentElement).getPropertyValue('--text-primary') || '#1a1a1a';
+  }
+
+  function snapToNearest() {
+    currentIndex = clampIndex(Math.round(-scrollY / ITEM_H));
+    scrollY = -currentIndex * ITEM_H;
+    updateWheel(true);
+  }
+
+  // Touch events
+  track.addEventListener('touchstart', (e) => {
+    dragging = true;
+    startY = e.touches[0].clientY;
+    lastY = startY;
+    lastTime = Date.now();
+    velocity = 0;
+    track.style.transition = 'none';
+    if (animFrame) cancelAnimationFrame(animFrame);
+  }, { passive: true });
+
+  track.addEventListener('touchmove', (e) => {
+    if (!dragging) return;
+    const y = e.touches[0].clientY;
+    const dy = y - lastY;
+    const now = Date.now();
+    velocity = dy / (now - lastTime || 1);
+    lastY = y;
+    lastTime = now;
+    scrollY += dy;
+    track.style.transform = `translateY(${scrollY}px)`;
+  }, { passive: true });
+
+  track.addEventListener('touchend', () => {
+    dragging = false;
+    // Apply momentum
+    const fling = velocity * 120;
+    scrollY += fling;
+    snapToNearest();
+  });
+
+  // Mouse wheel
+  track.parentElement.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    currentIndex = clampIndex(currentIndex + (e.deltaY > 0 ? 1 : -1));
+    scrollY = -currentIndex * ITEM_H;
+    updateWheel(true);
+  }, { passive: false });
+
+  // Click on item to select
+  track.querySelectorAll('.wheel-item').forEach(el => {
+    el.addEventListener('click', () => {
+      currentIndex = parseInt(el.dataset.index);
+      scrollY = -currentIndex * ITEM_H;
+      updateWheel(true);
+    });
+  });
+
+  // Mouse drag
+  let mouseDown = false, mouseStartY = 0;
+  track.addEventListener('mousedown', (e) => {
+    mouseDown = true;
+    mouseStartY = e.clientY;
+    lastY = e.clientY;
+    lastTime = Date.now();
+    velocity = 0;
+    track.style.transition = 'none';
+    e.preventDefault();
+  });
+  document.addEventListener('mousemove', (e) => {
+    if (!mouseDown) return;
+    const dy = e.clientY - lastY;
+    const now = Date.now();
+    velocity = dy / (now - lastTime || 1);
+    lastY = e.clientY;
+    lastTime = now;
+    scrollY += dy;
+    track.style.transform = `translateY(${scrollY}px)`;
+  });
+  document.addEventListener('mouseup', () => {
+    if (!mouseDown) return;
+    mouseDown = false;
+    const fling = velocity * 120;
+    scrollY += fling;
+    snapToNearest();
+  });
+
+  // Initial render
+  updateWheel(false);
+
+  // TTS toggle
   const langTTSSwitch = document.getElementById('langSelectAutoTTS');
   if (langTTSSwitch) {
     langTTSSwitch.addEventListener('change', (e) => {
