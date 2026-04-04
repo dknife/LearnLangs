@@ -841,11 +841,19 @@ async function handleRouteWithTransition() {
   await new Promise(r => setTimeout(r, 250));
   // Route change (new content)
   await handleRoute();
-  // Enter: children drop in from top
   app.classList.remove('page-exit');
-  app.classList.add('page-enter');
-  // Remove class after animations finish
-  setTimeout(() => app.classList.remove('page-enter'), 800);
+  // Enter: children drop in with random delay & duration
+  const children = app.querySelectorAll(':scope > *, :scope > * > .intro-section, :scope > * > .alpha-section, :scope > * > .alpha-tips');
+  let maxEnd = 0;
+  children.forEach((el, i) => {
+    const delay = i * 0.04 + Math.random() * 0.15;
+    const dur = 0.5 + Math.random() * 0.35;
+    el.style.animation = `dropIn ${dur}s cubic-bezier(0.16, 1, 0.3, 1) ${delay}s both`;
+    maxEnd = Math.max(maxEnd, (delay + dur) * 1000);
+  });
+  setTimeout(() => {
+    children.forEach(el => el.style.animation = '');
+  }, maxEnd + 50);
 }
 
 window.addEventListener('hashchange', handleRouteWithTransition);

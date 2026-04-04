@@ -195,29 +195,13 @@ html { scrollbar-width: thin; scrollbar-color: rgba(34,34,34,0.15) transparent; 
 @keyframes dropIn {
   from {
     opacity: 0;
-    transform: translateY(-30px);
+    transform: translateY(-40px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
-
-.page-enter > * {
-  animation: dropIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) both;
-}
-
-.page-enter > *:nth-child(1)  { animation-delay: 0.03s; }
-.page-enter > *:nth-child(2)  { animation-delay: 0.07s; }
-.page-enter > *:nth-child(3)  { animation-delay: 0.11s; }
-.page-enter > *:nth-child(4)  { animation-delay: 0.15s; }
-.page-enter > *:nth-child(5)  { animation-delay: 0.19s; }
-.page-enter > *:nth-child(6)  { animation-delay: 0.23s; }
-.page-enter > *:nth-child(7)  { animation-delay: 0.27s; }
-.page-enter > *:nth-child(8)  { animation-delay: 0.31s; }
-.page-enter > *:nth-child(9)  { animation-delay: 0.35s; }
-.page-enter > *:nth-child(10) { animation-delay: 0.39s; }
-.page-enter > *:nth-child(n+11) { animation-delay: 0.42s; }
 
 /* ----------------------------------------------------------
    4. Buttons
