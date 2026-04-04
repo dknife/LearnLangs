@@ -1715,6 +1715,140 @@ html { scrollbar-width: thin; scrollbar-color: rgba(34,34,34,0.15) transparent; 
   color: var(--text-muted);
 }
 
+/* Alphabet button in intro reading section */
+.intro-alphabet-btn {
+  display: block;
+  text-align: center;
+  margin-top: 0.75rem;
+  padding: 0.6rem 1.25rem;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: var(--radius-lg);
+  text-decoration: none;
+  transition: all var(--transition);
+}
+
+.intro-alphabet-btn:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+/* ---- Alphabet Page ---- */
+.alpha-page {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+}
+
+.alpha-back {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-decoration: none;
+  margin-bottom: 1rem;
+  transition: color var(--transition);
+}
+
+.alpha-back:hover {
+  color: var(--text-primary);
+}
+
+.alpha-title {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 0 0 0.25rem;
+  letter-spacing: -0.03em;
+}
+
+.alpha-desc {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0 0 1.5rem;
+  line-height: 1.5;
+}
+
+.alpha-section {
+  background: var(--bg-white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.alpha-section-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 0.75rem;
+}
+
+.alpha-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.4rem;
+}
+
+.alpha-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+  padding: 0.5rem 0.35rem;
+  background: var(--bg-main);
+  border-radius: var(--radius-md);
+  text-align: center;
+}
+
+.alpha-char {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.alpha-pron {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.alpha-note {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  line-height: 1.3;
+}
+
+.alpha-tips {
+  background: var(--bg-white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.alpha-back-bottom {
+  display: block;
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 0.75rem;
+  background: var(--bg-white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  transition: all var(--transition);
+}
+
+.alpha-back-bottom:hover {
+  color: var(--text-primary);
+  border-color: var(--text-primary);
+}
+
 .intro-skip-btn {
   display: block;
   text-align: center;
