@@ -1207,6 +1207,16 @@ const GRAMMAR_DATA = {
   ]}}
 };
 
+// Merge GRAMMAR_EXTRA (levels 2-10) into GRAMMAR_DATA
+if (typeof GRAMMAR_EXTRA !== 'undefined') {
+  for (const lang of Object.keys(GRAMMAR_EXTRA)) {
+    if (!GRAMMAR_DATA[lang]) GRAMMAR_DATA[lang] = {};
+    for (const level of Object.keys(GRAMMAR_EXTRA[lang])) {
+      GRAMMAR_DATA[lang][level] = GRAMMAR_EXTRA[lang][level];
+    }
+  }
+}
+
 // ------------------------------------------------------------
 // 0-1. Data Loader (fetch JSON from data/{lang}/)
 // ------------------------------------------------------------
