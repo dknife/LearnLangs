@@ -919,6 +919,295 @@ const LANG_ALPHABETS = {
 };
 
 // ------------------------------------------------------------
+// 0-0.7. Grammar Topics & Data
+// ------------------------------------------------------------
+const GRAMMAR_TOPICS = [
+  { id: 1, title: '기본 문장 구조', icon: '📝' },
+  { id: 2, title: '명사와 수식어', icon: '📦' },
+  { id: 3, title: '대명사와 기본 동사', icon: '🏃' },
+  { id: 4, title: '형용사와 부사', icon: '🎨' },
+  { id: 5, title: '시제 표현', icon: '⏳' },
+  { id: 6, title: '의문문과 부정문', icon: '❓' },
+  { id: 7, title: '전치사/조사/격', icon: '🔗' },
+  { id: 8, title: '복합문', icon: '🔀' },
+  { id: 9, title: '수동태/조건문', icon: '🔄' },
+  { id: 10, title: '경어/문체/고급', icon: '🎓' }
+];
+
+const GRAMMAR_DATA = {
+  zh: { 1: { title: '기본 문장 구조', sections: [
+    { name: '기본 어순 (SVO)', explanation: '중국어는 영어와 같은 주어-동사-목적어(SVO) 어순을 따릅니다. 주어가 먼저 오고, 동사가 그 뒤에, 목적어가 마지막에 옵니다. 어순이 비교적 고정되어 있어 문장 구조를 익히기 쉽습니다.', examples: [
+      { foreign: '我学中文。', pron: '워 쉬에 중원', korean: '나는 중국어를 배운다.' },
+      { foreign: '他吃饭。', pron: '타 츠 판', korean: '그는 밥을 먹는다.' },
+      { foreign: '她看书。', pron: '타 칸 슈', korean: '그녀는 책을 본다.' }
+    ]},
+    { name: '"~이다" 표현 (是)', explanation: '중국어에서 "A는 B이다"라고 말할 때 是(shì)를 사용합니다. 是는 시제나 인칭에 따라 변하지 않습니다. 형용사 술어문에서는 是를 쓰지 않고 很(hěn)을 사용합니다.', examples: [
+      { foreign: '我是学生。', pron: '워 스 쉬에셩', korean: '나는 학생이다.' },
+      { foreign: '他是老师。', pron: '타 스 라오스', korean: '그는 선생님이다.' },
+      { foreign: '这是我的书。', pron: '쩌 스 워더 슈', korean: '이것은 내 책이다.' }
+    ]},
+    { name: '기본 동작문', explanation: '중국어 동사는 시제, 인칭, 수에 따라 변화하지 않습니다. 동사 원형을 그대로 사용하며, 시제는 부사나 조사(了, 过, 在 등)로 표현합니다.', examples: [
+      { foreign: '我喝咖啡。', pron: '워 허 카페이', korean: '나는 커피를 마신다.' },
+      { foreign: '他写信。', pron: '타 시에 신', korean: '그는 편지를 쓴다.' },
+      { foreign: '我们说英语。', pron: '워먼 슈오 잉위', korean: '우리는 영어를 말한다.' }
+    ]},
+    { name: '부정문 (不 / 没)', explanation: '기본 부정은 不(bù)를 동사 앞에 놓습니다. 과거 경험의 부정에는 没(méi)을 사용합니다. 有(yǒu)의 부정은 항상 没有(méiyǒu)를 씁니다.', examples: [
+      { foreign: '我不是老师。', pron: '워 부 스 라오스', korean: '나는 선생님이 아니다.' },
+      { foreign: '他不喝酒。', pron: '타 부 허 지우', korean: '그는 술을 마시지 않는다.' },
+      { foreign: '我没有钱。', pron: '워 메이요우 치엔', korean: '나는 돈이 없다.' }
+    ]},
+    { name: '의문문 (吗)', explanation: '가장 간단한 의문문은 평서문 끝에 吗(ma)를 붙이는 것입니다. 어순 변화 없이 吗만 추가하면 됩니다.', examples: [
+      { foreign: '你是学生吗？', pron: '니 스 쉬에셩 마', korean: '당신은 학생입니까?' },
+      { foreign: '他喝茶吗？', pron: '타 허 차 마', korean: '그는 차를 마십니까?' },
+      { foreign: '你吃饭了吗？', pron: '니 츠 판 러 마', korean: '밥 먹었습니까?' }
+    ]}
+  ]}},
+  es: { 1: { title: '기본 문장 구조', sections: [
+    { name: '기본 어순 (SVO)', explanation: '스페인어는 기본적으로 주어-동사-목적어(SVO) 어순을 따릅니다. 주어 대명사는 동사 활용으로 주어를 알 수 있기 때문에 자주 생략됩니다.', examples: [
+      { foreign: 'Yo estudio español.', pron: '요 에스뚜디오 에스빠뇰', korean: '나는 스페인어를 공부한다.' },
+      { foreign: 'Ella come una manzana.', pron: '에야 꼬메 우나 만사나', korean: '그녀는 사과를 먹는다.' },
+      { foreign: 'Él bebe agua.', pron: '엘 베베 아구아', korean: '그는 물을 마신다.' }
+    ]},
+    { name: '"~이다" 표현 (ser / estar)', explanation: '스페인어에는 "~이다"에 해당하는 동사가 두 개 있습니다. ser는 본질적 특성(직업, 국적)에, estar는 일시적 상태(위치, 감정)에 사용합니다.', examples: [
+      { foreign: 'Yo soy estudiante.', pron: '요 소이 에스뚜디안떼', korean: '나는 학생이다.' },
+      { foreign: 'Ella es profesora.', pron: '에야 에스 쁘로페소라', korean: '그녀는 선생님이다.' },
+      { foreign: 'Él está en casa.', pron: '엘 에스따 엔 까사', korean: '그는 집에 있다.' }
+    ]},
+    { name: '기본 동작문', explanation: '스페인어 동사는 주어의 인칭과 수에 따라 반드시 활용해야 합니다. -ar, -er, -ir 세 가지 동사 유형이 있습니다.', examples: [
+      { foreign: 'Yo hablo coreano.', pron: '요 아블로 꼬레아노', korean: '나는 한국어를 말한다.' },
+      { foreign: 'Tú comes pan.', pron: '뚜 꼬메스 빤', korean: '너는 빵을 먹는다.' },
+      { foreign: 'Ella escribe una carta.', pron: '에야 에스끄리베 우나 까르따', korean: '그녀는 편지를 쓴다.' }
+    ]},
+    { name: '부정문 (no)', explanation: '동사 바로 앞에 no를 놓으면 됩니다. 이중 부정이 가능합니다: No tengo nada(나는 아무것도 없다).', examples: [
+      { foreign: 'Yo no soy profesor.', pron: '요 노 소이 쁘로페소르', korean: '나는 선생님이 아니다.' },
+      { foreign: 'Él no come carne.', pron: '엘 노 꼬메 까르네', korean: '그는 고기를 먹지 않는다.' },
+      { foreign: 'No tengo dinero.', pron: '노 뗑고 디네로', korean: '나는 돈이 없다.' }
+    ]},
+    { name: '의문문 (¿...?)', explanation: '문장 앞에 역물음표(¿)를, 끝에 물음표(?)를 붙입니다. 평서문에 억양만 올려도 질문이 됩니다.', examples: [
+      { foreign: '¿Eres estudiante?', pron: '에레스 에스뚜디안떼', korean: '너는 학생이니?' },
+      { foreign: '¿Hablas español?', pron: '아블라스 에스빠뇰', korean: '스페인어를 말하니?' },
+      { foreign: '¿Tienes hermanos?', pron: '띠에네스 에르마노스', korean: '형제가 있니?' }
+    ]}
+  ]}},
+  fr: { 1: { title: '기본 문장 구조', sections: [
+    { name: '기본 어순 (SVO)', explanation: '프랑스어는 주어-동사-목적어(SVO) 어순을 따릅니다. 주어 대명사를 생략하지 않습니다.', examples: [
+      { foreign: 'Je parle français.', pron: '쥬 빠를 프홍세', korean: '나는 프랑스어를 말한다.' },
+      { foreign: 'Elle mange une pomme.', pron: '엘 몽쥬 윈 뽐', korean: '그녀는 사과를 먹는다.' },
+      { foreign: 'Il boit de l\'eau.', pron: '일 브와 드 로', korean: '그는 물을 마신다.' }
+    ]},
+    { name: '"~이다" 표현 (être)', explanation: 'être는 불규칙 동사입니다: je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont.', examples: [
+      { foreign: 'Je suis étudiant.', pron: '쥬 스위 에뛰디앙', korean: '나는 학생이다.' },
+      { foreign: 'Elle est professeur.', pron: '엘 에 프로페쇠르', korean: '그녀는 선생님이다.' },
+      { foreign: 'Nous sommes coréens.', pron: '누 솜 코레앙', korean: '우리는 한국 사람이다.' }
+    ]},
+    { name: '기본 동작문', explanation: '동사는 -er, -ir, -re 세 그룹으로 나뉩니다. -er 동사 현재형: je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent.', examples: [
+      { foreign: 'Je mange du pain.', pron: '쥬 몽쥬 뒤 빵', korean: '나는 빵을 먹는다.' },
+      { foreign: 'Tu écris une lettre.', pron: '뛰 에크리 윈 레트르', korean: '너는 편지를 쓴다.' },
+      { foreign: 'Ils boivent du café.', pron: '일 브와브 뒤 카페', korean: '그들은 커피를 마신다.' }
+    ]},
+    { name: '부정문 (ne...pas)', explanation: '동사를 ne와 pas로 감쌉니다. 구어에서는 ne를 생략하는 경우가 많지만 문어에서는 필수입니다.', examples: [
+      { foreign: 'Je ne suis pas professeur.', pron: '쥬 느 스위 빠 프로페쇠르', korean: '나는 선생님이 아니다.' },
+      { foreign: 'Il ne mange pas de viande.', pron: '일 느 몽쥬 빠 드 비앙드', korean: '그는 고기를 먹지 않는다.' },
+      { foreign: 'Elle n\'a pas d\'argent.', pron: '엘 나 빠 다르정', korean: '그녀는 돈이 없다.' }
+    ]},
+    { name: '의문문 (est-ce que)', explanation: '문장 앞에 Est-ce que를 붙이거나, 억양을 올리거나, 주어-동사를 도치합니다.', examples: [
+      { foreign: 'Est-ce que tu es étudiant ?', pron: '에스크 뛰 에 에뛰디앙', korean: '너는 학생이니?' },
+      { foreign: 'Tu parles français ?', pron: '뛰 빠를 프홍세', korean: '프랑스어를 말하니?' },
+      { foreign: 'Avez-vous des enfants ?', pron: '아베 부 데 정퐁', korean: '자녀가 있으신가요?' }
+    ]}
+  ]}},
+  ja: { 1: { title: '기본 문장 구조', sections: [
+    { name: '기본 어순 (SOV)', explanation: '일본어는 주어-목적어-동사(SOV) 어순입니다. 동사가 항상 문장 끝에 옵니다. 주어 뒤에는 は(wa), 목적어 뒤에는 を(wo)를 붙입니다.', examples: [
+      { foreign: '私は日本語を勉強します。', pron: '와타시와 니혼고오 벤쿄시마스', korean: '나는 일본어를 공부합니다.' },
+      { foreign: '彼はご飯を食べます。', pron: '카레와 고항오 타베마스', korean: '그는 밥을 먹습니다.' },
+      { foreign: '彼女は水を飲みます。', pron: '카노조와 미즈오 노미마스', korean: '그녀는 물을 마십니다.' }
+    ]},
+    { name: '"~이다" 표현 (です)', explanation: '"A는 B이다"는 です(desu)를 사용합니다. 반말로는 だ(da)를 씁니다.', examples: [
+      { foreign: '私は学生です。', pron: '와타시와 가쿠세이데스', korean: '나는 학생입니다.' },
+      { foreign: '彼は先生です。', pron: '카레와 센세이데스', korean: '그는 선생님입니다.' },
+      { foreign: '彼女は韓国人です。', pron: '카노조와 칸코쿠진데스', korean: '그녀는 한국 사람입니다.' }
+    ]},
+    { name: '기본 동작문', explanation: '동사는 ます형(정중형)을 사용합니다. 1그룹(五段), 2그룹(一段), 3그룹(불규칙)으로 나뉩니다.', examples: [
+      { foreign: '私はコーヒーを飲みます。', pron: '와타시와 코히오 노미마스', korean: '나는 커피를 마십니다.' },
+      { foreign: '彼は手紙を書きます。', pron: '카레와 테가미오 카키마스', korean: '그는 편지를 씁니다.' },
+      { foreign: '私たちは英語を話します。', pron: '와타시타치와 에이고오 하나시마스', korean: '우리는 영어를 말합니다.' }
+    ]},
+    { name: '부정문 (ません / ではありません)', explanation: '동사 부정: ます→ません. "~이 아니다": ではありません(정중), じゃない(반말).', examples: [
+      { foreign: '私は先生ではありません。', pron: '와타시와 센세이데와 아리마셍', korean: '나는 선생님이 아닙니다.' },
+      { foreign: '彼は肉を食べません。', pron: '카레와 니쿠오 타베마셍', korean: '그는 고기를 먹지 않습니다.' },
+      { foreign: '私はお金がありません。', pron: '와타시와 오카네가 아리마셍', korean: '나는 돈이 없습니다.' }
+    ]},
+    { name: '의문문 (か)', explanation: '문장 끝에 か(ka)를 붙이면 의문문이 됩니다. 대답: はい(네) / いいえ(아니오).', examples: [
+      { foreign: 'あなたは学生ですか。', pron: '아나타와 가쿠세이데스카', korean: '당신은 학생입니까?' },
+      { foreign: '日本語を話しますか。', pron: '니혼고오 하나시마스카', korean: '일본어를 말합니까?' },
+      { foreign: 'これは本ですか。', pron: '코레와 혼데스카', korean: '이것은 책입니까?' }
+    ]}
+  ]}},
+  sw: { 1: { title: '기본 문장 구조', sections: [
+    { name: '기본 어순 (SVO)', explanation: '스와힐리어는 SVO 어순입니다. 동사에 주어 접두사가 붙어 주어를 나타냅니다: ni-(나), u-(너), a-(그/그녀), tu-(우리), wa-(그들).', examples: [
+      { foreign: 'Ninasoma Kiswahili.', pron: '니나소마 키스와힐리', korean: '나는 스와힐리어를 공부한다.' },
+      { foreign: 'Anakula chakula.', pron: '아나쿨라 차쿨라', korean: '그는 음식을 먹는다.' },
+      { foreign: 'Tunasoma vitabu.', pron: '투나소마 비타부', korean: '우리는 책을 읽는다.' }
+    ]},
+    { name: '"~이다" 표현 (ni)', explanation: '"A는 B이다"는 ni를 사용합니다. ni는 변하지 않는 연결사입니다.', examples: [
+      { foreign: 'Mimi ni mwanafunzi.', pron: '미미 니 므와나푼지', korean: '나는 학생이다.' },
+      { foreign: 'Yeye ni mwalimu.', pron: '예예 니 므왈리무', korean: '그는 선생님이다.' },
+      { foreign: 'Sisi ni Wakorea.', pron: '시시 니 와코레아', korean: '우리는 한국 사람이다.' }
+    ]},
+    { name: '동사 구조 (주어접두사+시제+어근)', explanation: '동사는 주어접두사 + 시제표지 + 동사어근으로 구성됩니다. 현재진행 시제표지: -na-. 예: ni+na+soma = ninasoma.', examples: [
+      { foreign: 'Ninakunywa chai.', pron: '니나쿤이와 차이', korean: '나는 차를 마신다.' },
+      { foreign: 'Unaandika barua.', pron: '우나안디카 바루아', korean: '너는 편지를 쓴다.' },
+      { foreign: 'Ananunua chakula.', pron: '아나누누아 차쿨라', korean: '그는 음식을 산다.' }
+    ]},
+    { name: '부정문 (si- / ha-)', explanation: '부정은 주어접두사를 바꿉니다: ni-→si-, u-→hu-, a-→ha-, tu-→hatu-, wa-→hawa-.', examples: [
+      { foreign: 'Mimi si mwalimu.', pron: '미미 시 므왈리무', korean: '나는 선생님이 아니다.' },
+      { foreign: 'Hali nyama.', pron: '할리 니아마', korean: '그는 고기를 먹지 않는다.' },
+      { foreign: 'Sina pesa.', pron: '시나 페사', korean: '나는 돈이 없다.' }
+    ]},
+    { name: '의문문 (je? / 억양)', explanation: '평서문 끝에 억양을 올리거나 je를 붙입니다. 대답: ndiyo(네) / hapana(아니오).', examples: [
+      { foreign: 'Wewe ni mwanafunzi?', pron: '웨웨 니 므와나푼지', korean: '너는 학생이니?' },
+      { foreign: 'Je, unasema Kiswahili?', pron: '제, 우나세마 키스와힐리', korean: '스와힐리어를 말하니?' },
+      { foreign: 'Una ndugu?', pron: '우나 은두구', korean: '형제가 있니?' }
+    ]}
+  ]}},
+  ar: { 1: { title: '기본 문장 구조', sections: [
+    { name: '기본 어순 (VSO / 명사문)', explanation: '동사문에서는 동사-주어-목적어(VSO), 명사문(동사 없는 문장)에서는 주어-술어 순서입니다. 오른쪽에서 왼쪽으로 읽습니다.', examples: [
+      { foreign: 'يدرسُ الطالبُ العربيةَ.', pron: '야드루수 앗탈리부 알아라비야', korean: '학생은 아랍어를 공부한다.' },
+      { foreign: 'يأكلُ الولدُ الطعامَ.', pron: '야쿨루 알왈라두 앗타아마', korean: '소년은 음식을 먹는다.' },
+      { foreign: 'نقرأُ الكتبَ.', pron: '나크라우 알쿠투바', korean: '우리는 책을 읽는다.' }
+    ]},
+    { name: '"~이다" 표현 (계사 생략)', explanation: '현재형에서 "~이다"를 사용하지 않습니다. "나는 학생이다"를 "나 학생"이라고 합니다. 과거에만 كان(카나)을 씁니다.', examples: [
+      { foreign: 'أنا طالبٌ.', pron: '아나 탈리분', korean: '나는 학생이다.' },
+      { foreign: 'هي مُعلِّمةٌ.', pron: '히야 무알리마툰', korean: '그녀는 선생님이다.' },
+      { foreign: 'نحنُ كوريّون.', pron: '나흐누 쿠리윤', korean: '우리는 한국 사람이다.' }
+    ]},
+    { name: '기본 동작문', explanation: '동사는 인칭, 성별, 수에 따라 변합니다. 현재형은 접두사를 붙여 만듭니다: أ-(나), ت-(너/그녀), ي-(그), ن-(우리).', examples: [
+      { foreign: 'أشربُ القهوةَ.', pron: '아슈라부 알카흐와', korean: '나는 커피를 마신다.' },
+      { foreign: 'يكتبُ رسالةً.', pron: '약투부 리살라탄', korean: '그는 편지를 쓴다.' },
+      { foreign: 'نتكلّمُ الإنجليزيةَ.', pron: '나타칼라무 알잉길리지야', korean: '우리는 영어를 말한다.' }
+    ]},
+    { name: '부정문 (لا / ليس)', explanation: '현재형 부정: 동사 앞에 لا(라). 명사문 부정: ليس(레이사, ~이 아니다).', examples: [
+      { foreign: 'أنا لستُ مُعلِّماً.', pron: '아나 라스투 무알리만', korean: '나는 선생님이 아니다.' },
+      { foreign: 'لا يأكلُ اللحمَ.', pron: '라 야쿨루 알라흐마', korean: '그는 고기를 먹지 않는다.' },
+      { foreign: 'ليس عندي مالٌ.', pron: '레이사 인디 말룬', korean: '나는 돈이 없다.' }
+    ]},
+    { name: '의문문 (هل)', explanation: '문장 앞에 هل(할)을 붙입니다. 대답: نعم(나암, 네) / لا(라, 아니오).', examples: [
+      { foreign: 'هل أنتَ طالبٌ؟', pron: '할 안타 탈리분', korean: '당신은 학생입니까?' },
+      { foreign: 'هل تتكلّمُ العربيةَ؟', pron: '할 타타칼라무 알아라비야', korean: '아랍어를 말합니까?' },
+      { foreign: 'هل يأكلُ الأرزَ؟', pron: '할 야쿨루 알아루자', korean: '그는 밥을 먹습니까?' }
+    ]}
+  ]}},
+  th: { 1: { title: '기본 문장 구조', sections: [
+    { name: '기본 어순 (SVO)', explanation: '태국어는 SVO 어순입니다. 동사는 시제, 인칭, 수에 따라 변하지 않습니다. 시제는 보조사(จะ 미래, แล้ว 과거)로 표현합니다.', examples: [
+      { foreign: 'ผมเรียนภาษาไทย', pron: '폼 리안 파사 타이', korean: '나는 태국어를 공부한다.' },
+      { foreign: 'เขากินข้าว', pron: '카오 낀 카오', korean: '그는 밥을 먹는다.' },
+      { foreign: 'เราอ่านหนังสือ', pron: '라오 안 낭스', korean: '우리는 책을 읽는다.' }
+    ]},
+    { name: '"~이다" 표현 (เป็น)', explanation: 'เป็น(뻰)은 명사 연결에만 사용합니다. 형용사 술어문에서는 쓰지 않고 형용사를 직접 씁니다.', examples: [
+      { foreign: 'ผมเป็นนักเรียน', pron: '폼 뻰 낙리안', korean: '나는 학생이다.' },
+      { foreign: 'เขาเป็นครู', pron: '카오 뻰 크루', korean: '그는 선생님이다.' },
+      { foreign: 'เราเป็นคนเกาหลี', pron: '라오 뻰 콘 까올리', korean: '우리는 한국 사람이다.' }
+    ]},
+    { name: '기본 동작문', explanation: '동사는 활용이 없어 원형을 그대로 사용합니다. 존칭은 ครับ(크랍, 남성)이나 ค่ะ(카, 여성)를 문장 끝에 붙입니다.', examples: [
+      { foreign: 'ผมดื่มกาแฟ', pron: '폼 듬 까페', korean: '나는 커피를 마신다.' },
+      { foreign: 'เขาเขียนจดหมาย', pron: '카오 키안 졷마이', korean: '그는 편지를 쓴다.' },
+      { foreign: 'เธอซื้อของ', pron: '터 쓰 콩', korean: '그녀는 물건을 산다.' }
+    ]},
+    { name: '부정문 (ไม่)', explanation: '동사 앞에 ไม่(마이)를 놓습니다. "~이 아니다"는 ไม่ใช่(마이 차이)를 사용합니다.', examples: [
+      { foreign: 'ผมไม่ใช่ครู', pron: '폼 마이차이 크루', korean: '나는 선생님이 아니다.' },
+      { foreign: 'เขาไม่กินเนื้อ', pron: '카오 마이 낀 느아', korean: '그는 고기를 먹지 않는다.' },
+      { foreign: 'ฉันไม่มีเงิน', pron: '찬 마이 미 응은', korean: '나는 돈이 없다.' }
+    ]},
+    { name: '의문문 (ไหม)', explanation: '평서문 끝에 ไหม(마이)를 붙입니다. 대답: ใช่(차이, 네) / ไม่ใช่(마이차이, 아니오).', examples: [
+      { foreign: 'คุณเป็นนักเรียนไหม', pron: '쿤 뻰 낙리안 마이', korean: '당신은 학생입니까?' },
+      { foreign: 'คุณพูดภาษาไทยไหม', pron: '쿤 풋 파사 타이 마이', korean: '태국어를 말합니까?' },
+      { foreign: 'คุณมีพี่น้องไหม', pron: '쿤 미 피농 마이', korean: '형제가 있습니까?' }
+    ]}
+  ]}},
+  vi: { 1: { title: '기본 문장 구조', sections: [
+    { name: '기본 어순 (SVO)', explanation: '베트남어는 SVO 어순입니다. 동사는 변화하지 않으며, 시제는 부사(đã 과거, đang 진행, sẽ 미래)로 표현합니다.', examples: [
+      { foreign: 'Tôi học tiếng Việt.', pron: '또이 혹 띠엥 비엣', korean: '나는 베트남어를 배운다.' },
+      { foreign: 'Anh ấy ăn cơm.', pron: '아잉 어이 안 껌', korean: '그는 밥을 먹는다.' },
+      { foreign: 'Cô ấy uống nước.', pron: '꼬 어이 우엉 느억', korean: '그녀는 물을 마신다.' }
+    ]},
+    { name: '"~이다" 표현 (là)', explanation: 'là는 모든 인칭에 동일하게 씁니다. 형용사 술어문에서는 là를 쓰지 않습니다.', examples: [
+      { foreign: 'Tôi là sinh viên.', pron: '또이 라 싱 비엔', korean: '나는 학생이다.' },
+      { foreign: 'Cô ấy là giáo viên.', pron: '꼬 어이 라 자오 비엔', korean: '그녀는 선생님이다.' },
+      { foreign: 'Chúng tôi là người Hàn Quốc.', pron: '쭝 또이 라 응어이 한 꾸억', korean: '우리는 한국 사람이다.' }
+    ]},
+    { name: '기본 동작문', explanation: '동사는 활용이 전혀 없습니다. 인칭대명사가 나이·성별·관계에 따라 다양합니다: tôi, anh, chị, em 등.', examples: [
+      { foreign: 'Tôi uống cà phê.', pron: '또이 우엉 까 페', korean: '나는 커피를 마신다.' },
+      { foreign: 'Anh ấy viết thư.', pron: '아잉 어이 비엣 트', korean: '그는 편지를 쓴다.' },
+      { foreign: 'Chúng tôi nói tiếng Anh.', pron: '쭝 또이 노이 띠엥 아잉', korean: '우리는 영어를 말한다.' }
+    ]},
+    { name: '부정문 (không)', explanation: '동사 앞에 không을 놓습니다. "~이 아니다"는 không phải là, "없다"는 không có입니다.', examples: [
+      { foreign: 'Tôi không phải là giáo viên.', pron: '또이 콩 파이 라 자오 비엔', korean: '나는 선생님이 아니다.' },
+      { foreign: 'Anh ấy không ăn thịt.', pron: '아잉 어이 콩 안 틱', korean: '그는 고기를 먹지 않는다.' },
+      { foreign: 'Tôi không có tiền.', pron: '또이 콩 꼬 띠엔', korean: '나는 돈이 없다.' }
+    ]},
+    { name: '의문문 (...không?)', explanation: '문장 끝에 không을 붙입니다. 확인: ...phải không? 대답: có(네) / không(아니오).', examples: [
+      { foreign: 'Bạn là sinh viên phải không?', pron: '반 라 싱 비엔 파이 콩', korean: '당신은 학생이지요?' },
+      { foreign: 'Bạn nói tiếng Việt không?', pron: '반 노이 띠엥 비엣 콩', korean: '베트남어를 말합니까?' },
+      { foreign: 'Bạn có anh chị em không?', pron: '반 꼬 아잉 찌 엠 콩', korean: '형제자매가 있습니까?' }
+    ]}
+  ]}},
+  ru: { 1: { title: '기본 문장 구조', sections: [
+    { name: '기본 어순 (SVO, 유연)', explanation: '기본 어순은 SVO이지만, 격변화 덕분에 어순이 매우 유연합니다. 어순을 바꿔도 의미는 같지만 강조점이 달라집니다.', examples: [
+      { foreign: 'Я изучаю русский язык.', pron: '야 이주차유 루스키 야지크', korean: '나는 러시아어를 공부한다.' },
+      { foreign: 'Он ест хлеб.', pron: '온 예스트 흘렙', korean: '그는 빵을 먹는다.' },
+      { foreign: 'Она пьёт воду.', pron: '아나 피욧 보두', korean: '그녀는 물을 마신다.' }
+    ]},
+    { name: '"~이다" 표현 (현재형 생략)', explanation: '현재형에서 "~이다"(быть)를 생략합니다. "나는 학생이다"를 Я студент(나 학생)이라고 합니다.', examples: [
+      { foreign: 'Я студент.', pron: '야 스투젠트', korean: '나는 학생이다.' },
+      { foreign: 'Она учительница.', pron: '아나 우치쩰니짜', korean: '그녀는 선생님이다.' },
+      { foreign: 'Мы корейцы.', pron: '므이 까레이찌', korean: '우리는 한국 사람이다.' }
+    ]},
+    { name: '기본 동작문', explanation: '동사는 인칭과 수에 따라 변합니다: я пью, ты пьёшь, он пьёт, мы пьём, они пьют. 목적어는 대격으로 변합니다.', examples: [
+      { foreign: 'Я пью кофе.', pron: '야 피유 코페', korean: '나는 커피를 마신다.' },
+      { foreign: 'Он пишет письмо.', pron: '온 피셰트 피시모', korean: '그는 편지를 쓴다.' },
+      { foreign: 'Она покупает еду.', pron: '아나 빠쿠파옛 예두', korean: '그녀는 음식을 산다.' }
+    ]},
+    { name: '부정문 (не)', explanation: '동사 앞에 не(녜)를 놓습니다. "없다"는 нет, "~이 아니다"도 не를 씁니다.', examples: [
+      { foreign: 'Я не учитель.', pron: '야 녜 우치쩰', korean: '나는 선생님이 아니다.' },
+      { foreign: 'Он не ест мясо.', pron: '온 녜 예스트 먀사', korean: '그는 고기를 먹지 않는다.' },
+      { foreign: 'У меня нет денег.', pron: '우 미냐 녯 제녝', korean: '나는 돈이 없다.' }
+    ]},
+    { name: '의문문 (억양)', explanation: '평서문의 억양을 올려서 만듭니다. 어순 변화가 필요 없습니다. 대답: Да(다, 네) / Нет(녯, 아니오).', examples: [
+      { foreign: 'Ты студент?', pron: '뜨이 스투젠트', korean: '너는 학생이니?' },
+      { foreign: 'Ты говоришь по-русски?', pron: '뜨이 가바리쉬 빠루스키', korean: '러시아어를 말하니?' },
+      { foreign: 'У тебя есть братья?', pron: '우 찌뱌 예스찌 브라찌야', korean: '형제가 있니?' }
+    ]}
+  ]}},
+  la: { 1: { title: '기본 문장 구조', sections: [
+    { name: '기본 어순 (SOV, 유연)', explanation: '기본 어순은 SOV이지만, 격변화로 어순이 매우 자유롭습니다. 동사가 문장 끝에 오는 것이 전형적입니다.', examples: [
+      { foreign: 'Puer linguam Latinam discit.', pron: '푸에르 링구암 라티남 디스킷', korean: '소년은 라틴어를 배운다.' },
+      { foreign: 'Puella librum legit.', pron: '푸엘라 리브룸 레깃', korean: '소녀는 책을 읽는다.' },
+      { foreign: 'Aquam bibimus.', pron: '아쿠암 비비무스', korean: '우리는 물을 마신다.' }
+    ]},
+    { name: '"~이다" 표현 (sum, es, est)', explanation: 'esse 동사: sum(나), es(너), est(그/그녀), sumus(우리), estis(너희), sunt(그들).', examples: [
+      { foreign: 'Discipulus sum.', pron: '디스키풀루스 숨', korean: '나는 학생이다.' },
+      { foreign: 'Magister est.', pron: '마기스테르 에스트', korean: '그는 선생님이다.' },
+      { foreign: 'Coreani sumus.', pron: '코레아니 수무스', korean: '우리는 한국 사람이다.' }
+    ]},
+    { name: '기본 동작문', explanation: '동사는 인칭과 수에 따라 활용합니다. 1변화(-are): amo, amas, amat, amamus, amatis, amant. 목적어는 대격을 씁니다.', examples: [
+      { foreign: 'Aquam bibo.', pron: '아쿠암 비보', korean: '나는 물을 마신다.' },
+      { foreign: 'Epistulam scribit.', pron: '에피스툴람 스크리빗', korean: '그는 편지를 쓴다.' },
+      { foreign: 'Cibum emit.', pron: '키붐 에밋', korean: '그녀는 음식을 산다.' }
+    ]},
+    { name: '부정문 (non)', explanation: '동사 앞에 non을 놓습니다. "아무것도 ~않다"는 nihil, "결코 ~않다"는 numquam입니다.', examples: [
+      { foreign: 'Magister non sum.', pron: '마기스테르 논 숨', korean: '나는 선생님이 아니다.' },
+      { foreign: 'Carnem non edit.', pron: '카르넴 논 에딧', korean: '그는 고기를 먹지 않는다.' },
+      { foreign: 'Pecuniam non habeo.', pron: '페쿠니암 논 하베오', korean: '나는 돈이 없다.' }
+    ]},
+    { name: '의문문 (-ne)', explanation: '문장 첫 단어 끝에 -ne를 붙입니다. 긍정 기대: nonne, 부정 기대: num. 대답: ita(네) / non(아니오).', examples: [
+      { foreign: 'Esne discipulus?', pron: '에스네 디스키풀루스', korean: '너는 학생이니?' },
+      { foreign: 'Loquerisne Latine?', pron: '로퀘리스네 라티네', korean: '라틴어를 말하니?' },
+      { foreign: 'Habesne fratres?', pron: '하베스네 프라트레스', korean: '형제가 있니?' }
+    ]}
+  ]}}
+};
+
+// ------------------------------------------------------------
 // 0-1. Data Loader (fetch JSON from data/{lang}/)
 // ------------------------------------------------------------
 const DataLoader = {
@@ -1047,6 +1336,14 @@ async function handleRoute() {
   if (match) {
     currentLang = match[1];
     await renderLesson(parseInt(match[2]));
+    return;
+  }
+
+  // Language grammar page: #/zh/grammar/1, etc.
+  match = hash.match(/^#\/(zh|es|fr|ja|sw|ar|th|vi|ru|la)\/grammar\/(\d+)$/);
+  if (match) {
+    currentLang = match[1];
+    renderGrammar(match[1], parseInt(match[2]));
     return;
   }
 
@@ -1469,6 +1766,55 @@ function renderAlphabet(langCode) {
 }
 
 // ------------------------------------------------------------
+// renderGrammar() — Grammar explanation page
+// ------------------------------------------------------------
+function renderGrammar(langCode, level) {
+  hideLessonBg();
+  const app = document.getElementById('app');
+  const lang = LANGS[langCode];
+  const data = GRAMMAR_DATA[langCode] && GRAMMAR_DATA[langCode][level];
+  if (!data) {
+    app.innerHTML = `<div class="grammar-page"><p>아직 준비 중인 문법입니다.</p><a class="alpha-back" href="#/${langCode}/levels">← 돌아가기</a></div>`;
+    return;
+  }
+
+  const sectionsHTML = data.sections.map(sec => `
+    <div class="grammar-section">
+      <h3 class="grammar-section-name">${sec.name}</h3>
+      <p class="grammar-explanation">${sec.explanation}</p>
+      <div class="grammar-examples">
+        ${sec.examples.map(ex => `
+          <div class="grammar-example">
+            <span class="grammar-ex-foreign" data-tts="${ex.foreign.replace(/"/g, '&quot;')}">${ex.foreign}</span>
+            <span class="grammar-ex-pron">${ex.pron}</span>
+            <span class="grammar-ex-korean">${ex.korean}</span>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `).join('');
+
+  const topic = GRAMMAR_TOPICS.find(t => t.id === level);
+
+  app.innerHTML = `
+    <div class="grammar-page">
+      <a class="alpha-back" href="#/${langCode}/levels">← 레벨 선택으로</a>
+      <h1 class="grammar-title">${lang.emoji} ${topic ? topic.icon : ''} ${data.title}</h1>
+      <p class="grammar-subtitle">${lang.nameKr} 문법 ${level}단계</p>
+      ${sectionsHTML}
+      <a class="alpha-back-bottom" href="#/${langCode}/levels">← 레벨 선택으로 돌아가기</a>
+    </div>
+  `;
+
+  // TTS on example click
+  app.querySelectorAll('.grammar-ex-foreign[data-tts]').forEach(el => {
+    el.addEventListener('click', () => {
+      if (el.dataset.tts) speakForeign(el.dataset.tts);
+    });
+  });
+}
+
+// ------------------------------------------------------------
 // renderLangIntro() — Language introduction page
 // ------------------------------------------------------------
 async function renderLangIntro(langCode) {
@@ -1619,6 +1965,15 @@ async function renderHome() {
       </div>
       <div class="level-grid">
         ${gridHTML}
+      </div>
+      <div class="grammar-home-section">
+        <h2 class="grammar-home-title">문법 다루기</h2>
+        <div class="grammar-home-grid">
+          ${GRAMMAR_TOPICS.map(t => {
+            const hasData = GRAMMAR_DATA[currentLang] && GRAMMAR_DATA[currentLang][t.id];
+            return `<a class="grammar-home-btn ${hasData ? '' : 'grammar-home-btn-disabled'}" ${hasData ? `href="#/${currentLang}/grammar/${t.id}"` : ''}>${t.icon} ${t.title}</a>`;
+          }).join('')}
+        </div>
       </div>
     </div>
   `;
