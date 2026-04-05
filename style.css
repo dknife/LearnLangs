@@ -1859,6 +1859,44 @@ html { scrollbar-width: thin; scrollbar-color: rgba(34,34,34,0.15) transparent; 
   color: var(--text-primary);
   margin: 0;
 }
+.vocab-jaum-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.75rem;
+}
+.vocab-jaum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 36px;
+  padding: 0.3rem 0.25rem;
+  border-radius: 8px;
+  background: var(--card-bg, #fff);
+  border: 1.5px solid var(--border, #e0e0e0);
+  text-decoration: none;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  font-weight: 700;
+  transition: background 0.15s, border-color 0.15s;
+}
+.vocab-jaum:hover {
+  border-color: var(--accent, #4a90d9);
+}
+.vocab-jaum.active {
+  background: var(--accent, #4a90d9);
+  border-color: var(--accent, #4a90d9);
+  color: #fff;
+}
+.vocab-jaum-cnt {
+  font-size: 0.6rem;
+  font-weight: 500;
+  opacity: 0.65;
+  margin-top: 0.05rem;
+}
+.vocab-jaum.active .vocab-jaum-cnt {
+  opacity: 0.85;
+}
 .vocab-count {
   font-size: 0.9rem;
   color: var(--text-secondary);

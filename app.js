@@ -1365,11 +1365,11 @@ async function handleRoute() {
     return;
   }
 
-  // Language vocab page: #/zh/vocab, etc.
-  match = hash.match(/^#\/(zh|es|fr|ja|sw|ar|th|vi|ru|la)\/vocab$/);
+  // Language vocab page: #/zh/vocab, #/zh/vocab/ㄱ, etc.
+  match = hash.match(/^#\/(zh|es|fr|ja|sw|ar|th|vi|ru|la)\/vocab(?:\/(.+))?$/);
   if (match) {
     currentLang = match[1];
-    await renderVocab();
+    await renderVocab(match[2] || 'ㄱ');
     return;
   }
 
@@ -1924,15 +1924,29 @@ async function renderLangIntro(langCode) {
 // ------------------------------------------------------------
 // renderVocab() — Vocabulary practice page (all levels)
 // ------------------------------------------------------------
-async function renderVocab() {
-  hideLessonBg();
-  const app = document.getElementById('app');
-  const lang = getLang();
+// 한글 초성 추출 (14개 기본 자음으로 매핑)
+const CHOSUNG_LIST = ['ㄱ','ㄲ','ㄴ','ㄷ','ㄸ','ㄹ','ㅁ','ㅂ','ㅃ','ㅅ','ㅆ','ㅇ','ㅈ','ㅉ','ㅊ','ㅋ','ㅌ','ㅍ','ㅎ'];
+const CHOSUNG_MAP = {'ㄱ':'ㄱ','ㄲ':'ㄱ','ㄴ':'ㄴ','ㄷ':'ㄷ','ㄸ':'ㄷ','ㄹ':'ㄹ','ㅁ':'ㅁ','ㅂ':'ㅂ','ㅃ':'ㅂ','ㅅ':'ㅅ','ㅆ':'ㅅ','ㅇ':'ㅇ','ㅈ':'ㅈ','ㅉ':'ㅈ','ㅊ':'ㅊ','ㅋ':'ㅋ','ㅌ':'ㅌ','ㅍ':'ㅍ','ㅎ':'ㅎ'};
+const JAUM_14 = ['ㄱ','ㄴ','ㄷ','ㄹ','ㅁ','ㅂ','ㅅ','ㅇ','ㅈ','ㅊ','ㅋ','ㅌ','ㅍ','ㅎ'];
 
-  // Load dedicated vocab data, fallback to level-based collection
+function getChosung(ch) {
+  const code = ch.charCodeAt(0);
+  if (code >= 0xAC00 && code <= 0xD7A3) {
+    const idx = Math.floor((code - 0xAC00) / 588);
+    return CHOSUNG_MAP[CHOSUNG_LIST[idx]] || 'ㅎ';
+  }
+  return 'ㅎ';
+}
+
+// vocab 데이터 캐시 (언어별)
+let _vocabCache = {};
+
+async function loadVocabData(langCode) {
+  if (_vocabCache[langCode]) return _vocabCache[langCode];
+  const lang = LANGS[langCode];
   let allVocab = [];
   try {
-    const resp = await fetch(`data/${currentLang}/vocab.json`);
+    const resp = await fetch(`data/${langCode}/vocab.json`);
     if (resp.ok) {
       const vocabData = await resp.json();
       allVocab = vocabData.map(v => ({
@@ -1943,41 +1957,46 @@ async function renderVocab() {
   } catch (e) {}
 
   if (allVocab.length === 0) {
-    const meta = await DataLoader.loadMeta(currentLang);
-    const TOTAL = meta.totalLevels;
-    for (let i = 1; i <= TOTAL; i++) {
+    const meta = await DataLoader.loadMeta(langCode);
+    for (let i = 1; i <= meta.totalLevels; i++) {
       try {
-        const data = await DataLoader.loadLevel(currentLang, i);
+        const data = await DataLoader.loadLevel(langCode, i);
         if (data && data.vocabulary) {
           data.vocabulary.forEach(v => {
-            allVocab.push({
-              foreign: v[lang.foreignField],
-              korean: v.korean
-            });
+            allVocab.push({ foreign: v[lang.foreignField], korean: v.korean });
           });
         }
       } catch (e) {}
     }
   }
 
-  // Sort by Korean (가나다순)
   allVocab.sort((a, b) => a.korean.localeCompare(b.korean, 'ko'));
 
-  const BATCH = 100;
-  let rendered = 0;
+  // Group by chosung
+  const groups = {};
+  JAUM_14.forEach(j => groups[j] = []);
+  allVocab.forEach(v => {
+    const j = getChosung(v.korean.charAt(0));
+    groups[j].push(v);
+  });
 
-  function makeCardHTML(v, idx) {
-    return `<div class="vocab-card" data-idx="${idx}">
-      <div class="vocab-card-inner">
-        <div class="vocab-card-front">
-          <span class="vocab-korean">${v.korean}</span>
-        </div>
-        <div class="vocab-card-back" data-foreign="${v.foreign.replace(/"/g, '&quot;')}">
-          <span class="vocab-foreign">${v.foreign}</span>
-        </div>
-      </div>
-    </div>`;
-  }
+  _vocabCache[langCode] = { all: allVocab, groups };
+  return _vocabCache[langCode];
+}
+
+async function renderVocab(jaum) {
+  hideLessonBg();
+  const app = document.getElementById('app');
+  const lang = getLang();
+  const data = await loadVocabData(currentLang);
+  const vocabList = data.groups[jaum] || [];
+
+  // Consonant nav
+  const navHTML = JAUM_14.map(j => {
+    const cnt = data.groups[j].length;
+    const cls = j === jaum ? 'vocab-jaum active' : 'vocab-jaum';
+    return `<a class="${cls}" href="#/${currentLang}/vocab/${j}">${j}<span class="vocab-jaum-cnt">${cnt}</span></a>`;
+  }).join('');
 
   app.innerHTML = `
     <div class="vocab-page">
@@ -1993,15 +2012,28 @@ async function renderVocab() {
             <span class="auto-tts-label" id="vocabTTSLabel">자동음성 ${_autoTTS ? 'ON' : 'OFF'}</span>
           </div>
         </div>
-        <p class="vocab-count">총 ${allVocab.length}개</p>
+        <div class="vocab-jaum-nav">${navHTML}</div>
+        <p class="vocab-count">${jaum} — ${vocabList.length}개</p>
       </div>
       <div class="vocab-grid"></div>
     </div>
   `;
 
   const grid = app.querySelector('.vocab-grid');
-
-  function bindCard(card) {
+  const frag = document.createDocumentFragment();
+  vocabList.forEach((v, idx) => {
+    const tmp = document.createElement('div');
+    tmp.innerHTML = `<div class="vocab-card" data-idx="${idx}">
+      <div class="vocab-card-inner">
+        <div class="vocab-card-front">
+          <span class="vocab-korean">${v.korean}</span>
+        </div>
+        <div class="vocab-card-back" data-foreign="${v.foreign.replace(/"/g, '&quot;')}">
+          <span class="vocab-foreign">${v.foreign}</span>
+        </div>
+      </div>
+    </div>`;
+    const card = tmp.firstElementChild;
     card.addEventListener('click', () => {
       const wasFlipped = card.classList.contains('flipped');
       card.classList.toggle('flipped');
@@ -2011,38 +2043,9 @@ async function renderVocab() {
         if (text) speakForeign(text);
       }
     });
-  }
-
-  function renderBatch() {
-    const end = Math.min(rendered + BATCH, allVocab.length);
-    const frag = document.createDocumentFragment();
-    for (let i = rendered; i < end; i++) {
-      const tmp = document.createElement('div');
-      tmp.innerHTML = makeCardHTML(allVocab[i], i);
-      const card = tmp.firstElementChild;
-      bindCard(card);
-      frag.appendChild(card);
-    }
-    grid.appendChild(frag);
-    rendered = end;
-  }
-
-  // Initial batch
-  renderBatch();
-
-  // Load more on scroll
-  const observer = new IntersectionObserver((entries) => {
-    if (entries[0].isIntersecting && rendered < allVocab.length) {
-      renderBatch();
-      if (rendered >= allVocab.length) observer.disconnect();
-    }
-  }, { rootMargin: '200px' });
-
-  // Sentinel element
-  const sentinel = document.createElement('div');
-  sentinel.className = 'vocab-sentinel';
-  grid.after(sentinel);
-  observer.observe(sentinel);
+    frag.appendChild(card);
+  });
+  grid.appendChild(frag);
 
   // AutoTTS toggle
   const vocabTTSSwitch = document.getElementById('vocabAutoTTS');
