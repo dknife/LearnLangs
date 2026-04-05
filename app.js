@@ -1932,7 +1932,7 @@ async function renderVocab() {
   // Load dedicated vocab data, fallback to level-based collection
   let allVocab = [];
   try {
-    const resp = await fetch(`data/${currentLang}/vocab.json?v=${DATA_VERSION}`);
+    const resp = await fetch(`data/${currentLang}/vocab.json`);
     if (resp.ok) {
       const vocabData = await resp.json();
       allVocab = vocabData.map(v => ({
