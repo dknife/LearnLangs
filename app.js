@@ -1730,7 +1730,7 @@ async function renderLangSelect() {
         <span class="lang-select-tts-label" id="langSelectTTSLabel">자동 음성 ${_autoTTS ? 'ON' : 'OFF'}</span>
       </div>
       <div class="mascot-section">
-        <img src="images/Louis.png" alt="Louis" class="mascot-img">
+        <img src="images/${Math.random() < 0.5 ? 'Louis.png' : 'Harry.jpg'}" alt="mascot" class="mascot-img">
       </div>
       <div class="trophy-section">
         <h2 class="trophy-heading">나의 학습 배지</h2>
