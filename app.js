@@ -2478,21 +2478,28 @@ async function renderLesson(level) {
       });
     }
 
+    function scrollToLastBubble() {
+      setTimeout(() => {
+        const bubbles = document.querySelectorAll('.bubble-row');
+        if (bubbles.length > 0) {
+          bubbles[bubbles.length - 1].scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      }, 50);
+    }
+
+    // 초기 로드 시 마지막 대화로 스크롤
+    scrollToLastBubble();
+
     const revealBtn = document.getElementById('revealNextBtn');
     if (revealBtn) {
       revealBtn.addEventListener('click', () => {
         if (visibleCount < totalBubbles) {
           visibleCount++;
           render();
-          setTimeout(() => {
-            const bubbles = document.querySelectorAll('.bubble-row');
-            if (bubbles.length > 0) {
-              bubbles[bubbles.length - 1].scrollIntoView({ behavior: 'smooth', block: 'center' });
-            }
-            if (_autoTTS && visibleCount > 0) {
-              speakForeign(conversations[visibleCount - 1][ff]);
-            }
-          }, 50);
+          scrollToLastBubble();
+          if (_autoTTS && visibleCount > 0) {
+            setTimeout(() => speakForeign(conversations[visibleCount - 1][ff]), 50);
+          }
         }
       });
     }
@@ -2504,7 +2511,7 @@ async function renderLesson(level) {
         conversations = pickVariants(rawConversations);
         visibleCount = 1;
         render();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        scrollToLastBubble();
         setTimeout(() => {
           if (_autoTTS) speakForeign(conversations[0][ff]);
         }, 300);
