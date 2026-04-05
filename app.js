@@ -1365,6 +1365,14 @@ async function handleRoute() {
     return;
   }
 
+  // Language vocab page: #/zh/vocab, etc.
+  match = hash.match(/^#\/(zh|es|fr|ja|sw|ar|th|vi|ru|la)\/vocab$/);
+  if (match) {
+    currentLang = match[1];
+    await renderVocab();
+    return;
+  }
+
   // Language levels page: #/zh/levels, #/es/levels, etc.
   match = hash.match(/^#\/(zh|es|fr|ja|sw|ar|th|vi|ru|la)\/levels$/);
   if (match) {
@@ -1914,6 +1922,89 @@ async function renderLangIntro(langCode) {
 }
 
 // ------------------------------------------------------------
+// renderVocab() — Vocabulary practice page (all levels)
+// ------------------------------------------------------------
+async function renderVocab() {
+  hideLessonBg();
+  const app = document.getElementById('app');
+  const lang = getLang();
+  const meta = await DataLoader.loadMeta(currentLang);
+  const TOTAL = meta.totalLevels;
+
+  // Load all levels and collect vocabulary
+  const allVocab = [];
+  for (let i = 1; i <= TOTAL; i++) {
+    try {
+      const data = await DataLoader.loadLevel(currentLang, i);
+      if (data && data.vocabulary) {
+        data.vocabulary.forEach(v => {
+          allVocab.push({
+            foreign: v[lang.foreignField],
+            pron: v[lang.pronField],
+            korean: v.korean,
+            level: i
+          });
+        });
+      }
+    } catch (e) { /* skip missing levels */ }
+  }
+
+  let cardsHTML = '';
+  allVocab.forEach((v, idx) => {
+    cardsHTML += `
+      <div class="vocab-card" data-idx="${idx}">
+        <div class="vocab-card-inner">
+          <div class="vocab-card-front">
+            <span class="vocab-korean">${v.korean}</span>
+            <span class="vocab-hint">탭하여 뒤집기</span>
+          </div>
+          <div class="vocab-card-back">
+            <span class="vocab-foreign">${v.foreign}</span>
+            <span class="vocab-pron">${v.pron}</span>
+            <span class="vocab-korean-small">${v.korean}</span>
+            <button class="vocab-tts-btn" data-text="${v.foreign.replace(/"/g, '&quot;')}">🔊</button>
+          </div>
+        </div>
+      </div>
+    `;
+  });
+
+  app.innerHTML = `
+    <div class="vocab-page">
+      <div class="vocab-header">
+        <a class="back-link" href="#/${currentLang}/levels">← 레벨 선택</a>
+        <h1 class="vocab-title">${lang.emoji} 어휘연습: 한국어 — ${lang.nameKr}</h1>
+        <p class="vocab-count">총 ${allVocab.length}개 어휘 (${TOTAL}개 레벨)</p>
+      </div>
+      <div class="vocab-grid">
+        ${cardsHTML}
+      </div>
+    </div>
+  `;
+
+  // Card flip on click
+  app.querySelectorAll('.vocab-card').forEach(card => {
+    card.addEventListener('click', (e) => {
+      if (e.target.classList.contains('vocab-tts-btn')) return;
+      card.classList.toggle('flipped');
+    });
+  });
+
+  // TTS buttons
+  app.querySelectorAll('.vocab-tts-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const text = btn.getAttribute('data-text');
+      speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = lang.ttsLang;
+      u.rate = lang.ttsRate || 0.9;
+      speechSynthesis.speak(u);
+    });
+  });
+}
+
+// ------------------------------------------------------------
 // renderHome() — Level grid (language-aware)
 // ------------------------------------------------------------
 async function renderHome() {
@@ -1973,8 +2064,17 @@ async function renderHome() {
           ${renderProgressBar(completedCount, TOTAL, `${completedCount} / ${TOTAL} 레벨 완료`)}
         </div>
       </div>
+      <div class="grammar-home-section">
+        <h2 class="grammar-home-title">주제별 회화 학습</h2>
+      </div>
       <div class="level-grid">
         ${gridHTML}
+      </div>
+      <div class="grammar-home-section">
+        <h2 class="grammar-home-title">어휘 연습</h2>
+        <div class="grammar-home-grid">
+          <a class="grammar-home-btn vocab-practice-btn" href="#/${currentLang}/vocab">📖 어휘연습: 한국어 — ${lang.nameKr}</a>
+        </div>
       </div>
       <div class="grammar-home-section">
         <h2 class="grammar-home-title">문법 다루기</h2>
